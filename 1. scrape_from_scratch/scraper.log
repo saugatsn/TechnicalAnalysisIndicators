@@ -1,0 +1,659 @@
+2025-03-10 23:43:37,558 - INFO - Starting share data scraping process
+2025-03-10 23:43:37,559 - INFO - Processing ACLBSL... (1/310)
+2025-03-10 23:43:52,270 - INFO - ACLBSL: Data scraped successfully with 50 entries.
+2025-03-10 23:43:58,817 - INFO - Processing ADBL... (2/310)
+2025-03-10 23:44:17,336 - INFO - ADBL: Data scraped successfully with 50 entries.
+2025-03-10 23:44:23,335 - INFO - Processing ADBLD83... (3/310)
+2025-03-10 23:44:42,226 - INFO - ADBLD83: Data scraped successfully with 50 entries.
+2025-03-10 23:44:47,495 - INFO - Processing AHL... (4/310)
+2025-03-10 23:45:06,156 - INFO - AHL: Data scraped successfully with 50 entries.
+2025-03-10 23:45:11,625 - INFO - Processing AHPC... (5/310)
+2025-03-10 23:45:29,599 - INFO - AHPC: Data scraped successfully with 50 entries.
+2025-03-10 23:45:35,370 - INFO - Processing AKJCL... (6/310)
+2025-03-10 23:45:53,486 - INFO - AKJCL: Data scraped successfully with 50 entries.
+2025-03-10 23:45:59,004 - INFO - Processing AKPL... (7/310)
+2025-03-10 23:46:16,563 - INFO - AKPL: Data scraped successfully with 50 entries.
+2025-03-10 23:46:23,732 - INFO - Processing ALBSL... (8/310)
+2025-03-10 23:46:41,889 - INFO - ALBSL: Data scraped successfully with 50 entries.
+2025-03-10 23:46:47,534 - INFO - Processing ALICL... (9/310)
+2025-03-10 23:47:05,419 - INFO - ALICL: Data scraped successfully with 50 entries.
+2025-03-10 23:47:11,659 - INFO - Processing ANLB... (10/310)
+2025-03-10 23:47:29,646 - INFO - ANLB: Data scraped successfully with 50 entries.
+2025-03-10 23:47:34,554 - INFO - Saving intermediate batch after 10 companies
+2025-03-10 23:47:39,756 - INFO - Saved data for ACLBSL to sheet 'ACLBSL'
+2025-03-10 23:47:39,776 - INFO - Saved data for ADBL to sheet 'ADBL'
+2025-03-10 23:47:39,802 - INFO - Saved data for ADBLD83 to sheet 'ADBLD83'
+2025-03-10 23:47:39,830 - INFO - Saved data for AHL to sheet 'AHL'
+2025-03-10 23:47:39,856 - INFO - Saved data for AHPC to sheet 'AHPC'
+2025-03-10 23:47:39,891 - INFO - Saved data for AKJCL to sheet 'AKJCL'
+2025-03-10 23:47:39,930 - INFO - Saved data for AKPL to sheet 'AKPL'
+2025-03-10 23:47:39,955 - INFO - Saved data for ALBSL to sheet 'ALBSL'
+2025-03-10 23:47:39,978 - INFO - Saved data for ALICL to sheet 'ALICL'
+2025-03-10 23:47:40,008 - INFO - Saved data for ANLB to sheet 'ANLB'
+2025-03-10 23:47:40,413 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250310_234734.xlsx
+2025-03-10 23:47:40,414 - INFO - All batch data has been processed.
+2025-03-10 23:47:40,415 - INFO - Processing API... (11/310)
+2025-03-10 23:47:57,571 - INFO - API: Data scraped successfully with 50 entries.
+2025-03-10 23:48:03,439 - INFO - Processing AVYAN... (12/310)
+2025-03-10 23:48:25,717 - INFO - AVYAN: Data scraped successfully with 50 entries.
+2025-03-10 23:48:32,792 - INFO - Processing BARUN... (13/310)
+2025-03-10 23:48:51,951 - INFO - BARUN: Data scraped successfully with 50 entries.
+2025-03-10 23:48:56,850 - INFO - Processing BBC... (14/310)
+2025-03-10 23:49:16,955 - INFO - BBC: Data scraped successfully with 50 entries.
+2025-03-10 23:49:22,729 - INFO - Processing BEDC... (15/310)
+2025-03-10 23:50:26,978 - INFO - BEDC: Data scraped successfully with 50 entries.
+2025-03-10 23:50:32,072 - INFO - Processing BFC... (16/310)
+2025-03-10 23:50:52,967 - INFO - BFC: Data scraped successfully with 50 entries.
+2025-03-10 23:50:59,596 - INFO - Processing BGWT... (17/310)
+2025-03-10 23:51:20,523 - INFO - BGWT: Data scraped successfully with 50 entries.
+2025-03-10 23:51:25,562 - INFO - Processing BHDC... (18/310)
+2025-03-10 23:51:45,924 - INFO - BHDC: Data scraped successfully with 50 entries.
+2025-03-10 23:51:50,455 - INFO - Processing BHL... (19/310)
+2025-03-10 23:52:09,587 - INFO - BHL: Data scraped successfully with 50 entries.
+2025-03-10 23:52:15,282 - INFO - Processing BHPL... (20/310)
+2025-03-10 23:52:34,905 - INFO - BHPL: Data scraped successfully with 50 entries.
+2025-03-10 23:52:43,287 - INFO - Saving intermediate batch after 20 companies
+2025-03-10 23:52:43,288 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250310_234734.xlsx
+2025-03-10 23:52:47,417 - INFO - Saved data for API to sheet 'API'
+2025-03-10 23:52:47,432 - INFO - Saved data for AVYAN to sheet 'AVYAN'
+2025-03-10 23:52:47,452 - INFO - Saved data for BARUN to sheet 'BARUN'
+2025-03-10 23:52:47,460 - INFO - Saved data for BBC to sheet 'BBC'
+2025-03-10 23:52:47,476 - INFO - Saved data for BEDC to sheet 'BEDC'
+2025-03-10 23:52:47,492 - INFO - Saved data for BFC to sheet 'BFC'
+2025-03-10 23:52:47,503 - INFO - Saved data for BGWT to sheet 'BGWT'
+2025-03-10 23:52:47,520 - INFO - Saved data for BHDC to sheet 'BHDC'
+2025-03-10 23:52:47,531 - INFO - Saved data for BHL to sheet 'BHL'
+2025-03-10 23:52:47,549 - INFO - Saved data for BHPL to sheet 'BHPL'
+2025-03-10 23:52:47,829 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250310_235243.xlsx
+2025-03-10 23:52:47,829 - INFO - All batch data has been processed.
+2025-03-10 23:52:47,830 - INFO - Processing BNHC... (21/310)
+2025-03-10 23:53:02,269 - INFO - BNHC: Data scraped successfully with 50 entries.
+2025-03-10 23:53:09,478 - INFO - Processing BNT... (22/310)
+2025-03-10 23:53:27,622 - INFO - BNT: Data scraped successfully with 50 entries.
+2025-03-10 23:53:32,045 - INFO - Processing BPCL... (23/310)
+2025-03-10 23:53:49,843 - INFO - BPCL: Data scraped successfully with 50 entries.
+2025-03-10 23:53:55,879 - INFO - Processing C30MF... (24/310)
+2025-03-10 23:54:14,691 - INFO - C30MF: Data scraped successfully with 50 entries.
+2025-03-10 23:54:21,164 - INFO - Processing CBBL... (25/310)
+2025-03-10 23:54:39,374 - INFO - CBBL: Data scraped successfully with 50 entries.
+2025-03-10 23:54:44,293 - INFO - Processing CBLD88... (26/310)
+2025-03-10 23:55:02,887 - INFO - CBLD88: Data scraped successfully with 50 entries.
+2025-03-10 23:55:10,007 - INFO - Processing CCBD88... (27/310)
+2025-03-10 23:55:27,970 - INFO - CCBD88: Data scraped successfully with 50 entries.
+2025-03-10 23:55:34,855 - INFO - Processing CFCL... (28/310)
+2025-03-10 23:55:52,560 - INFO - CFCL: Data scraped successfully with 50 entries.
+2025-03-10 23:55:57,282 - INFO - Processing CGH... (29/310)
+2025-03-10 23:56:15,869 - INFO - CGH: Data scraped successfully with 50 entries.
+2025-03-10 23:56:20,239 - INFO - Processing CHCL... (30/310)
+2025-03-10 23:56:38,470 - INFO - CHCL: Data scraped successfully with 50 entries.
+2025-03-10 23:56:46,263 - INFO - Saving intermediate batch after 30 companies
+2025-03-10 23:56:46,266 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250310_235243.xlsx
+2025-03-10 23:56:50,382 - INFO - Saved data for BNHC to sheet 'BNHC'
+2025-03-10 23:56:50,406 - INFO - Saved data for BNT to sheet 'BNT'
+2025-03-10 23:56:50,429 - INFO - Saved data for BPCL to sheet 'BPCL'
+2025-03-10 23:56:50,450 - INFO - Saved data for C30MF to sheet 'C30MF'
+2025-03-10 23:56:50,466 - INFO - Saved data for CBBL to sheet 'CBBL'
+2025-03-10 23:56:50,481 - INFO - Saved data for CBLD88 to sheet 'CBLD88'
+2025-03-10 23:56:50,496 - INFO - Saved data for CCBD88 to sheet 'CCBD88'
+2025-03-10 23:56:50,508 - INFO - Saved data for CFCL to sheet 'CFCL'
+2025-03-10 23:56:50,518 - INFO - Saved data for CGH to sheet 'CGH'
+2025-03-10 23:56:50,536 - INFO - Saved data for CHCL to sheet 'CHCL'
+2025-03-10 23:56:50,791 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250310_235646.xlsx
+2025-03-10 23:56:50,792 - INFO - All batch data has been processed.
+2025-03-10 23:56:50,792 - INFO - Processing CHDC... (31/310)
+2025-03-10 23:57:04,564 - INFO - CHDC: Data scraped successfully with 50 entries.
+2025-03-10 23:57:10,770 - INFO - Processing CHL... (32/310)
+2025-03-10 23:57:29,204 - INFO - CHL: Data scraped successfully with 50 entries.
+2025-03-10 23:57:36,583 - INFO - Processing CIT... (33/310)
+2025-03-10 23:57:54,707 - INFO - CIT: Data scraped successfully with 50 entries.
+2025-03-10 23:58:00,124 - INFO - Processing CITY... (34/310)
+2025-03-10 23:58:17,801 - INFO - CITY: Data scraped successfully with 50 entries.
+2025-03-10 23:58:23,394 - INFO - Processing CKHL... (35/310)
+2025-03-10 23:58:41,779 - INFO - CKHL: Data scraped successfully with 50 entries.
+2025-03-10 23:58:46,399 - INFO - Processing CLI... (36/310)
+2025-03-10 23:59:04,266 - INFO - CLI: Data scraped successfully with 50 entries.
+2025-03-10 23:59:10,591 - INFO - Processing CMF2... (37/310)
+2025-03-10 23:59:28,400 - INFO - CMF2: Data scraped successfully with 50 entries.
+2025-03-10 23:59:35,587 - INFO - Processing CORBL... (38/310)
+2025-03-10 23:59:54,225 - INFO - CORBL: Data scraped successfully with 50 entries.
+2025-03-11 00:00:01,431 - INFO - Processing CYCL... (39/310)
+2025-03-11 00:00:20,025 - INFO - CYCL: Data scraped successfully with 50 entries.
+2025-03-11 00:00:27,982 - INFO - Processing CZBIL... (40/310)
+2025-03-11 00:00:46,114 - INFO - CZBIL: Data scraped successfully with 50 entries.
+2025-03-11 00:00:53,069 - INFO - Saving intermediate batch after 40 companies
+2025-03-11 00:00:53,071 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250310_235646.xlsx
+2025-03-11 00:00:57,182 - INFO - Saved data for CHDC to sheet 'CHDC'
+2025-03-11 00:00:57,201 - INFO - Saved data for CHL to sheet 'CHL'
+2025-03-11 00:00:57,216 - INFO - Saved data for CIT to sheet 'CIT'
+2025-03-11 00:00:57,235 - INFO - Saved data for CITY to sheet 'CITY'
+2025-03-11 00:00:57,244 - INFO - Saved data for CKHL to sheet 'CKHL'
+2025-03-11 00:00:57,260 - INFO - Saved data for CLI to sheet 'CLI'
+2025-03-11 00:00:57,275 - INFO - Saved data for CMF2 to sheet 'CMF2'
+2025-03-11 00:00:57,290 - INFO - Saved data for CORBL to sheet 'CORBL'
+2025-03-11 00:00:57,306 - INFO - Saved data for CYCL to sheet 'CYCL'
+2025-03-11 00:00:57,372 - INFO - Saved data for CZBIL to sheet 'CZBIL'
+2025-03-11 00:00:57,625 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_000053.xlsx
+2025-03-11 00:00:57,626 - INFO - All batch data has been processed.
+2025-03-11 00:00:57,626 - INFO - Processing DDBL... (41/310)
+2025-03-11 00:01:13,346 - INFO - DDBL: Data scraped successfully with 50 entries.
+2025-03-11 00:01:18,816 - INFO - Processing DHPL... (42/310)
+2025-03-11 00:01:38,250 - INFO - DHPL: Data scraped successfully with 50 entries.
+2025-03-11 00:01:43,387 - INFO - Processing DLBS... (43/310)
+2025-03-11 00:02:03,624 - INFO - DLBS: Data scraped successfully with 50 entries.
+2025-03-11 00:02:08,653 - INFO - Processing DOLTI... (44/310)
+2025-03-11 00:02:27,206 - INFO - DOLTI: Data scraped successfully with 50 entries.
+2025-03-11 00:02:32,563 - INFO - Processing DORDI... (45/310)
+2025-03-11 00:02:51,623 - INFO - DORDI: Data scraped successfully with 50 entries.
+2025-03-11 00:02:59,113 - INFO - Processing EBL... (46/310)
+2025-03-11 00:03:19,134 - INFO - EBL: Data scraped successfully with 50 entries.
+2025-03-11 00:03:24,692 - INFO - Processing EBLD85... (47/310)
+2025-03-11 00:03:43,108 - INFO - EBLD85: Data scraped successfully with 50 entries.
+2025-03-11 00:03:48,161 - INFO - Processing EBLD86... (48/310)
+2025-03-11 00:04:07,721 - INFO - EBLD86: Data scraped successfully with 50 entries.
+2025-03-11 00:04:13,827 - INFO - Processing EDBL... (49/310)
+2025-03-11 00:04:32,668 - INFO - EDBL: Data scraped successfully with 50 entries.
+2025-03-11 00:04:38,474 - INFO - Processing EHPL... (50/310)
+2025-03-11 00:04:57,992 - INFO - EHPL: Data scraped successfully with 50 entries.
+2025-03-11 00:05:03,301 - INFO - Saving intermediate batch after 50 companies
+2025-03-11 00:05:03,304 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_000053.xlsx
+2025-03-11 00:05:07,424 - INFO - Saved data for DDBL to sheet 'DDBL'
+2025-03-11 00:05:07,441 - INFO - Saved data for DHPL to sheet 'DHPL'
+2025-03-11 00:05:07,469 - INFO - Saved data for DLBS to sheet 'DLBS'
+2025-03-11 00:05:07,496 - INFO - Saved data for DOLTI to sheet 'DOLTI'
+2025-03-11 00:05:07,527 - INFO - Saved data for DORDI to sheet 'DORDI'
+2025-03-11 00:05:07,565 - INFO - Saved data for EBL to sheet 'EBL'
+2025-03-11 00:05:07,579 - INFO - Saved data for EBLD85 to sheet 'EBLD85'
+2025-03-11 00:05:07,591 - INFO - Saved data for EBLD86 to sheet 'EBLD86'
+2025-03-11 00:05:07,605 - INFO - Saved data for EDBL to sheet 'EDBL'
+2025-03-11 00:05:07,618 - INFO - Saved data for EHPL to sheet 'EHPL'
+2025-03-11 00:05:07,865 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_000503.xlsx
+2025-03-11 00:05:07,866 - INFO - All batch data has been processed.
+2025-03-11 00:05:07,866 - INFO - Processing ENL... (51/310)
+2025-03-11 00:05:23,213 - INFO - ENL: Data scraped successfully with 50 entries.
+2025-03-11 00:05:28,418 - INFO - Processing FMDBL... (52/310)
+2025-03-11 00:05:47,425 - INFO - FMDBL: Data scraped successfully with 50 entries.
+2025-03-11 00:05:56,225 - INFO - Processing FOWAD... (53/310)
+2025-03-11 00:06:15,058 - INFO - FOWAD: Data scraped successfully with 50 entries.
+2025-03-11 00:06:21,437 - INFO - Processing GBBL... (54/310)
+2025-03-11 00:06:41,657 - INFO - GBBL: Data scraped successfully with 50 entries.
+2025-03-11 00:06:47,496 - INFO - Processing GBILD86/87... (55/310)
+2025-03-11 00:07:06,287 - INFO - GBILD86/87: Data scraped successfully with 50 entries.
+2025-03-11 00:07:10,927 - INFO - Processing GBIME... (56/310)
+2025-03-11 00:07:31,046 - INFO - GBIME: Data scraped successfully with 50 entries.
+2025-03-11 00:07:35,500 - INFO - Processing GBLBS... (57/310)
+2025-03-11 00:07:54,456 - INFO - GBLBS: Data scraped successfully with 50 entries.
+2025-03-11 00:08:01,332 - INFO - Processing GCIL... (58/310)
+2025-03-11 00:08:20,326 - INFO - GCIL: Data scraped successfully with 50 entries.
+2025-03-11 00:08:24,902 - INFO - Processing GFCL... (59/310)
+2025-03-11 00:08:45,071 - INFO - GFCL: Data scraped successfully with 50 entries.
+2025-03-11 00:08:50,797 - INFO - Processing GHL... (60/310)
+2025-03-11 00:09:10,514 - INFO - GHL: Data scraped successfully with 50 entries.
+2025-03-11 00:09:15,226 - INFO - Saving intermediate batch after 60 companies
+2025-03-11 00:09:15,229 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_000503.xlsx
+2025-03-11 00:09:19,336 - INFO - Saved data for ENL to sheet 'ENL'
+2025-03-11 00:09:19,375 - INFO - Saved data for FMDBL to sheet 'FMDBL'
+2025-03-11 00:09:19,408 - INFO - Saved data for FOWAD to sheet 'FOWAD'
+2025-03-11 00:09:19,441 - INFO - Saved data for GBBL to sheet 'GBBL'
+2025-03-11 00:09:19,475 - INFO - Saved data for GBILD86/87 to sheet 'GBILD86_87'
+2025-03-11 00:09:19,505 - INFO - Saved data for GBIME to sheet 'GBIME'
+2025-03-11 00:09:19,532 - INFO - Saved data for GBLBS to sheet 'GBLBS'
+2025-03-11 00:09:19,564 - INFO - Saved data for GCIL to sheet 'GCIL'
+2025-03-11 00:09:19,594 - INFO - Saved data for GFCL to sheet 'GFCL'
+2025-03-11 00:09:19,629 - INFO - Saved data for GHL to sheet 'GHL'
+2025-03-11 00:09:20,112 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_000915.xlsx
+2025-03-11 00:09:20,112 - INFO - All batch data has been processed.
+2025-03-11 00:09:20,113 - INFO - Processing GIBF1... (61/310)
+2025-03-11 00:09:35,410 - INFO - GIBF1: Data scraped successfully with 50 entries.
+2025-03-11 00:09:41,428 - INFO - Processing GILB... (62/310)
+2025-03-11 00:10:00,605 - INFO - GILB: Data scraped successfully with 50 entries.
+2025-03-11 00:10:07,090 - INFO - Processing GLBSL... (63/310)
+2025-03-11 00:10:27,552 - INFO - GLBSL: Data scraped successfully with 50 entries.
+2025-03-11 00:10:34,084 - INFO - Processing GLH... (64/310)
+2025-03-11 00:10:53,181 - INFO - GLH: Data scraped successfully with 50 entries.
+2025-03-11 00:10:57,873 - INFO - Processing GMFBS... (65/310)
+2025-03-11 00:11:18,248 - INFO - GMFBS: Data scraped successfully with 50 entries.
+2025-03-11 00:11:25,453 - INFO - Processing GMFIL... (66/310)
+2025-03-11 00:11:47,437 - INFO - GMFIL: Data scraped successfully with 50 entries.
+2025-03-11 00:11:54,396 - INFO - Processing GMLI... (67/310)
+2025-03-11 00:12:13,421 - INFO - GMLI: Data scraped successfully with 20 entries.
+2025-03-11 00:12:19,683 - INFO - Processing GRDBL... (68/310)
+2025-03-11 00:12:38,468 - INFO - GRDBL: Data scraped successfully with 50 entries.
+2025-03-11 00:12:45,528 - INFO - Processing GSY... (69/310)
+2025-03-11 00:13:00,961 - INFO - GSY: Data scraped successfully with 12 entries.
+2025-03-11 00:13:06,518 - INFO - Processing GUFL... (70/310)
+2025-03-11 00:13:25,155 - INFO - GUFL: Data scraped successfully with 50 entries.
+2025-03-11 00:13:32,526 - INFO - Saving intermediate batch after 70 companies
+2025-03-11 00:13:32,529 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_000915.xlsx
+2025-03-11 00:13:36,640 - INFO - Saved data for GIBF1 to sheet 'GIBF1'
+2025-03-11 00:13:36,663 - INFO - Saved data for GILB to sheet 'GILB'
+2025-03-11 00:13:36,688 - INFO - Saved data for GLBSL to sheet 'GLBSL'
+2025-03-11 00:13:36,712 - INFO - Saved data for GLH to sheet 'GLH'
+2025-03-11 00:13:36,749 - INFO - Saved data for GMFBS to sheet 'GMFBS'
+2025-03-11 00:13:36,778 - INFO - Saved data for GMFIL to sheet 'GMFIL'
+2025-03-11 00:13:36,785 - INFO - Saved data for GMLI to sheet 'GMLI'
+2025-03-11 00:13:36,799 - INFO - Saved data for GRDBL to sheet 'GRDBL'
+2025-03-11 00:13:36,809 - INFO - Saved data for GSY to sheet 'GSY'
+2025-03-11 00:13:36,823 - INFO - Saved data for GUFL to sheet 'GUFL'
+2025-03-11 00:13:38,813 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_001332.xlsx
+2025-03-11 00:13:38,814 - INFO - All batch data has been processed.
+2025-03-11 00:13:38,814 - INFO - Processing GVL... (71/310)
+2025-03-11 00:13:54,052 - INFO - GVL: Data scraped successfully with 50 entries.
+2025-03-11 00:13:59,636 - INFO - Processing H8020... (72/310)
+2025-03-11 00:14:19,198 - INFO - H8020: Data scraped successfully with 50 entries.
+2025-03-11 00:14:27,979 - INFO - Processing HATHY... (73/310)
+2025-03-11 00:14:47,572 - INFO - HATHY: Data scraped successfully with 50 entries.
+2025-03-11 00:14:54,742 - INFO - Processing HBL... (74/310)
+2025-03-11 00:15:14,067 - INFO - HBL: Data scraped successfully with 50 entries.
+2025-03-11 00:15:24,057 - INFO - Processing HDHPC... (75/310)
+2025-03-11 00:15:43,763 - INFO - HDHPC: Data scraped successfully with 50 entries.
+2025-03-11 00:15:51,762 - INFO - Processing HDL... (76/310)
+2025-03-11 00:16:13,267 - INFO - HDL: Data scraped successfully with 50 entries.
+2025-03-11 00:16:20,378 - INFO - Processing HEI... (77/310)
+2025-03-11 00:16:39,966 - INFO - HEI: Data scraped successfully with 50 entries.
+2025-03-11 00:16:46,679 - INFO - Processing HEIP... (78/310)
+2025-03-11 00:17:05,255 - INFO - HEIP: Data scraped successfully with 50 entries.
+2025-03-11 00:17:13,979 - INFO - Processing HHL... (79/310)
+2025-03-11 00:17:32,934 - INFO - HHL: Data scraped successfully with 50 entries.
+2025-03-11 00:17:39,547 - INFO - Processing HIDCL... (80/310)
+2025-03-11 00:17:58,623 - INFO - HIDCL: Data scraped successfully with 50 entries.
+2025-03-11 00:18:04,639 - INFO - Saving intermediate batch after 80 companies
+2025-03-11 00:18:04,642 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_001332.xlsx
+2025-03-11 00:18:08,757 - INFO - Saved data for GVL to sheet 'GVL'
+2025-03-11 00:18:08,792 - INFO - Saved data for H8020 to sheet 'H8020'
+2025-03-11 00:18:08,848 - INFO - Saved data for HATHY to sheet 'HATHY'
+2025-03-11 00:18:08,889 - INFO - Saved data for HBL to sheet 'HBL'
+2025-03-11 00:18:08,930 - INFO - Saved data for HDHPC to sheet 'HDHPC'
+2025-03-11 00:18:08,989 - INFO - Saved data for HDL to sheet 'HDL'
+2025-03-11 00:18:09,077 - INFO - Saved data for HEI to sheet 'HEI'
+2025-03-11 00:18:09,108 - INFO - Saved data for HEIP to sheet 'HEIP'
+2025-03-11 00:18:09,125 - INFO - Saved data for HHL to sheet 'HHL'
+2025-03-11 00:18:09,136 - INFO - Saved data for HIDCL to sheet 'HIDCL'
+2025-03-11 00:18:11,069 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_001804.xlsx
+2025-03-11 00:18:11,070 - INFO - All batch data has been processed.
+2025-03-11 00:18:11,070 - INFO - Processing HIDCLP... (81/310)
+2025-03-11 00:18:25,441 - INFO - HIDCLP: Data scraped successfully with 50 entries.
+2025-03-11 00:18:30,737 - INFO - Processing HLBSL... (82/310)
+2025-03-11 00:18:52,888 - INFO - HLBSL: Data scraped successfully with 50 entries.
+2025-03-11 00:18:58,116 - INFO - Processing HLI... (83/310)
+2025-03-11 00:19:17,361 - INFO - HLI: Data scraped successfully with 50 entries.
+2025-03-11 00:19:25,273 - INFO - Processing HPPL... (84/310)
+2025-03-11 00:19:45,370 - INFO - HPPL: Data scraped successfully with 50 entries.
+2025-03-11 00:19:49,912 - INFO - Processing HRL... (85/310)
+2025-03-11 00:20:09,295 - INFO - HRL: Data scraped successfully with 50 entries.
+2025-03-11 00:20:14,816 - INFO - Processing HURJA... (86/310)
+2025-03-11 00:20:33,461 - INFO - HURJA: Data scraped successfully with 50 entries.
+2025-03-11 00:20:40,113 - INFO - Processing ICFC... (87/310)
+2025-03-11 00:20:58,630 - INFO - ICFC: Data scraped successfully with 50 entries.
+2025-03-11 00:21:05,765 - INFO - Processing IGI... (88/310)
+2025-03-11 00:21:26,619 - INFO - IGI: Data scraped successfully with 50 entries.
+2025-03-11 00:21:35,143 - INFO - Processing IHL... (89/310)
+2025-03-11 00:21:53,197 - INFO - IHL: Data scraped successfully with 50 entries.
+2025-03-11 00:22:00,543 - INFO - Processing ILBS... (90/310)
+2025-03-11 00:22:19,687 - INFO - ILBS: Data scraped successfully with 50 entries.
+2025-03-11 00:22:24,689 - INFO - Saving intermediate batch after 90 companies
+2025-03-11 00:22:24,692 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_001804.xlsx
+2025-03-11 00:22:28,814 - INFO - Saved data for HIDCLP to sheet 'HIDCLP'
+2025-03-11 00:22:28,831 - INFO - Saved data for HLBSL to sheet 'HLBSL'
+2025-03-11 00:22:28,854 - INFO - Saved data for HLI to sheet 'HLI'
+2025-03-11 00:22:28,882 - INFO - Saved data for HPPL to sheet 'HPPL'
+2025-03-11 00:22:28,906 - INFO - Saved data for HRL to sheet 'HRL'
+2025-03-11 00:22:28,926 - INFO - Saved data for HURJA to sheet 'HURJA'
+2025-03-11 00:22:28,958 - INFO - Saved data for ICFC to sheet 'ICFC'
+2025-03-11 00:22:29,050 - INFO - Saved data for IGI to sheet 'IGI'
+2025-03-11 00:22:29,113 - INFO - Saved data for IHL to sheet 'IHL'
+2025-03-11 00:22:29,138 - INFO - Saved data for ILBS to sheet 'ILBS'
+2025-03-11 00:22:31,263 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_002224.xlsx
+2025-03-11 00:22:31,263 - INFO - All batch data has been processed.
+2025-03-11 00:22:31,264 - INFO - Processing ILI... (91/310)
+2025-03-11 00:22:46,341 - INFO - ILI: Data scraped successfully with 50 entries.
+2025-03-11 00:22:51,962 - INFO - Processing JBBL... (92/310)
+2025-03-11 00:23:10,837 - INFO - JBBL: Data scraped successfully with 50 entries.
+2025-03-11 00:23:17,037 - INFO - Processing JBLB... (93/310)
+2025-03-11 00:23:35,859 - INFO - JBLB: Data scraped successfully with 50 entries.
+2025-03-11 00:23:41,714 - INFO - Processing JFL... (94/310)
+2025-03-11 00:24:01,376 - INFO - JFL: Data scraped successfully with 50 entries.
+2025-03-11 00:24:07,027 - INFO - Processing JOSHI... (95/310)
+2025-03-11 00:24:26,502 - INFO - JOSHI: Data scraped successfully with 50 entries.
+2025-03-11 00:24:33,638 - INFO - Processing JSLBB... (96/310)
+2025-03-11 00:24:52,732 - INFO - JSLBB: Data scraped successfully with 50 entries.
+2025-03-11 00:24:59,617 - INFO - Processing KBL... (97/310)
+2025-03-11 00:25:18,103 - INFO - KBL: Data scraped successfully with 50 entries.
+2025-03-11 00:25:22,636 - INFO - Processing KBLD86... (98/310)
+2025-03-11 00:25:41,914 - INFO - KBLD86: Data scraped successfully with 50 entries.
+2025-03-11 00:25:48,669 - INFO - Processing KBLD89... (99/310)
+2025-03-11 00:26:07,127 - INFO - KBLD89: Data scraped successfully with 50 entries.
+2025-03-11 00:26:11,529 - INFO - Processing KBLD90... (100/310)
+2025-03-11 00:26:30,510 - INFO - KBLD90: Data scraped successfully with 50 entries.
+2025-03-11 00:26:37,376 - INFO - Saving intermediate batch after 100 companies
+2025-03-11 00:26:37,378 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_002224.xlsx
+2025-03-11 00:26:41,492 - INFO - Saved data for ILI to sheet 'ILI'
+2025-03-11 00:26:41,523 - INFO - Saved data for JBBL to sheet 'JBBL'
+2025-03-11 00:26:41,581 - INFO - Saved data for JBLB to sheet 'JBLB'
+2025-03-11 00:26:41,611 - INFO - Saved data for JFL to sheet 'JFL'
+2025-03-11 00:26:41,655 - INFO - Saved data for JOSHI to sheet 'JOSHI'
+2025-03-11 00:26:41,713 - INFO - Saved data for JSLBB to sheet 'JSLBB'
+2025-03-11 00:26:41,765 - INFO - Saved data for KBL to sheet 'KBL'
+2025-03-11 00:26:41,811 - INFO - Saved data for KBLD86 to sheet 'KBLD86'
+2025-03-11 00:26:41,853 - INFO - Saved data for KBLD89 to sheet 'KBLD89'
+2025-03-11 00:26:41,903 - INFO - Saved data for KBLD90 to sheet 'KBLD90'
+2025-03-11 00:26:43,852 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_002637.xlsx
+2025-03-11 00:26:43,853 - INFO - All batch data has been processed.
+2025-03-11 00:26:43,853 - INFO - Processing KBSH... (101/310)
+2025-03-11 00:26:58,633 - INFO - KBSH: Data scraped successfully with 50 entries.
+2025-03-11 00:27:03,096 - INFO - Processing KDBY... (102/310)
+2025-03-11 00:27:21,353 - INFO - KDBY: Data scraped successfully with 50 entries.
+2025-03-11 00:27:26,634 - INFO - Processing KDL... (103/310)
+2025-03-11 00:27:46,834 - INFO - KDL: Data scraped successfully with 50 entries.
+2025-03-11 00:27:54,558 - INFO - Processing KEF... (104/310)
+2025-03-11 00:28:14,508 - INFO - KEF: Data scraped successfully with 50 entries.
+2025-03-11 00:28:23,120 - INFO - Processing KKHC... (105/310)
+2025-03-11 00:28:43,329 - INFO - KKHC: Data scraped successfully with 50 entries.
+2025-03-11 00:28:50,231 - INFO - Processing KMCDB... (106/310)
+2025-03-11 00:29:09,027 - INFO - KMCDB: Data scraped successfully with 50 entries.
+2025-03-11 00:29:13,539 - INFO - Processing KPCL... (107/310)
+2025-03-11 00:29:36,990 - INFO - KPCL: Data scraped successfully with 50 entries.
+2025-03-11 00:29:42,673 - INFO - Processing KSBBL... (108/310)
+2025-03-11 00:30:01,390 - INFO - KSBBL: Data scraped successfully with 50 entries.
+2025-03-11 00:30:07,817 - INFO - Processing KSBBLD87... (109/310)
+2025-03-11 00:30:27,469 - INFO - KSBBLD87: Data scraped successfully with 50 entries.
+2025-03-11 00:30:34,540 - INFO - Processing KSY... (110/310)
+2025-03-11 00:30:53,586 - INFO - KSY: Data scraped successfully with 50 entries.
+2025-03-11 00:30:58,703 - INFO - Saving intermediate batch after 110 companies
+2025-03-11 00:30:58,705 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_002637.xlsx
+2025-03-11 00:31:02,812 - INFO - Saved data for KBSH to sheet 'KBSH'
+2025-03-11 00:31:02,836 - INFO - Saved data for KDBY to sheet 'KDBY'
+2025-03-11 00:31:02,864 - INFO - Saved data for KDL to sheet 'KDL'
+2025-03-11 00:31:02,889 - INFO - Saved data for KEF to sheet 'KEF'
+2025-03-11 00:31:02,913 - INFO - Saved data for KKHC to sheet 'KKHC'
+2025-03-11 00:31:02,944 - INFO - Saved data for KMCDB to sheet 'KMCDB'
+2025-03-11 00:31:02,966 - INFO - Saved data for KPCL to sheet 'KPCL'
+2025-03-11 00:31:02,988 - INFO - Saved data for KSBBL to sheet 'KSBBL'
+2025-03-11 00:31:03,023 - INFO - Saved data for KSBBLD87 to sheet 'KSBBLD87'
+2025-03-11 00:31:03,038 - INFO - Saved data for KSY to sheet 'KSY'
+2025-03-11 00:31:05,188 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_003058.xlsx
+2025-03-11 00:31:05,189 - INFO - All batch data has been processed.
+2025-03-11 00:31:05,190 - INFO - Processing LBBL... (111/310)
+2025-03-11 00:31:19,149 - INFO - LBBL: Data scraped successfully with 50 entries.
+2025-03-11 00:31:25,679 - INFO - Processing LBBLD89... (112/310)
+2025-03-11 00:31:46,376 - INFO - LBBLD89: Data scraped successfully with 50 entries.
+2025-03-11 00:31:55,307 - INFO - Processing LEC... (113/310)
+2025-03-11 00:32:14,582 - INFO - LEC: Data scraped successfully with 50 entries.
+2025-03-11 00:32:21,324 - INFO - Processing LICN... (114/310)
+2025-03-11 00:32:40,082 - INFO - LICN: Data scraped successfully with 50 entries.
+2025-03-11 00:32:47,076 - INFO - Processing LLBS... (115/310)
+2025-03-11 00:33:06,709 - INFO - LLBS: Data scraped successfully with 50 entries.
+2025-03-11 00:33:13,138 - INFO - Processing LSL... (116/310)
+2025-03-11 00:33:32,655 - INFO - LSL: Data scraped successfully with 50 entries.
+2025-03-11 00:33:42,071 - INFO - Processing LUK... (117/310)
+2025-03-11 00:34:01,391 - INFO - LUK: Data scraped successfully with 50 entries.
+2025-03-11 00:34:08,988 - INFO - Processing LVF2... (118/310)
+2025-03-11 00:34:30,691 - INFO - LVF2: Data scraped successfully with 50 entries.
+2025-03-11 00:34:37,073 - INFO - Processing MAKAR... (119/310)
+2025-03-11 00:34:56,073 - INFO - MAKAR: Data scraped successfully with 50 entries.
+2025-03-11 00:35:03,555 - INFO - Processing MANDU... (120/310)
+2025-03-11 00:35:21,831 - INFO - MANDU: Data scraped successfully with 50 entries.
+2025-03-11 00:35:26,791 - INFO - Saving intermediate batch after 120 companies
+2025-03-11 00:35:26,793 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_003058.xlsx
+2025-03-11 00:35:30,926 - INFO - Saved data for LBBL to sheet 'LBBL'
+2025-03-11 00:35:30,947 - INFO - Saved data for LBBLD89 to sheet 'LBBLD89'
+2025-03-11 00:35:30,967 - INFO - Saved data for LEC to sheet 'LEC'
+2025-03-11 00:35:30,988 - INFO - Saved data for LICN to sheet 'LICN'
+2025-03-11 00:35:31,000 - INFO - Saved data for LLBS to sheet 'LLBS'
+2025-03-11 00:35:31,014 - INFO - Saved data for LSL to sheet 'LSL'
+2025-03-11 00:35:31,022 - INFO - Saved data for LUK to sheet 'LUK'
+2025-03-11 00:35:31,035 - INFO - Saved data for LVF2 to sheet 'LVF2'
+2025-03-11 00:35:31,051 - INFO - Saved data for MAKAR to sheet 'MAKAR'
+2025-03-11 00:35:31,061 - INFO - Saved data for MANDU to sheet 'MANDU'
+2025-03-11 00:35:33,238 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_003526.xlsx
+2025-03-11 00:35:33,239 - INFO - All batch data has been processed.
+2025-03-11 00:35:33,241 - INFO - Processing MATRI... (121/310)
+2025-03-11 00:35:47,665 - INFO - MATRI: Data scraped successfully with 50 entries.
+2025-03-11 00:35:52,121 - INFO - Processing MATRIP... (122/310)
+2025-03-11 00:36:08,287 - INFO - MATRIP: Data scraped successfully with 5 entries.
+2025-03-11 00:36:13,513 - INFO - Processing MBJC... (123/310)
+2025-03-11 00:36:34,063 - INFO - MBJC: Data scraped successfully with 50 entries.
+2025-03-11 00:36:40,899 - INFO - Processing MBL... (124/310)
+2025-03-11 00:36:59,555 - INFO - MBL: Data scraped successfully with 50 entries.
+2025-03-11 00:37:04,719 - INFO - Processing MCHL... (125/310)
+2025-03-11 00:37:26,292 - INFO - MCHL: Data scraped successfully with 50 entries.
+2025-03-11 00:37:31,834 - INFO - Processing MDB... (126/310)
+2025-03-11 00:37:53,090 - INFO - MDB: Data scraped successfully with 50 entries.
+2025-03-11 00:37:59,529 - INFO - Processing MEHL... (127/310)
+2025-03-11 00:38:20,482 - INFO - MEHL: Data scraped successfully with 50 entries.
+2025-03-11 00:38:27,398 - INFO - Processing MEL... (128/310)
+2025-03-11 00:38:48,849 - INFO - MEL: Data scraped successfully with 50 entries.
+2025-03-11 00:38:54,794 - INFO - Processing MEN... (129/310)
+2025-03-11 00:39:13,558 - INFO - MEN: Data scraped successfully with 50 entries.
+2025-03-11 00:39:20,744 - INFO - Processing MERO... (130/310)
+2025-03-11 00:39:38,861 - INFO - MERO: Data scraped successfully with 50 entries.
+2025-03-11 00:39:43,959 - INFO - Saving intermediate batch after 130 companies
+2025-03-11 00:39:43,962 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_003526.xlsx
+2025-03-11 00:39:48,076 - INFO - Saved data for MATRI to sheet 'MATRI'
+2025-03-11 00:39:48,087 - INFO - Saved data for MATRIP to sheet 'MATRIP'
+2025-03-11 00:39:48,107 - INFO - Saved data for MBJC to sheet 'MBJC'
+2025-03-11 00:39:48,120 - INFO - Saved data for MBL to sheet 'MBL'
+2025-03-11 00:39:48,132 - INFO - Saved data for MCHL to sheet 'MCHL'
+2025-03-11 00:39:48,141 - INFO - Saved data for MDB to sheet 'MDB'
+2025-03-11 00:39:48,155 - INFO - Saved data for MEHL to sheet 'MEHL'
+2025-03-11 00:39:48,166 - INFO - Saved data for MEL to sheet 'MEL'
+2025-03-11 00:39:48,177 - INFO - Saved data for MEN to sheet 'MEN'
+2025-03-11 00:39:48,254 - INFO - Saved data for MERO to sheet 'MERO'
+2025-03-11 00:39:50,388 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_003943.xlsx
+2025-03-11 00:39:50,389 - INFO - All batch data has been processed.
+2025-03-11 00:39:50,389 - INFO - Processing MFIL... (131/310)
+2025-03-11 00:40:05,646 - INFO - MFIL: Data scraped successfully with 50 entries.
+2025-03-11 00:40:12,126 - INFO - Processing MHCL... (132/310)
+2025-03-11 00:40:30,912 - INFO - MHCL: Data scraped successfully with 50 entries.
+2025-03-11 00:40:37,350 - INFO - Processing MHL... (133/310)
+2025-03-11 00:40:56,286 - INFO - MHL: Data scraped successfully with 50 entries.
+2025-03-11 00:41:03,123 - INFO - Processing MHNL... (134/310)
+2025-03-11 00:41:22,308 - INFO - MHNL: Data scraped successfully with 50 entries.
+2025-03-11 00:41:31,017 - INFO - Processing MKCL... (135/310)
+2025-03-11 00:41:52,798 - INFO - MKCL: Data scraped successfully with 50 entries.
+2025-03-11 00:41:59,491 - INFO - Processing MKHC... (136/310)
+2025-03-11 00:42:19,594 - INFO - MKHC: Data scraped successfully with 50 entries.
+2025-03-11 00:42:23,972 - INFO - Processing MKHL... (137/310)
+2025-03-11 00:42:43,677 - INFO - MKHL: Data scraped successfully with 50 entries.
+2025-03-11 00:42:47,994 - INFO - Processing MKJC... (138/310)
+2025-03-11 00:43:07,329 - INFO - MKJC: Data scraped successfully with 50 entries.
+2025-03-11 00:43:14,237 - INFO - Processing MLBBL... (139/310)
+2025-03-11 00:43:34,222 - INFO - MLBBL: Data scraped successfully with 50 entries.
+2025-03-11 00:43:42,102 - INFO - Processing MLBL... (140/310)
+2025-03-11 00:44:01,405 - INFO - MLBL: Data scraped successfully with 50 entries.
+2025-03-11 00:44:08,535 - INFO - Saving intermediate batch after 140 companies
+2025-03-11 00:44:08,537 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_003943.xlsx
+2025-03-11 00:44:12,649 - INFO - Saved data for MFIL to sheet 'MFIL'
+2025-03-11 00:44:12,664 - INFO - Saved data for MHCL to sheet 'MHCL'
+2025-03-11 00:44:12,684 - INFO - Saved data for MHL to sheet 'MHL'
+2025-03-11 00:44:12,706 - INFO - Saved data for MHNL to sheet 'MHNL'
+2025-03-11 00:44:12,747 - INFO - Saved data for MKCL to sheet 'MKCL'
+2025-03-11 00:44:12,771 - INFO - Saved data for MKHC to sheet 'MKHC'
+2025-03-11 00:44:12,782 - INFO - Saved data for MKHL to sheet 'MKHL'
+2025-03-11 00:44:12,795 - INFO - Saved data for MKJC to sheet 'MKJC'
+2025-03-11 00:44:12,810 - INFO - Saved data for MLBBL to sheet 'MLBBL'
+2025-03-11 00:44:12,824 - INFO - Saved data for MLBL to sheet 'MLBL'
+2025-03-11 00:44:14,809 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_004408.xlsx
+2025-03-11 00:44:14,809 - INFO - All batch data has been processed.
+2025-03-11 00:44:14,810 - INFO - Processing MLBS... (141/310)
+2025-03-11 00:44:31,818 - INFO - MLBS: Data scraped successfully with 50 entries.
+2025-03-11 00:44:37,705 - INFO - Processing MLBSL... (142/310)
+2025-03-11 00:44:56,930 - INFO - MLBSL: Data scraped successfully with 50 entries.
+2025-03-11 00:45:03,064 - INFO - Processing MMF1... (143/310)
+2025-03-11 00:45:22,025 - INFO - MMF1: Data scraped successfully with 50 entries.
+2025-03-11 00:45:28,442 - INFO - Processing MMKJL... (144/310)
+2025-03-11 00:45:47,538 - INFO - MMKJL: Data scraped successfully with 50 entries.
+2025-03-11 00:45:53,453 - INFO - Processing MNBBL... (145/310)
+2025-03-11 00:46:12,922 - INFO - MNBBL: Data scraped successfully with 50 entries.
+2025-03-11 00:46:23,727 - INFO - Processing MNMF1... (146/310)
+2025-03-11 00:46:41,413 - INFO - MNMF1: Data scraped successfully with 34 entries.
+2025-03-11 00:46:48,311 - INFO - Processing MPFL... (147/310)
+2025-03-11 00:47:07,998 - INFO - MPFL: Data scraped successfully with 50 entries.
+2025-03-11 00:47:15,052 - INFO - Processing MSHL... (148/310)
+2025-03-11 00:47:35,515 - INFO - MSHL: Data scraped successfully with 50 entries.
+2025-03-11 00:47:42,352 - INFO - Processing MSLB... (149/310)
+2025-03-11 00:48:01,265 - INFO - MSLB: Data scraped successfully with 50 entries.
+2025-03-11 00:48:09,700 - INFO - Processing NABBC... (150/310)
+2025-03-11 00:48:28,636 - INFO - NABBC: Data scraped successfully with 50 entries.
+2025-03-11 00:48:35,138 - INFO - Saving intermediate batch after 150 companies
+2025-03-11 00:48:35,142 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_004408.xlsx
+2025-03-11 00:48:39,262 - INFO - Saved data for MLBS to sheet 'MLBS'
+2025-03-11 00:48:39,280 - INFO - Saved data for MLBSL to sheet 'MLBSL'
+2025-03-11 00:48:39,294 - INFO - Saved data for MMF1 to sheet 'MMF1'
+2025-03-11 00:48:39,311 - INFO - Saved data for MMKJL to sheet 'MMKJL'
+2025-03-11 00:48:39,323 - INFO - Saved data for MNBBL to sheet 'MNBBL'
+2025-03-11 00:48:39,334 - INFO - Saved data for MNMF1 to sheet 'MNMF1'
+2025-03-11 00:48:39,350 - INFO - Saved data for MPFL to sheet 'MPFL'
+2025-03-11 00:48:39,360 - INFO - Saved data for MSHL to sheet 'MSHL'
+2025-03-11 00:48:39,369 - INFO - Saved data for MSLB to sheet 'MSLB'
+2025-03-11 00:48:39,382 - INFO - Saved data for NABBC to sheet 'NABBC'
+2025-03-11 00:48:41,254 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_004835.xlsx
+2025-03-11 00:48:41,255 - INFO - All batch data has been processed.
+2025-03-11 00:48:41,255 - INFO - Processing NABIL... (151/310)
+2025-03-11 00:48:56,110 - INFO - NABIL: Data scraped successfully with 50 entries.
+2025-03-11 00:49:02,134 - INFO - Processing NABILD87... (152/310)
+2025-03-11 00:49:21,890 - INFO - NABILD87: Data scraped successfully with 50 entries.
+2025-03-11 00:49:26,686 - INFO - Processing NADEP... (153/310)
+2025-03-11 00:49:46,187 - INFO - NADEP: Data scraped successfully with 50 entries.
+2025-03-11 00:49:51,774 - INFO - Processing NBF2... (154/310)
+2025-03-11 00:50:11,859 - INFO - NBF2: Data scraped successfully with 50 entries.
+2025-03-11 00:50:18,983 - INFO - Processing NBF3... (155/310)
+2025-03-11 00:50:37,796 - INFO - NBF3: Data scraped successfully with 50 entries.
+2025-03-11 00:50:42,941 - INFO - Processing NBL... (156/310)
+2025-03-11 00:51:01,722 - INFO - NBL: Data scraped successfully with 50 entries.
+2025-03-11 00:51:08,399 - INFO - Processing NBLD82... (157/310)
+2025-03-11 00:51:28,504 - INFO - NBLD82: Data scraped successfully with 50 entries.
+2025-03-11 00:51:34,074 - INFO - Processing NBLD87... (158/310)
+2025-03-11 00:51:52,926 - INFO - NBLD87: Data scraped successfully with 50 entries.
+2025-03-11 00:51:58,009 - INFO - Processing NESDO... (159/310)
+2025-03-11 00:52:17,208 - INFO - NESDO: Data scraped successfully with 50 entries.
+2025-03-11 00:52:23,846 - INFO - Processing NFS... (160/310)
+2025-03-11 00:52:43,870 - INFO - NFS: Data scraped successfully with 50 entries.
+2025-03-11 00:52:51,233 - INFO - Saving intermediate batch after 160 companies
+2025-03-11 00:52:51,236 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_004835.xlsx
+2025-03-11 00:52:55,359 - INFO - Saved data for NABIL to sheet 'NABIL'
+2025-03-11 00:52:55,385 - INFO - Saved data for NABILD87 to sheet 'NABILD87'
+2025-03-11 00:52:55,411 - INFO - Saved data for NADEP to sheet 'NADEP'
+2025-03-11 00:52:55,433 - INFO - Saved data for NBF2 to sheet 'NBF2'
+2025-03-11 00:52:55,460 - INFO - Saved data for NBF3 to sheet 'NBF3'
+2025-03-11 00:52:55,481 - INFO - Saved data for NBL to sheet 'NBL'
+2025-03-11 00:52:55,500 - INFO - Saved data for NBLD82 to sheet 'NBLD82'
+2025-03-11 00:52:55,522 - INFO - Saved data for NBLD87 to sheet 'NBLD87'
+2025-03-11 00:52:55,545 - INFO - Saved data for NESDO to sheet 'NESDO'
+2025-03-11 00:52:55,569 - INFO - Saved data for NFS to sheet 'NFS'
+2025-03-11 00:52:57,543 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_005251.xlsx
+2025-03-11 00:52:57,544 - INFO - All batch data has been processed.
+2025-03-11 00:52:57,544 - INFO - Processing NGPL... (161/310)
+2025-03-11 00:53:12,623 - INFO - NGPL: Data scraped successfully with 50 entries.
+2025-03-11 00:53:20,659 - INFO - Processing NHDL... (162/310)
+2025-03-11 00:53:40,480 - INFO - NHDL: Data scraped successfully with 50 entries.
+2025-03-11 00:53:46,496 - INFO - Processing NHPC... (163/310)
+2025-03-11 00:54:06,926 - INFO - NHPC: Data scraped successfully with 50 entries.
+2025-03-11 00:54:13,981 - INFO - Processing NIBLGF... (164/310)
+2025-03-11 00:54:34,242 - INFO - NIBLGF: Data scraped successfully with 50 entries.
+2025-03-11 00:54:41,046 - INFO - Processing NIBLSTF... (165/310)
+2025-03-11 00:55:01,068 - INFO - NIBLSTF: Data scraped successfully with 50 entries.
+2025-03-11 00:55:07,968 - INFO - Processing NIBSF2... (166/310)
+2025-03-11 00:55:26,732 - INFO - NIBSF2: Data scraped successfully with 50 entries.
+2025-03-11 00:55:33,107 - INFO - Processing NICA... (167/310)
+2025-03-11 00:55:51,849 - INFO - NICA: Data scraped successfully with 50 entries.
+2025-03-11 00:55:57,831 - INFO - Processing NICAD8283... (168/310)
+2025-03-11 00:56:16,682 - INFO - NICAD8283: Data scraped successfully with 50 entries.
+2025-03-11 00:56:22,639 - INFO - Processing NICAD85/86... (169/310)
+2025-03-11 00:59:40,641 - INFO - NICAD85/86: Data scraped successfully with 50 entries.
+2025-03-11 00:59:47,026 - INFO - Processing NICBF... (170/310)
+2025-03-11 01:00:05,904 - INFO - NICBF: Data scraped successfully with 50 entries.
+2025-03-11 01:00:12,850 - INFO - Saving intermediate batch after 170 companies
+2025-03-11 01:00:12,852 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_005251.xlsx
+2025-03-11 01:00:16,976 - INFO - Saved data for NGPL to sheet 'NGPL'
+2025-03-11 01:00:16,995 - INFO - Saved data for NHDL to sheet 'NHDL'
+2025-03-11 01:00:17,021 - INFO - Saved data for NHPC to sheet 'NHPC'
+2025-03-11 01:00:17,048 - INFO - Saved data for NIBLGF to sheet 'NIBLGF'
+2025-03-11 01:00:17,069 - INFO - Saved data for NIBLSTF to sheet 'NIBLSTF'
+2025-03-11 01:00:17,089 - INFO - Saved data for NIBSF2 to sheet 'NIBSF2'
+2025-03-11 01:00:17,112 - INFO - Saved data for NICA to sheet 'NICA'
+2025-03-11 01:00:17,133 - INFO - Saved data for NICAD8283 to sheet 'NICAD8283'
+2025-03-11 01:00:17,156 - INFO - Saved data for NICAD85/86 to sheet 'NICAD85_86'
+2025-03-11 01:00:17,177 - INFO - Saved data for NICBF to sheet 'NICBF'
+2025-03-11 01:00:19,143 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_010012.xlsx
+2025-03-11 01:00:19,144 - INFO - All batch data has been processed.
+2025-03-11 01:00:19,145 - INFO - Processing NICD88... (171/310)
+2025-03-11 01:00:34,174 - INFO - NICD88: Data scraped successfully with 50 entries.
+2025-03-11 01:00:40,408 - INFO - Processing NICFC... (172/310)
+2025-03-11 01:00:59,603 - INFO - NICFC: Data scraped successfully with 50 entries.
+2025-03-11 01:01:07,900 - INFO - Processing NICGF... (173/310)
+2025-03-11 01:01:27,372 - INFO - NICGF: Data scraped successfully with 50 entries.
+2025-03-11 01:01:34,222 - INFO - Processing NICGF2... (174/310)
+2025-03-11 01:01:53,908 - INFO - NICGF2: Data scraped successfully with 50 entries.
+2025-03-11 01:02:00,871 - INFO - Processing NICL... (175/310)
+2025-03-11 01:02:21,270 - INFO - NICL: Data scraped successfully with 50 entries.
+2025-03-11 01:02:28,427 - INFO - Processing NICLBSL... (176/310)
+2025-03-11 01:02:47,092 - INFO - NICLBSL: Data scraped successfully with 50 entries.
+2025-03-11 01:02:53,938 - INFO - Processing NICSF... (177/310)
+2025-03-11 01:03:14,517 - INFO - NICSF: Data scraped successfully with 50 entries.
+2025-03-11 01:03:22,690 - INFO - Processing NIFRA... (178/310)
+2025-03-11 01:03:42,290 - INFO - NIFRA: Data scraped successfully with 50 entries.
+2025-03-11 01:03:48,276 - INFO - Processing NIL... (179/310)
+2025-03-11 01:04:06,874 - INFO - NIL: Data scraped successfully with 50 entries.
+2025-03-11 01:04:13,343 - INFO - Processing NIMB... (180/310)
+2025-03-11 01:04:36,852 - INFO - NIMB: Data scraped successfully with 50 entries.
+2025-03-11 01:04:44,010 - INFO - Saving intermediate batch after 180 companies
+2025-03-11 01:04:44,014 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_010012.xlsx
+2025-03-11 01:04:48,156 - INFO - Saved data for NICD88 to sheet 'NICD88'
+2025-03-11 01:04:48,189 - INFO - Saved data for NICFC to sheet 'NICFC'
+2025-03-11 01:04:48,243 - INFO - Saved data for NICGF to sheet 'NICGF'
+2025-03-11 01:04:48,279 - INFO - Saved data for NICGF2 to sheet 'NICGF2'
+2025-03-11 01:04:48,331 - INFO - Saved data for NICL to sheet 'NICL'
+2025-03-11 01:04:48,383 - INFO - Saved data for NICLBSL to sheet 'NICLBSL'
+2025-03-11 01:04:48,420 - INFO - Saved data for NICSF to sheet 'NICSF'
+2025-03-11 01:04:48,477 - INFO - Saved data for NIFRA to sheet 'NIFRA'
+2025-03-11 01:04:48,522 - INFO - Saved data for NIL to sheet 'NIL'
+2025-03-11 01:04:48,545 - INFO - Saved data for NIMB to sheet 'NIMB'
+2025-03-11 01:04:50,805 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_010444.xlsx
+2025-03-11 01:04:50,806 - INFO - All batch data has been processed.
+2025-03-11 01:04:50,807 - INFO - Processing NIMBPO... (181/310)
+2025-03-11 01:05:04,664 - INFO - NIMBPO: Data scraped successfully with 50 entries.
+2025-03-11 01:05:09,083 - INFO - Processing NLG... (182/310)
+2025-03-11 01:05:27,456 - INFO - NLG: Data scraped successfully with 50 entries.
+2025-03-11 01:05:35,129 - INFO - Processing NLIC... (183/310)
+2025-03-11 01:05:53,992 - INFO - NLIC: Data scraped successfully with 50 entries.
+2025-03-11 01:05:59,563 - INFO - Processing NLICL... (184/310)
+2025-03-11 01:06:18,860 - INFO - NLICL: Data scraped successfully with 50 entries.
+2025-03-11 01:06:24,032 - INFO - Processing NMB... (185/310)
+2025-03-11 01:06:42,844 - INFO - NMB: Data scraped successfully with 50 entries.
+2025-03-11 01:06:48,883 - INFO - Processing NMB50... (186/310)
+2025-03-11 01:07:08,165 - INFO - NMB50: Data scraped successfully with 50 entries.
+2025-03-11 01:07:14,727 - INFO - Processing NMBD2085... (187/310)
+2025-03-11 01:07:33,863 - INFO - NMBD2085: Data scraped successfully with 50 entries.
+2025-03-11 01:07:40,631 - INFO - Processing NMBMF... (188/310)
+2025-03-11 01:10:59,273 - INFO - NMBMF: Data scraped successfully with 50 entries.
+2025-03-11 01:11:05,179 - INFO - Processing NMFBS... (189/310)
+2025-03-11 01:11:24,509 - INFO - NMFBS: Data scraped successfully with 50 entries.
+2025-03-11 01:11:32,538 - INFO - Processing NMLBBL... (190/310)
+2025-03-11 01:11:50,705 - INFO - NMLBBL: Data scraped successfully with 50 entries.
+2025-03-11 01:11:56,384 - INFO - Saving intermediate batch after 190 companies
+2025-03-11 01:11:56,387 - INFO - Removed old batch file: shares_data_batch_1_to_10_20250311_010444.xlsx
+2025-03-11 01:12:00,495 - INFO - Saved data for NIMBPO to sheet 'NIMBPO'
+2025-03-11 01:12:00,525 - INFO - Saved data for NLG to sheet 'NLG'
+2025-03-11 01:12:00,575 - INFO - Saved data for NLIC to sheet 'NLIC'
+2025-03-11 01:12:00,611 - INFO - Saved data for NLICL to sheet 'NLICL'
+2025-03-11 01:12:00,632 - INFO - Saved data for NMB to sheet 'NMB'
+2025-03-11 01:12:00,708 - INFO - Saved data for NMB50 to sheet 'NMB50'
+2025-03-11 01:12:00,732 - INFO - Saved data for NMBD2085 to sheet 'NMBD2085'
+2025-03-11 01:12:00,792 - INFO - Saved data for NMBMF to sheet 'NMBMF'
+2025-03-11 01:12:00,879 - INFO - Saved data for NMFBS to sheet 'NMFBS'
+2025-03-11 01:12:00,898 - INFO - Saved data for NMLBBL to sheet 'NMLBBL'
+2025-03-11 01:12:03,109 - INFO - Successfully saved batch 1 to 10 to share_data_output/shares_data_batch_1_to_10_20250311_011156.xlsx
+2025-03-11 01:12:03,109 - INFO - All batch data has been processed.
+2025-03-11 01:12:03,109 - INFO - Processing NRIC... (191/310)
+2025-03-11 01:12:17,726 - INFO - NRIC: Data scraped successfully with 50 entries.
+2025-03-11 01:12:24,690 - INFO - Processing NRM... (192/310)
+2025-03-11 01:12:44,336 - INFO - NRM: Data scraped successfully with 50 entries.
+2025-03-11 01:12:48,803 - INFO - Processing NRN... (193/310)
+2025-03-11 01:13:10,646 - INFO - NRN: Data scraped successfully with 50 entries.
+2025-03-11 01:13:18,120 - INFO - Processing NSIF2... (194/310)
+2025-03-11 01:13:38,850 - INFO - NSIF2: Data scraped successfully with 50 entries.
+2025-03-11 01:13:46,536 - INFO - Processing NTC... (195/310)
+2025-03-11 20:15:28,817 - INFO - NTC: Data scraped successfully with 50 entries.
+2025-03-11 20:15:56,901 - INFO - Processing NUBL... (196/310)
+2025-03-11 20:16:22,151 - INFO - NUBL: Data scraped successfully with 50 entries.
+2025-03-11 20:16:28,641 - INFO - Processing NWCL... (197/310)

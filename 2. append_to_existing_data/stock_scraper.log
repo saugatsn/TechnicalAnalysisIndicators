@@ -1,0 +1,2267 @@
+2025-03-10 22:25:57,576 - INFO - Chromedriver is already installed.
+2025-03-10 22:25:57,579 - INFO - Found latest Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:25:57,580 - INFO - Examining dates in Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:26:15,392 - INFO - Most common date in data: 12/23/2024
+2025-03-10 22:26:15,393 - INFO - Looking for data from 12/24/2024 to 03/10/2025
+2025-03-10 22:26:15,393 - INFO - Processing date: 12/24/2024
+2025-03-10 22:26:57,837 - ERROR - Error in search function: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=133.0.6943.143)
+Stacktrace:
+	GetHandleVerifier [0x01040B43+25139]
+	(No symbol) [0x00FD13F4]
+	(No symbol) [0x00EB04E3]
+	(No symbol) [0x00E8F74E]
+	(No symbol) [0x00F23C8E]
+	(No symbol) [0x00F3E059]
+	(No symbol) [0x00F1CDC6]
+	(No symbol) [0x00EEBDE9]
+	(No symbol) [0x00EED124]
+	GetHandleVerifier [0x01344373+3185251]
+	GetHandleVerifier [0x0136291A+3309578]
+	GetHandleVerifier [0x0135CF42+3286578]
+	GetHandleVerifier [0x010D7AE0+643536]
+	(No symbol) [0x00FDA20D]
+	(No symbol) [0x00FD70B8]
+	(No symbol) [0x00FD7257]
+	(No symbol) [0x00FC9E00]
+	BaseThreadInitThunk [0x74FA7BA9+25]
+	RtlInitializeExceptionChain [0x771FC2EB+107]
+	RtlClearBits [0x771FC26F+191]
+
+2025-03-10 22:26:58,213 - INFO - No data found for 12/24/2024
+2025-03-10 22:27:02,353 - INFO - Process interrupted by user
+2025-03-10 22:27:06,465 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000143C43993A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cfe0588b415bd908ba56872fe93dd332
+2025-03-10 22:27:10,560 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000143C3FD8C20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cfe0588b415bd908ba56872fe93dd332
+2025-03-10 22:27:14,636 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000143C3FD9D60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cfe0588b415bd908ba56872fe93dd332
+2025-03-10 22:27:22,867 - INFO - ========== EXECUTION SUMMARY ==========
+2025-03-10 22:27:22,868 - INFO - Start Time: 2025-03-10 22:25:57
+2025-03-10 22:27:22,869 - INFO - End Time: 2025-03-10 22:27:22
+2025-03-10 22:27:22,870 - INFO - Total Execution Time: 1.42 minutes
+2025-03-10 22:27:22,870 - INFO - Dates Processed: 1
+2025-03-10 22:27:22,871 - INFO - Successful Scrapes: 0
+2025-03-10 22:27:22,871 - INFO - Failed Scrapes: 0
+2025-03-10 22:27:22,872 - INFO - STATUS: SUCCESS - All operations completed successfully
+2025-03-10 22:27:22,872 - INFO - =======================================
+2025-03-10 22:36:39,944 - INFO - Chromedriver is already installed.
+2025-03-10 22:36:39,991 - INFO - Found latest Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:36:39,991 - INFO - Examining dates in Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:37:02,454 - INFO - Latest date in data: 03/06/2025
+2025-03-10 22:37:02,460 - INFO - Looking for data from 03/07/2025 to 03/10/2025
+2025-03-10 22:37:02,461 - INFO - Processing date: 03/07/2025
+2025-03-10 22:37:23,164 - INFO - No data found for 03/07/2025: 'No Record Found'
+2025-03-10 22:37:23,188 - INFO - No data found for 03/07/2025
+2025-03-10 22:37:29,505 - INFO - Processing date: 03/08/2025
+2025-03-10 22:37:52,374 - INFO - No data found for 03/08/2025: 'No Record Found'
+2025-03-10 22:37:52,377 - INFO - No data found for 03/08/2025
+2025-03-10 22:37:59,777 - INFO - Processing date: 03/09/2025
+2025-03-10 22:38:25,858 - INFO - Scraping page 1 for date 03/09/2025
+2025-03-10 22:38:26,842 - INFO - Columns after cleaning: ['Symbol', 'Conf.', 'Open', 'High', 'Low', 'Close', 'VWAP', 'Vol', 'Prev. Close', 'Turnover', 'Trans.', 'Diff', 'Range', 'Diff %', 'Range %', 'VWAP %', '52 Weeks High', '52 Weeks Low']
+2025-03-10 22:38:26,844 - INFO - All available columns: ['Symbol', 'Conf.', 'Open', 'High', 'Low', 'Close', 'VWAP', 'Vol', 'Prev. Close', 'Turnover', 'Trans.', 'Diff', 'Range', 'Diff %', 'Range %', 'VWAP %', '52 Weeks High', '52 Weeks Low']
+2025-03-10 22:38:26,882 - INFO - Data saved for 03/09/2025
+2025-03-10 22:38:32,821 - INFO - Processing date: 03/10/2025
+2025-03-10 22:38:57,884 - INFO - Scraping page 1 for date 03/10/2025
+2025-03-10 22:38:59,397 - INFO - Columns after cleaning: ['Symbol', 'Conf.', 'Open', 'High', 'Low', 'Close', 'VWAP', 'Vol', 'Prev. Close', 'Turnover', 'Trans.', 'Diff', 'Range', 'Diff %', 'Range %', 'VWAP %', '120 Days', '180 Days', '52 Weeks High', '52 Weeks Low']
+2025-03-10 22:38:59,400 - INFO - All available columns: ['Symbol', 'Conf.', 'Open', 'High', 'Low', 'Close', 'VWAP', 'Vol', 'Prev. Close', 'Turnover', 'Trans.', 'Diff', 'Range', 'Diff %', 'Range %', 'VWAP %', '120 Days', '180 Days', '52 Weeks High', '52 Weeks Low']
+2025-03-10 22:38:59,421 - INFO - Data saved for 03/10/2025
+2025-03-10 22:39:04,970 - INFO - Latest date with data: 03/10/2025
+2025-03-10 22:39:04,971 - INFO - Updating Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:49:33,446 - INFO - Chromedriver is already installed.
+2025-03-10 22:49:33,451 - INFO - Found latest Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:49:33,452 - INFO - Examining dates in Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:49:48,394 - INFO - Latest date in data: 03/06/2025
+2025-03-10 22:49:48,394 - INFO - Looking for data from 03/07/2025 to 03/10/2025
+2025-03-10 22:49:48,395 - INFO - Processing date: 03/07/2025
+2025-03-10 22:50:04,529 - INFO - No data found for 03/07/2025: 'No Record Found'
+2025-03-10 22:50:04,529 - INFO - No data found for 03/07/2025
+2025-03-10 22:50:11,380 - INFO - Processing date: 03/08/2025
+2025-03-10 22:50:31,360 - INFO - No data found for 03/08/2025: 'No Record Found'
+2025-03-10 22:50:31,361 - INFO - No data found for 03/08/2025
+2025-03-10 22:50:38,289 - INFO - Processing date: 03/09/2025
+2025-03-10 22:50:58,871 - INFO - Scraping page 1 for date 03/09/2025
+2025-03-10 22:50:59,584 - INFO - Columns after cleaning: ['Symbol', 'Conf.', 'Open', 'High', 'Low', 'Close', 'VWAP', 'Vol', 'Prev. Close', 'Turnover', 'Trans.', 'Diff', 'Range', 'Diff %', 'Range %', 'VWAP %', '52 Weeks High', '52 Weeks Low']
+2025-03-10 22:50:59,585 - INFO - All available columns: ['Symbol', 'Conf.', 'Open', 'High', 'Low', 'Close', 'VWAP', 'Vol', 'Prev. Close', 'Turnover', 'Trans.', 'Diff', 'Range', 'Diff %', 'Range %', 'VWAP %', '52 Weeks High', '52 Weeks Low']
+2025-03-10 22:50:59,647 - INFO - Data saved for 03/09/2025
+2025-03-10 22:51:06,501 - INFO - Processing date: 03/10/2025
+2025-03-10 22:51:28,294 - INFO - Scraping page 1 for date 03/10/2025
+2025-03-10 22:51:29,447 - INFO - Columns after cleaning: ['Symbol', 'Conf.', 'Open', 'High', 'Low', 'Close', 'VWAP', 'Vol', 'Prev. Close', 'Turnover', 'Trans.', 'Diff', 'Range', 'Diff %', 'Range %', 'VWAP %', '120 Days', '180 Days', '52 Weeks High', '52 Weeks Low']
+2025-03-10 22:51:29,448 - INFO - All available columns: ['Symbol', 'Conf.', 'Open', 'High', 'Low', 'Close', 'VWAP', 'Vol', 'Prev. Close', 'Turnover', 'Trans.', 'Diff', 'Range', 'Diff %', 'Range %', 'VWAP %', '120 Days', '180 Days', '52 Weeks High', '52 Weeks Low']
+2025-03-10 22:51:29,457 - INFO - Data saved for 03/10/2025
+2025-03-10 22:51:34,843 - INFO - Latest date with data: 03/10/2025
+2025-03-10 22:51:34,844 - INFO - Updating Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:52:43,989 - INFO - Chromedriver is already installed.
+2025-03-10 22:52:43,992 - INFO - Found latest Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:52:43,993 - INFO - Examining dates in Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:52:58,285 - INFO - Latest date in data: 03/06/2025
+2025-03-10 22:52:58,285 - INFO - Looking for data from 03/07/2025 to 03/10/2025
+2025-03-10 22:52:58,286 - INFO - Processing date: 03/07/2025
+2025-03-10 22:53:13,836 - INFO - No data found for 03/07/2025: 'No Record Found'
+2025-03-10 22:53:13,837 - INFO - No data found for 03/07/2025
+2025-03-10 22:53:19,135 - INFO - Processing date: 03/08/2025
+2025-03-10 22:53:39,268 - INFO - No data found for 03/08/2025: 'No Record Found'
+2025-03-10 22:53:39,269 - INFO - No data found for 03/08/2025
+2025-03-10 22:53:46,027 - INFO - Processing date: 03/09/2025
+2025-03-10 22:53:46,028 - INFO - File for 03/09/2025 already exists. Skipping...
+2025-03-10 22:53:46,030 - INFO - Processing date: 03/10/2025
+2025-03-10 22:53:46,032 - INFO - File for 03/10/2025 already exists. Skipping...
+2025-03-10 22:53:46,071 - INFO - Latest date with data: 03/10/2025
+2025-03-10 22:53:46,072 - INFO - Updating Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:53:46,076 - INFO - Starting to read Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 22:53:47,332 - INFO - Excel file has 310 sheets to process
+2025-03-10 22:53:47,332 - INFO - Reading sheet 1/310: ACLBSL
+2025-03-10 22:53:48,599 - INFO - Sheet ACLBSL read in 1.27 seconds, rows: 50
+2025-03-10 22:53:48,600 - INFO - Reading sheet 2/310: ADBL
+2025-03-10 22:53:49,847 - INFO - Sheet ADBL read in 1.25 seconds, rows: 50
+2025-03-10 22:53:49,847 - INFO - Reading sheet 3/310: ADBLD83
+2025-03-10 22:53:51,143 - INFO - Sheet ADBLD83 read in 1.30 seconds, rows: 50
+2025-03-10 22:53:51,144 - INFO - Reading sheet 4/310: AHL
+2025-03-10 22:53:52,441 - INFO - Sheet AHL read in 1.30 seconds, rows: 50
+2025-03-10 22:53:52,442 - INFO - Reading sheet 5/310: AHPC
+2025-03-10 22:53:53,697 - INFO - Sheet AHPC read in 1.26 seconds, rows: 50
+2025-03-10 22:53:53,698 - INFO - Reading sheet 6/310: AKJCL
+2025-03-10 22:53:54,958 - INFO - Sheet AKJCL read in 1.26 seconds, rows: 50
+2025-03-10 22:53:54,958 - INFO - Reading sheet 7/310: AKPL
+2025-03-10 22:53:56,240 - INFO - Sheet AKPL read in 1.28 seconds, rows: 50
+2025-03-10 22:53:56,240 - INFO - Reading sheet 8/310: ALBSL
+2025-03-10 22:53:57,554 - INFO - Sheet ALBSL read in 1.31 seconds, rows: 50
+2025-03-10 22:53:57,554 - INFO - Reading sheet 9/310: ALICL
+2025-03-10 22:53:58,794 - INFO - Sheet ALICL read in 1.24 seconds, rows: 50
+2025-03-10 22:53:58,794 - INFO - Reading sheet 10/310: ANLB
+2025-03-10 22:54:00,060 - INFO - Sheet ANLB read in 1.27 seconds, rows: 50
+2025-03-10 22:54:00,061 - INFO - Reading sheet 11/310: API
+2025-03-10 22:54:01,384 - INFO - Sheet API read in 1.32 seconds, rows: 50
+2025-03-10 22:54:01,384 - INFO - Reading sheet 12/310: AVYAN
+2025-03-10 22:54:02,741 - INFO - Sheet AVYAN read in 1.36 seconds, rows: 50
+2025-03-10 22:54:02,741 - INFO - Reading sheet 13/310: BARUN
+2025-03-10 22:54:04,013 - INFO - Sheet BARUN read in 1.27 seconds, rows: 50
+2025-03-10 22:54:04,014 - INFO - Reading sheet 14/310: BBC
+2025-03-10 22:54:05,279 - INFO - Sheet BBC read in 1.26 seconds, rows: 50
+2025-03-10 22:54:05,280 - INFO - Reading sheet 15/310: BEDC
+2025-03-10 22:54:06,579 - INFO - Sheet BEDC read in 1.30 seconds, rows: 50
+2025-03-10 22:54:06,579 - INFO - Reading sheet 16/310: BFC
+2025-03-10 22:54:07,865 - INFO - Sheet BFC read in 1.29 seconds, rows: 50
+2025-03-10 22:54:07,865 - INFO - Reading sheet 17/310: BGWT
+2025-03-10 22:54:09,163 - INFO - Sheet BGWT read in 1.30 seconds, rows: 50
+2025-03-10 22:54:09,164 - INFO - Reading sheet 18/310: BHDC
+2025-03-10 22:54:10,410 - INFO - Sheet BHDC read in 1.25 seconds, rows: 50
+2025-03-10 22:54:10,410 - INFO - Reading sheet 19/310: BHL
+2025-03-10 22:54:11,742 - INFO - Sheet BHL read in 1.33 seconds, rows: 50
+2025-03-10 22:54:11,743 - INFO - Reading sheet 20/310: BHPL
+2025-03-10 22:54:12,978 - INFO - Sheet BHPL read in 1.24 seconds, rows: 50
+2025-03-10 22:54:12,979 - INFO - Reading sheet 21/310: BNHC
+2025-03-10 22:54:14,271 - INFO - Sheet BNHC read in 1.29 seconds, rows: 50
+2025-03-10 22:54:14,271 - INFO - Reading sheet 22/310: BNT
+2025-03-10 22:54:15,781 - INFO - Sheet BNT read in 1.51 seconds, rows: 50
+2025-03-10 22:54:15,782 - INFO - Reading sheet 23/310: BPCL
+2025-03-10 22:54:17,111 - INFO - Sheet BPCL read in 1.33 seconds, rows: 50
+2025-03-10 22:54:17,112 - INFO - Reading sheet 24/310: C30MF
+2025-03-10 22:54:18,341 - INFO - Sheet C30MF read in 1.23 seconds, rows: 50
+2025-03-10 22:54:18,342 - INFO - Reading sheet 25/310: CBBL
+2025-03-10 22:54:19,665 - INFO - Sheet CBBL read in 1.32 seconds, rows: 50
+2025-03-10 22:54:19,666 - INFO - Reading sheet 26/310: CBLD88
+2025-03-10 22:54:20,936 - INFO - Sheet CBLD88 read in 1.27 seconds, rows: 50
+2025-03-10 22:54:20,937 - INFO - Reading sheet 27/310: CCBD88
+2025-03-10 22:54:22,241 - INFO - Sheet CCBD88 read in 1.30 seconds, rows: 50
+2025-03-10 22:54:22,242 - INFO - Reading sheet 28/310: CFCL
+2025-03-10 22:54:23,549 - INFO - Sheet CFCL read in 1.31 seconds, rows: 50
+2025-03-10 22:54:23,550 - INFO - Reading sheet 29/310: CGH
+2025-03-10 22:54:24,784 - INFO - Sheet CGH read in 1.23 seconds, rows: 50
+2025-03-10 22:54:24,784 - INFO - Reading sheet 30/310: CHCL
+2025-03-10 22:54:26,113 - INFO - Sheet CHCL read in 1.33 seconds, rows: 50
+2025-03-10 22:54:26,114 - INFO - Reading sheet 31/310: CHDC
+2025-03-10 22:54:27,408 - INFO - Sheet CHDC read in 1.29 seconds, rows: 50
+2025-03-10 22:54:27,408 - INFO - Reading sheet 32/310: CHL
+2025-03-10 22:54:28,714 - INFO - Sheet CHL read in 1.30 seconds, rows: 50
+2025-03-10 22:54:28,715 - INFO - Reading sheet 33/310: CIT
+2025-03-10 22:54:29,976 - INFO - Sheet CIT read in 1.26 seconds, rows: 50
+2025-03-10 22:54:29,976 - INFO - Reading sheet 34/310: CITY
+2025-03-10 22:54:31,217 - INFO - Sheet CITY read in 1.24 seconds, rows: 50
+2025-03-10 22:54:31,218 - INFO - Reading sheet 35/310: CKHL
+2025-03-10 22:54:32,538 - INFO - Sheet CKHL read in 1.32 seconds, rows: 50
+2025-03-10 22:54:32,539 - INFO - Reading sheet 36/310: CLI
+2025-03-10 22:54:33,828 - INFO - Sheet CLI read in 1.29 seconds, rows: 50
+2025-03-10 22:54:33,830 - INFO - Reading sheet 37/310: CMF2
+2025-03-10 22:54:35,101 - INFO - Sheet CMF2 read in 1.27 seconds, rows: 50
+2025-03-10 22:54:35,102 - INFO - Reading sheet 38/310: CORBL
+2025-03-10 22:54:36,401 - INFO - Sheet CORBL read in 1.30 seconds, rows: 50
+2025-03-10 22:54:36,401 - INFO - Reading sheet 39/310: CYCL
+2025-03-10 22:54:37,665 - INFO - Sheet CYCL read in 1.26 seconds, rows: 50
+2025-03-10 22:54:37,666 - INFO - Reading sheet 40/310: CZBIL
+2025-03-10 22:54:38,960 - INFO - Sheet CZBIL read in 1.29 seconds, rows: 50
+2025-03-10 22:54:38,961 - INFO - Reading sheet 41/310: DDBL
+2025-03-10 22:54:40,210 - INFO - Sheet DDBL read in 1.25 seconds, rows: 50
+2025-03-10 22:54:40,210 - INFO - Reading sheet 42/310: DHPL
+2025-03-10 22:54:41,554 - INFO - Sheet DHPL read in 1.34 seconds, rows: 50
+2025-03-10 22:54:41,555 - INFO - Reading sheet 43/310: DLBS
+2025-03-10 22:54:42,788 - INFO - Sheet DLBS read in 1.23 seconds, rows: 50
+2025-03-10 22:54:42,788 - INFO - Reading sheet 44/310: DOLTI
+2025-03-10 22:54:44,049 - INFO - Sheet DOLTI read in 1.26 seconds, rows: 50
+2025-03-10 22:54:44,049 - INFO - Reading sheet 45/310: DORDI
+2025-03-10 22:54:45,342 - INFO - Sheet DORDI read in 1.29 seconds, rows: 50
+2025-03-10 22:54:45,342 - INFO - Reading sheet 46/310: EBL
+2025-03-10 22:54:46,582 - INFO - Sheet EBL read in 1.24 seconds, rows: 50
+2025-03-10 22:54:46,583 - INFO - Reading sheet 47/310: EBLD85
+2025-03-10 22:54:47,918 - INFO - Sheet EBLD85 read in 1.33 seconds, rows: 50
+2025-03-10 22:54:47,918 - INFO - Reading sheet 48/310: EBLD86
+2025-03-10 22:54:49,201 - INFO - Sheet EBLD86 read in 1.28 seconds, rows: 50
+2025-03-10 22:54:49,201 - INFO - Reading sheet 49/310: EDBL
+2025-03-10 22:54:50,430 - INFO - Sheet EDBL read in 1.23 seconds, rows: 50
+2025-03-10 22:54:50,430 - INFO - Reading sheet 50/310: EHPL
+2025-03-10 22:54:51,705 - INFO - Sheet EHPL read in 1.27 seconds, rows: 50
+2025-03-10 22:54:51,706 - INFO - Reading sheet 51/310: ENL
+2025-03-10 22:54:52,937 - INFO - Sheet ENL read in 1.23 seconds, rows: 50
+2025-03-10 22:54:52,938 - INFO - Reading sheet 52/310: FMDBL
+2025-03-10 22:54:54,311 - INFO - Sheet FMDBL read in 1.37 seconds, rows: 50
+2025-03-10 22:54:54,311 - INFO - Reading sheet 53/310: FOWAD
+2025-03-10 22:54:55,572 - INFO - Sheet FOWAD read in 1.26 seconds, rows: 50
+2025-03-10 22:54:55,573 - INFO - Reading sheet 54/310: GBBL
+2025-03-10 22:54:56,849 - INFO - Sheet GBBL read in 1.28 seconds, rows: 50
+2025-03-10 22:54:56,850 - INFO - Reading sheet 55/310: GBILD86_87
+2025-03-10 22:54:58,153 - INFO - Sheet GBILD86_87 read in 1.30 seconds, rows: 50
+2025-03-10 22:54:58,154 - INFO - Reading sheet 56/310: GBIME
+2025-03-10 22:54:59,406 - INFO - Sheet GBIME read in 1.25 seconds, rows: 50
+2025-03-10 22:54:59,407 - INFO - Reading sheet 57/310: GBLBS
+2025-03-10 22:55:00,738 - INFO - Sheet GBLBS read in 1.33 seconds, rows: 50
+2025-03-10 22:55:00,738 - INFO - Reading sheet 58/310: GCIL
+2025-03-10 22:55:02,022 - INFO - Sheet GCIL read in 1.28 seconds, rows: 50
+2025-03-10 22:55:02,022 - INFO - Reading sheet 59/310: GFCL
+2025-03-10 22:55:03,254 - INFO - Sheet GFCL read in 1.23 seconds, rows: 50
+2025-03-10 22:55:03,255 - INFO - Reading sheet 60/310: GHL
+2025-03-10 22:55:04,577 - INFO - Sheet GHL read in 1.32 seconds, rows: 50
+2025-03-10 22:55:04,578 - INFO - Reading sheet 61/310: GIBF1
+2025-03-10 22:55:05,832 - INFO - Sheet GIBF1 read in 1.25 seconds, rows: 50
+2025-03-10 22:55:05,833 - INFO - Reading sheet 62/310: GILB
+2025-03-10 22:55:07,181 - INFO - Sheet GILB read in 1.35 seconds, rows: 50
+2025-03-10 22:55:07,182 - INFO - Reading sheet 63/310: GLBSL
+2025-03-10 22:55:08,451 - INFO - Sheet GLBSL read in 1.27 seconds, rows: 50
+2025-03-10 22:55:08,451 - INFO - Reading sheet 64/310: GLH
+2025-03-10 22:55:09,696 - INFO - Sheet GLH read in 1.24 seconds, rows: 50
+2025-03-10 22:55:09,697 - INFO - Reading sheet 65/310: GMFBS
+2025-03-10 22:55:11,022 - INFO - Sheet GMFBS read in 1.32 seconds, rows: 50
+2025-03-10 22:55:11,022 - INFO - Reading sheet 66/310: GMFIL
+2025-03-10 22:55:12,627 - INFO - Sheet GMFIL read in 1.60 seconds, rows: 50
+2025-03-10 22:55:12,627 - INFO - Reading sheet 67/310: GMLI
+2025-03-10 22:55:13,928 - INFO - Sheet GMLI read in 1.30 seconds, rows: 18
+2025-03-10 22:55:13,928 - INFO - Reading sheet 68/310: GRDBL
+2025-03-10 22:55:15,209 - INFO - Sheet GRDBL read in 1.28 seconds, rows: 50
+2025-03-10 22:55:15,209 - INFO - Reading sheet 69/310: GSY
+2025-03-10 22:55:16,482 - INFO - Sheet GSY read in 1.27 seconds, rows: 10
+2025-03-10 22:55:16,483 - INFO - Reading sheet 70/310: GUFL
+2025-03-10 22:55:17,811 - INFO - Sheet GUFL read in 1.33 seconds, rows: 50
+2025-03-10 22:55:17,812 - INFO - Reading sheet 71/310: GVL
+2025-03-10 22:55:19,325 - INFO - Sheet GVL read in 1.51 seconds, rows: 50
+2025-03-10 22:55:19,326 - INFO - Reading sheet 72/310: H8020
+2025-03-10 22:55:20,642 - INFO - Sheet H8020 read in 1.32 seconds, rows: 50
+2025-03-10 22:55:20,642 - INFO - Reading sheet 73/310: HATHY
+2025-03-10 22:55:21,953 - INFO - Sheet HATHY read in 1.31 seconds, rows: 50
+2025-03-10 22:55:21,954 - INFO - Reading sheet 74/310: HBL
+2025-03-10 22:55:23,277 - INFO - Sheet HBL read in 1.32 seconds, rows: 50
+2025-03-10 22:55:23,278 - INFO - Reading sheet 75/310: HDHPC
+2025-03-10 22:55:24,553 - INFO - Sheet HDHPC read in 1.27 seconds, rows: 50
+2025-03-10 22:55:24,553 - INFO - Reading sheet 76/310: HDL
+2025-03-10 22:55:25,914 - INFO - Sheet HDL read in 1.36 seconds, rows: 50
+2025-03-10 22:55:25,914 - INFO - Reading sheet 77/310: HEI
+2025-03-10 22:55:27,169 - INFO - Sheet HEI read in 1.25 seconds, rows: 50
+2025-03-10 22:55:27,169 - INFO - Reading sheet 78/310: HEIP
+2025-03-10 22:55:28,468 - INFO - Sheet HEIP read in 1.30 seconds, rows: 50
+2025-03-10 22:55:28,468 - INFO - Reading sheet 79/310: HHL
+2025-03-10 22:55:29,753 - INFO - Sheet HHL read in 1.29 seconds, rows: 50
+2025-03-10 22:55:29,754 - INFO - Reading sheet 80/310: HIDCL
+2025-03-10 22:55:31,019 - INFO - Sheet HIDCL read in 1.26 seconds, rows: 50
+2025-03-10 22:55:31,020 - INFO - Reading sheet 81/310: HIDCLP
+2025-03-10 22:55:32,373 - INFO - Sheet HIDCLP read in 1.35 seconds, rows: 50
+2025-03-10 22:55:32,374 - INFO - Reading sheet 82/310: HLBSL
+2025-03-10 22:55:33,647 - INFO - Sheet HLBSL read in 1.27 seconds, rows: 50
+2025-03-10 22:55:33,647 - INFO - Reading sheet 83/310: HLI
+2025-03-10 22:55:34,961 - INFO - Sheet HLI read in 1.31 seconds, rows: 50
+2025-03-10 22:55:34,961 - INFO - Reading sheet 84/310: HPPL
+2025-03-10 22:55:36,292 - INFO - Sheet HPPL read in 1.33 seconds, rows: 50
+2025-03-10 22:55:36,293 - INFO - Reading sheet 85/310: HRL
+2025-03-10 22:55:37,605 - INFO - Sheet HRL read in 1.31 seconds, rows: 50
+2025-03-10 22:55:37,606 - INFO - Reading sheet 86/310: HURJA
+2025-03-10 22:55:38,913 - INFO - Sheet HURJA read in 1.31 seconds, rows: 50
+2025-03-10 22:55:38,913 - INFO - Reading sheet 87/310: ICFC
+2025-03-10 22:55:40,212 - INFO - Sheet ICFC read in 1.30 seconds, rows: 50
+2025-03-10 22:55:40,213 - INFO - Reading sheet 88/310: IGI
+2025-03-10 22:55:41,490 - INFO - Sheet IGI read in 1.28 seconds, rows: 50
+2025-03-10 22:55:41,491 - INFO - Reading sheet 89/310: IHL
+2025-03-10 22:55:42,796 - INFO - Sheet IHL read in 1.30 seconds, rows: 50
+2025-03-10 22:55:42,796 - INFO - Reading sheet 90/310: ILBS
+2025-03-10 22:55:44,073 - INFO - Sheet ILBS read in 1.28 seconds, rows: 50
+2025-03-10 22:55:44,073 - INFO - Reading sheet 91/310: ILI
+2025-03-10 22:55:45,428 - INFO - Sheet ILI read in 1.35 seconds, rows: 50
+2025-03-10 22:55:45,429 - INFO - Reading sheet 92/310: JBBL
+2025-03-10 22:55:46,707 - INFO - Sheet JBBL read in 1.28 seconds, rows: 50
+2025-03-10 22:55:46,708 - INFO - Reading sheet 93/310: JBLB
+2025-03-10 22:55:48,032 - INFO - Sheet JBLB read in 1.32 seconds, rows: 50
+2025-03-10 22:55:48,033 - INFO - Reading sheet 94/310: JFL
+2025-03-10 22:55:49,326 - INFO - Sheet JFL read in 1.29 seconds, rows: 50
+2025-03-10 22:55:49,327 - INFO - Reading sheet 95/310: JOSHI
+2025-03-10 22:55:50,626 - INFO - Sheet JOSHI read in 1.30 seconds, rows: 50
+2025-03-10 22:55:50,627 - INFO - Reading sheet 96/310: JSLBB
+2025-03-10 22:55:51,941 - INFO - Sheet JSLBB read in 1.31 seconds, rows: 50
+2025-03-10 22:55:51,942 - INFO - Reading sheet 97/310: KBL
+2025-03-10 22:55:53,283 - INFO - Sheet KBL read in 1.34 seconds, rows: 50
+2025-03-10 22:55:53,284 - INFO - Reading sheet 98/310: KBLD86
+2025-03-10 22:55:54,554 - INFO - Sheet KBLD86 read in 1.27 seconds, rows: 50
+2025-03-10 22:55:54,555 - INFO - Reading sheet 99/310: KBLD89
+2025-03-10 22:55:55,863 - INFO - Sheet KBLD89 read in 1.31 seconds, rows: 50
+2025-03-10 22:55:55,864 - INFO - Reading sheet 100/310: KBLD90
+2025-03-10 22:55:57,137 - INFO - Sheet KBLD90 read in 1.27 seconds, rows: 50
+2025-03-10 22:55:57,137 - INFO - Reading sheet 101/310: KBSH
+2025-03-10 22:55:58,481 - INFO - Sheet KBSH read in 1.34 seconds, rows: 50
+2025-03-10 22:55:58,482 - INFO - Reading sheet 102/310: KDBY
+2025-03-10 22:55:59,748 - INFO - Sheet KDBY read in 1.27 seconds, rows: 50
+2025-03-10 22:55:59,748 - INFO - Reading sheet 103/310: KDL
+2025-03-10 22:56:01,080 - INFO - Sheet KDL read in 1.33 seconds, rows: 50
+2025-03-10 22:56:01,081 - INFO - Reading sheet 104/310: KEF
+2025-03-10 22:56:02,328 - INFO - Sheet KEF read in 1.25 seconds, rows: 50
+2025-03-10 22:56:02,328 - INFO - Reading sheet 105/310: KKHC
+2025-03-10 22:56:03,628 - INFO - Sheet KKHC read in 1.30 seconds, rows: 50
+2025-03-10 22:56:03,629 - INFO - Reading sheet 106/310: KMCDB
+2025-03-10 22:56:04,928 - INFO - Sheet KMCDB read in 1.30 seconds, rows: 50
+2025-03-10 22:56:04,928 - INFO - Reading sheet 107/310: KPCL
+2025-03-10 22:56:06,267 - INFO - Sheet KPCL read in 1.34 seconds, rows: 50
+2025-03-10 22:56:06,267 - INFO - Reading sheet 108/310: KSBBL
+2025-03-10 22:56:07,550 - INFO - Sheet KSBBL read in 1.28 seconds, rows: 50
+2025-03-10 22:56:07,550 - INFO - Reading sheet 109/310: KSBBLD87
+2025-03-10 22:56:08,871 - INFO - Sheet KSBBLD87 read in 1.32 seconds, rows: 50
+2025-03-10 22:56:08,872 - INFO - Reading sheet 110/310: KSY
+2025-03-10 22:56:10,141 - INFO - Sheet KSY read in 1.27 seconds, rows: 50
+2025-03-10 22:56:10,142 - INFO - Reading sheet 111/310: LBBL
+2025-03-10 22:56:11,728 - INFO - Sheet LBBL read in 1.59 seconds, rows: 50
+2025-03-10 22:56:11,729 - INFO - Reading sheet 112/310: LBBLD89
+2025-03-10 22:56:13,210 - INFO - Sheet LBBLD89 read in 1.48 seconds, rows: 50
+2025-03-10 22:56:13,211 - INFO - Reading sheet 113/310: LEC
+2025-03-10 22:56:14,597 - INFO - Sheet LEC read in 1.39 seconds, rows: 50
+2025-03-10 22:56:14,598 - INFO - Reading sheet 114/310: LICN
+2025-03-10 22:56:15,882 - INFO - Sheet LICN read in 1.28 seconds, rows: 50
+2025-03-10 22:56:15,883 - INFO - Reading sheet 115/310: LLBS
+2025-03-10 22:56:17,226 - INFO - Sheet LLBS read in 1.34 seconds, rows: 50
+2025-03-10 22:56:17,226 - INFO - Reading sheet 116/310: LSL
+2025-03-10 22:56:18,509 - INFO - Sheet LSL read in 1.28 seconds, rows: 50
+2025-03-10 22:56:18,510 - INFO - Reading sheet 117/310: LUK
+2025-03-10 22:56:19,830 - INFO - Sheet LUK read in 1.32 seconds, rows: 50
+2025-03-10 22:56:19,830 - INFO - Reading sheet 118/310: LVF2
+2025-03-10 22:56:21,153 - INFO - Sheet LVF2 read in 1.32 seconds, rows: 50
+2025-03-10 22:56:21,153 - INFO - Reading sheet 119/310: MAKAR
+2025-03-10 22:56:22,534 - INFO - Sheet MAKAR read in 1.38 seconds, rows: 50
+2025-03-10 22:56:22,535 - INFO - Reading sheet 120/310: MANDU
+2025-03-10 22:56:23,816 - INFO - Sheet MANDU read in 1.28 seconds, rows: 50
+2025-03-10 22:56:23,816 - INFO - Reading sheet 121/310: MATRI
+2025-03-10 22:56:25,342 - INFO - Sheet MATRI read in 1.52 seconds, rows: 50
+2025-03-10 22:56:25,342 - INFO - Reading sheet 122/310: MATRIP
+2025-03-10 22:56:26,628 - INFO - Sheet MATRIP read in 1.28 seconds, rows: 5
+2025-03-10 22:56:26,628 - INFO - Reading sheet 123/310: MBJC
+2025-03-10 22:56:27,975 - INFO - Sheet MBJC read in 1.35 seconds, rows: 50
+2025-03-10 22:56:27,976 - INFO - Reading sheet 124/310: MBL
+2025-03-10 22:56:29,267 - INFO - Sheet MBL read in 1.29 seconds, rows: 50
+2025-03-10 22:56:29,268 - INFO - Reading sheet 125/310: MCHL
+2025-03-10 22:56:30,635 - INFO - Sheet MCHL read in 1.37 seconds, rows: 50
+2025-03-10 22:56:30,636 - INFO - Reading sheet 126/310: MDB
+2025-03-10 22:56:31,968 - INFO - Sheet MDB read in 1.33 seconds, rows: 50
+2025-03-10 22:56:31,968 - INFO - Reading sheet 127/310: MEHL
+2025-03-10 22:56:33,306 - INFO - Sheet MEHL read in 1.34 seconds, rows: 50
+2025-03-10 22:56:33,306 - INFO - Reading sheet 128/310: MEL
+2025-03-10 22:56:34,563 - INFO - Sheet MEL read in 1.26 seconds, rows: 50
+2025-03-10 22:56:34,563 - INFO - Reading sheet 129/310: MEN
+2025-03-10 22:56:35,876 - INFO - Sheet MEN read in 1.31 seconds, rows: 50
+2025-03-10 22:56:35,877 - INFO - Reading sheet 130/310: MERO
+2025-03-10 22:56:37,323 - INFO - Sheet MERO read in 1.45 seconds, rows: 50
+2025-03-10 22:56:37,324 - INFO - Reading sheet 131/310: MFIL
+2025-03-10 22:56:38,662 - INFO - Sheet MFIL read in 1.34 seconds, rows: 50
+2025-03-10 22:56:38,663 - INFO - Reading sheet 132/310: MHCL
+2025-03-10 22:56:39,940 - INFO - Sheet MHCL read in 1.28 seconds, rows: 50
+2025-03-10 22:56:39,941 - INFO - Reading sheet 133/310: MHL
+2025-03-10 22:56:41,756 - INFO - Sheet MHL read in 1.82 seconds, rows: 50
+2025-03-10 22:56:41,758 - INFO - Reading sheet 134/310: MHNL
+2025-03-10 22:56:43,072 - INFO - Sheet MHNL read in 1.31 seconds, rows: 50
+2025-03-10 22:56:43,072 - INFO - Reading sheet 135/310: MKCL
+2025-03-10 22:56:44,391 - INFO - Sheet MKCL read in 1.32 seconds, rows: 50
+2025-03-10 22:56:44,391 - INFO - Reading sheet 136/310: MKHC
+2025-03-10 22:56:45,724 - INFO - Sheet MKHC read in 1.33 seconds, rows: 50
+2025-03-10 22:56:45,724 - INFO - Reading sheet 137/310: MKHL
+2025-03-10 22:56:47,080 - INFO - Sheet MKHL read in 1.36 seconds, rows: 50
+2025-03-10 22:56:47,081 - INFO - Reading sheet 138/310: MKJC
+2025-03-10 22:56:48,379 - INFO - Sheet MKJC read in 1.30 seconds, rows: 50
+2025-03-10 22:56:48,380 - INFO - Reading sheet 139/310: MLBBL
+2025-03-10 22:56:49,722 - INFO - Sheet MLBBL read in 1.34 seconds, rows: 50
+2025-03-10 22:56:49,722 - INFO - Reading sheet 140/310: MLBL
+2025-03-10 22:56:50,986 - INFO - Sheet MLBL read in 1.26 seconds, rows: 50
+2025-03-10 22:56:50,986 - INFO - Reading sheet 141/310: MLBS
+2025-03-10 22:56:52,297 - INFO - Sheet MLBS read in 1.31 seconds, rows: 50
+2025-03-10 22:56:52,297 - INFO - Reading sheet 142/310: MLBSL
+2025-03-10 22:56:53,629 - INFO - Sheet MLBSL read in 1.33 seconds, rows: 50
+2025-03-10 22:56:53,629 - INFO - Reading sheet 143/310: MMF1
+2025-03-10 22:56:54,981 - INFO - Sheet MMF1 read in 1.35 seconds, rows: 50
+2025-03-10 22:56:54,981 - INFO - Reading sheet 144/310: MMKJL
+2025-03-10 22:56:56,289 - INFO - Sheet MMKJL read in 1.31 seconds, rows: 50
+2025-03-10 22:56:56,289 - INFO - Reading sheet 145/310: MNBBL
+2025-03-10 22:56:57,607 - INFO - Sheet MNBBL read in 1.32 seconds, rows: 50
+2025-03-10 22:56:57,607 - INFO - Reading sheet 146/310: MNMF1
+2025-03-10 22:56:58,901 - INFO - Sheet MNMF1 read in 1.29 seconds, rows: 32
+2025-03-10 22:56:58,902 - INFO - Reading sheet 147/310: MPFL
+2025-03-10 22:57:00,288 - INFO - Sheet MPFL read in 1.39 seconds, rows: 50
+2025-03-10 22:57:00,289 - INFO - Reading sheet 148/310: MSHL
+2025-03-10 22:57:01,558 - INFO - Sheet MSHL read in 1.27 seconds, rows: 50
+2025-03-10 22:57:01,558 - INFO - Reading sheet 149/310: MSLB
+2025-03-10 22:57:02,912 - INFO - Sheet MSLB read in 1.35 seconds, rows: 50
+2025-03-10 22:57:02,912 - INFO - Reading sheet 150/310: NABBC
+2025-03-10 22:57:04,205 - INFO - Sheet NABBC read in 1.29 seconds, rows: 50
+2025-03-10 22:57:04,206 - INFO - Reading sheet 151/310: NABIL
+2025-03-10 22:57:05,556 - INFO - Sheet NABIL read in 1.35 seconds, rows: 50
+2025-03-10 22:57:05,557 - INFO - Reading sheet 152/310: NABILD87
+2025-03-10 22:57:06,822 - INFO - Sheet NABILD87 read in 1.27 seconds, rows: 50
+2025-03-10 22:57:06,822 - INFO - Reading sheet 153/310: NADEP
+2025-03-10 22:57:08,155 - INFO - Sheet NADEP read in 1.33 seconds, rows: 50
+2025-03-10 22:57:08,156 - INFO - Reading sheet 154/310: NBF2
+2025-03-10 22:57:09,455 - INFO - Sheet NBF2 read in 1.30 seconds, rows: 50
+2025-03-10 22:57:09,455 - INFO - Reading sheet 155/310: NBF3
+2025-03-10 22:57:10,760 - INFO - Sheet NBF3 read in 1.30 seconds, rows: 50
+2025-03-10 22:57:10,760 - INFO - Reading sheet 156/310: NBL
+2025-03-10 22:57:12,124 - INFO - Sheet NBL read in 1.36 seconds, rows: 50
+2025-03-10 22:57:12,125 - INFO - Reading sheet 157/310: NBLD82
+2025-03-10 22:57:13,571 - INFO - Sheet NBLD82 read in 1.45 seconds, rows: 50
+2025-03-10 22:57:13,571 - INFO - Reading sheet 158/310: NBLD87
+2025-03-10 22:57:14,833 - INFO - Sheet NBLD87 read in 1.26 seconds, rows: 50
+2025-03-10 22:57:14,833 - INFO - Reading sheet 159/310: NESDO
+2025-03-10 22:57:16,258 - INFO - Sheet NESDO read in 1.42 seconds, rows: 50
+2025-03-10 22:57:16,258 - INFO - Reading sheet 160/310: NFS
+2025-03-10 22:57:17,575 - INFO - Sheet NFS read in 1.32 seconds, rows: 50
+2025-03-10 22:57:17,576 - INFO - Reading sheet 161/310: NGPL
+2025-03-10 22:57:19,235 - INFO - Sheet NGPL read in 1.66 seconds, rows: 50
+2025-03-10 22:57:19,235 - INFO - Reading sheet 162/310: NHDL
+2025-03-10 22:57:20,891 - INFO - Sheet NHDL read in 1.66 seconds, rows: 50
+2025-03-10 22:57:20,891 - INFO - Reading sheet 163/310: NHPC
+2025-03-10 22:57:22,202 - INFO - Sheet NHPC read in 1.31 seconds, rows: 50
+2025-03-10 22:57:22,202 - INFO - Reading sheet 164/310: NIBLGF
+2025-03-10 22:57:23,477 - INFO - Sheet NIBLGF read in 1.27 seconds, rows: 50
+2025-03-10 22:57:23,477 - INFO - Reading sheet 165/310: NIBLSTF
+2025-03-10 22:57:24,792 - INFO - Sheet NIBLSTF read in 1.31 seconds, rows: 50
+2025-03-10 22:57:24,793 - INFO - Reading sheet 166/310: NIBSF2
+2025-03-10 22:57:26,606 - INFO - Sheet NIBSF2 read in 1.81 seconds, rows: 50
+2025-03-10 22:57:26,607 - INFO - Reading sheet 167/310: NICA
+2025-03-10 22:57:27,954 - INFO - Sheet NICA read in 1.35 seconds, rows: 50
+2025-03-10 22:57:27,954 - INFO - Reading sheet 168/310: NICAD8283
+2025-03-10 22:57:29,260 - INFO - Sheet NICAD8283 read in 1.30 seconds, rows: 50
+2025-03-10 22:57:29,260 - INFO - Reading sheet 169/310: NICAD85_86
+2025-03-10 22:57:30,616 - INFO - Sheet NICAD85_86 read in 1.36 seconds, rows: 50
+2025-03-10 22:57:30,617 - INFO - Reading sheet 170/310: NICBF
+2025-03-10 22:57:32,035 - INFO - Sheet NICBF read in 1.42 seconds, rows: 50
+2025-03-10 22:57:32,036 - INFO - Reading sheet 171/310: NICD88
+2025-03-10 22:57:33,401 - INFO - Sheet NICD88 read in 1.36 seconds, rows: 50
+2025-03-10 22:57:33,401 - INFO - Reading sheet 172/310: NICFC
+2025-03-10 22:57:34,655 - INFO - Sheet NICFC read in 1.25 seconds, rows: 50
+2025-03-10 22:57:34,655 - INFO - Reading sheet 173/310: NICGF
+2025-03-10 22:57:36,020 - INFO - Sheet NICGF read in 1.36 seconds, rows: 50
+2025-03-10 22:57:36,020 - INFO - Reading sheet 174/310: NICGF2
+2025-03-10 22:57:37,281 - INFO - Sheet NICGF2 read in 1.26 seconds, rows: 50
+2025-03-10 22:57:37,282 - INFO - Reading sheet 175/310: NICL
+2025-03-10 22:57:38,612 - INFO - Sheet NICL read in 1.33 seconds, rows: 50
+2025-03-10 22:57:38,612 - INFO - Reading sheet 176/310: NICLBSL
+2025-03-10 22:57:39,882 - INFO - Sheet NICLBSL read in 1.27 seconds, rows: 50
+2025-03-10 22:57:39,882 - INFO - Reading sheet 177/310: NICSF
+2025-03-10 22:57:41,237 - INFO - Sheet NICSF read in 1.35 seconds, rows: 50
+2025-03-10 22:57:41,238 - INFO - Reading sheet 178/310: NIFRA
+2025-03-10 22:57:42,587 - INFO - Sheet NIFRA read in 1.35 seconds, rows: 50
+2025-03-10 22:57:42,588 - INFO - Reading sheet 179/310: NIL
+2025-03-10 22:57:43,915 - INFO - Sheet NIL read in 1.33 seconds, rows: 50
+2025-03-10 22:57:43,916 - INFO - Reading sheet 180/310: NIMB
+2025-03-10 22:57:45,178 - INFO - Sheet NIMB read in 1.26 seconds, rows: 50
+2025-03-10 22:57:45,179 - INFO - Reading sheet 181/310: NIMBPO
+2025-03-10 22:57:46,485 - INFO - Sheet NIMBPO read in 1.31 seconds, rows: 50
+2025-03-10 22:57:46,486 - INFO - Reading sheet 182/310: NLG
+2025-03-10 22:57:47,807 - INFO - Sheet NLG read in 1.32 seconds, rows: 50
+2025-03-10 22:57:47,808 - INFO - Reading sheet 183/310: NLIC
+2025-03-10 22:57:49,136 - INFO - Sheet NLIC read in 1.33 seconds, rows: 50
+2025-03-10 22:57:49,136 - INFO - Reading sheet 184/310: NLICL
+2025-03-10 22:57:50,446 - INFO - Sheet NLICL read in 1.31 seconds, rows: 50
+2025-03-10 22:57:50,447 - INFO - Reading sheet 185/310: NMB
+2025-03-10 22:57:51,793 - INFO - Sheet NMB read in 1.35 seconds, rows: 50
+2025-03-10 22:57:51,793 - INFO - Reading sheet 186/310: NMB50
+2025-03-10 22:57:53,092 - INFO - Sheet NMB50 read in 1.30 seconds, rows: 50
+2025-03-10 22:57:53,093 - INFO - Reading sheet 187/310: NMBD2085
+2025-03-10 22:57:54,642 - INFO - Sheet NMBD2085 read in 1.55 seconds, rows: 50
+2025-03-10 22:57:54,643 - INFO - Reading sheet 188/310: NMBMF
+2025-03-10 22:57:56,077 - INFO - Sheet NMBMF read in 1.43 seconds, rows: 50
+2025-03-10 22:57:56,078 - INFO - Reading sheet 189/310: NMFBS
+2025-03-10 22:57:57,400 - INFO - Sheet NMFBS read in 1.32 seconds, rows: 50
+2025-03-10 22:57:57,401 - INFO - Reading sheet 190/310: NMLBBL
+2025-03-10 22:57:58,719 - INFO - Sheet NMLBBL read in 1.32 seconds, rows: 50
+2025-03-10 22:57:58,720 - INFO - Reading sheet 191/310: NRIC
+2025-03-10 22:58:00,067 - INFO - Sheet NRIC read in 1.35 seconds, rows: 50
+2025-03-10 22:58:00,068 - INFO - Reading sheet 192/310: NRM
+2025-03-10 22:58:01,360 - INFO - Sheet NRM read in 1.29 seconds, rows: 50
+2025-03-10 22:58:01,360 - INFO - Reading sheet 193/310: NRN
+2025-03-10 22:58:02,691 - INFO - Sheet NRN read in 1.33 seconds, rows: 50
+2025-03-10 22:58:02,691 - INFO - Reading sheet 194/310: NSIF2
+2025-03-10 22:58:04,038 - INFO - Sheet NSIF2 read in 1.35 seconds, rows: 50
+2025-03-10 22:58:04,039 - INFO - Reading sheet 195/310: NTC
+2025-03-10 22:58:05,369 - INFO - Sheet NTC read in 1.33 seconds, rows: 50
+2025-03-10 22:58:05,370 - INFO - Reading sheet 196/310: NUBL
+2025-03-10 22:58:06,639 - INFO - Sheet NUBL read in 1.27 seconds, rows: 50
+2025-03-10 22:58:06,639 - INFO - Reading sheet 197/310: NWCL
+2025-03-10 22:58:07,967 - INFO - Sheet NWCL read in 1.33 seconds, rows: 50
+2025-03-10 22:58:07,968 - INFO - Reading sheet 198/310: NYADI
+2025-03-10 22:58:09,249 - INFO - Sheet NYADI read in 1.28 seconds, rows: 50
+2025-03-10 22:58:09,249 - INFO - Reading sheet 199/310: OHL
+2025-03-10 22:58:10,683 - INFO - Sheet OHL read in 1.43 seconds, rows: 50
+2025-03-10 22:58:10,683 - INFO - Reading sheet 200/310: PBD88
+2025-03-10 22:58:12,446 - INFO - Sheet PBD88 read in 1.76 seconds, rows: 50
+2025-03-10 22:58:12,447 - INFO - Reading sheet 201/310: PBLD87
+2025-03-10 22:58:14,291 - INFO - Sheet PBLD87 read in 1.84 seconds, rows: 50
+2025-03-10 22:58:14,292 - INFO - Reading sheet 202/310: PCBL
+2025-03-10 22:58:16,054 - INFO - Sheet PCBL read in 1.76 seconds, rows: 50
+2025-03-10 22:58:16,055 - INFO - Reading sheet 203/310: PFL
+2025-03-10 22:58:17,801 - INFO - Sheet PFL read in 1.74 seconds, rows: 50
+2025-03-10 22:58:17,802 - INFO - Reading sheet 204/310: PHCL
+2025-03-10 22:58:19,294 - INFO - Sheet PHCL read in 1.49 seconds, rows: 50
+2025-03-10 22:58:19,296 - INFO - Reading sheet 205/310: PMHPL
+2025-03-10 22:58:20,902 - INFO - Sheet PMHPL read in 1.61 seconds, rows: 50
+2025-03-10 22:58:20,903 - INFO - Reading sheet 206/310: PMLI
+2025-03-10 22:58:22,410 - INFO - Sheet PMLI read in 1.51 seconds, rows: 50
+2025-03-10 22:58:22,410 - INFO - Reading sheet 207/310: PPCL
+2025-03-10 22:58:23,969 - INFO - Sheet PPCL read in 1.56 seconds, rows: 50
+2025-03-10 22:58:23,969 - INFO - Reading sheet 208/310: PPL
+2025-03-10 22:58:25,551 - INFO - Sheet PPL read in 1.58 seconds, rows: 50
+2025-03-10 22:58:25,552 - INFO - Reading sheet 209/310: PRIN
+2025-03-10 22:58:27,230 - INFO - Sheet PRIN read in 1.68 seconds, rows: 50
+2025-03-10 22:58:27,230 - INFO - Reading sheet 210/310: PROFL
+2025-03-10 22:58:28,726 - INFO - Sheet PROFL read in 1.49 seconds, rows: 50
+2025-03-10 22:58:28,726 - INFO - Reading sheet 211/310: PRSF
+2025-03-10 22:58:30,466 - INFO - Sheet PRSF read in 1.74 seconds, rows: 50
+2025-03-10 22:58:30,467 - INFO - Reading sheet 212/310: PRVU
+2025-03-10 22:58:32,315 - INFO - Sheet PRVU read in 1.85 seconds, rows: 50
+2025-03-10 22:58:32,316 - INFO - Reading sheet 213/310: PRVUPO
+2025-03-10 22:58:33,978 - INFO - Sheet PRVUPO read in 1.66 seconds, rows: 50
+2025-03-10 22:58:33,979 - INFO - Reading sheet 214/310: PSF
+2025-03-10 22:58:35,554 - INFO - Sheet PSF read in 1.58 seconds, rows: 50
+2025-03-10 22:58:35,555 - INFO - Reading sheet 215/310: RADHI
+2025-03-10 22:58:37,253 - INFO - Sheet RADHI read in 1.70 seconds, rows: 50
+2025-03-10 22:58:37,253 - INFO - Reading sheet 216/310: RAWA
+2025-03-10 22:58:38,752 - INFO - Sheet RAWA read in 1.50 seconds, rows: 50
+2025-03-10 22:58:38,753 - INFO - Reading sheet 217/310: RBBD83
+2025-03-10 22:58:40,443 - INFO - Sheet RBBD83 read in 1.69 seconds, rows: 50
+2025-03-10 22:58:40,444 - INFO - Reading sheet 218/310: RBCL
+2025-03-10 22:58:42,067 - INFO - Sheet RBCL read in 1.62 seconds, rows: 50
+2025-03-10 22:58:42,067 - INFO - Reading sheet 219/310: RBCLPO
+2025-03-10 22:58:43,791 - INFO - Sheet RBCLPO read in 1.72 seconds, rows: 50
+2025-03-10 22:58:43,791 - INFO - Reading sheet 220/310: RFPL
+2025-03-10 22:58:45,416 - INFO - Sheet RFPL read in 1.63 seconds, rows: 50
+2025-03-10 22:58:45,416 - INFO - Reading sheet 221/310: RHGCL
+2025-03-10 22:58:47,218 - INFO - Sheet RHGCL read in 1.80 seconds, rows: 50
+2025-03-10 22:58:47,218 - INFO - Reading sheet 222/310: RHPL
+2025-03-10 22:58:48,796 - INFO - Sheet RHPL read in 1.58 seconds, rows: 50
+2025-03-10 22:58:48,796 - INFO - Reading sheet 223/310: RIDI
+2025-03-10 22:58:50,470 - INFO - Sheet RIDI read in 1.67 seconds, rows: 50
+2025-03-10 22:58:50,470 - INFO - Reading sheet 224/310: RLFL
+2025-03-10 22:58:52,000 - INFO - Sheet RLFL read in 1.53 seconds, rows: 50
+2025-03-10 22:58:52,000 - INFO - Reading sheet 225/310: RMF1
+2025-03-10 22:58:53,623 - INFO - Sheet RMF1 read in 1.62 seconds, rows: 50
+2025-03-10 22:58:53,624 - INFO - Reading sheet 226/310: RMF2
+2025-03-10 22:58:55,223 - INFO - Sheet RMF2 read in 1.60 seconds, rows: 50
+2025-03-10 22:58:55,223 - INFO - Reading sheet 227/310: RNLI
+2025-03-10 22:58:56,823 - INFO - Sheet RNLI read in 1.60 seconds, rows: 50
+2025-03-10 22:58:56,823 - INFO - Reading sheet 228/310: RSDC
+2025-03-10 22:58:58,347 - INFO - Sheet RSDC read in 1.52 seconds, rows: 50
+2025-03-10 22:58:58,347 - INFO - Reading sheet 229/310: RURU
+2025-03-10 22:58:59,871 - INFO - Sheet RURU read in 1.52 seconds, rows: 50
+2025-03-10 22:58:59,872 - INFO - Reading sheet 230/310: SADBL
+2025-03-10 22:59:01,469 - INFO - Sheet SADBL read in 1.60 seconds, rows: 50
+2025-03-10 22:59:01,470 - INFO - Reading sheet 231/310: SAGF
+2025-03-10 22:59:03,034 - INFO - Sheet SAGF read in 1.56 seconds, rows: 50
+2025-03-10 22:59:03,035 - INFO - Reading sheet 232/310: SAHAS
+2025-03-10 22:59:04,580 - INFO - Sheet SAHAS read in 1.54 seconds, rows: 50
+2025-03-10 22:59:04,581 - INFO - Reading sheet 233/310: SALICO
+2025-03-10 22:59:06,215 - INFO - Sheet SALICO read in 1.63 seconds, rows: 50
+2025-03-10 22:59:06,215 - INFO - Reading sheet 234/310: SAMAJ
+2025-03-10 22:59:07,749 - INFO - Sheet SAMAJ read in 1.53 seconds, rows: 50
+2025-03-10 22:59:07,750 - INFO - Reading sheet 235/310: SANIMA
+2025-03-10 22:59:09,236 - INFO - Sheet SANIMA read in 1.49 seconds, rows: 50
+2025-03-10 22:59:09,237 - INFO - Reading sheet 236/310: SAPDBL
+2025-03-10 22:59:10,851 - INFO - Sheet SAPDBL read in 1.61 seconds, rows: 50
+2025-03-10 22:59:10,852 - INFO - Reading sheet 237/310: SARBTM
+2025-03-10 22:59:12,684 - INFO - Sheet SARBTM read in 1.83 seconds, rows: 50
+2025-03-10 22:59:12,685 - INFO - Reading sheet 238/310: SBCF
+2025-03-10 22:59:14,424 - INFO - Sheet SBCF read in 1.74 seconds, rows: 50
+2025-03-10 22:59:14,425 - INFO - Reading sheet 239/310: SBI
+2025-03-10 22:59:16,058 - INFO - Sheet SBI read in 1.63 seconds, rows: 50
+2025-03-10 22:59:16,059 - INFO - Reading sheet 240/310: SBIBD86
+2025-03-10 22:59:17,531 - INFO - Sheet SBIBD86 read in 1.47 seconds, rows: 50
+2025-03-10 22:59:17,532 - INFO - Reading sheet 241/310: SBID83
+2025-03-10 22:59:19,017 - INFO - Sheet SBID83 read in 1.49 seconds, rows: 50
+2025-03-10 22:59:19,018 - INFO - Reading sheet 242/310: SBL
+2025-03-10 22:59:20,543 - INFO - Sheet SBL read in 1.53 seconds, rows: 50
+2025-03-10 22:59:20,543 - INFO - Reading sheet 243/310: SBLD84
+2025-03-10 22:59:21,967 - INFO - Sheet SBLD84 read in 1.42 seconds, rows: 50
+2025-03-10 22:59:21,967 - INFO - Reading sheet 244/310: SBLD89
+2025-03-10 22:59:23,301 - INFO - Sheet SBLD89 read in 1.33 seconds, rows: 50
+2025-03-10 22:59:23,301 - INFO - Reading sheet 245/310: SCB
+2025-03-10 22:59:24,665 - INFO - Sheet SCB read in 1.36 seconds, rows: 50
+2025-03-10 22:59:24,665 - INFO - Reading sheet 246/310: SEF
+2025-03-10 22:59:25,968 - INFO - Sheet SEF read in 1.30 seconds, rows: 50
+2025-03-10 22:59:25,969 - INFO - Reading sheet 247/310: SFCL
+2025-03-10 22:59:27,304 - INFO - Sheet SFCL read in 1.33 seconds, rows: 50
+2025-03-10 22:59:27,305 - INFO - Reading sheet 248/310: SFEF
+2025-03-10 22:59:28,601 - INFO - Sheet SFEF read in 1.30 seconds, rows: 50
+2025-03-10 22:59:28,602 - INFO - Reading sheet 249/310: SFMF
+2025-03-10 22:59:29,947 - INFO - Sheet SFMF read in 1.35 seconds, rows: 50
+2025-03-10 22:59:29,947 - INFO - Reading sheet 250/310: SGHC
+2025-03-10 22:59:31,297 - INFO - Sheet SGHC read in 1.35 seconds, rows: 50
+2025-03-10 22:59:31,297 - INFO - Reading sheet 251/310: SGIC
+2025-03-10 22:59:32,637 - INFO - Sheet SGIC read in 1.34 seconds, rows: 50
+2025-03-10 22:59:32,637 - INFO - Reading sheet 252/310: SHEL
+2025-03-10 22:59:33,939 - INFO - Sheet SHEL read in 1.30 seconds, rows: 50
+2025-03-10 22:59:33,940 - INFO - Reading sheet 253/310: SHINE
+2025-03-10 22:59:35,262 - INFO - Sheet SHINE read in 1.32 seconds, rows: 50
+2025-03-10 22:59:35,263 - INFO - Reading sheet 254/310: SHIVM
+2025-03-10 22:59:36,535 - INFO - Sheet SHIVM read in 1.27 seconds, rows: 50
+2025-03-10 22:59:36,535 - INFO - Reading sheet 255/310: SHL
+2025-03-10 22:59:38,076 - INFO - Sheet SHL read in 1.54 seconds, rows: 50
+2025-03-10 22:59:38,076 - INFO - Reading sheet 256/310: SHLB
+2025-03-10 22:59:39,605 - INFO - Sheet SHLB read in 1.53 seconds, rows: 50
+2025-03-10 22:59:39,605 - INFO - Reading sheet 257/310: SHPC
+2025-03-10 22:59:41,147 - INFO - Sheet SHPC read in 1.54 seconds, rows: 50
+2025-03-10 22:59:41,148 - INFO - Reading sheet 258/310: SICL
+2025-03-10 22:59:42,444 - INFO - Sheet SICL read in 1.30 seconds, rows: 50
+2025-03-10 22:59:42,445 - INFO - Reading sheet 259/310: SIFC
+2025-03-10 22:59:44,064 - INFO - Sheet SIFC read in 1.62 seconds, rows: 50
+2025-03-10 22:59:44,064 - INFO - Reading sheet 260/310: SIGS2
+2025-03-10 22:59:45,566 - INFO - Sheet SIGS2 read in 1.50 seconds, rows: 50
+2025-03-10 22:59:45,566 - INFO - Reading sheet 261/310: SIGS3
+2025-03-10 22:59:47,132 - INFO - Sheet SIGS3 read in 1.56 seconds, rows: 50
+2025-03-10 22:59:47,132 - INFO - Reading sheet 262/310: SIKLES
+2025-03-10 22:59:48,611 - INFO - Sheet SIKLES read in 1.48 seconds, rows: 50
+2025-03-10 22:59:48,612 - INFO - Reading sheet 263/310: SINDU
+2025-03-10 22:59:50,176 - INFO - Sheet SINDU read in 1.56 seconds, rows: 50
+2025-03-10 22:59:50,177 - INFO - Reading sheet 264/310: SJCL
+2025-03-10 22:59:51,674 - INFO - Sheet SJCL read in 1.50 seconds, rows: 50
+2025-03-10 22:59:51,674 - INFO - Reading sheet 265/310: SJLIC
+2025-03-10 22:59:53,261 - INFO - Sheet SJLIC read in 1.59 seconds, rows: 50
+2025-03-10 22:59:53,261 - INFO - Reading sheet 266/310: SKBBL
+2025-03-10 22:59:55,232 - INFO - Sheet SKBBL read in 1.97 seconds, rows: 50
+2025-03-10 22:59:55,233 - INFO - Reading sheet 267/310: SLBBL
+2025-03-10 22:59:57,948 - INFO - Sheet SLBBL read in 2.72 seconds, rows: 50
+2025-03-10 22:59:57,948 - INFO - Reading sheet 268/310: SLBSL
+2025-03-10 23:00:01,741 - INFO - Sheet SLBSL read in 3.79 seconds, rows: 50
+2025-03-10 23:00:01,747 - INFO - Reading sheet 269/310: SLCF
+2025-03-10 23:00:05,325 - INFO - Sheet SLCF read in 3.57 seconds, rows: 50
+2025-03-10 23:00:05,326 - INFO - Reading sheet 270/310: SMATA
+2025-03-10 23:00:09,088 - INFO - Sheet SMATA read in 3.76 seconds, rows: 50
+2025-03-10 23:00:09,097 - INFO - Reading sheet 271/310: SMB
+2025-03-10 23:00:12,725 - INFO - Sheet SMB read in 3.63 seconds, rows: 50
+2025-03-10 23:00:12,737 - INFO - Reading sheet 272/310: SMFBS
+2025-03-10 23:00:15,289 - INFO - Sheet SMFBS read in 2.55 seconds, rows: 50
+2025-03-10 23:00:15,289 - INFO - Reading sheet 273/310: SMH
+2025-03-10 23:00:17,673 - INFO - Sheet SMH read in 2.38 seconds, rows: 50
+2025-03-10 23:00:17,704 - INFO - Reading sheet 274/310: SMHL
+2025-03-10 23:00:21,183 - INFO - Sheet SMHL read in 3.48 seconds, rows: 50
+2025-03-10 23:00:21,184 - INFO - Reading sheet 275/310: SMJC
+2025-03-10 23:00:22,613 - INFO - Sheet SMJC read in 1.43 seconds, rows: 50
+2025-03-10 23:00:22,613 - INFO - Reading sheet 276/310: SMPDA
+2025-03-10 23:00:23,885 - INFO - Sheet SMPDA read in 1.27 seconds, rows: 50
+2025-03-10 23:00:23,885 - INFO - Reading sheet 277/310: SNLI
+2025-03-10 23:00:25,242 - INFO - Sheet SNLI read in 1.36 seconds, rows: 50
+2025-03-10 23:00:25,242 - INFO - Reading sheet 278/310: SONA
+2025-03-10 23:00:26,622 - INFO - Sheet SONA read in 1.38 seconds, rows: 50
+2025-03-10 23:00:26,623 - INFO - Reading sheet 279/310: SPC
+2025-03-10 23:00:28,011 - INFO - Sheet SPC read in 1.39 seconds, rows: 50
+2025-03-10 23:00:28,012 - INFO - Reading sheet 280/310: SPDL
+2025-03-10 23:00:29,291 - INFO - Sheet SPDL read in 1.28 seconds, rows: 50
+2025-03-10 23:00:29,292 - INFO - Reading sheet 281/310: SPHL
+2025-03-10 23:00:30,622 - INFO - Sheet SPHL read in 1.33 seconds, rows: 50
+2025-03-10 23:00:30,623 - INFO - Reading sheet 282/310: SPIL
+2025-03-10 23:00:31,931 - INFO - Sheet SPIL read in 1.31 seconds, rows: 50
+2025-03-10 23:00:31,931 - INFO - Reading sheet 283/310: SPL
+2025-03-10 23:00:33,324 - INFO - Sheet SPL read in 1.39 seconds, rows: 50
+2025-03-10 23:00:33,324 - INFO - Reading sheet 284/310: SRLI
+2025-03-10 23:00:34,618 - INFO - Sheet SRLI read in 1.29 seconds, rows: 50
+2025-03-10 23:00:34,618 - INFO - Reading sheet 285/310: SSHL
+2025-03-10 23:00:35,932 - INFO - Sheet SSHL read in 1.31 seconds, rows: 50
+2025-03-10 23:00:35,932 - INFO - Reading sheet 286/310: STC
+2025-03-10 23:00:37,209 - INFO - Sheet STC read in 1.28 seconds, rows: 50
+2025-03-10 23:00:37,210 - INFO - Reading sheet 287/310: SWBBL
+2025-03-10 23:00:38,559 - INFO - Sheet SWBBL read in 1.35 seconds, rows: 50
+2025-03-10 23:00:38,560 - INFO - Reading sheet 288/310: SWMF
+2025-03-10 23:00:39,887 - INFO - Sheet SWMF read in 1.33 seconds, rows: 50
+2025-03-10 23:00:39,888 - INFO - Reading sheet 289/310: TAMOR
+2025-03-10 23:00:41,239 - INFO - Sheet TAMOR read in 1.35 seconds, rows: 50
+2025-03-10 23:00:41,239 - INFO - Reading sheet 290/310: TPC
+2025-03-10 23:00:42,516 - INFO - Sheet TPC read in 1.28 seconds, rows: 50
+2025-03-10 23:00:42,517 - INFO - Reading sheet 291/310: TRH
+2025-03-10 23:00:43,857 - INFO - Sheet TRH read in 1.34 seconds, rows: 50
+2025-03-10 23:00:43,858 - INFO - Reading sheet 292/310: TSHL
+2025-03-10 23:00:45,156 - INFO - Sheet TSHL read in 1.30 seconds, rows: 50
+2025-03-10 23:00:45,156 - INFO - Reading sheet 293/310: TVCL
+2025-03-10 23:00:46,537 - INFO - Sheet TVCL read in 1.38 seconds, rows: 50
+2025-03-10 23:00:46,538 - INFO - Reading sheet 294/310: UAIL
+2025-03-10 23:00:47,840 - INFO - Sheet UAIL read in 1.30 seconds, rows: 50
+2025-03-10 23:00:47,841 - INFO - Reading sheet 295/310: UHEWA
+2025-03-10 23:00:49,163 - INFO - Sheet UHEWA read in 1.32 seconds, rows: 50
+2025-03-10 23:00:49,164 - INFO - Reading sheet 296/310: ULBSL
+2025-03-10 23:00:50,448 - INFO - Sheet ULBSL read in 1.28 seconds, rows: 50
+2025-03-10 23:00:50,449 - INFO - Reading sheet 297/310: ULHC
+2025-03-10 23:00:51,836 - INFO - Sheet ULHC read in 1.39 seconds, rows: 50
+2025-03-10 23:00:51,837 - INFO - Reading sheet 298/310: UMHL
+2025-03-10 23:00:53,133 - INFO - Sheet UMHL read in 1.30 seconds, rows: 50
+2025-03-10 23:00:53,134 - INFO - Reading sheet 299/310: UMRH
+2025-03-10 23:00:54,491 - INFO - Sheet UMRH read in 1.36 seconds, rows: 50
+2025-03-10 23:00:54,492 - INFO - Reading sheet 300/310: UNHPL
+2025-03-10 23:00:55,792 - INFO - Sheet UNHPL read in 1.30 seconds, rows: 50
+2025-03-10 23:00:55,792 - INFO - Reading sheet 301/310: UNL
+2025-03-10 23:00:57,193 - INFO - Sheet UNL read in 1.40 seconds, rows: 50
+2025-03-10 23:00:57,194 - INFO - Reading sheet 302/310: UNLB
+2025-03-10 23:00:58,500 - INFO - Sheet UNLB read in 1.31 seconds, rows: 50
+2025-03-10 23:00:58,500 - INFO - Reading sheet 303/310: UPCL
+2025-03-10 23:00:59,836 - INFO - Sheet UPCL read in 1.34 seconds, rows: 50
+2025-03-10 23:00:59,837 - INFO - Reading sheet 304/310: UPPER
+2025-03-10 23:01:01,245 - INFO - Sheet UPPER read in 1.41 seconds, rows: 50
+2025-03-10 23:01:01,246 - INFO - Reading sheet 305/310: USHEC
+2025-03-10 23:01:02,582 - INFO - Sheet USHEC read in 1.34 seconds, rows: 50
+2025-03-10 23:01:02,582 - INFO - Reading sheet 306/310: USHL
+2025-03-10 23:01:03,915 - INFO - Sheet USHL read in 1.33 seconds, rows: 50
+2025-03-10 23:01:03,916 - INFO - Reading sheet 307/310: USLB
+2025-03-10 23:01:05,258 - INFO - Sheet USLB read in 1.34 seconds, rows: 50
+2025-03-10 23:01:05,258 - INFO - Reading sheet 308/310: VLBS
+2025-03-10 23:01:06,544 - INFO - Sheet VLBS read in 1.28 seconds, rows: 50
+2025-03-10 23:01:06,545 - INFO - Reading sheet 309/310: VLUCL
+2025-03-10 23:01:07,889 - INFO - Sheet VLUCL read in 1.34 seconds, rows: 50
+2025-03-10 23:01:07,890 - INFO - Reading sheet 310/310: WNLB
+2025-03-10 23:01:09,249 - INFO - Sheet WNLB read in 1.36 seconds, rows: 50
+2025-03-10 23:01:09,249 - INFO - Finished reading all 310 sheets in 443.17 seconds
+2025-03-10 23:01:09,250 - INFO - Found 2 CSV files to process in data
+2025-03-10 23:01:09,250 - INFO - Processing CSV file 1/2: 03_09_2025.csv
+2025-03-10 23:01:09,254 - INFO - CSV 03_09_2025.csv read, rows: 315
+2025-03-10 23:01:09,266 - INFO - Processing 315 unique symbols in 03_09_2025.csv
+2025-03-10 23:01:09,309 - INFO - Updated ACLBSL: 1 new rows added
+2025-03-10 23:01:09,317 - INFO - Updated ADBL: 1 new rows added
+2025-03-10 23:01:09,322 - INFO - Updated ADBLD83: 1 new rows added
+2025-03-10 23:01:09,328 - INFO - Updated AHL: 1 new rows added
+2025-03-10 23:01:09,335 - INFO - Updated AHPC: 1 new rows added
+2025-03-10 23:01:09,342 - INFO - Updated AKJCL: 1 new rows added
+2025-03-10 23:01:09,351 - INFO - Updated AKPL: 1 new rows added
+2025-03-10 23:01:09,357 - INFO - Updated ALBSL: 1 new rows added
+2025-03-10 23:01:09,366 - INFO - Updated ALICL: 1 new rows added
+2025-03-10 23:01:09,367 - INFO - Processing symbol 10/315: ANLB
+2025-03-10 23:01:09,373 - INFO - Updated ANLB: 1 new rows added
+2025-03-10 23:01:09,383 - INFO - Updated API: 1 new rows added
+2025-03-10 23:01:09,389 - INFO - Updated AVYAN: 1 new rows added
+2025-03-10 23:01:09,397 - INFO - Updated BARUN: 1 new rows added
+2025-03-10 23:01:09,403 - INFO - Updated BBC: 1 new rows added
+2025-03-10 23:01:09,411 - INFO - Updated BEDC: 1 new rows added
+2025-03-10 23:01:09,417 - INFO - Updated BFC: 1 new rows added
+2025-03-10 23:01:09,421 - INFO - Updated BGWT: 1 new rows added
+2025-03-10 23:01:09,427 - INFO - Updated BHDC: 1 new rows added
+2025-03-10 23:01:09,433 - INFO - Updated BHL: 1 new rows added
+2025-03-10 23:01:09,434 - INFO - Processing symbol 20/315: BHPL
+2025-03-10 23:01:09,439 - INFO - Updated BHPL: 1 new rows added
+2025-03-10 23:01:09,447 - INFO - Updated BNHC: 1 new rows added
+2025-03-10 23:01:09,452 - INFO - Updated BNT: 1 new rows added
+2025-03-10 23:01:09,462 - INFO - Updated BPCL: 1 new rows added
+2025-03-10 23:01:09,468 - INFO - Updated C30MF: 1 new rows added
+2025-03-10 23:01:09,473 - INFO - Updated CBBL: 1 new rows added
+2025-03-10 23:01:09,483 - INFO - Updated CBLD88: 1 new rows added
+2025-03-10 23:01:09,488 - INFO - Updated CFCL: 1 new rows added
+2025-03-10 23:01:09,495 - INFO - Updated CGH: 1 new rows added
+2025-03-10 23:01:09,501 - INFO - Updated CHCL: 1 new rows added
+2025-03-10 23:01:09,502 - INFO - Processing symbol 30/315: CHDC
+2025-03-10 23:01:09,508 - INFO - Updated CHDC: 1 new rows added
+2025-03-10 23:01:09,518 - INFO - Updated CHL: 1 new rows added
+2025-03-10 23:01:09,522 - INFO - Updated CIT: 1 new rows added
+2025-03-10 23:01:09,528 - INFO - Updated CITY: 1 new rows added
+2025-03-10 23:01:09,530 - INFO - Added new symbol: CIZBD86 with 1 rows
+2025-03-10 23:01:09,536 - INFO - Updated CKHL: 1 new rows added
+2025-03-10 23:01:09,543 - INFO - Updated CLI: 1 new rows added
+2025-03-10 23:01:09,551 - INFO - Updated CMF2: 1 new rows added
+2025-03-10 23:01:09,555 - INFO - Updated CORBL: 1 new rows added
+2025-03-10 23:01:09,561 - INFO - Updated CYCL: 1 new rows added
+2025-03-10 23:01:09,562 - INFO - Processing symbol 40/315: CZBIL
+2025-03-10 23:01:09,570 - INFO - Updated CZBIL: 1 new rows added
+2025-03-10 23:01:09,576 - INFO - Updated DDBL: 1 new rows added
+2025-03-10 23:01:09,584 - INFO - Updated DHPL: 1 new rows added
+2025-03-10 23:01:09,591 - INFO - Updated DLBS: 1 new rows added
+2025-03-10 23:01:09,600 - INFO - Updated DOLTI: 1 new rows added
+2025-03-10 23:01:09,604 - INFO - Updated DORDI: 1 new rows added
+2025-03-10 23:01:09,612 - INFO - Updated EBL: 1 new rows added
+2025-03-10 23:01:09,619 - INFO - Updated EBLD85: 1 new rows added
+2025-03-10 23:01:09,623 - INFO - Updated EBLD86: 1 new rows added
+2025-03-10 23:01:09,632 - INFO - Updated EDBL: 1 new rows added
+2025-03-10 23:01:09,632 - INFO - Processing symbol 50/315: EHPL
+2025-03-10 23:01:09,639 - INFO - Updated EHPL: 1 new rows added
+2025-03-10 23:01:09,646 - INFO - Updated ENL: 1 new rows added
+2025-03-10 23:01:09,656 - INFO - Updated FMDBL: 1 new rows added
+2025-03-10 23:01:09,663 - INFO - Updated FOWAD: 1 new rows added
+2025-03-10 23:01:09,664 - INFO - Added new symbol: GBBD85 with 1 rows
+2025-03-10 23:01:09,669 - INFO - Updated GBBL: 1 new rows added
+2025-03-10 23:01:09,670 - INFO - Added new symbol: GBILD84_85 with 1 rows
+2025-03-10 23:01:09,676 - INFO - Updated GBIME: 1 new rows added
+2025-03-10 23:01:09,678 - INFO - Added new symbol: GBIMEP with 1 rows
+2025-03-10 23:01:09,686 - INFO - Updated GBLBS: 1 new rows added
+2025-03-10 23:01:09,686 - INFO - Processing symbol 60/315: GCIL
+2025-03-10 23:01:09,694 - INFO - Updated GCIL: 1 new rows added
+2025-03-10 23:01:09,702 - INFO - Updated GFCL: 1 new rows added
+2025-03-10 23:01:09,706 - INFO - Updated GHL: 1 new rows added
+2025-03-10 23:01:09,716 - INFO - Updated GIBF1: 1 new rows added
+2025-03-10 23:01:09,721 - INFO - Updated GILB: 1 new rows added
+2025-03-10 23:01:09,727 - INFO - Updated GLBSL: 1 new rows added
+2025-03-10 23:01:09,736 - INFO - Updated GLH: 1 new rows added
+2025-03-10 23:01:09,740 - INFO - Updated GMFBS: 1 new rows added
+2025-03-10 23:01:09,749 - INFO - Updated GMFIL: 1 new rows added
+2025-03-10 23:01:09,754 - INFO - Updated GMLI: 1 new rows added
+2025-03-10 23:01:09,755 - INFO - Processing symbol 70/315: GRDBL
+2025-03-10 23:01:09,762 - INFO - Updated GRDBL: 1 new rows added
+2025-03-10 23:01:09,770 - INFO - Updated GSY: 1 new rows added
+2025-03-10 23:01:09,778 - INFO - Updated GUFL: 1 new rows added
+2025-03-10 23:01:09,785 - INFO - Updated GVL: 1 new rows added
+2025-03-10 23:01:09,792 - INFO - Updated H8020: 1 new rows added
+2025-03-10 23:01:09,802 - INFO - Updated HATHY: 1 new rows added
+2025-03-10 23:01:09,808 - INFO - Updated HBL: 1 new rows added
+2025-03-10 23:01:09,808 - INFO - Added new symbol: HBLD83 with 1 rows
+2025-03-10 23:01:09,810 - INFO - Added new symbol: HBLD86 with 1 rows
+2025-03-10 23:01:09,820 - INFO - Updated HDHPC: 1 new rows added
+2025-03-10 23:01:09,820 - INFO - Processing symbol 80/315: HDL
+2025-03-10 23:01:09,826 - INFO - Updated HDL: 1 new rows added
+2025-03-10 23:01:09,835 - INFO - Updated HEI: 1 new rows added
+2025-03-10 23:01:09,840 - INFO - Updated HEIP: 1 new rows added
+2025-03-10 23:01:09,851 - INFO - Updated HHL: 1 new rows added
+2025-03-10 23:01:09,858 - INFO - Updated HIDCL: 1 new rows added
+2025-03-10 23:01:09,866 - INFO - Updated HIDCLP: 1 new rows added
+2025-03-10 23:01:09,871 - INFO - Updated HLBSL: 1 new rows added
+2025-03-10 23:01:09,879 - INFO - Updated HLI: 1 new rows added
+2025-03-10 23:01:09,887 - INFO - Updated HPPL: 1 new rows added
+2025-03-10 23:01:09,894 - INFO - Updated HRL: 1 new rows added
+2025-03-10 23:01:09,895 - INFO - Processing symbol 90/315: HURJA
+2025-03-10 23:01:09,901 - INFO - Updated HURJA: 1 new rows added
+2025-03-10 23:01:09,909 - INFO - Updated ICFC: 1 new rows added
+2025-03-10 23:01:09,909 - INFO - Added new symbol: ICFCD88 with 1 rows
+2025-03-10 23:01:09,918 - INFO - Updated IGI: 1 new rows added
+2025-03-10 23:01:09,926 - INFO - Updated IHL: 1 new rows added
+2025-03-10 23:01:09,935 - INFO - Updated ILBS: 1 new rows added
+2025-03-10 23:01:09,941 - INFO - Updated ILI: 1 new rows added
+2025-03-10 23:01:09,950 - INFO - Updated JBBL: 1 new rows added
+2025-03-10 23:01:09,956 - INFO - Updated JBLB: 1 new rows added
+2025-03-10 23:01:09,962 - INFO - Updated JFL: 1 new rows added
+2025-03-10 23:01:09,964 - INFO - Processing symbol 100/315: JOSHI
+2025-03-10 23:01:09,972 - INFO - Updated JOSHI: 1 new rows added
+2025-03-10 23:01:09,979 - INFO - Updated JSLBB: 1 new rows added
+2025-03-10 23:01:09,985 - INFO - Updated KBL: 1 new rows added
+2025-03-10 23:01:09,991 - INFO - Updated KBLD89: 1 new rows added
+2025-03-10 23:01:10,000 - INFO - Updated KBSH: 1 new rows added
+2025-03-10 23:01:10,006 - INFO - Updated KDBY: 1 new rows added
+2025-03-10 23:01:10,015 - INFO - Updated KDL: 1 new rows added
+2025-03-10 23:01:10,022 - INFO - Updated KEF: 1 new rows added
+2025-03-10 23:01:10,030 - INFO - Updated KKHC: 1 new rows added
+2025-03-10 23:01:10,036 - INFO - Updated KMCDB: 1 new rows added
+2025-03-10 23:01:10,037 - INFO - Processing symbol 110/315: KPCL
+2025-03-10 23:01:10,042 - INFO - Updated KPCL: 1 new rows added
+2025-03-10 23:01:10,051 - INFO - Updated KSBBL: 1 new rows added
+2025-03-10 23:01:10,056 - INFO - Updated KSBBLD87: 1 new rows added
+2025-03-10 23:01:10,067 - INFO - Updated KSY: 1 new rows added
+2025-03-10 23:01:10,072 - INFO - Updated LBBL: 1 new rows added
+2025-03-10 23:01:10,077 - INFO - Updated LBBLD89: 1 new rows added
+2025-03-10 23:01:10,085 - INFO - Updated LEC: 1 new rows added
+2025-03-10 23:01:10,092 - INFO - Updated LICN: 1 new rows added
+2025-03-10 23:01:10,099 - INFO - Updated LLBS: 1 new rows added
+2025-03-10 23:01:10,105 - INFO - Updated LSL: 1 new rows added
+2025-03-10 23:01:10,106 - INFO - Processing symbol 120/315: LUK
+2025-03-10 23:01:10,116 - INFO - Updated LUK: 1 new rows added
+2025-03-10 23:01:10,122 - INFO - Updated LVF2: 1 new rows added
+2025-03-10 23:01:10,130 - INFO - Updated MAKAR: 1 new rows added
+2025-03-10 23:01:10,136 - INFO - Updated MANDU: 1 new rows added
+2025-03-10 23:01:10,148 - INFO - Updated MATRI: 1 new rows added
+2025-03-10 23:01:10,154 - INFO - Updated MBJC: 1 new rows added
+2025-03-10 23:01:10,162 - INFO - Updated MBL: 1 new rows added
+2025-03-10 23:01:10,164 - INFO - Added new symbol: MBLD87 with 1 rows
+2025-03-10 23:01:10,168 - INFO - Updated MCHL: 1 new rows added
+2025-03-10 23:01:10,179 - INFO - Updated MDB: 1 new rows added
+2025-03-10 23:01:10,180 - INFO - Processing symbol 130/315: MEHL
+2025-03-10 23:01:10,191 - INFO - Updated MEHL: 1 new rows added
+2025-03-10 23:01:10,206 - INFO - Updated MEL: 1 new rows added
+2025-03-10 23:01:10,219 - INFO - Updated MEN: 1 new rows added
+2025-03-10 23:01:10,295 - INFO - Updated MERO: 1 new rows added
+2025-03-10 23:01:10,388 - INFO - Updated MFIL: 1 new rows added
+2025-03-10 23:01:10,389 - INFO - Added new symbol: MFLD85 with 1 rows
+2025-03-10 23:01:10,397 - INFO - Updated MHCL: 1 new rows added
+2025-03-10 23:01:10,418 - INFO - Updated MHL: 1 new rows added
+2025-03-10 23:01:10,428 - INFO - Updated MHNL: 1 new rows added
+2025-03-10 23:01:10,435 - INFO - Updated MKCL: 1 new rows added
+2025-03-10 23:01:10,436 - INFO - Processing symbol 140/315: MKHC
+2025-03-10 23:01:10,441 - INFO - Updated MKHC: 1 new rows added
+2025-03-10 23:01:10,452 - INFO - Updated MKHL: 1 new rows added
+2025-03-10 23:01:10,461 - INFO - Updated MKJC: 1 new rows added
+2025-03-10 23:01:10,468 - INFO - Updated MLBBL: 1 new rows added
+2025-03-10 23:01:10,476 - INFO - Updated MLBL: 1 new rows added
+2025-03-10 23:01:10,483 - INFO - Updated MLBS: 1 new rows added
+2025-03-10 23:01:10,488 - INFO - Updated MLBSL: 1 new rows added
+2025-03-10 23:01:10,500 - INFO - Updated MMF1: 1 new rows added
+2025-03-10 23:01:10,506 - INFO - Updated MMKJL: 1 new rows added
+2025-03-10 23:01:10,516 - INFO - Updated MNBBL: 1 new rows added
+2025-03-10 23:01:10,516 - INFO - Processing symbol 150/315: MND84/85
+2025-03-10 23:01:10,518 - INFO - Added new symbol: MND84_85 with 1 rows
+2025-03-10 23:01:10,527 - INFO - Updated MNMF1: 1 new rows added
+2025-03-10 23:01:10,536 - INFO - Updated MPFL: 1 new rows added
+2025-03-10 23:01:10,546 - INFO - Updated MSHL: 1 new rows added
+2025-03-10 23:01:10,555 - INFO - Updated MSLB: 1 new rows added
+2025-03-10 23:01:10,561 - INFO - Updated NABBC: 1 new rows added
+2025-03-10 23:01:10,569 - INFO - Updated NABIL: 1 new rows added
+2025-03-10 23:01:10,574 - INFO - Updated NADEP: 1 new rows added
+2025-03-10 23:01:10,583 - INFO - Updated NBF2: 1 new rows added
+2025-03-10 23:01:10,588 - INFO - Updated NBF3: 1 new rows added
+2025-03-10 23:01:10,588 - INFO - Processing symbol 160/315: NBL
+2025-03-10 23:01:10,595 - INFO - Updated NBL: 1 new rows added
+2025-03-10 23:01:10,604 - INFO - Updated NBLD82: 1 new rows added
+2025-03-10 23:01:10,609 - INFO - Updated NBLD87: 1 new rows added
+2025-03-10 23:01:10,618 - INFO - Updated NESDO: 1 new rows added
+2025-03-10 23:01:10,623 - INFO - Updated NFS: 1 new rows added
+2025-03-10 23:01:10,632 - INFO - Updated NGPL: 1 new rows added
+2025-03-10 23:01:10,638 - INFO - Updated NHDL: 1 new rows added
+2025-03-10 23:01:10,645 - INFO - Updated NHPC: 1 new rows added
+2025-03-10 23:01:10,648 - INFO - Added new symbol: NIBD84 with 1 rows
+2025-03-10 23:01:10,653 - INFO - Updated NIBLGF: 1 new rows added
+2025-03-10 23:01:10,654 - INFO - Processing symbol 170/315: NIBLSTF
+2025-03-10 23:01:10,660 - INFO - Updated NIBLSTF: 1 new rows added
+2025-03-10 23:01:10,669 - INFO - Updated NIBSF2: 1 new rows added
+2025-03-10 23:01:10,674 - INFO - Updated NICA: 1 new rows added
+2025-03-10 23:01:10,682 - INFO - Updated NICAD8283: 1 new rows added
+2025-03-10 23:01:10,687 - INFO - Updated NICBF: 1 new rows added
+2025-03-10 23:01:10,692 - INFO - Updated NICD88: 1 new rows added
+2025-03-10 23:01:10,701 - INFO - Updated NICFC: 1 new rows added
+2025-03-10 23:01:10,706 - INFO - Updated NICGF: 1 new rows added
+2025-03-10 23:01:10,714 - INFO - Updated NICGF2: 1 new rows added
+2025-03-10 23:01:10,719 - INFO - Updated NICL: 1 new rows added
+2025-03-10 23:01:10,720 - INFO - Processing symbol 180/315: NICLBSL
+2025-03-10 23:01:10,727 - INFO - Updated NICLBSL: 1 new rows added
+2025-03-10 23:01:10,735 - INFO - Updated NICSF: 1 new rows added
+2025-03-10 23:01:10,741 - INFO - Updated NIFRA: 1 new rows added
+2025-03-10 23:01:10,748 - INFO - Updated NIL: 1 new rows added
+2025-03-10 23:01:10,755 - INFO - Updated NIMB: 1 new rows added
+2025-03-10 23:01:10,757 - INFO - Added new symbol: NIMBD90 with 1 rows
+2025-03-10 23:01:10,765 - INFO - Updated NIMBPO: 1 new rows added
+2025-03-10 23:01:10,773 - INFO - Updated NLG: 1 new rows added
+2025-03-10 23:01:10,782 - INFO - Updated NLIC: 1 new rows added
+2025-03-10 23:01:10,790 - INFO - Updated NLICL: 1 new rows added
+2025-03-10 23:01:10,790 - INFO - Processing symbol 190/315: NMB
+2025-03-10 23:01:10,798 - INFO - Updated NMB: 1 new rows added
+2025-03-10 23:01:10,805 - INFO - Updated NMB50: 1 new rows added
+2025-03-10 23:01:10,812 - INFO - Updated NMBMF: 1 new rows added
+2025-03-10 23:01:10,820 - INFO - Updated NMFBS: 1 new rows added
+2025-03-10 23:01:10,825 - INFO - Updated NMLBBL: 1 new rows added
+2025-03-10 23:01:10,837 - INFO - Updated NRIC: 1 new rows added
+2025-03-10 23:01:10,857 - INFO - Updated NRM: 1 new rows added
+2025-03-10 23:01:10,878 - INFO - Updated NRN: 1 new rows added
+2025-03-10 23:01:10,887 - INFO - Updated NSIF2: 1 new rows added
+2025-03-10 23:01:10,893 - INFO - Updated NTC: 1 new rows added
+2025-03-10 23:01:10,897 - INFO - Processing symbol 200/315: NUBL
+2025-03-10 23:01:10,902 - INFO - Updated NUBL: 1 new rows added
+2025-03-10 23:01:10,909 - INFO - Updated NWCL: 1 new rows added
+2025-03-10 23:01:10,917 - INFO - Updated NYADI: 1 new rows added
+2025-03-10 23:01:10,922 - INFO - Updated OHL: 1 new rows added
+2025-03-10 23:01:10,922 - INFO - Added new symbol: PBD84 with 1 rows
+2025-03-10 23:01:10,923 - INFO - Added new symbol: PBD85 with 1 rows
+2025-03-10 23:01:10,933 - INFO - Updated PBD88: 1 new rows added
+2025-03-10 23:01:10,933 - INFO - Added new symbol: PBLD84 with 1 rows
+2025-03-10 23:01:10,939 - INFO - Updated PBLD87: 1 new rows added
+2025-03-10 23:01:10,947 - INFO - Updated PCBL: 1 new rows added
+2025-03-10 23:01:10,948 - INFO - Processing symbol 210/315: PFL
+2025-03-10 23:01:10,956 - INFO - Updated PFL: 1 new rows added
+2025-03-10 23:01:10,964 - INFO - Updated PHCL: 1 new rows added
+2025-03-10 23:01:10,973 - INFO - Updated PMHPL: 1 new rows added
+2025-03-10 23:01:10,980 - INFO - Updated PMLI: 1 new rows added
+2025-03-10 23:01:10,989 - INFO - Updated PPCL: 1 new rows added
+2025-03-10 23:01:10,996 - INFO - Updated PPL: 1 new rows added
+2025-03-10 23:01:11,003 - INFO - Updated PRIN: 1 new rows added
+2025-03-10 23:01:11,011 - INFO - Updated PROFL: 1 new rows added
+2025-03-10 23:01:11,017 - INFO - Updated PRSF: 1 new rows added
+2025-03-10 23:01:11,022 - INFO - Updated PRVU: 1 new rows added
+2025-03-10 23:01:11,023 - INFO - Processing symbol 220/315: PSF
+2025-03-10 23:01:11,028 - INFO - Updated PSF: 1 new rows added
+2025-03-10 23:01:11,037 - INFO - Updated RADHI: 1 new rows added
+2025-03-10 23:01:11,042 - INFO - Updated RAWA: 1 new rows added
+2025-03-10 23:01:11,049 - INFO - Updated RBBD83: 1 new rows added
+2025-03-10 23:01:11,055 - INFO - Updated RBCL: 1 new rows added
+2025-03-10 23:01:11,061 - INFO - Updated RBCLPO: 1 new rows added
+2025-03-10 23:01:11,069 - INFO - Updated RFPL: 1 new rows added
+2025-03-10 23:01:11,075 - INFO - Updated RHGCL: 1 new rows added
+2025-03-10 23:01:11,084 - INFO - Updated RHPL: 1 new rows added
+2025-03-10 23:01:11,089 - INFO - Updated RIDI: 1 new rows added
+2025-03-10 23:01:11,089 - INFO - Processing symbol 230/315: RLFL
+2025-03-10 23:01:11,095 - INFO - Updated RLFL: 1 new rows added
+2025-03-10 23:01:11,104 - INFO - Updated RMF1: 1 new rows added
+2025-03-10 23:01:11,112 - INFO - Updated RMF2: 1 new rows added
+2025-03-10 23:01:11,119 - INFO - Updated RNLI: 1 new rows added
+2025-03-10 23:01:11,127 - INFO - Updated RSDC: 1 new rows added
+2025-03-10 23:01:11,135 - INFO - Updated RURU: 1 new rows added
+2025-03-10 23:01:11,142 - INFO - Updated SADBL: 1 new rows added
+2025-03-10 23:01:11,149 - INFO - Updated SAGF: 1 new rows added
+2025-03-10 23:01:11,155 - INFO - Updated SAHAS: 1 new rows added
+2025-03-10 23:01:11,165 - INFO - Updated SALICO: 1 new rows added
+2025-03-10 23:01:11,166 - INFO - Processing symbol 240/315: SAMAJ
+2025-03-10 23:01:11,170 - INFO - Updated SAMAJ: 1 new rows added
+2025-03-10 23:01:11,171 - INFO - Added new symbol: SAND2085 with 1 rows
+2025-03-10 23:01:11,181 - INFO - Updated SANIMA: 1 new rows added
+2025-03-10 23:01:11,189 - INFO - Updated SAPDBL: 1 new rows added
+2025-03-10 23:01:11,199 - INFO - Updated SARBTM: 1 new rows added
+2025-03-10 23:01:11,207 - INFO - Updated SBCF: 1 new rows added
+2025-03-10 23:01:11,216 - INFO - Updated SBI: 1 new rows added
+2025-03-10 23:01:11,220 - INFO - Updated SBID83: 1 new rows added
+2025-03-10 23:01:11,226 - INFO - Updated SBL: 1 new rows added
+2025-03-10 23:01:11,234 - INFO - Updated SCB: 1 new rows added
+2025-03-10 23:01:11,234 - INFO - Processing symbol 250/315: SDBD87
+2025-03-10 23:01:11,235 - INFO - Added new symbol: SDBD87 with 1 rows
+2025-03-10 23:01:11,240 - INFO - Updated SEF: 1 new rows added
+2025-03-10 23:01:11,248 - INFO - Updated SFCL: 1 new rows added
+2025-03-10 23:01:11,255 - INFO - Updated SFEF: 1 new rows added
+2025-03-10 23:01:11,262 - INFO - Updated SFMF: 1 new rows added
+2025-03-10 23:01:11,269 - INFO - Updated SGHC: 1 new rows added
+2025-03-10 23:01:11,274 - INFO - Updated SGIC: 1 new rows added
+2025-03-10 23:01:11,283 - INFO - Updated SHEL: 1 new rows added
+2025-03-10 23:01:11,288 - INFO - Updated SHINE: 1 new rows added
+2025-03-10 23:01:11,296 - INFO - Updated SHIVM: 1 new rows added
+2025-03-10 23:01:11,297 - INFO - Processing symbol 260/315: SHL
+2025-03-10 23:01:11,305 - INFO - Updated SHL: 1 new rows added
+2025-03-10 23:01:11,310 - INFO - Updated SHLB: 1 new rows added
+2025-03-10 23:01:11,318 - INFO - Updated SHPC: 1 new rows added
+2025-03-10 23:01:11,324 - INFO - Updated SICL: 1 new rows added
+2025-03-10 23:01:11,333 - INFO - Updated SIFC: 1 new rows added
+2025-03-10 23:01:11,339 - INFO - Updated SIGS2: 1 new rows added
+2025-03-10 23:01:11,347 - INFO - Updated SIGS3: 1 new rows added
+2025-03-10 23:01:11,355 - INFO - Updated SIKLES: 1 new rows added
+2025-03-10 23:01:11,360 - INFO - Updated SINDU: 1 new rows added
+2025-03-10 23:01:11,372 - INFO - Updated SJCL: 1 new rows added
+2025-03-10 23:01:11,373 - INFO - Processing symbol 270/315: SJLIC
+2025-03-10 23:01:11,386 - INFO - Updated SJLIC: 1 new rows added
+2025-03-10 23:01:11,407 - INFO - Updated SKBBL: 1 new rows added
+2025-03-10 23:01:11,426 - INFO - Updated SLBBL: 1 new rows added
+2025-03-10 23:01:11,442 - INFO - Updated SLBSL: 1 new rows added
+2025-03-10 23:01:11,497 - INFO - Updated SLCF: 1 new rows added
+2025-03-10 23:01:11,509 - INFO - Updated SMATA: 1 new rows added
+2025-03-10 23:01:11,519 - INFO - Updated SMB: 1 new rows added
+2025-03-10 23:01:11,527 - INFO - Updated SMFBS: 1 new rows added
+2025-03-10 23:01:11,535 - INFO - Updated SMH: 1 new rows added
+2025-03-10 23:01:11,540 - INFO - Updated SMHL: 1 new rows added
+2025-03-10 23:01:11,541 - INFO - Processing symbol 280/315: SMJC
+2025-03-10 23:01:11,549 - INFO - Updated SMJC: 1 new rows added
+2025-03-10 23:01:11,556 - INFO - Updated SMPDA: 1 new rows added
+2025-03-10 23:01:11,564 - INFO - Updated SNLI: 1 new rows added
+2025-03-10 23:01:11,570 - INFO - Updated SONA: 1 new rows added
+2025-03-10 23:01:11,576 - INFO - Updated SPC: 1 new rows added
+2025-03-10 23:01:11,584 - INFO - Updated SPDL: 1 new rows added
+2025-03-10 23:01:11,589 - INFO - Updated SPHL: 1 new rows added
+2025-03-10 23:01:11,598 - INFO - Updated SPIL: 1 new rows added
+2025-03-10 23:01:11,605 - INFO - Updated SPL: 1 new rows added
+2025-03-10 23:01:11,611 - INFO - Updated SRLI: 1 new rows added
+2025-03-10 23:01:11,612 - INFO - Processing symbol 290/315: SSHL
+2025-03-10 23:01:11,619 - INFO - Updated SSHL: 1 new rows added
+2025-03-10 23:01:11,627 - INFO - Updated STC: 1 new rows added
+2025-03-10 23:01:11,635 - INFO - Updated SWBBL: 1 new rows added
+2025-03-10 23:01:11,639 - INFO - Updated SWMF: 1 new rows added
+2025-03-10 23:01:11,646 - INFO - Updated TAMOR: 1 new rows added
+2025-03-10 23:01:11,654 - INFO - Updated TPC: 1 new rows added
+2025-03-10 23:01:11,661 - INFO - Updated TRH: 1 new rows added
+2025-03-10 23:01:11,668 - INFO - Updated TSHL: 1 new rows added
+2025-03-10 23:01:11,675 - INFO - Updated TVCL: 1 new rows added
+2025-03-10 23:01:11,684 - INFO - Updated UAIL: 1 new rows added
+2025-03-10 23:01:11,684 - INFO - Processing symbol 300/315: UHEWA
+2025-03-10 23:01:11,689 - INFO - Updated UHEWA: 1 new rows added
+2025-03-10 23:01:11,697 - INFO - Updated ULBSL: 1 new rows added
+2025-03-10 23:01:11,704 - INFO - Updated ULHC: 1 new rows added
+2025-03-10 23:01:11,711 - INFO - Updated UMHL: 1 new rows added
+2025-03-10 23:01:11,718 - INFO - Updated UMRH: 1 new rows added
+2025-03-10 23:01:11,727 - INFO - Updated UNHPL: 1 new rows added
+2025-03-10 23:01:11,734 - INFO - Updated UNL: 1 new rows added
+2025-03-10 23:01:11,742 - INFO - Updated UNLB: 1 new rows added
+2025-03-10 23:01:11,749 - INFO - Updated UPCL: 1 new rows added
+2025-03-10 23:01:11,755 - INFO - Updated UPPER: 1 new rows added
+2025-03-10 23:01:11,755 - INFO - Processing symbol 310/315: USHEC
+2025-03-10 23:01:11,765 - INFO - Updated USHEC: 1 new rows added
+2025-03-10 23:01:11,770 - INFO - Updated USHL: 1 new rows added
+2025-03-10 23:01:11,776 - INFO - Updated USLB: 1 new rows added
+2025-03-10 23:01:11,784 - INFO - Updated VLBS: 1 new rows added
+2025-03-10 23:01:11,789 - INFO - Updated VLUCL: 1 new rows added
+2025-03-10 23:01:11,797 - INFO - Updated WNLB: 1 new rows added
+2025-03-10 23:01:11,800 - INFO - Finished processing 03_09_2025.csv in 2.55 seconds
+2025-03-10 23:01:11,801 - INFO - Processing CSV file 2/2: 03_10_2025.csv
+2025-03-10 23:01:11,806 - INFO - CSV 03_10_2025.csv read, rows: 311
+2025-03-10 23:01:11,809 - INFO - Processing 311 unique symbols in 03_10_2025.csv
+2025-03-10 23:01:11,818 - INFO - Updated ACLBSL: 1 new rows added
+2025-03-10 23:01:11,827 - INFO - Updated ADBL: 1 new rows added
+2025-03-10 23:01:11,835 - INFO - Updated AHL: 1 new rows added
+2025-03-10 23:01:11,840 - INFO - Updated AHPC: 1 new rows added
+2025-03-10 23:01:11,847 - INFO - Updated AKJCL: 1 new rows added
+2025-03-10 23:01:11,851 - INFO - Updated AKPL: 1 new rows added
+2025-03-10 23:01:11,858 - INFO - Updated ALBSL: 1 new rows added
+2025-03-10 23:01:11,867 - INFO - Updated ALICL: 1 new rows added
+2025-03-10 23:01:11,873 - INFO - Updated ANLB: 1 new rows added
+2025-03-10 23:01:11,873 - INFO - Processing symbol 10/311: API
+2025-03-10 23:01:11,880 - INFO - Updated API: 1 new rows added
+2025-03-10 23:01:11,887 - INFO - Updated AVYAN: 1 new rows added
+2025-03-10 23:01:11,893 - INFO - Updated BARUN: 1 new rows added
+2025-03-10 23:01:11,901 - INFO - Updated BBC: 1 new rows added
+2025-03-10 23:01:11,905 - INFO - Updated BEDC: 1 new rows added
+2025-03-10 23:01:11,912 - INFO - Updated BFC: 1 new rows added
+2025-03-10 23:01:11,920 - INFO - Updated BGWT: 1 new rows added
+2025-03-10 23:01:11,924 - INFO - Updated BHDC: 1 new rows added
+2025-03-10 23:01:11,933 - INFO - Updated BHL: 1 new rows added
+2025-03-10 23:01:11,938 - INFO - Updated BHPL: 1 new rows added
+2025-03-10 23:01:11,939 - INFO - Processing symbol 20/311: BNHC
+2025-03-10 23:01:11,946 - INFO - Updated BNHC: 1 new rows added
+2025-03-10 23:01:11,956 - INFO - Updated BNT: 1 new rows added
+2025-03-10 23:01:11,956 - INFO - Added new symbol: BOKD86 with 1 rows
+2025-03-10 23:01:11,966 - INFO - Updated BPCL: 1 new rows added
+2025-03-10 23:01:11,974 - INFO - Updated C30MF: 1 new rows added
+2025-03-10 23:01:11,983 - INFO - Updated CBBL: 1 new rows added
+2025-03-10 23:01:11,987 - INFO - Updated CCBD88: 1 new rows added
+2025-03-10 23:01:11,993 - INFO - Updated CFCL: 1 new rows added
+2025-03-10 23:01:12,000 - INFO - Updated CGH: 1 new rows added
+2025-03-10 23:01:12,005 - INFO - Updated CHCL: 1 new rows added
+2025-03-10 23:01:12,007 - INFO - Processing symbol 30/311: CHDC
+2025-03-10 23:01:12,016 - INFO - Updated CHDC: 1 new rows added
+2025-03-10 23:01:12,021 - INFO - Updated CHL: 1 new rows added
+2025-03-10 23:01:12,027 - INFO - Updated CIT: 1 new rows added
+2025-03-10 23:01:12,032 - INFO - Updated CITY: 1 new rows added
+2025-03-10 23:01:12,045 - INFO - Updated CIZBD86: 1 new rows added
+2025-03-10 23:01:12,050 - INFO - Updated CKHL: 1 new rows added
+2025-03-10 23:01:12,054 - INFO - Updated CLI: 1 new rows added
+2025-03-10 23:01:12,064 - INFO - Updated CMF2: 1 new rows added
+2025-03-10 23:01:12,068 - INFO - Updated CORBL: 1 new rows added
+2025-03-10 23:01:12,072 - INFO - Updated CYCL: 1 new rows added
+2025-03-10 23:01:12,073 - INFO - Processing symbol 40/311: CZBIL
+2025-03-10 23:01:12,081 - INFO - Updated CZBIL: 1 new rows added
+2025-03-10 23:01:12,088 - INFO - Updated DDBL: 1 new rows added
+2025-03-10 23:01:12,095 - INFO - Updated DHPL: 1 new rows added
+2025-03-10 23:01:12,103 - INFO - Updated DLBS: 1 new rows added
+2025-03-10 23:01:12,109 - INFO - Updated DOLTI: 1 new rows added
+2025-03-10 23:01:12,116 - INFO - Updated DORDI: 1 new rows added
+2025-03-10 23:01:12,121 - INFO - Updated EBL: 1 new rows added
+2025-03-10 23:01:12,129 - INFO - Updated EBLD85: 1 new rows added
+2025-03-10 23:01:12,135 - INFO - Updated EBLD86: 1 new rows added
+2025-03-10 23:01:12,140 - INFO - Updated EDBL: 1 new rows added
+2025-03-10 23:01:12,141 - INFO - Processing symbol 50/311: EHPL
+2025-03-10 23:01:12,147 - INFO - Updated EHPL: 1 new rows added
+2025-03-10 23:01:12,154 - INFO - Updated ENL: 1 new rows added
+2025-03-10 23:01:12,161 - INFO - Updated FMDBL: 1 new rows added
+2025-03-10 23:01:12,169 - INFO - Updated FOWAD: 1 new rows added
+2025-03-10 23:01:12,173 - INFO - Updated GBBD85: 1 new rows added
+2025-03-10 23:01:12,183 - INFO - Updated GBBL: 1 new rows added
+2025-03-10 23:01:12,189 - INFO - Updated GBIME: 1 new rows added
+2025-03-10 23:01:12,198 - INFO - Updated GBLBS: 1 new rows added
+2025-03-10 23:01:12,205 - INFO - Updated GCIL: 1 new rows added
+2025-03-10 23:01:12,212 - INFO - Updated GFCL: 1 new rows added
+2025-03-10 23:01:12,212 - INFO - Processing symbol 60/311: GHL
+2025-03-10 23:01:12,220 - INFO - Updated GHL: 1 new rows added
+2025-03-10 23:01:12,225 - INFO - Updated GIBF1: 1 new rows added
+2025-03-10 23:01:12,233 - INFO - Updated GILB: 1 new rows added
+2025-03-10 23:01:12,238 - INFO - Updated GLBSL: 1 new rows added
+2025-03-10 23:01:12,245 - INFO - Updated GLH: 1 new rows added
+2025-03-10 23:01:12,254 - INFO - Updated GMFBS: 1 new rows added
+2025-03-10 23:01:12,261 - INFO - Updated GMFIL: 1 new rows added
+2025-03-10 23:01:12,268 - INFO - Updated GMLI: 1 new rows added
+2025-03-10 23:01:12,273 - INFO - Updated GRDBL: 1 new rows added
+2025-03-10 23:01:12,279 - INFO - Updated GSY: 1 new rows added
+2025-03-10 23:01:12,281 - INFO - Processing symbol 70/311: GUFL
+2025-03-10 23:01:12,287 - INFO - Updated GUFL: 1 new rows added
+2025-03-10 23:01:12,294 - INFO - Updated GVL: 1 new rows added
+2025-03-10 23:01:12,301 - INFO - Updated H8020: 1 new rows added
+2025-03-10 23:01:12,305 - INFO - Updated HATHY: 1 new rows added
+2025-03-10 23:01:12,314 - INFO - Updated HBL: 1 new rows added
+2025-03-10 23:01:12,318 - INFO - Updated HBLD86: 1 new rows added
+2025-03-10 23:01:12,323 - INFO - Updated HDHPC: 1 new rows added
+2025-03-10 23:01:12,332 - INFO - Updated HDL: 1 new rows added
+2025-03-10 23:01:12,337 - INFO - Updated HEI: 1 new rows added
+2025-03-10 23:01:12,344 - INFO - Updated HEIP: 1 new rows added
+2025-03-10 23:01:12,346 - INFO - Processing symbol 80/311: HHL
+2025-03-10 23:01:12,351 - INFO - Updated HHL: 1 new rows added
+2025-03-10 23:01:12,355 - INFO - Updated HIDCL: 1 new rows added
+2025-03-10 23:01:12,406 - INFO - Updated HIDCLP: 1 new rows added
+2025-03-10 23:01:12,446 - INFO - Updated HLBSL: 1 new rows added
+2025-03-10 23:01:12,496 - INFO - Updated HLI: 1 new rows added
+2025-03-10 23:01:12,503 - INFO - Updated HPPL: 1 new rows added
+2025-03-10 23:01:12,521 - INFO - Updated HRL: 1 new rows added
+2025-03-10 23:01:12,541 - INFO - Updated HURJA: 1 new rows added
+2025-03-10 23:01:12,562 - INFO - Updated ICFC: 1 new rows added
+2025-03-10 23:01:12,566 - INFO - Added new symbol: ICFCD83 with 1 rows
+2025-03-10 23:01:12,568 - INFO - Processing symbol 90/311: ICFCD88
+2025-03-10 23:01:12,587 - INFO - Updated ICFCD88: 1 new rows added
+2025-03-10 23:01:12,599 - INFO - Updated IGI: 1 new rows added
+2025-03-10 23:01:12,613 - INFO - Updated IHL: 1 new rows added
+2025-03-10 23:01:12,635 - INFO - Updated ILBS: 1 new rows added
+2025-03-10 23:01:12,653 - INFO - Updated ILI: 1 new rows added
+2025-03-10 23:01:12,662 - INFO - Updated JBBL: 1 new rows added
+2025-03-10 23:01:12,667 - INFO - Updated JBLB: 1 new rows added
+2025-03-10 23:01:12,672 - INFO - Updated JFL: 1 new rows added
+2025-03-10 23:01:12,679 - INFO - Updated JOSHI: 1 new rows added
+2025-03-10 23:01:12,685 - INFO - Updated JSLBB: 1 new rows added
+2025-03-10 23:01:12,686 - INFO - Processing symbol 100/311: KBL
+2025-03-10 23:01:12,693 - INFO - Updated KBL: 1 new rows added
+2025-03-10 23:01:12,700 - INFO - Updated KBLD86: 1 new rows added
+2025-03-10 23:01:12,706 - INFO - Updated KBSH: 1 new rows added
+2025-03-10 23:01:12,712 - INFO - Updated KDBY: 1 new rows added
+2025-03-10 23:01:12,720 - INFO - Updated KDL: 1 new rows added
+2025-03-10 23:01:12,725 - INFO - Updated KEF: 1 new rows added
+2025-03-10 23:01:12,736 - INFO - Updated KKHC: 1 new rows added
+2025-03-10 23:01:12,740 - INFO - Updated KMCDB: 1 new rows added
+2025-03-10 23:01:12,748 - INFO - Updated KPCL: 1 new rows added
+2025-03-10 23:01:12,755 - INFO - Updated KSBBL: 1 new rows added
+2025-03-10 23:01:12,756 - INFO - Processing symbol 110/311: KSBBLD87
+2025-03-10 23:01:12,770 - INFO - Updated KSBBLD87: 1 new rows added
+2025-03-10 23:01:12,779 - INFO - Updated KSY: 1 new rows added
+2025-03-10 23:01:12,787 - INFO - Updated LBBL: 1 new rows added
+2025-03-10 23:01:12,788 - INFO - Added new symbol: LBLD86 with 1 rows
+2025-03-10 23:01:12,798 - INFO - Updated LEC: 1 new rows added
+2025-03-10 23:01:12,804 - INFO - Updated LICN: 1 new rows added
+2025-03-10 23:01:12,811 - INFO - Updated LLBS: 1 new rows added
+2025-03-10 23:01:12,818 - INFO - Updated LSL: 1 new rows added
+2025-03-10 23:01:12,823 - INFO - Updated LUK: 1 new rows added
+2025-03-10 23:01:12,833 - INFO - Updated LVF2: 1 new rows added
+2025-03-10 23:01:12,834 - INFO - Processing symbol 120/311: MAKAR
+2025-03-10 23:01:12,839 - INFO - Updated MAKAR: 1 new rows added
+2025-03-10 23:01:12,846 - INFO - Updated MANDU: 1 new rows added
+2025-03-10 23:01:12,852 - INFO - Updated MATRI: 1 new rows added
+2025-03-10 23:01:12,857 - INFO - Updated MBJC: 1 new rows added
+2025-03-10 23:01:12,866 - INFO - Updated MBL: 1 new rows added
+2025-03-10 23:01:12,873 - INFO - Updated MCHL: 1 new rows added
+2025-03-10 23:01:12,882 - INFO - Updated MDB: 1 new rows added
+2025-03-10 23:01:12,887 - INFO - Updated MEHL: 1 new rows added
+2025-03-10 23:01:12,900 - INFO - Updated MEL: 1 new rows added
+2025-03-10 23:01:12,911 - INFO - Updated MEN: 1 new rows added
+2025-03-10 23:01:12,913 - INFO - Processing symbol 130/311: MERO
+2025-03-10 23:01:12,918 - INFO - Updated MERO: 1 new rows added
+2025-03-10 23:01:12,926 - INFO - Updated MFIL: 1 new rows added
+2025-03-10 23:01:12,935 - INFO - Updated MFLD85: 1 new rows added
+2025-03-10 23:01:12,940 - INFO - Updated MHCL: 1 new rows added
+2025-03-10 23:01:12,949 - INFO - Updated MHL: 1 new rows added
+2025-03-10 23:01:12,954 - INFO - Updated MHNL: 1 new rows added
+2025-03-10 23:01:12,959 - INFO - Updated MKCL: 1 new rows added
+2025-03-10 23:01:12,967 - INFO - Updated MKHC: 1 new rows added
+2025-03-10 23:01:12,973 - INFO - Updated MKHL: 1 new rows added
+2025-03-10 23:01:12,979 - INFO - Updated MKJC: 1 new rows added
+2025-03-10 23:01:12,980 - INFO - Processing symbol 140/311: MLBBL
+2025-03-10 23:01:12,987 - INFO - Updated MLBBL: 1 new rows added
+2025-03-10 23:01:12,993 - INFO - Updated MLBL: 1 new rows added
+2025-03-10 23:01:13,001 - INFO - Updated MLBS: 1 new rows added
+2025-03-10 23:01:13,006 - INFO - Updated MLBSL: 1 new rows added
+2025-03-10 23:01:13,014 - INFO - Updated MMF1: 1 new rows added
+2025-03-10 23:01:13,020 - INFO - Updated MMKJL: 1 new rows added
+2025-03-10 23:01:13,025 - INFO - Updated MNBBL: 1 new rows added
+2025-03-10 23:01:13,033 - INFO - Updated MNMF1: 1 new rows added
+2025-03-10 23:01:13,039 - INFO - Updated MPFL: 1 new rows added
+2025-03-10 23:01:13,045 - INFO - Updated MSHL: 1 new rows added
+2025-03-10 23:01:13,048 - INFO - Processing symbol 150/311: MSLB
+2025-03-10 23:01:13,053 - INFO - Updated MSLB: 1 new rows added
+2025-03-10 23:01:13,061 - INFO - Updated NABBC: 1 new rows added
+2025-03-10 23:01:13,068 - INFO - Updated NABIL: 1 new rows added
+2025-03-10 23:01:13,072 - INFO - Updated NADEP: 1 new rows added
+2025-03-10 23:01:13,081 - INFO - Updated NBF2: 1 new rows added
+2025-03-10 23:01:13,087 - INFO - Updated NBF3: 1 new rows added
+2025-03-10 23:01:13,093 - INFO - Updated NBL: 1 new rows added
+2025-03-10 23:01:13,094 - INFO - Added new symbol: NBLD85 with 1 rows
+2025-03-10 23:01:13,101 - INFO - Updated NBLD87: 1 new rows added
+2025-03-10 23:01:13,105 - INFO - Updated NESDO: 1 new rows added
+2025-03-10 23:01:13,106 - INFO - Processing symbol 160/311: NFS
+2025-03-10 23:01:13,116 - INFO - Updated NFS: 1 new rows added
+2025-03-10 23:01:13,121 - INFO - Updated NGPL: 1 new rows added
+2025-03-10 23:01:13,127 - INFO - Updated NHDL: 1 new rows added
+2025-03-10 23:01:13,134 - INFO - Updated NHPC: 1 new rows added
+2025-03-10 23:01:13,138 - INFO - Updated NIBLSTF: 1 new rows added
+2025-03-10 23:01:13,146 - INFO - Updated NIBSF2: 1 new rows added
+2025-03-10 23:01:13,151 - INFO - Updated NICA: 1 new rows added
+2025-03-10 23:01:13,157 - INFO - Updated NICAD8283: 1 new rows added
+2025-03-10 23:01:13,163 - INFO - Updated NICAD85_86: 1 new rows added
+2025-03-10 23:01:13,169 - INFO - Updated NICD88: 1 new rows added
+2025-03-10 23:01:13,170 - INFO - Processing symbol 170/311: NICFC
+2025-03-10 23:01:13,176 - INFO - Updated NICFC: 1 new rows added
+2025-03-10 23:01:13,185 - INFO - Updated NICGF2: 1 new rows added
+2025-03-10 23:01:13,190 - INFO - Updated NICL: 1 new rows added
+2025-03-10 23:01:13,202 - INFO - Updated NICLBSL: 1 new rows added
+2025-03-10 23:01:13,206 - INFO - Updated NICSF: 1 new rows added
+2025-03-10 23:01:13,215 - INFO - Updated NIFRA: 1 new rows added
+2025-03-10 23:01:13,223 - INFO - Updated NIL: 1 new rows added
+2025-03-10 23:01:13,231 - INFO - Updated NIMB: 1 new rows added
+2025-03-10 23:01:13,236 - INFO - Updated NIMBD90: 1 new rows added
+2025-03-10 23:01:13,241 - INFO - Updated NIMBPO: 1 new rows added
+2025-03-10 23:01:13,243 - INFO - Processing symbol 180/311: NLG
+2025-03-10 23:01:13,254 - INFO - Updated NLG: 1 new rows added
+2025-03-10 23:01:13,262 - INFO - Updated NLIC: 1 new rows added
+2025-03-10 23:01:13,269 - INFO - Updated NLICL: 1 new rows added
+2025-03-10 23:01:13,273 - INFO - Updated NMB: 1 new rows added
+2025-03-10 23:01:13,280 - INFO - Updated NMB50: 1 new rows added
+2025-03-10 23:01:13,289 - INFO - Updated NMBD2085: 1 new rows added
+2025-03-10 23:01:13,295 - INFO - Updated NMBMF: 1 new rows added
+2025-03-10 23:01:13,302 - INFO - Updated NMFBS: 1 new rows added
+2025-03-10 23:01:13,306 - INFO - Updated NMLBBL: 1 new rows added
+2025-03-10 23:01:13,315 - INFO - Updated NRIC: 1 new rows added
+2025-03-10 23:01:13,316 - INFO - Processing symbol 190/311: NRM
+2025-03-10 23:01:13,322 - INFO - Updated NRM: 1 new rows added
+2025-03-10 23:01:13,328 - INFO - Updated NRN: 1 new rows added
+2025-03-10 23:01:13,335 - INFO - Updated NSIF2: 1 new rows added
+2025-03-10 23:01:13,339 - INFO - Updated NTC: 1 new rows added
+2025-03-10 23:01:13,349 - INFO - Updated NUBL: 1 new rows added
+2025-03-10 23:01:13,354 - INFO - Updated NWCL: 1 new rows added
+2025-03-10 23:01:13,359 - INFO - Updated NYADI: 1 new rows added
+2025-03-10 23:01:13,367 - INFO - Updated OHL: 1 new rows added
+2025-03-10 23:01:13,375 - INFO - Updated PBD84: 1 new rows added
+2025-03-10 23:01:13,382 - INFO - Updated PBD85: 1 new rows added
+2025-03-10 23:01:13,383 - INFO - Processing symbol 200/311: PBD88
+2025-03-10 23:01:13,389 - INFO - Updated PBD88: 1 new rows added
+2025-03-10 23:01:13,398 - INFO - Updated PBLD84: 1 new rows added
+2025-03-10 23:01:13,407 - INFO - Updated PBLD87: 1 new rows added
+2025-03-10 23:01:13,416 - INFO - Updated PCBL: 1 new rows added
+2025-03-10 23:01:13,420 - INFO - Updated PFL: 1 new rows added
+2025-03-10 23:01:13,430 - INFO - Updated PHCL: 1 new rows added
+2025-03-10 23:01:13,435 - INFO - Updated PMHPL: 1 new rows added
+2025-03-10 23:01:13,440 - INFO - Updated PMLI: 1 new rows added
+2025-03-10 23:01:13,448 - INFO - Updated PPCL: 1 new rows added
+2025-03-10 23:01:13,454 - INFO - Updated PPL: 1 new rows added
+2025-03-10 23:01:13,454 - INFO - Processing symbol 210/311: PRIN
+2025-03-10 23:01:13,462 - INFO - Updated PRIN: 1 new rows added
+2025-03-10 23:01:13,470 - INFO - Updated PROFL: 1 new rows added
+2025-03-10 23:01:13,476 - INFO - Updated PRSF: 1 new rows added
+2025-03-10 23:01:13,483 - INFO - Updated PRVU: 1 new rows added
+2025-03-10 23:01:13,487 - INFO - Updated PSF: 1 new rows added
+2025-03-10 23:01:13,494 - INFO - Updated RADHI: 1 new rows added
+2025-03-10 23:01:13,501 - INFO - Updated RAWA: 1 new rows added
+2025-03-10 23:01:13,507 - INFO - Updated RBBD83: 1 new rows added
+2025-03-10 23:01:13,513 - INFO - Updated RBCL: 1 new rows added
+2025-03-10 23:01:13,521 - INFO - Updated RBCLPO: 1 new rows added
+2025-03-10 23:01:13,522 - INFO - Processing symbol 220/311: RFPL
+2025-03-10 23:01:13,530 - INFO - Updated RFPL: 1 new rows added
+2025-03-10 23:01:13,535 - INFO - Updated RHGCL: 1 new rows added
+2025-03-10 23:01:13,540 - INFO - Updated RHPL: 1 new rows added
+2025-03-10 23:01:13,545 - INFO - Updated RIDI: 1 new rows added
+2025-03-10 23:01:13,553 - INFO - Updated RLFL: 1 new rows added
+2025-03-10 23:01:13,559 - INFO - Updated RMF1: 1 new rows added
+2025-03-10 23:01:13,568 - INFO - Updated RMF2: 1 new rows added
+2025-03-10 23:01:13,573 - INFO - Updated RNLI: 1 new rows added
+2025-03-10 23:01:13,579 - INFO - Updated RSDC: 1 new rows added
+2025-03-10 23:01:13,586 - INFO - Updated RURU: 1 new rows added
+2025-03-10 23:01:13,587 - INFO - Processing symbol 230/311: SADBL
+2025-03-10 23:01:13,591 - INFO - Updated SADBL: 1 new rows added
+2025-03-10 23:01:13,600 - INFO - Updated SAGF: 1 new rows added
+2025-03-10 23:01:13,604 - INFO - Updated SAHAS: 1 new rows added
+2025-03-10 23:01:13,610 - INFO - Updated SALICO: 1 new rows added
+2025-03-10 23:01:13,617 - INFO - Updated SAMAJ: 1 new rows added
+2025-03-10 23:01:13,624 - INFO - Updated SAND2085: 1 new rows added
+2025-03-10 23:01:13,634 - INFO - Updated SANIMA: 1 new rows added
+2025-03-10 23:01:13,639 - INFO - Updated SAPDBL: 1 new rows added
+2025-03-10 23:01:13,645 - INFO - Updated SARBTM: 1 new rows added
+2025-03-10 23:01:13,652 - INFO - Updated SBCF: 1 new rows added
+2025-03-10 23:01:13,652 - INFO - Processing symbol 240/311: SBI
+2025-03-10 23:01:13,659 - INFO - Updated SBI: 1 new rows added
+2025-03-10 23:01:13,671 - INFO - Updated SBIBD86: 1 new rows added
+2025-03-10 23:01:13,687 - INFO - Updated SBID83: 1 new rows added
+2025-03-10 23:01:13,704 - INFO - Updated SBL: 1 new rows added
+2025-03-10 23:01:13,718 - INFO - Updated SBLD89: 1 new rows added
+2025-03-10 23:01:13,736 - INFO - Updated SCB: 1 new rows added
+2025-03-10 23:01:13,755 - INFO - Updated SDBD87: 1 new rows added
+2025-03-10 23:01:13,779 - INFO - Updated SEF: 1 new rows added
+2025-03-10 23:01:13,788 - INFO - Updated SFCL: 1 new rows added
+2025-03-10 23:01:13,796 - INFO - Updated SFEF: 1 new rows added
+2025-03-10 23:01:13,797 - INFO - Processing symbol 250/311: SFMF
+2025-03-10 23:01:13,802 - INFO - Updated SFMF: 1 new rows added
+2025-03-10 23:01:13,807 - INFO - Updated SGHC: 1 new rows added
+2025-03-10 23:01:13,878 - INFO - Updated SGIC: 1 new rows added
+2025-03-10 23:01:13,882 - INFO - Updated SHEL: 1 new rows added
+2025-03-10 23:01:13,886 - INFO - Updated SHINE: 1 new rows added
+2025-03-10 23:01:13,890 - INFO - Updated SHIVM: 1 new rows added
+2025-03-10 23:01:13,900 - INFO - Updated SHL: 1 new rows added
+2025-03-10 23:01:13,905 - INFO - Updated SHLB: 1 new rows added
+2025-03-10 23:01:13,914 - INFO - Updated SHPC: 1 new rows added
+2025-03-10 23:01:13,918 - INFO - Updated SICL: 1 new rows added
+2025-03-10 23:01:13,919 - INFO - Processing symbol 260/311: SIFC
+2025-03-10 23:01:13,924 - INFO - Updated SIFC: 1 new rows added
+2025-03-10 23:01:13,935 - INFO - Updated SIGS3: 1 new rows added
+2025-03-10 23:01:13,940 - INFO - Updated SIKLES: 1 new rows added
+2025-03-10 23:01:13,949 - INFO - Updated SINDU: 1 new rows added
+2025-03-10 23:01:13,954 - INFO - Updated SJCL: 1 new rows added
+2025-03-10 23:01:13,960 - INFO - Updated SJLIC: 1 new rows added
+2025-03-10 23:01:13,967 - INFO - Updated SKBBL: 1 new rows added
+2025-03-10 23:01:13,971 - INFO - Updated SLBBL: 1 new rows added
+2025-03-10 23:01:13,980 - INFO - Updated SLBSL: 1 new rows added
+2025-03-10 23:01:13,984 - INFO - Updated SLCF: 1 new rows added
+2025-03-10 23:01:13,985 - INFO - Processing symbol 270/311: SMATA
+2025-03-10 23:01:13,990 - INFO - Updated SMATA: 1 new rows added
+2025-03-10 23:01:13,999 - INFO - Updated SMB: 1 new rows added
+2025-03-10 23:01:14,004 - INFO - Updated SMFBS: 1 new rows added
+2025-03-10 23:01:14,011 - INFO - Updated SMH: 1 new rows added
+2025-03-10 23:01:14,017 - INFO - Updated SMHL: 1 new rows added
+2025-03-10 23:01:14,022 - INFO - Updated SMJC: 1 new rows added
+2025-03-10 23:01:14,031 - INFO - Updated SMPDA: 1 new rows added
+2025-03-10 23:01:14,036 - INFO - Updated SNLI: 1 new rows added
+2025-03-10 23:01:14,040 - INFO - Updated SONA: 1 new rows added
+2025-03-10 23:01:14,048 - INFO - Updated SPC: 1 new rows added
+2025-03-10 23:01:14,049 - INFO - Processing symbol 280/311: SPDL
+2025-03-10 23:01:14,057 - INFO - Updated SPDL: 1 new rows added
+2025-03-10 23:01:14,065 - INFO - Updated SPHL: 1 new rows added
+2025-03-10 23:01:14,071 - INFO - Updated SPIL: 1 new rows added
+2025-03-10 23:01:14,079 - INFO - Updated SPL: 1 new rows added
+2025-03-10 23:01:14,080 - INFO - Added new symbol: SRBLD83 with 1 rows
+2025-03-10 23:01:14,085 - INFO - Updated SRLI: 1 new rows added
+2025-03-10 23:01:14,090 - INFO - Updated SSHL: 1 new rows added
+2025-03-10 23:01:14,098 - INFO - Updated STC: 1 new rows added
+2025-03-10 23:01:14,104 - INFO - Updated SWBBL: 1 new rows added
+2025-03-10 23:01:14,111 - INFO - Updated SWMF: 1 new rows added
+2025-03-10 23:01:14,112 - INFO - Processing symbol 290/311: TAMOR
+2025-03-10 23:01:14,118 - INFO - Updated TAMOR: 1 new rows added
+2025-03-10 23:01:14,126 - INFO - Updated TPC: 1 new rows added
+2025-03-10 23:01:14,133 - INFO - Updated TRH: 1 new rows added
+2025-03-10 23:01:14,140 - INFO - Updated TSHL: 1 new rows added
+2025-03-10 23:01:14,149 - INFO - Updated TVCL: 1 new rows added
+2025-03-10 23:01:14,155 - INFO - Updated UAIL: 1 new rows added
+2025-03-10 23:01:14,160 - INFO - Updated UHEWA: 1 new rows added
+2025-03-10 23:01:14,167 - INFO - Updated ULBSL: 1 new rows added
+2025-03-10 23:01:14,174 - INFO - Updated ULHC: 1 new rows added
+2025-03-10 23:01:14,181 - INFO - Updated UMHL: 1 new rows added
+2025-03-10 23:01:14,182 - INFO - Processing symbol 300/311: UMRH
+2025-03-10 23:01:14,186 - INFO - Updated UMRH: 1 new rows added
+2025-03-10 23:01:14,191 - INFO - Updated UNHPL: 1 new rows added
+2025-03-10 23:01:14,204 - INFO - Updated UNL: 1 new rows added
+2025-03-10 23:01:14,209 - INFO - Updated UNLB: 1 new rows added
+2025-03-10 23:01:14,217 - INFO - Updated UPCL: 1 new rows added
+2025-03-10 23:01:14,222 - INFO - Updated UPPER: 1 new rows added
+2025-03-10 23:01:14,231 - INFO - Updated USHEC: 1 new rows added
+2025-03-10 23:01:14,235 - INFO - Updated USHL: 1 new rows added
+2025-03-10 23:01:14,240 - INFO - Updated USLB: 1 new rows added
+2025-03-10 23:01:14,248 - INFO - Updated VLBS: 1 new rows added
+2025-03-10 23:01:14,250 - INFO - Processing symbol 310/311: VLUCL
+2025-03-10 23:01:14,254 - INFO - Updated VLUCL: 1 new rows added
+2025-03-10 23:01:14,262 - INFO - Updated WNLB: 1 new rows added
+2025-03-10 23:01:14,263 - INFO - Finished processing 03_10_2025.csv in 2.46 seconds
+2025-03-10 23:01:14,264 - INFO - Starting to write 332 sheets to new Excel file: updated_shares_data\shares_data_till_2025_03_10.xlsx
+2025-03-10 23:01:14,268 - INFO - Writing sheet 1/332: ACLBSL with 52 rows
+2025-03-10 23:01:14,299 - INFO - Sheet ACLBSL written in 0.03 seconds
+2025-03-10 23:01:14,299 - INFO - Writing sheet 2/332: ADBL with 52 rows
+2025-03-10 23:01:14,309 - INFO - Sheet ADBL written in 0.01 seconds
+2025-03-10 23:01:14,311 - INFO - Writing sheet 3/332: ADBLD83 with 51 rows
+2025-03-10 23:01:14,324 - INFO - Sheet ADBLD83 written in 0.01 seconds
+2025-03-10 23:01:14,325 - INFO - Writing sheet 4/332: AHL with 52 rows
+2025-03-10 23:01:14,337 - INFO - Sheet AHL written in 0.01 seconds
+2025-03-10 23:01:14,338 - INFO - Writing sheet 5/332: AHPC with 52 rows
+2025-03-10 23:01:14,352 - INFO - Sheet AHPC written in 0.01 seconds
+2025-03-10 23:01:14,352 - INFO - Writing sheet 6/332: AKJCL with 52 rows
+2025-03-10 23:01:14,367 - INFO - Sheet AKJCL written in 0.01 seconds
+2025-03-10 23:01:14,368 - INFO - Writing sheet 7/332: AKPL with 52 rows
+2025-03-10 23:01:14,382 - INFO - Sheet AKPL written in 0.01 seconds
+2025-03-10 23:01:14,383 - INFO - Writing sheet 8/332: ALBSL with 52 rows
+2025-03-10 23:01:14,396 - INFO - Sheet ALBSL written in 0.01 seconds
+2025-03-10 23:01:14,397 - INFO - Writing sheet 9/332: ALICL with 52 rows
+2025-03-10 23:01:14,410 - INFO - Sheet ALICL written in 0.01 seconds
+2025-03-10 23:01:14,411 - INFO - Writing sheet 10/332: ANLB with 52 rows
+2025-03-10 23:01:14,423 - INFO - Sheet ANLB written in 0.01 seconds
+2025-03-10 23:01:14,423 - INFO - Writing sheet 11/332: API with 52 rows
+2025-03-10 23:01:14,445 - INFO - Sheet API written in 0.02 seconds
+2025-03-10 23:01:14,446 - INFO - Writing sheet 12/332: AVYAN with 52 rows
+2025-03-10 23:01:14,466 - INFO - Sheet AVYAN written in 0.02 seconds
+2025-03-10 23:01:14,466 - INFO - Writing sheet 13/332: BARUN with 52 rows
+2025-03-10 23:01:14,476 - INFO - Sheet BARUN written in 0.01 seconds
+2025-03-10 23:01:14,477 - INFO - Writing sheet 14/332: BBC with 52 rows
+2025-03-10 23:01:14,498 - INFO - Sheet BBC written in 0.02 seconds
+2025-03-10 23:01:14,499 - INFO - Writing sheet 15/332: BEDC with 52 rows
+2025-03-10 23:01:14,516 - INFO - Sheet BEDC written in 0.02 seconds
+2025-03-10 23:01:14,516 - INFO - Writing sheet 16/332: BFC with 52 rows
+2025-03-10 23:01:14,534 - INFO - Sheet BFC written in 0.02 seconds
+2025-03-10 23:01:14,534 - INFO - Writing sheet 17/332: BGWT with 52 rows
+2025-03-10 23:01:14,553 - INFO - Sheet BGWT written in 0.02 seconds
+2025-03-10 23:01:14,553 - INFO - Writing sheet 18/332: BHDC with 52 rows
+2025-03-10 23:01:14,609 - INFO - Sheet BHDC written in 0.06 seconds
+2025-03-10 23:01:14,628 - INFO - Writing sheet 19/332: BHL with 52 rows
+2025-03-10 23:01:14,665 - INFO - Sheet BHL written in 0.04 seconds
+2025-03-10 23:01:14,684 - INFO - Writing sheet 20/332: BHPL with 52 rows
+2025-03-10 23:01:14,723 - INFO - Sheet BHPL written in 0.04 seconds
+2025-03-10 23:01:14,723 - INFO - Writing sheet 21/332: BNHC with 52 rows
+2025-03-10 23:01:14,742 - INFO - Sheet BNHC written in 0.02 seconds
+2025-03-10 23:01:14,743 - INFO - Writing sheet 22/332: BNT with 52 rows
+2025-03-10 23:01:14,756 - INFO - Sheet BNT written in 0.01 seconds
+2025-03-10 23:01:14,756 - INFO - Writing sheet 23/332: BPCL with 52 rows
+2025-03-10 23:01:14,770 - INFO - Sheet BPCL written in 0.01 seconds
+2025-03-10 23:01:14,770 - INFO - Writing sheet 24/332: C30MF with 52 rows
+2025-03-10 23:01:14,786 - INFO - Sheet C30MF written in 0.02 seconds
+2025-03-10 23:01:14,787 - INFO - Writing sheet 25/332: CBBL with 52 rows
+2025-03-10 23:01:14,819 - INFO - Sheet CBBL written in 0.03 seconds
+2025-03-10 23:01:14,821 - INFO - Writing sheet 26/332: CBLD88 with 51 rows
+2025-03-10 23:01:14,857 - INFO - Sheet CBLD88 written in 0.04 seconds
+2025-03-10 23:01:14,858 - INFO - Writing sheet 27/332: CCBD88 with 51 rows
+2025-03-10 23:01:14,907 - INFO - Sheet CCBD88 written in 0.05 seconds
+2025-03-10 23:01:14,907 - INFO - Writing sheet 28/332: CFCL with 52 rows
+2025-03-10 23:01:14,921 - INFO - Sheet CFCL written in 0.01 seconds
+2025-03-10 23:01:14,922 - INFO - Writing sheet 29/332: CGH with 52 rows
+2025-03-10 23:01:14,937 - INFO - Sheet CGH written in 0.01 seconds
+2025-03-10 23:01:14,937 - INFO - Writing sheet 30/332: CHCL with 52 rows
+2025-03-10 23:01:14,951 - INFO - Sheet CHCL written in 0.01 seconds
+2025-03-10 23:01:14,951 - INFO - Writing sheet 31/332: CHDC with 52 rows
+2025-03-10 23:01:14,970 - INFO - Sheet CHDC written in 0.02 seconds
+2025-03-10 23:01:14,970 - INFO - Writing sheet 32/332: CHL with 52 rows
+2025-03-10 23:01:14,988 - INFO - Sheet CHL written in 0.02 seconds
+2025-03-10 23:01:14,988 - INFO - Writing sheet 33/332: CIT with 52 rows
+2025-03-10 23:01:15,008 - INFO - Sheet CIT written in 0.02 seconds
+2025-03-10 23:01:15,008 - INFO - Writing sheet 34/332: CITY with 52 rows
+2025-03-10 23:01:15,027 - INFO - Sheet CITY written in 0.02 seconds
+2025-03-10 23:01:15,027 - INFO - Writing sheet 35/332: CKHL with 52 rows
+2025-03-10 23:01:15,041 - INFO - Sheet CKHL written in 0.01 seconds
+2025-03-10 23:01:15,041 - INFO - Writing sheet 36/332: CLI with 52 rows
+2025-03-10 23:01:15,057 - INFO - Sheet CLI written in 0.02 seconds
+2025-03-10 23:01:15,058 - INFO - Writing sheet 37/332: CMF2 with 52 rows
+2025-03-10 23:01:15,070 - INFO - Sheet CMF2 written in 0.01 seconds
+2025-03-10 23:01:15,071 - INFO - Writing sheet 38/332: CORBL with 52 rows
+2025-03-10 23:01:15,085 - INFO - Sheet CORBL written in 0.01 seconds
+2025-03-10 23:01:15,086 - INFO - Writing sheet 39/332: CYCL with 52 rows
+2025-03-10 23:01:15,103 - INFO - Sheet CYCL written in 0.02 seconds
+2025-03-10 23:01:15,103 - INFO - Writing sheet 40/332: CZBIL with 52 rows
+2025-03-10 23:01:15,118 - INFO - Sheet CZBIL written in 0.01 seconds
+2025-03-10 23:01:15,119 - INFO - Writing sheet 41/332: DDBL with 52 rows
+2025-03-10 23:01:15,134 - INFO - Sheet DDBL written in 0.02 seconds
+2025-03-10 23:01:15,134 - INFO - Writing sheet 42/332: DHPL with 52 rows
+2025-03-10 23:01:15,151 - INFO - Sheet DHPL written in 0.02 seconds
+2025-03-10 23:01:15,151 - INFO - Writing sheet 43/332: DLBS with 52 rows
+2025-03-10 23:01:15,170 - INFO - Sheet DLBS written in 0.02 seconds
+2025-03-10 23:01:15,171 - INFO - Writing sheet 44/332: DOLTI with 52 rows
+2025-03-10 23:01:15,184 - INFO - Sheet DOLTI written in 0.01 seconds
+2025-03-10 23:01:15,185 - INFO - Writing sheet 45/332: DORDI with 52 rows
+2025-03-10 23:01:15,205 - INFO - Sheet DORDI written in 0.02 seconds
+2025-03-10 23:01:15,205 - INFO - Writing sheet 46/332: EBL with 52 rows
+2025-03-10 23:01:15,221 - INFO - Sheet EBL written in 0.02 seconds
+2025-03-10 23:01:15,221 - INFO - Writing sheet 47/332: EBLD85 with 52 rows
+2025-03-10 23:01:15,239 - INFO - Sheet EBLD85 written in 0.02 seconds
+2025-03-10 23:01:15,239 - INFO - Writing sheet 48/332: EBLD86 with 52 rows
+2025-03-10 23:01:15,255 - INFO - Sheet EBLD86 written in 0.02 seconds
+2025-03-10 23:01:15,255 - INFO - Writing sheet 49/332: EDBL with 52 rows
+2025-03-10 23:01:15,275 - INFO - Sheet EDBL written in 0.02 seconds
+2025-03-10 23:01:15,276 - INFO - Writing sheet 50/332: EHPL with 52 rows
+2025-03-10 23:01:15,290 - INFO - Sheet EHPL written in 0.01 seconds
+2025-03-10 23:01:15,291 - INFO - Writing sheet 51/332: ENL with 52 rows
+2025-03-10 23:01:15,309 - INFO - Sheet ENL written in 0.02 seconds
+2025-03-10 23:01:15,309 - INFO - Writing sheet 52/332: FMDBL with 52 rows
+2025-03-10 23:01:15,323 - INFO - Sheet FMDBL written in 0.01 seconds
+2025-03-10 23:01:15,323 - INFO - Writing sheet 53/332: FOWAD with 52 rows
+2025-03-10 23:01:15,338 - INFO - Sheet FOWAD written in 0.01 seconds
+2025-03-10 23:01:15,339 - INFO - Writing sheet 54/332: GBBL with 52 rows
+2025-03-10 23:01:15,354 - INFO - Sheet GBBL written in 0.01 seconds
+2025-03-10 23:01:15,355 - INFO - Writing sheet 55/332: GBILD86_87 with 50 rows
+2025-03-10 23:01:15,370 - INFO - Sheet GBILD86_87 written in 0.01 seconds
+2025-03-10 23:01:15,370 - INFO - Writing sheet 56/332: GBIME with 52 rows
+2025-03-10 23:01:15,385 - INFO - Sheet GBIME written in 0.01 seconds
+2025-03-10 23:01:15,386 - INFO - Writing sheet 57/332: GBLBS with 52 rows
+2025-03-10 23:01:15,404 - INFO - Sheet GBLBS written in 0.02 seconds
+2025-03-10 23:01:15,404 - INFO - Writing sheet 58/332: GCIL with 52 rows
+2025-03-10 23:01:15,422 - INFO - Sheet GCIL written in 0.02 seconds
+2025-03-10 23:01:15,423 - INFO - Writing sheet 59/332: GFCL with 52 rows
+2025-03-10 23:01:15,440 - INFO - Sheet GFCL written in 0.02 seconds
+2025-03-10 23:01:15,440 - INFO - Writing sheet 60/332: GHL with 52 rows
+2025-03-10 23:01:15,456 - INFO - Sheet GHL written in 0.02 seconds
+2025-03-10 23:01:15,456 - INFO - Writing sheet 61/332: GIBF1 with 52 rows
+2025-03-10 23:01:15,473 - INFO - Sheet GIBF1 written in 0.02 seconds
+2025-03-10 23:01:15,474 - INFO - Writing sheet 62/332: GILB with 52 rows
+2025-03-10 23:01:15,490 - INFO - Sheet GILB written in 0.02 seconds
+2025-03-10 23:01:15,490 - INFO - Writing sheet 63/332: GLBSL with 52 rows
+2025-03-10 23:01:15,513 - INFO - Sheet GLBSL written in 0.02 seconds
+2025-03-10 23:01:15,514 - INFO - Writing sheet 64/332: GLH with 52 rows
+2025-03-10 23:01:15,533 - INFO - Sheet GLH written in 0.02 seconds
+2025-03-10 23:01:15,533 - INFO - Writing sheet 65/332: GMFBS with 52 rows
+2025-03-10 23:01:15,551 - INFO - Sheet GMFBS written in 0.02 seconds
+2025-03-10 23:01:15,551 - INFO - Writing sheet 66/332: GMFIL with 52 rows
+2025-03-10 23:01:15,572 - INFO - Sheet GMFIL written in 0.02 seconds
+2025-03-10 23:01:15,573 - INFO - Writing sheet 67/332: GMLI with 20 rows
+2025-03-10 23:01:15,588 - INFO - Sheet GMLI written in 0.01 seconds
+2025-03-10 23:01:15,588 - INFO - Writing sheet 68/332: GRDBL with 52 rows
+2025-03-10 23:01:15,608 - INFO - Sheet GRDBL written in 0.02 seconds
+2025-03-10 23:01:15,608 - INFO - Writing sheet 69/332: GSY with 12 rows
+2025-03-10 23:01:15,619 - INFO - Sheet GSY written in 0.01 seconds
+2025-03-10 23:01:15,619 - INFO - Writing sheet 70/332: GUFL with 52 rows
+2025-03-10 23:01:15,635 - INFO - Sheet GUFL written in 0.02 seconds
+2025-03-10 23:01:15,636 - INFO - Writing sheet 71/332: GVL with 52 rows
+2025-03-10 23:01:15,657 - INFO - Sheet GVL written in 0.02 seconds
+2025-03-10 23:01:15,658 - INFO - Writing sheet 72/332: H8020 with 52 rows
+2025-03-10 23:01:15,675 - INFO - Sheet H8020 written in 0.02 seconds
+2025-03-10 23:01:15,676 - INFO - Writing sheet 73/332: HATHY with 52 rows
+2025-03-10 23:01:15,698 - INFO - Sheet HATHY written in 0.02 seconds
+2025-03-10 23:01:15,698 - INFO - Writing sheet 74/332: HBL with 52 rows
+2025-03-10 23:01:15,715 - INFO - Sheet HBL written in 0.02 seconds
+2025-03-10 23:01:15,716 - INFO - Writing sheet 75/332: HDHPC with 52 rows
+2025-03-10 23:01:15,738 - INFO - Sheet HDHPC written in 0.02 seconds
+2025-03-10 23:01:15,739 - INFO - Writing sheet 76/332: HDL with 52 rows
+2025-03-10 23:01:15,756 - INFO - Sheet HDL written in 0.02 seconds
+2025-03-10 23:01:15,756 - INFO - Writing sheet 77/332: HEI with 52 rows
+2025-03-10 23:01:15,777 - INFO - Sheet HEI written in 0.02 seconds
+2025-03-10 23:01:15,777 - INFO - Writing sheet 78/332: HEIP with 52 rows
+2025-03-10 23:01:15,797 - INFO - Sheet HEIP written in 0.02 seconds
+2025-03-10 23:01:15,798 - INFO - Writing sheet 79/332: HHL with 52 rows
+2025-03-10 23:01:15,876 - INFO - Sheet HHL written in 0.08 seconds
+2025-03-10 23:01:15,876 - INFO - Writing sheet 80/332: HIDCL with 52 rows
+2025-03-10 23:01:15,890 - INFO - Sheet HIDCL written in 0.01 seconds
+2025-03-10 23:01:15,892 - INFO - Writing sheet 81/332: HIDCLP with 52 rows
+2025-03-10 23:01:15,904 - INFO - Sheet HIDCLP written in 0.01 seconds
+2025-03-10 23:01:15,905 - INFO - Writing sheet 82/332: HLBSL with 52 rows
+2025-03-10 23:01:15,946 - INFO - Sheet HLBSL written in 0.04 seconds
+2025-03-10 23:01:15,948 - INFO - Writing sheet 83/332: HLI with 52 rows
+2025-03-10 23:01:15,997 - INFO - Sheet HLI written in 0.05 seconds
+2025-03-10 23:01:15,999 - INFO - Writing sheet 84/332: HPPL with 52 rows
+2025-03-10 23:01:16,032 - INFO - Sheet HPPL written in 0.03 seconds
+2025-03-10 23:01:16,032 - INFO - Writing sheet 85/332: HRL with 52 rows
+2025-03-10 23:01:16,050 - INFO - Sheet HRL written in 0.02 seconds
+2025-03-10 23:01:16,050 - INFO - Writing sheet 86/332: HURJA with 52 rows
+2025-03-10 23:01:16,072 - INFO - Sheet HURJA written in 0.02 seconds
+2025-03-10 23:01:16,073 - INFO - Writing sheet 87/332: ICFC with 52 rows
+2025-03-10 23:01:16,092 - INFO - Sheet ICFC written in 0.02 seconds
+2025-03-10 23:01:16,092 - INFO - Writing sheet 88/332: IGI with 52 rows
+2025-03-10 23:01:16,115 - INFO - Sheet IGI written in 0.02 seconds
+2025-03-10 23:01:16,115 - INFO - Writing sheet 89/332: IHL with 52 rows
+2025-03-10 23:01:16,135 - INFO - Sheet IHL written in 0.02 seconds
+2025-03-10 23:01:16,136 - INFO - Writing sheet 90/332: ILBS with 52 rows
+2025-03-10 23:01:16,155 - INFO - Sheet ILBS written in 0.02 seconds
+2025-03-10 23:01:16,155 - INFO - Writing sheet 91/332: ILI with 52 rows
+2025-03-10 23:01:16,175 - INFO - Sheet ILI written in 0.02 seconds
+2025-03-10 23:01:16,175 - INFO - Writing sheet 92/332: JBBL with 52 rows
+2025-03-10 23:01:16,203 - INFO - Sheet JBBL written in 0.03 seconds
+2025-03-10 23:01:16,204 - INFO - Writing sheet 93/332: JBLB with 52 rows
+2025-03-10 23:01:16,226 - INFO - Sheet JBLB written in 0.02 seconds
+2025-03-10 23:01:16,226 - INFO - Writing sheet 94/332: JFL with 52 rows
+2025-03-10 23:01:16,243 - INFO - Sheet JFL written in 0.02 seconds
+2025-03-10 23:01:16,244 - INFO - Writing sheet 95/332: JOSHI with 52 rows
+2025-03-10 23:01:16,267 - INFO - Sheet JOSHI written in 0.02 seconds
+2025-03-10 23:01:16,268 - INFO - Writing sheet 96/332: JSLBB with 52 rows
+2025-03-10 23:01:16,292 - INFO - Sheet JSLBB written in 0.02 seconds
+2025-03-10 23:01:16,293 - INFO - Writing sheet 97/332: KBL with 52 rows
+2025-03-10 23:01:16,310 - INFO - Sheet KBL written in 0.02 seconds
+2025-03-10 23:01:16,311 - INFO - Writing sheet 98/332: KBLD86 with 51 rows
+2025-03-10 23:01:16,333 - INFO - Sheet KBLD86 written in 0.02 seconds
+2025-03-10 23:01:16,333 - INFO - Writing sheet 99/332: KBLD89 with 51 rows
+2025-03-10 23:01:16,350 - INFO - Sheet KBLD89 written in 0.02 seconds
+2025-03-10 23:01:16,350 - INFO - Writing sheet 100/332: KBLD90 with 50 rows
+2025-03-10 23:01:16,367 - INFO - Sheet KBLD90 written in 0.02 seconds
+2025-03-10 23:01:16,367 - INFO - Writing sheet 101/332: KBSH with 52 rows
+2025-03-10 23:01:16,388 - INFO - Sheet KBSH written in 0.02 seconds
+2025-03-10 23:01:16,389 - INFO - Writing sheet 102/332: KDBY with 52 rows
+2025-03-10 23:01:16,411 - INFO - Sheet KDBY written in 0.02 seconds
+2025-03-10 23:01:16,412 - INFO - Writing sheet 103/332: KDL with 52 rows
+2025-03-10 23:01:16,431 - INFO - Sheet KDL written in 0.02 seconds
+2025-03-10 23:01:16,431 - INFO - Writing sheet 104/332: KEF with 52 rows
+2025-03-10 23:01:16,454 - INFO - Sheet KEF written in 0.02 seconds
+2025-03-10 23:01:16,454 - INFO - Writing sheet 105/332: KKHC with 52 rows
+2025-03-10 23:01:16,471 - INFO - Sheet KKHC written in 0.02 seconds
+2025-03-10 23:01:16,471 - INFO - Writing sheet 106/332: KMCDB with 52 rows
+2025-03-10 23:01:16,491 - INFO - Sheet KMCDB written in 0.02 seconds
+2025-03-10 23:01:16,491 - INFO - Writing sheet 107/332: KPCL with 52 rows
+2025-03-10 23:01:16,517 - INFO - Sheet KPCL written in 0.03 seconds
+2025-03-10 23:01:16,517 - INFO - Writing sheet 108/332: KSBBL with 52 rows
+2025-03-10 23:01:16,537 - INFO - Sheet KSBBL written in 0.02 seconds
+2025-03-10 23:01:16,538 - INFO - Writing sheet 109/332: KSBBLD87 with 52 rows
+2025-03-10 23:01:16,557 - INFO - Sheet KSBBLD87 written in 0.02 seconds
+2025-03-10 23:01:16,557 - INFO - Writing sheet 110/332: KSY with 52 rows
+2025-03-10 23:01:16,583 - INFO - Sheet KSY written in 0.03 seconds
+2025-03-10 23:01:16,583 - INFO - Writing sheet 111/332: LBBL with 52 rows
+2025-03-10 23:01:16,604 - INFO - Sheet LBBL written in 0.02 seconds
+2025-03-10 23:01:16,604 - INFO - Writing sheet 112/332: LBBLD89 with 51 rows
+2025-03-10 23:01:16,632 - INFO - Sheet LBBLD89 written in 0.03 seconds
+2025-03-10 23:01:16,632 - INFO - Writing sheet 113/332: LEC with 52 rows
+2025-03-10 23:01:16,652 - INFO - Sheet LEC written in 0.02 seconds
+2025-03-10 23:01:16,653 - INFO - Writing sheet 114/332: LICN with 52 rows
+2025-03-10 23:01:16,673 - INFO - Sheet LICN written in 0.02 seconds
+2025-03-10 23:01:16,673 - INFO - Writing sheet 115/332: LLBS with 52 rows
+2025-03-10 23:01:16,695 - INFO - Sheet LLBS written in 0.02 seconds
+2025-03-10 23:01:16,696 - INFO - Writing sheet 116/332: LSL with 52 rows
+2025-03-10 23:01:16,715 - INFO - Sheet LSL written in 0.02 seconds
+2025-03-10 23:01:16,716 - INFO - Writing sheet 117/332: LUK with 52 rows
+2025-03-10 23:01:16,735 - INFO - Sheet LUK written in 0.02 seconds
+2025-03-10 23:01:16,735 - INFO - Writing sheet 118/332: LVF2 with 52 rows
+2025-03-10 23:01:16,761 - INFO - Sheet LVF2 written in 0.03 seconds
+2025-03-10 23:01:16,762 - INFO - Writing sheet 119/332: MAKAR with 52 rows
+2025-03-10 23:01:16,784 - INFO - Sheet MAKAR written in 0.02 seconds
+2025-03-10 23:01:16,784 - INFO - Writing sheet 120/332: MANDU with 52 rows
+2025-03-10 23:01:16,804 - INFO - Sheet MANDU written in 0.02 seconds
+2025-03-10 23:01:16,804 - INFO - Writing sheet 121/332: MATRI with 52 rows
+2025-03-10 23:01:16,832 - INFO - Sheet MATRI written in 0.03 seconds
+2025-03-10 23:01:16,833 - INFO - Writing sheet 122/332: MATRIP with 5 rows
+2025-03-10 23:01:16,851 - INFO - Sheet MATRIP written in 0.02 seconds
+2025-03-10 23:01:16,851 - INFO - Writing sheet 123/332: MBJC with 52 rows
+2025-03-10 23:01:16,872 - INFO - Sheet MBJC written in 0.02 seconds
+2025-03-10 23:01:16,872 - INFO - Writing sheet 124/332: MBL with 52 rows
+2025-03-10 23:01:16,899 - INFO - Sheet MBL written in 0.03 seconds
+2025-03-10 23:01:16,900 - INFO - Writing sheet 125/332: MCHL with 52 rows
+2025-03-10 23:01:16,923 - INFO - Sheet MCHL written in 0.02 seconds
+2025-03-10 23:01:16,924 - INFO - Writing sheet 126/332: MDB with 52 rows
+2025-03-10 23:01:16,951 - INFO - Sheet MDB written in 0.03 seconds
+2025-03-10 23:01:16,951 - INFO - Writing sheet 127/332: MEHL with 52 rows
+2025-03-10 23:01:16,971 - INFO - Sheet MEHL written in 0.02 seconds
+2025-03-10 23:01:16,971 - INFO - Writing sheet 128/332: MEL with 52 rows
+2025-03-10 23:01:16,989 - INFO - Sheet MEL written in 0.02 seconds
+2025-03-10 23:01:16,990 - INFO - Writing sheet 129/332: MEN with 52 rows
+2025-03-10 23:01:17,017 - INFO - Sheet MEN written in 0.03 seconds
+2025-03-10 23:01:17,018 - INFO - Writing sheet 130/332: MERO with 52 rows
+2025-03-10 23:01:17,050 - INFO - Sheet MERO written in 0.03 seconds
+2025-03-10 23:01:17,052 - INFO - Writing sheet 131/332: MFIL with 52 rows
+2025-03-10 23:01:17,105 - INFO - Sheet MFIL written in 0.05 seconds
+2025-03-10 23:01:17,106 - INFO - Writing sheet 132/332: MHCL with 52 rows
+2025-03-10 23:01:17,231 - INFO - Sheet MHCL written in 0.12 seconds
+2025-03-10 23:01:17,244 - INFO - Writing sheet 133/332: MHL with 52 rows
+2025-03-10 23:01:17,299 - INFO - Sheet MHL written in 0.05 seconds
+2025-03-10 23:01:17,300 - INFO - Writing sheet 134/332: MHNL with 52 rows
+2025-03-10 23:01:17,323 - INFO - Sheet MHNL written in 0.02 seconds
+2025-03-10 23:01:17,324 - INFO - Writing sheet 135/332: MKCL with 52 rows
+2025-03-10 23:01:17,354 - INFO - Sheet MKCL written in 0.03 seconds
+2025-03-10 23:01:17,355 - INFO - Writing sheet 136/332: MKHC with 52 rows
+2025-03-10 23:01:17,383 - INFO - Sheet MKHC written in 0.03 seconds
+2025-03-10 23:01:17,383 - INFO - Writing sheet 137/332: MKHL with 52 rows
+2025-03-10 23:01:17,410 - INFO - Sheet MKHL written in 0.03 seconds
+2025-03-10 23:01:17,411 - INFO - Writing sheet 138/332: MKJC with 52 rows
+2025-03-10 23:01:17,438 - INFO - Sheet MKJC written in 0.03 seconds
+2025-03-10 23:01:17,438 - INFO - Writing sheet 139/332: MLBBL with 52 rows
+2025-03-10 23:01:17,464 - INFO - Sheet MLBBL written in 0.03 seconds
+2025-03-10 23:01:17,464 - INFO - Writing sheet 140/332: MLBL with 52 rows
+2025-03-10 23:01:17,487 - INFO - Sheet MLBL written in 0.02 seconds
+2025-03-10 23:01:17,488 - INFO - Writing sheet 141/332: MLBS with 52 rows
+2025-03-10 23:01:17,513 - INFO - Sheet MLBS written in 0.03 seconds
+2025-03-10 23:01:17,514 - INFO - Writing sheet 142/332: MLBSL with 52 rows
+2025-03-10 23:01:17,539 - INFO - Sheet MLBSL written in 0.03 seconds
+2025-03-10 23:01:17,540 - INFO - Writing sheet 143/332: MMF1 with 52 rows
+2025-03-10 23:01:17,565 - INFO - Sheet MMF1 written in 0.03 seconds
+2025-03-10 23:01:17,565 - INFO - Writing sheet 144/332: MMKJL with 52 rows
+2025-03-10 23:01:17,589 - INFO - Sheet MMKJL written in 0.02 seconds
+2025-03-10 23:01:17,589 - INFO - Writing sheet 145/332: MNBBL with 52 rows
+2025-03-10 23:01:17,618 - INFO - Sheet MNBBL written in 0.03 seconds
+2025-03-10 23:01:17,618 - INFO - Writing sheet 146/332: MNMF1 with 34 rows
+2025-03-10 23:01:17,639 - INFO - Sheet MNMF1 written in 0.02 seconds
+2025-03-10 23:01:17,639 - INFO - Writing sheet 147/332: MPFL with 52 rows
+2025-03-10 23:01:17,664 - INFO - Sheet MPFL written in 0.03 seconds
+2025-03-10 23:01:17,664 - INFO - Writing sheet 148/332: MSHL with 52 rows
+2025-03-10 23:01:17,688 - INFO - Sheet MSHL written in 0.02 seconds
+2025-03-10 23:01:17,689 - INFO - Writing sheet 149/332: MSLB with 52 rows
+2025-03-10 23:01:17,717 - INFO - Sheet MSLB written in 0.03 seconds
+2025-03-10 23:01:17,718 - INFO - Writing sheet 150/332: NABBC with 52 rows
+2025-03-10 23:01:17,739 - INFO - Sheet NABBC written in 0.02 seconds
+2025-03-10 23:01:17,740 - INFO - Writing sheet 151/332: NABIL with 52 rows
+2025-03-10 23:01:17,767 - INFO - Sheet NABIL written in 0.03 seconds
+2025-03-10 23:01:17,768 - INFO - Writing sheet 152/332: NABILD87 with 50 rows
+2025-03-10 23:01:17,799 - INFO - Sheet NABILD87 written in 0.03 seconds
+2025-03-10 23:01:17,800 - INFO - Writing sheet 153/332: NADEP with 52 rows
+2025-03-10 23:01:17,824 - INFO - Sheet NADEP written in 0.02 seconds
+2025-03-10 23:01:17,825 - INFO - Writing sheet 154/332: NBF2 with 52 rows
+2025-03-10 23:01:17,853 - INFO - Sheet NBF2 written in 0.03 seconds
+2025-03-10 23:01:17,854 - INFO - Writing sheet 155/332: NBF3 with 52 rows
+2025-03-10 23:01:17,882 - INFO - Sheet NBF3 written in 0.03 seconds
+2025-03-10 23:01:17,882 - INFO - Writing sheet 156/332: NBL with 52 rows
+2025-03-10 23:01:17,908 - INFO - Sheet NBL written in 0.03 seconds
+2025-03-10 23:01:17,908 - INFO - Writing sheet 157/332: NBLD82 with 51 rows
+2025-03-10 23:01:17,940 - INFO - Sheet NBLD82 written in 0.03 seconds
+2025-03-10 23:01:17,941 - INFO - Writing sheet 158/332: NBLD87 with 52 rows
+2025-03-10 23:01:18,039 - INFO - Sheet NBLD87 written in 0.10 seconds
+2025-03-10 23:01:18,039 - INFO - Writing sheet 159/332: NESDO with 52 rows
+2025-03-10 23:01:18,070 - INFO - Sheet NESDO written in 0.03 seconds
+2025-03-10 23:01:18,070 - INFO - Writing sheet 160/332: NFS with 52 rows
+2025-03-10 23:01:18,104 - INFO - Sheet NFS written in 0.03 seconds
+2025-03-10 23:01:18,105 - INFO - Writing sheet 161/332: NGPL with 52 rows
+2025-03-10 23:01:18,136 - INFO - Sheet NGPL written in 0.03 seconds
+2025-03-10 23:01:18,137 - INFO - Writing sheet 162/332: NHDL with 52 rows
+2025-03-10 23:01:18,167 - INFO - Sheet NHDL written in 0.03 seconds
+2025-03-10 23:01:18,168 - INFO - Writing sheet 163/332: NHPC with 52 rows
+2025-03-10 23:01:18,216 - INFO - Sheet NHPC written in 0.05 seconds
+2025-03-10 23:01:18,217 - INFO - Writing sheet 164/332: NIBLGF with 51 rows
+2025-03-10 23:01:18,289 - INFO - Sheet NIBLGF written in 0.07 seconds
+2025-03-10 23:01:18,290 - INFO - Writing sheet 165/332: NIBLSTF with 52 rows
+2025-03-10 23:01:18,324 - INFO - Sheet NIBLSTF written in 0.03 seconds
+2025-03-10 23:01:18,324 - INFO - Writing sheet 166/332: NIBSF2 with 52 rows
+2025-03-10 23:01:18,354 - INFO - Sheet NIBSF2 written in 0.03 seconds
+2025-03-10 23:01:18,354 - INFO - Writing sheet 167/332: NICA with 52 rows
+2025-03-10 23:01:18,383 - INFO - Sheet NICA written in 0.03 seconds
+2025-03-10 23:01:18,384 - INFO - Writing sheet 168/332: NICAD8283 with 52 rows
+2025-03-10 23:01:18,408 - INFO - Sheet NICAD8283 written in 0.02 seconds
+2025-03-10 23:01:18,408 - INFO - Writing sheet 169/332: NICAD85_86 with 51 rows
+2025-03-10 23:01:18,436 - INFO - Sheet NICAD85_86 written in 0.03 seconds
+2025-03-10 23:01:18,436 - INFO - Writing sheet 170/332: NICBF with 51 rows
+2025-03-10 23:01:18,465 - INFO - Sheet NICBF written in 0.03 seconds
+2025-03-10 23:01:18,465 - INFO - Writing sheet 171/332: NICD88 with 52 rows
+2025-03-10 23:01:18,505 - INFO - Sheet NICD88 written in 0.04 seconds
+2025-03-10 23:01:18,505 - INFO - Writing sheet 172/332: NICFC with 52 rows
+2025-03-10 23:01:18,538 - INFO - Sheet NICFC written in 0.03 seconds
+2025-03-10 23:01:18,538 - INFO - Writing sheet 173/332: NICGF with 51 rows
+2025-03-10 23:01:18,575 - INFO - Sheet NICGF written in 0.04 seconds
+2025-03-10 23:01:18,575 - INFO - Writing sheet 174/332: NICGF2 with 52 rows
+2025-03-10 23:01:18,606 - INFO - Sheet NICGF2 written in 0.03 seconds
+2025-03-10 23:01:18,607 - INFO - Writing sheet 175/332: NICL with 52 rows
+2025-03-10 23:01:18,643 - INFO - Sheet NICL written in 0.04 seconds
+2025-03-10 23:01:18,644 - INFO - Writing sheet 176/332: NICLBSL with 52 rows
+2025-03-10 23:01:18,674 - INFO - Sheet NICLBSL written in 0.03 seconds
+2025-03-10 23:01:18,675 - INFO - Writing sheet 177/332: NICSF with 52 rows
+2025-03-10 23:01:18,709 - INFO - Sheet NICSF written in 0.03 seconds
+2025-03-10 23:01:18,709 - INFO - Writing sheet 178/332: NIFRA with 52 rows
+2025-03-10 23:01:18,741 - INFO - Sheet NIFRA written in 0.03 seconds
+2025-03-10 23:01:18,742 - INFO - Writing sheet 179/332: NIL with 52 rows
+2025-03-10 23:01:18,776 - INFO - Sheet NIL written in 0.03 seconds
+2025-03-10 23:01:18,777 - INFO - Writing sheet 180/332: NIMB with 52 rows
+2025-03-10 23:01:18,804 - INFO - Sheet NIMB written in 0.03 seconds
+2025-03-10 23:01:18,804 - INFO - Writing sheet 181/332: NIMBPO with 52 rows
+2025-03-10 23:01:18,837 - INFO - Sheet NIMBPO written in 0.03 seconds
+2025-03-10 23:01:18,837 - INFO - Writing sheet 182/332: NLG with 52 rows
+2025-03-10 23:01:18,868 - INFO - Sheet NLG written in 0.03 seconds
+2025-03-10 23:01:18,868 - INFO - Writing sheet 183/332: NLIC with 52 rows
+2025-03-10 23:01:18,905 - INFO - Sheet NLIC written in 0.04 seconds
+2025-03-10 23:01:18,905 - INFO - Writing sheet 184/332: NLICL with 52 rows
+2025-03-10 23:01:18,939 - INFO - Sheet NLICL written in 0.03 seconds
+2025-03-10 23:01:18,939 - INFO - Writing sheet 185/332: NMB with 52 rows
+2025-03-10 23:01:18,975 - INFO - Sheet NMB written in 0.04 seconds
+2025-03-10 23:01:18,975 - INFO - Writing sheet 186/332: NMB50 with 52 rows
+2025-03-10 23:01:19,019 - INFO - Sheet NMB50 written in 0.04 seconds
+2025-03-10 23:01:19,020 - INFO - Writing sheet 187/332: NMBD2085 with 51 rows
+2025-03-10 23:01:19,049 - INFO - Sheet NMBD2085 written in 0.03 seconds
+2025-03-10 23:01:19,049 - INFO - Writing sheet 188/332: NMBMF with 52 rows
+2025-03-10 23:01:19,084 - INFO - Sheet NMBMF written in 0.03 seconds
+2025-03-10 23:01:19,085 - INFO - Writing sheet 189/332: NMFBS with 52 rows
+2025-03-10 23:01:19,116 - INFO - Sheet NMFBS written in 0.03 seconds
+2025-03-10 23:01:19,116 - INFO - Writing sheet 190/332: NMLBBL with 52 rows
+2025-03-10 23:01:19,152 - INFO - Sheet NMLBBL written in 0.04 seconds
+2025-03-10 23:01:19,152 - INFO - Writing sheet 191/332: NRIC with 52 rows
+2025-03-10 23:01:19,189 - INFO - Sheet NRIC written in 0.04 seconds
+2025-03-10 23:01:19,189 - INFO - Writing sheet 192/332: NRM with 52 rows
+2025-03-10 23:01:19,230 - INFO - Sheet NRM written in 0.04 seconds
+2025-03-10 23:01:19,231 - INFO - Writing sheet 193/332: NRN with 52 rows
+2025-03-10 23:01:19,269 - INFO - Sheet NRN written in 0.04 seconds
+2025-03-10 23:01:19,269 - INFO - Writing sheet 194/332: NSIF2 with 52 rows
+2025-03-10 23:01:19,300 - INFO - Sheet NSIF2 written in 0.03 seconds
+2025-03-10 23:01:19,301 - INFO - Writing sheet 195/332: NTC with 52 rows
+2025-03-10 23:01:19,357 - INFO - Sheet NTC written in 0.06 seconds
+2025-03-10 23:01:19,359 - INFO - Writing sheet 196/332: NUBL with 52 rows
+2025-03-10 23:01:19,430 - INFO - Sheet NUBL written in 0.07 seconds
+2025-03-10 23:01:19,431 - INFO - Writing sheet 197/332: NWCL with 52 rows
+2025-03-10 23:01:19,466 - INFO - Sheet NWCL written in 0.03 seconds
+2025-03-10 23:01:19,466 - INFO - Writing sheet 198/332: NYADI with 52 rows
+2025-03-10 23:01:19,506 - INFO - Sheet NYADI written in 0.04 seconds
+2025-03-10 23:01:19,506 - INFO - Writing sheet 199/332: OHL with 52 rows
+2025-03-10 23:01:19,540 - INFO - Sheet OHL written in 0.03 seconds
+2025-03-10 23:01:19,540 - INFO - Writing sheet 200/332: PBD88 with 52 rows
+2025-03-10 23:01:19,572 - INFO - Sheet PBD88 written in 0.03 seconds
+2025-03-10 23:01:19,573 - INFO - Writing sheet 201/332: PBLD87 with 52 rows
+2025-03-10 23:01:19,603 - INFO - Sheet PBLD87 written in 0.03 seconds
+2025-03-10 23:01:19,604 - INFO - Writing sheet 202/332: PCBL with 52 rows
+2025-03-10 23:01:19,640 - INFO - Sheet PCBL written in 0.04 seconds
+2025-03-10 23:01:19,641 - INFO - Writing sheet 203/332: PFL with 52 rows
+2025-03-10 23:01:19,683 - INFO - Sheet PFL written in 0.04 seconds
+2025-03-10 23:01:19,684 - INFO - Writing sheet 204/332: PHCL with 52 rows
+2025-03-10 23:01:19,717 - INFO - Sheet PHCL written in 0.03 seconds
+2025-03-10 23:01:19,717 - INFO - Writing sheet 205/332: PMHPL with 52 rows
+2025-03-10 23:01:19,755 - INFO - Sheet PMHPL written in 0.04 seconds
+2025-03-10 23:01:19,756 - INFO - Writing sheet 206/332: PMLI with 52 rows
+2025-03-10 23:01:19,790 - INFO - Sheet PMLI written in 0.03 seconds
+2025-03-10 23:01:19,790 - INFO - Writing sheet 207/332: PPCL with 52 rows
+2025-03-10 23:01:19,834 - INFO - Sheet PPCL written in 0.04 seconds
+2025-03-10 23:01:19,835 - INFO - Writing sheet 208/332: PPL with 52 rows
+2025-03-10 23:01:19,874 - INFO - Sheet PPL written in 0.04 seconds
+2025-03-10 23:01:19,874 - INFO - Writing sheet 209/332: PRIN with 52 rows
+2025-03-10 23:01:19,910 - INFO - Sheet PRIN written in 0.04 seconds
+2025-03-10 23:01:19,910 - INFO - Writing sheet 210/332: PROFL with 52 rows
+2025-03-10 23:01:19,953 - INFO - Sheet PROFL written in 0.04 seconds
+2025-03-10 23:01:19,954 - INFO - Writing sheet 211/332: PRSF with 52 rows
+2025-03-10 23:01:19,992 - INFO - Sheet PRSF written in 0.04 seconds
+2025-03-10 23:01:19,992 - INFO - Writing sheet 212/332: PRVU with 52 rows
+2025-03-10 23:01:20,033 - INFO - Sheet PRVU written in 0.04 seconds
+2025-03-10 23:01:20,033 - INFO - Writing sheet 213/332: PRVUPO with 50 rows
+2025-03-10 23:01:20,070 - INFO - Sheet PRVUPO written in 0.04 seconds
+2025-03-10 23:01:20,071 - INFO - Writing sheet 214/332: PSF with 52 rows
+2025-03-10 23:01:20,105 - INFO - Sheet PSF written in 0.03 seconds
+2025-03-10 23:01:20,106 - INFO - Writing sheet 215/332: RADHI with 52 rows
+2025-03-10 23:01:20,146 - INFO - Sheet RADHI written in 0.04 seconds
+2025-03-10 23:01:20,147 - INFO - Writing sheet 216/332: RAWA with 52 rows
+2025-03-10 23:01:20,180 - INFO - Sheet RAWA written in 0.03 seconds
+2025-03-10 23:01:20,181 - INFO - Writing sheet 217/332: RBBD83 with 52 rows
+2025-03-10 23:01:20,223 - INFO - Sheet RBBD83 written in 0.04 seconds
+2025-03-10 23:01:20,224 - INFO - Writing sheet 218/332: RBCL with 52 rows
+2025-03-10 23:01:20,263 - INFO - Sheet RBCL written in 0.04 seconds
+2025-03-10 23:01:20,263 - INFO - Writing sheet 219/332: RBCLPO with 52 rows
+2025-03-10 23:01:20,303 - INFO - Sheet RBCLPO written in 0.04 seconds
+2025-03-10 23:01:20,304 - INFO - Writing sheet 220/332: RFPL with 52 rows
+2025-03-10 23:01:20,348 - INFO - Sheet RFPL written in 0.04 seconds
+2025-03-10 23:01:20,349 - INFO - Writing sheet 221/332: RHGCL with 52 rows
+2025-03-10 23:01:20,388 - INFO - Sheet RHGCL written in 0.04 seconds
+2025-03-10 23:01:20,389 - INFO - Writing sheet 222/332: RHPL with 52 rows
+2025-03-10 23:01:20,425 - INFO - Sheet RHPL written in 0.04 seconds
+2025-03-10 23:01:20,426 - INFO - Writing sheet 223/332: RIDI with 52 rows
+2025-03-10 23:01:20,516 - INFO - Sheet RIDI written in 0.09 seconds
+2025-03-10 23:01:20,516 - INFO - Writing sheet 224/332: RLFL with 52 rows
+2025-03-10 23:01:20,641 - INFO - Sheet RLFL written in 0.12 seconds
+2025-03-10 23:01:20,654 - INFO - Writing sheet 225/332: RMF1 with 52 rows
+2025-03-10 23:01:20,719 - INFO - Sheet RMF1 written in 0.06 seconds
+2025-03-10 23:01:20,719 - INFO - Writing sheet 226/332: RMF2 with 52 rows
+2025-03-10 23:01:20,759 - INFO - Sheet RMF2 written in 0.04 seconds
+2025-03-10 23:01:20,760 - INFO - Writing sheet 227/332: RNLI with 52 rows
+2025-03-10 23:01:20,801 - INFO - Sheet RNLI written in 0.04 seconds
+2025-03-10 23:01:20,801 - INFO - Writing sheet 228/332: RSDC with 52 rows
+2025-03-10 23:01:20,847 - INFO - Sheet RSDC written in 0.05 seconds
+2025-03-10 23:01:20,847 - INFO - Writing sheet 229/332: RURU with 52 rows
+2025-03-10 23:01:20,891 - INFO - Sheet RURU written in 0.04 seconds
+2025-03-10 23:01:20,891 - INFO - Writing sheet 230/332: SADBL with 52 rows
+2025-03-10 23:01:20,932 - INFO - Sheet SADBL written in 0.04 seconds
+2025-03-10 23:01:20,932 - INFO - Writing sheet 231/332: SAGF with 52 rows
+2025-03-10 23:01:20,980 - INFO - Sheet SAGF written in 0.05 seconds
+2025-03-10 23:01:20,980 - INFO - Writing sheet 232/332: SAHAS with 52 rows
+2025-03-10 23:01:21,023 - INFO - Sheet SAHAS written in 0.04 seconds
+2025-03-10 23:01:21,024 - INFO - Writing sheet 233/332: SALICO with 52 rows
+2025-03-10 23:01:21,070 - INFO - Sheet SALICO written in 0.05 seconds
+2025-03-10 23:01:21,071 - INFO - Writing sheet 234/332: SAMAJ with 52 rows
+2025-03-10 23:01:21,115 - INFO - Sheet SAMAJ written in 0.04 seconds
+2025-03-10 23:01:21,116 - INFO - Writing sheet 235/332: SANIMA with 52 rows
+2025-03-10 23:01:21,163 - INFO - Sheet SANIMA written in 0.05 seconds
+2025-03-10 23:01:21,164 - INFO - Writing sheet 236/332: SAPDBL with 52 rows
+2025-03-10 23:01:21,206 - INFO - Sheet SAPDBL written in 0.04 seconds
+2025-03-10 23:01:21,207 - INFO - Writing sheet 237/332: SARBTM with 52 rows
+2025-03-10 23:01:21,257 - INFO - Sheet SARBTM written in 0.05 seconds
+2025-03-10 23:01:21,257 - INFO - Writing sheet 238/332: SBCF with 52 rows
+2025-03-10 23:01:21,306 - INFO - Sheet SBCF written in 0.05 seconds
+2025-03-10 23:01:21,306 - INFO - Writing sheet 239/332: SBI with 52 rows
+2025-03-10 23:01:21,354 - INFO - Sheet SBI written in 0.05 seconds
+2025-03-10 23:01:21,354 - INFO - Writing sheet 240/332: SBIBD86 with 51 rows
+2025-03-10 23:01:21,398 - INFO - Sheet SBIBD86 written in 0.04 seconds
+2025-03-10 23:01:21,398 - INFO - Writing sheet 241/332: SBID83 with 52 rows
+2025-03-10 23:01:21,442 - INFO - Sheet SBID83 written in 0.04 seconds
+2025-03-10 23:01:21,443 - INFO - Writing sheet 242/332: SBL with 52 rows
+2025-03-10 23:01:21,493 - INFO - Sheet SBL written in 0.05 seconds
+2025-03-10 23:01:21,494 - INFO - Writing sheet 243/332: SBLD84 with 50 rows
+2025-03-10 23:01:21,660 - INFO - Sheet SBLD84 written in 0.17 seconds
+2025-03-10 23:01:21,661 - INFO - Writing sheet 244/332: SBLD89 with 51 rows
+2025-03-10 23:01:21,718 - INFO - Sheet SBLD89 written in 0.06 seconds
+2025-03-10 23:01:21,718 - INFO - Writing sheet 245/332: SCB with 52 rows
+2025-03-10 23:01:21,768 - INFO - Sheet SCB written in 0.05 seconds
+2025-03-10 23:01:21,769 - INFO - Writing sheet 246/332: SEF with 52 rows
+2025-03-10 23:01:21,816 - INFO - Sheet SEF written in 0.05 seconds
+2025-03-10 23:01:21,816 - INFO - Writing sheet 247/332: SFCL with 52 rows
+2025-03-10 23:01:21,864 - INFO - Sheet SFCL written in 0.05 seconds
+2025-03-10 23:01:21,865 - INFO - Writing sheet 248/332: SFEF with 52 rows
+2025-03-10 23:01:21,911 - INFO - Sheet SFEF written in 0.05 seconds
+2025-03-10 23:01:21,911 - INFO - Writing sheet 249/332: SFMF with 52 rows
+2025-03-10 23:01:21,953 - INFO - Sheet SFMF written in 0.04 seconds
+2025-03-10 23:01:21,953 - INFO - Writing sheet 250/332: SGHC with 52 rows
+2025-03-10 23:01:22,007 - INFO - Sheet SGHC written in 0.05 seconds
+2025-03-10 23:01:22,007 - INFO - Writing sheet 251/332: SGIC with 52 rows
+2025-03-10 23:01:22,051 - INFO - Sheet SGIC written in 0.04 seconds
+2025-03-10 23:01:22,051 - INFO - Writing sheet 252/332: SHEL with 52 rows
+2025-03-10 23:01:22,093 - INFO - Sheet SHEL written in 0.04 seconds
+2025-03-10 23:01:22,093 - INFO - Writing sheet 253/332: SHINE with 52 rows
+2025-03-10 23:01:22,138 - INFO - Sheet SHINE written in 0.04 seconds
+2025-03-10 23:01:22,139 - INFO - Writing sheet 254/332: SHIVM with 52 rows
+2025-03-10 23:01:22,182 - INFO - Sheet SHIVM written in 0.04 seconds
+2025-03-10 23:01:22,183 - INFO - Writing sheet 255/332: SHL with 52 rows
+2025-03-10 23:01:22,256 - INFO - Sheet SHL written in 0.07 seconds
+2025-03-10 23:01:22,257 - INFO - Writing sheet 256/332: SHLB with 52 rows
+2025-03-10 23:01:22,305 - INFO - Sheet SHLB written in 0.05 seconds
+2025-03-10 23:01:22,306 - INFO - Writing sheet 257/332: SHPC with 52 rows
+2025-03-10 23:01:22,382 - INFO - Sheet SHPC written in 0.08 seconds
+2025-03-10 23:01:22,382 - INFO - Writing sheet 258/332: SICL with 52 rows
+2025-03-10 23:01:22,472 - INFO - Sheet SICL written in 0.09 seconds
+2025-03-10 23:01:22,473 - INFO - Writing sheet 259/332: SIFC with 52 rows
+2025-03-10 23:01:22,522 - INFO - Sheet SIFC written in 0.05 seconds
+2025-03-10 23:01:22,522 - INFO - Writing sheet 260/332: SIGS2 with 51 rows
+2025-03-10 23:01:22,582 - INFO - Sheet SIGS2 written in 0.06 seconds
+2025-03-10 23:01:22,582 - INFO - Writing sheet 261/332: SIGS3 with 52 rows
+2025-03-10 23:01:22,633 - INFO - Sheet SIGS3 written in 0.05 seconds
+2025-03-10 23:01:22,634 - INFO - Writing sheet 262/332: SIKLES with 52 rows
+2025-03-10 23:01:22,726 - INFO - Sheet SIKLES written in 0.09 seconds
+2025-03-10 23:01:22,727 - INFO - Writing sheet 263/332: SINDU with 52 rows
+2025-03-10 23:01:22,804 - INFO - Sheet SINDU written in 0.08 seconds
+2025-03-10 23:01:22,805 - INFO - Writing sheet 264/332: SJCL with 52 rows
+2025-03-10 23:01:22,863 - INFO - Sheet SJCL written in 0.06 seconds
+2025-03-10 23:01:22,864 - INFO - Writing sheet 265/332: SJLIC with 52 rows
+2025-03-10 23:01:22,918 - INFO - Sheet SJLIC written in 0.05 seconds
+2025-03-10 23:01:22,918 - INFO - Writing sheet 266/332: SKBBL with 52 rows
+2025-03-10 23:01:22,970 - INFO - Sheet SKBBL written in 0.05 seconds
+2025-03-10 23:01:22,970 - INFO - Writing sheet 267/332: SLBBL with 52 rows
+2025-03-10 23:01:23,037 - INFO - Sheet SLBBL written in 0.07 seconds
+2025-03-10 23:01:23,038 - INFO - Writing sheet 268/332: SLBSL with 52 rows
+2025-03-10 23:01:23,087 - INFO - Sheet SLBSL written in 0.05 seconds
+2025-03-10 23:01:23,087 - INFO - Writing sheet 269/332: SLCF with 52 rows
+2025-03-10 23:01:23,141 - INFO - Sheet SLCF written in 0.05 seconds
+2025-03-10 23:01:23,141 - INFO - Writing sheet 270/332: SMATA with 52 rows
+2025-03-10 23:01:23,196 - INFO - Sheet SMATA written in 0.05 seconds
+2025-03-10 23:01:23,197 - INFO - Writing sheet 271/332: SMB with 52 rows
+2025-03-10 23:01:23,253 - INFO - Sheet SMB written in 0.06 seconds
+2025-03-10 23:01:23,253 - INFO - Writing sheet 272/332: SMFBS with 52 rows
+2025-03-10 23:01:23,311 - INFO - Sheet SMFBS written in 0.06 seconds
+2025-03-10 23:01:23,312 - INFO - Writing sheet 273/332: SMH with 52 rows
+2025-03-10 23:01:23,361 - INFO - Sheet SMH written in 0.05 seconds
+2025-03-10 23:01:23,362 - INFO - Writing sheet 274/332: SMHL with 52 rows
+2025-03-10 23:01:23,420 - INFO - Sheet SMHL written in 0.06 seconds
+2025-03-10 23:01:23,420 - INFO - Writing sheet 275/332: SMJC with 52 rows
+2025-03-10 23:01:23,469 - INFO - Sheet SMJC written in 0.05 seconds
+2025-03-10 23:01:23,469 - INFO - Writing sheet 276/332: SMPDA with 52 rows
+2025-03-10 23:01:23,522 - INFO - Sheet SMPDA written in 0.05 seconds
+2025-03-10 23:01:23,522 - INFO - Writing sheet 277/332: SNLI with 52 rows
+2025-03-10 23:01:23,584 - INFO - Sheet SNLI written in 0.06 seconds
+2025-03-10 23:01:23,584 - INFO - Writing sheet 278/332: SONA with 52 rows
+2025-03-10 23:01:23,639 - INFO - Sheet SONA written in 0.05 seconds
+2025-03-10 23:01:23,640 - INFO - Writing sheet 279/332: SPC with 52 rows
+2025-03-10 23:01:23,704 - INFO - Sheet SPC written in 0.06 seconds
+2025-03-10 23:01:23,704 - INFO - Writing sheet 280/332: SPDL with 52 rows
+2025-03-10 23:01:23,778 - INFO - Sheet SPDL written in 0.07 seconds
+2025-03-10 23:01:23,779 - INFO - Writing sheet 281/332: SPHL with 52 rows
+2025-03-10 23:01:23,874 - INFO - Sheet SPHL written in 0.09 seconds
+2025-03-10 23:01:23,875 - INFO - Writing sheet 282/332: SPIL with 52 rows
+2025-03-10 23:01:23,932 - INFO - Sheet SPIL written in 0.06 seconds
+2025-03-10 23:01:23,932 - INFO - Writing sheet 283/332: SPL with 52 rows
+2025-03-10 23:01:23,987 - INFO - Sheet SPL written in 0.05 seconds
+2025-03-10 23:01:23,988 - INFO - Writing sheet 284/332: SRLI with 52 rows
+2025-03-10 23:01:24,048 - INFO - Sheet SRLI written in 0.06 seconds
+2025-03-10 23:01:24,049 - INFO - Writing sheet 285/332: SSHL with 52 rows
+2025-03-10 23:01:24,102 - INFO - Sheet SSHL written in 0.05 seconds
+2025-03-10 23:01:24,103 - INFO - Writing sheet 286/332: STC with 52 rows
+2025-03-10 23:01:24,166 - INFO - Sheet STC written in 0.06 seconds
+2025-03-10 23:01:24,166 - INFO - Writing sheet 287/332: SWBBL with 52 rows
+2025-03-10 23:01:24,234 - INFO - Sheet SWBBL written in 0.07 seconds
+2025-03-10 23:01:24,235 - INFO - Writing sheet 288/332: SWMF with 52 rows
+2025-03-10 23:01:24,300 - INFO - Sheet SWMF written in 0.06 seconds
+2025-03-10 23:01:24,301 - INFO - Writing sheet 289/332: TAMOR with 52 rows
+2025-03-10 23:01:24,364 - INFO - Sheet TAMOR written in 0.06 seconds
+2025-03-10 23:01:24,365 - INFO - Writing sheet 290/332: TPC with 52 rows
+2025-03-10 23:01:24,421 - INFO - Sheet TPC written in 0.06 seconds
+2025-03-10 23:01:24,421 - INFO - Writing sheet 291/332: TRH with 52 rows
+2025-03-10 23:01:24,501 - INFO - Sheet TRH written in 0.08 seconds
+2025-03-10 23:01:24,501 - INFO - Writing sheet 292/332: TSHL with 52 rows
+2025-03-10 23:01:24,633 - INFO - Sheet TSHL written in 0.13 seconds
+2025-03-10 23:01:24,634 - INFO - Writing sheet 293/332: TVCL with 52 rows
+2025-03-10 23:01:24,755 - INFO - Sheet TVCL written in 0.12 seconds
+2025-03-10 23:01:24,755 - INFO - Writing sheet 294/332: UAIL with 52 rows
+2025-03-10 23:01:24,824 - INFO - Sheet UAIL written in 0.07 seconds
+2025-03-10 23:01:24,825 - INFO - Writing sheet 295/332: UHEWA with 52 rows
+2025-03-10 23:01:24,901 - INFO - Sheet UHEWA written in 0.08 seconds
+2025-03-10 23:01:24,902 - INFO - Writing sheet 296/332: ULBSL with 52 rows
+2025-03-10 23:01:25,031 - INFO - Sheet ULBSL written in 0.13 seconds
+2025-03-10 23:01:25,031 - INFO - Writing sheet 297/332: ULHC with 52 rows
+2025-03-10 23:01:25,117 - INFO - Sheet ULHC written in 0.09 seconds
+2025-03-10 23:01:25,117 - INFO - Writing sheet 298/332: UMHL with 52 rows
+2025-03-10 23:01:25,213 - INFO - Sheet UMHL written in 0.10 seconds
+2025-03-10 23:01:25,214 - INFO - Writing sheet 299/332: UMRH with 52 rows
+2025-03-10 23:01:25,301 - INFO - Sheet UMRH written in 0.09 seconds
+2025-03-10 23:01:25,301 - INFO - Writing sheet 300/332: UNHPL with 52 rows
+2025-03-10 23:01:25,397 - INFO - Sheet UNHPL written in 0.10 seconds
+2025-03-10 23:01:25,398 - INFO - Writing sheet 301/332: UNL with 52 rows
+2025-03-10 23:01:25,581 - INFO - Sheet UNL written in 0.18 seconds
+2025-03-10 23:01:25,592 - INFO - Writing sheet 302/332: UNLB with 52 rows
+2025-03-10 23:01:25,682 - INFO - Sheet UNLB written in 0.09 seconds
+2025-03-10 23:01:25,682 - INFO - Writing sheet 303/332: UPCL with 52 rows
+2025-03-10 23:01:25,755 - INFO - Sheet UPCL written in 0.07 seconds
+2025-03-10 23:01:25,755 - INFO - Writing sheet 304/332: UPPER with 52 rows
+2025-03-10 23:01:25,819 - INFO - Sheet UPPER written in 0.06 seconds
+2025-03-10 23:01:25,819 - INFO - Writing sheet 305/332: USHEC with 52 rows
+2025-03-10 23:01:25,891 - INFO - Sheet USHEC written in 0.07 seconds
+2025-03-10 23:01:25,892 - INFO - Writing sheet 306/332: USHL with 52 rows
+2025-03-10 23:01:25,953 - INFO - Sheet USHL written in 0.06 seconds
+2025-03-10 23:01:25,954 - INFO - Writing sheet 307/332: USLB with 52 rows
+2025-03-10 23:01:26,068 - INFO - Sheet USLB written in 0.11 seconds
+2025-03-10 23:01:26,068 - INFO - Writing sheet 308/332: VLBS with 52 rows
+2025-03-10 23:01:26,143 - INFO - Sheet VLBS written in 0.07 seconds
+2025-03-10 23:01:26,144 - INFO - Writing sheet 309/332: VLUCL with 52 rows
+2025-03-10 23:01:26,215 - INFO - Sheet VLUCL written in 0.07 seconds
+2025-03-10 23:01:26,216 - INFO - Writing sheet 310/332: WNLB with 52 rows
+2025-03-10 23:01:26,283 - INFO - Sheet WNLB written in 0.07 seconds
+2025-03-10 23:01:26,284 - INFO - Writing sheet 311/332: CIZBD86 with 2 rows
+2025-03-10 23:01:26,350 - INFO - Sheet CIZBD86 written in 0.07 seconds
+2025-03-10 23:01:26,350 - INFO - Writing sheet 312/332: GBBD85 with 2 rows
+2025-03-10 23:01:26,407 - INFO - Sheet GBBD85 written in 0.06 seconds
+2025-03-10 23:01:26,407 - INFO - Writing sheet 313/332: GBILD84_85 with 1 rows
+2025-03-10 23:01:26,471 - INFO - Sheet GBILD84_85 written in 0.06 seconds
+2025-03-10 23:01:26,472 - INFO - Writing sheet 314/332: GBIMEP with 1 rows
+2025-03-10 23:01:26,540 - INFO - Sheet GBIMEP written in 0.07 seconds
+2025-03-10 23:01:26,541 - INFO - Writing sheet 315/332: HBLD83 with 1 rows
+2025-03-10 23:01:26,604 - INFO - Sheet HBLD83 written in 0.06 seconds
+2025-03-10 23:01:26,605 - INFO - Writing sheet 316/332: HBLD86 with 2 rows
+2025-03-10 23:01:26,689 - INFO - Sheet HBLD86 written in 0.08 seconds
+2025-03-10 23:01:26,689 - INFO - Writing sheet 317/332: ICFCD88 with 2 rows
+2025-03-10 23:01:26,754 - INFO - Sheet ICFCD88 written in 0.07 seconds
+2025-03-10 23:01:26,755 - INFO - Writing sheet 318/332: MBLD87 with 1 rows
+2025-03-10 23:01:26,815 - INFO - Sheet MBLD87 written in 0.06 seconds
+2025-03-10 23:01:26,815 - INFO - Writing sheet 319/332: MFLD85 with 2 rows
+2025-03-10 23:01:26,882 - INFO - Sheet MFLD85 written in 0.07 seconds
+2025-03-10 23:01:26,883 - INFO - Writing sheet 320/332: MND84_85 with 1 rows
+2025-03-10 23:01:26,941 - INFO - Sheet MND84_85 written in 0.06 seconds
+2025-03-10 23:01:26,942 - INFO - Writing sheet 321/332: NIBD84 with 1 rows
+2025-03-10 23:01:27,010 - INFO - Sheet NIBD84 written in 0.07 seconds
+2025-03-10 23:01:27,011 - INFO - Writing sheet 322/332: NIMBD90 with 2 rows
+2025-03-10 23:01:27,069 - INFO - Sheet NIMBD90 written in 0.06 seconds
+2025-03-10 23:01:27,070 - INFO - Writing sheet 323/332: PBD84 with 2 rows
+2025-03-10 23:01:27,184 - INFO - Sheet PBD84 written in 0.11 seconds
+2025-03-10 23:01:27,184 - INFO - Writing sheet 324/332: PBD85 with 2 rows
+2025-03-10 23:01:27,262 - INFO - Sheet PBD85 written in 0.08 seconds
+2025-03-10 23:01:27,263 - INFO - Writing sheet 325/332: PBLD84 with 2 rows
+2025-03-10 23:01:27,334 - INFO - Sheet PBLD84 written in 0.07 seconds
+2025-03-10 23:01:27,335 - INFO - Writing sheet 326/332: SAND2085 with 2 rows
+2025-03-10 23:01:27,402 - INFO - Sheet SAND2085 written in 0.07 seconds
+2025-03-10 23:01:27,403 - INFO - Writing sheet 327/332: SDBD87 with 2 rows
+2025-03-10 23:01:27,474 - INFO - Sheet SDBD87 written in 0.07 seconds
+2025-03-10 23:01:27,475 - INFO - Writing sheet 328/332: BOKD86 with 1 rows
+2025-03-10 23:01:27,549 - INFO - Sheet BOKD86 written in 0.07 seconds
+2025-03-10 23:01:27,550 - INFO - Writing sheet 329/332: ICFCD83 with 1 rows
+2025-03-10 23:01:27,616 - INFO - Sheet ICFCD83 written in 0.07 seconds
+2025-03-10 23:01:27,616 - INFO - Writing sheet 330/332: LBLD86 with 1 rows
+2025-03-10 23:01:27,688 - INFO - Sheet LBLD86 written in 0.07 seconds
+2025-03-10 23:01:27,688 - INFO - Writing sheet 331/332: NBLD85 with 1 rows
+2025-03-10 23:01:27,756 - INFO - Sheet NBLD85 written in 0.07 seconds
+2025-03-10 23:01:27,756 - INFO - Writing sheet 332/332: SRBLD83 with 1 rows
+2025-03-10 23:01:27,829 - INFO - Sheet SRBLD83 written in 0.07 seconds
+2025-03-10 23:01:34,983 - INFO - Finished writing all sheets in 20.72 seconds
+2025-03-10 23:01:34,983 - INFO - Copying Excel file to analysis directory
+2025-03-10 23:01:34,992 - INFO - Excel file copied to analysis directory in 0.01 seconds: ..\3. analyse_shares\shares_data_till_2025_03_10.xlsx
+2025-03-10 23:01:34,994 - INFO - Added 22 new symbols to Excel: CIZBD86, GBBD85, GBILD84_85, GBIMEP, HBLD83, HBLD86, ICFCD88, MBLD87, MFLD85, MND84_85, NIBD84, NIMBD90, PBD84, PBD85, PBLD84, SAND2085, SDBD87, BOKD86, ICFCD83, LBLD86, NBLD85, SRBLD83
+2025-03-10 23:01:34,995 - INFO - Excel file updated and saved as: updated_shares_data\shares_data_till_2025_03_10.xlsx
+2025-03-10 23:01:34,995 - INFO - Total update process completed in 468.92 seconds
+2025-03-10 23:01:34,996 - INFO - Process completed. Excel file updated: updated_shares_data\shares_data_till_2025_03_10.xlsx
+2025-03-10 23:01:34,996 - INFO - ========== EXECUTION SUMMARY ==========
+2025-03-10 23:01:34,997 - INFO - Start Time: 2025-03-10 22:52:43
+2025-03-10 23:01:34,997 - INFO - End Time: 2025-03-10 23:01:34
+2025-03-10 23:01:34,998 - INFO - Total Execution Time: 8.85 minutes
+2025-03-10 23:01:34,999 - INFO - Dates Processed: 4
+2025-03-10 23:01:34,999 - INFO - Successful Scrapes: 0
+2025-03-10 23:01:35,000 - INFO - Failed Scrapes: 0
+2025-03-10 23:01:35,002 - INFO - STATUS: SUCCESS - All operations completed successfully
+2025-03-10 23:01:35,003 - INFO - =======================================
+2025-03-10 23:15:46,834 - INFO - Chromedriver is already installed.
+2025-03-10 23:15:46,878 - INFO - Found latest Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 23:15:46,879 - INFO - Examining dates in Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 23:16:07,243 - INFO - Latest date in data: 03/06/2025
+2025-03-10 23:16:07,249 - INFO - Looking for data from 03/07/2025 to 03/10/2025
+2025-03-10 23:16:07,249 - INFO - Processing date: 03/07/2025
+2025-03-10 23:16:26,485 - INFO - No data found for 03/07/2025: 'No Record Found'
+2025-03-10 23:16:26,486 - INFO - No data found for 03/07/2025
+2025-03-10 23:16:29,110 - INFO - Processing date: 03/08/2025
+2025-03-10 23:16:48,740 - INFO - No data found for 03/08/2025: 'No Record Found'
+2025-03-10 23:16:48,740 - INFO - No data found for 03/08/2025
+2025-03-10 23:16:52,597 - INFO - Processing date: 03/09/2025
+2025-03-10 23:16:52,599 - INFO - File for 03/09/2025 already exists. Skipping...
+2025-03-10 23:16:52,599 - INFO - Processing date: 03/10/2025
+2025-03-10 23:16:52,601 - INFO - File for 03/10/2025 already exists. Skipping...
+2025-03-10 23:16:52,602 - INFO - Updating Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 23:16:53,929 - INFO - AllStocks sheet does not exist, will create it
+2025-03-10 23:16:53,931 - INFO - Found 2 CSV files to process in data
+2025-03-10 23:16:53,931 - INFO - Processing CSV file 1/2: 03_09_2025.csv
+2025-03-10 23:16:53,998 - INFO - CSV 03_09_2025.csv read, rows: 315
+2025-03-10 23:16:54,002 - INFO - Added 315 rows from 03_09_2025.csv
+2025-03-10 23:16:54,003 - INFO - Processing CSV file 2/2: 03_10_2025.csv
+2025-03-10 23:16:54,013 - INFO - CSV 03_10_2025.csv read, rows: 311
+2025-03-10 23:16:54,015 - INFO - Added 311 rows from 03_10_2025.csv
+2025-03-10 23:16:54,019 - INFO - Combined 626 new rows to add to Excel
+2025-03-10 23:16:56,510 - INFO - Created new sheet with 626 rows
+2025-03-10 23:17:03,606 - INFO - Excel file updated: shares_data_till_2025_03_08.xlsx
+2025-03-10 23:17:03,607 - INFO - Excel file updated successfully: shares_data_till_2025_03_08.xlsx
+2025-03-10 23:17:03,607 - INFO - ========== EXECUTION SUMMARY ==========
+2025-03-10 23:17:03,608 - INFO - Total Execution Time: 1.28 minutes
+2025-03-10 23:17:03,608 - INFO - Dates Processed: 4
+2025-03-10 23:17:03,609 - INFO - Successful Scrapes: 0
+2025-03-10 23:17:03,609 - INFO - Failed Scrapes: 0
+2025-03-10 23:17:03,610 - INFO - =======================================
+2025-03-10 23:28:10,633 - INFO - Chromedriver is already installed.
+2025-03-10 23:28:10,637 - INFO - Found latest Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 23:28:10,637 - INFO - Examining dates in Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 23:28:12,888 - INFO - Found later date in sheet ACLBSL: 2025-03-06 00:00:00
+2025-03-10 23:28:21,031 - INFO - Latest date in data: 03/06/2025
+2025-03-10 23:28:21,032 - INFO - Looking for data from 03/07/2025 to 03/10/2025
+2025-03-10 23:28:21,032 - INFO - Processing date: 03/07/2025
+2025-03-10 23:28:35,689 - INFO - Date input value set to: 2025-03-07
+2025-03-10 23:28:39,032 - INFO - No data found for 03/07/2025: 'No Record Found'
+2025-03-10 23:28:39,032 - INFO - No data found for 03/07/2025
+2025-03-10 23:28:44,677 - INFO - Processing date: 03/08/2025
+2025-03-10 23:29:02,916 - INFO - Date input value set to: 2025-03-08
+2025-03-10 23:29:06,422 - INFO - No data found for 03/08/2025: 'No Record Found'
+2025-03-10 23:29:06,422 - INFO - No data found for 03/08/2025
+2025-03-10 23:29:11,726 - INFO - Processing date: 03/09/2025
+2025-03-10 23:29:11,727 - INFO - File for 03/09/2025 already exists. Skipping...
+2025-03-10 23:29:11,728 - INFO - Processing date: 03/10/2025
+2025-03-10 23:29:11,729 - INFO - File for 03/10/2025 already exists. Skipping...
+2025-03-10 23:29:11,763 - INFO - Latest date with data: 03/10/2025
+2025-03-10 23:29:11,764 - INFO - Updating Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 23:29:11,768 - INFO - Found 2 CSV files to process in data
+2025-03-10 23:29:11,769 - INFO - Processing CSV file 1/2: 03_09_2025.csv
+2025-03-10 23:29:11,775 - INFO - CSV 03_09_2025.csv read, rows: 315
+2025-03-10 23:29:11,777 - INFO - Processing CSV file 2/2: 03_10_2025.csv
+2025-03-10 23:29:11,783 - INFO - CSV 03_10_2025.csv read, rows: 311
+2025-03-10 23:29:13,347 - INFO - Will use target sheet: ACLBSL
+2025-03-10 23:29:13,354 - INFO - Created new Excel file: updated_shares_data\shares_data_till_2025_03_10.xlsx
+2025-03-10 23:29:14,181 - INFO - Read existing data: 50 rows
+2025-03-10 23:29:14,188 - ERROR - Error updating Excel file with new data: 'Date'
+2025-03-10 23:29:14,200 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\nepal\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3790, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python Projects\Stock Market\2. append_to_existing_data\append-new-share-data.py", line 483, in update_excel_with_new_data
+    all_new_data['Date'] = pd.to_datetime(all_new_data['Date'], errors='coerce')
+                                          ~~~~~~~~~~~~^^^^^^^^
+  File "c:\Users\nepal\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nepal\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3797, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+
+2025-03-10 23:29:14,207 - ERROR - Failed to update Excel file
+2025-03-10 23:29:14,208 - INFO - ========== EXECUTION SUMMARY ==========
+2025-03-10 23:29:14,209 - INFO - Start Time: 2025-03-10 23:28:10
+2025-03-10 23:29:14,209 - INFO - End Time: 2025-03-10 23:29:14
+2025-03-10 23:29:14,209 - INFO - Total Execution Time: 1.06 minutes
+2025-03-10 23:29:14,210 - INFO - Dates Processed: 4
+2025-03-10 23:29:14,211 - INFO - Successful Scrapes: 0
+2025-03-10 23:29:14,211 - INFO - Failed Scrapes: 1
+2025-03-10 23:29:14,212 - INFO - STATUS: PARTIAL SUCCESS - Completed with 1 failures
+2025-03-10 23:29:14,213 - INFO - =======================================
+2025-03-10 23:40:32,242 - INFO - Chromedriver is already installed.
+2025-03-10 23:40:32,245 - INFO - Found latest Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 23:40:32,245 - INFO - Examining dates in Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 23:40:34,321 - INFO - Found later date in sheet ACLBSL: 2025-03-06 00:00:00
+2025-03-10 23:40:41,284 - INFO - Latest date in data: 03/06/2025
+2025-03-10 23:40:41,284 - INFO - Looking for data from 03/07/2025 to 03/10/2025
+2025-03-10 23:40:41,284 - INFO - Processing date: 03/07/2025
+2025-03-10 23:40:54,312 - INFO - Date input value set to: 2025-03-07
+2025-03-10 23:40:57,607 - INFO - No data found for 03/07/2025: 'No Record Found'
+2025-03-10 23:40:57,607 - INFO - No data found for 03/07/2025
+2025-03-10 23:41:02,894 - INFO - Processing date: 03/08/2025
+2025-03-10 23:41:20,089 - INFO - Date input value set to: 2025-03-08
+2025-03-10 23:41:23,345 - INFO - No data found for 03/08/2025: 'No Record Found'
+2025-03-10 23:41:23,345 - INFO - No data found for 03/08/2025
+2025-03-10 23:41:28,664 - INFO - Processing date: 03/09/2025
+2025-03-10 23:41:28,666 - INFO - File for 03/09/2025 already exists. Skipping...
+2025-03-10 23:41:28,667 - INFO - Processing date: 03/10/2025
+2025-03-10 23:41:28,669 - INFO - File for 03/10/2025 already exists. Skipping...
+2025-03-10 23:41:28,699 - INFO - Latest date with data: 03/10/2025
+2025-03-10 23:41:28,700 - INFO - Updating Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-10 23:41:28,702 - INFO - Found 2 CSV files to process in data
+2025-03-10 23:41:28,702 - INFO - Processing CSV file 1/2: 03_09_2025.csv
+2025-03-10 23:41:28,711 - INFO - CSV 03_09_2025.csv read, rows: 315
+2025-03-10 23:41:28,714 - INFO - Processing CSV file 2/2: 03_10_2025.csv
+2025-03-10 23:41:28,724 - INFO - CSV 03_10_2025.csv read, rows: 311
+2025-03-10 23:41:30,358 - INFO - Will use target sheet: ACLBSL
+2025-03-10 23:41:30,362 - INFO - Created new Excel file: updated_shares_data\shares_data_till_2025_03_10.xlsx
+2025-03-10 23:41:31,180 - INFO - Read existing data: 50 rows
+2025-03-10 23:41:31,233 - ERROR - Error updating Excel file with new data: 'Date'
+2025-03-10 23:41:31,240 - ERROR - Traceback: Traceback (most recent call last):
+  File "c:\Users\nepal\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3790, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python Projects\Stock Market\2. append_to_existing_data\append-new-share-data.py", line 491, in update_excel_with_new_data
+    all_new_data['Date'] = pd.to_datetime(all_new_data['Date'], errors='coerce').dt.normalize()
+                                          ~~~~~~~~~~~~^^^^^^^^
+  File "c:\Users\nepal\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nepal\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 3797, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+
+2025-03-10 23:41:31,250 - ERROR - Failed to update Excel file
+2025-03-10 23:41:31,251 - INFO - ========== EXECUTION SUMMARY ==========
+2025-03-10 23:41:31,251 - INFO - Start Time: 2025-03-10 23:40:32
+2025-03-10 23:41:31,252 - INFO - End Time: 2025-03-10 23:41:31
+2025-03-10 23:41:31,252 - INFO - Total Execution Time: 0.98 minutes
+2025-03-10 23:41:31,253 - INFO - Dates Processed: 4
+2025-03-10 23:41:31,253 - INFO - Successful Scrapes: 0
+2025-03-10 23:41:31,254 - INFO - Failed Scrapes: 1
+2025-03-10 23:41:31,255 - INFO - STATUS: PARTIAL SUCCESS - Completed with 1 failures
+2025-03-10 23:41:31,256 - INFO - =======================================

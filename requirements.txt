@@ -1,0 +1,9 @@
+selenium
+beautifulsoup4
+pandas
+numpy
+matplotlib
+openpyxl
+chromedriver-autoinstaller
+mplfinance
+talib

@@ -1,0 +1,2277 @@
+2025-03-11 21:59:24,034 - INFO - Chromedriver is already installed.
+2025-03-11 21:59:24,035 - INFO - === Share Price Data Scraper ===
+2025-03-11 21:59:24,035 - INFO - Started at: 2025-03-11 21:59:24
+2025-03-11 21:59:24,035 - INFO - Looking for latest data file...
+2025-03-11 21:59:24,038 - INFO - Found latest file: shares_data_till_2025_03_07.xlsx (date: 2025-03-07)
+2025-03-11 21:59:24,039 - INFO - Analyzing Excel file to find latest common date...
+2025-03-11 22:00:59,803 - INFO - Chromedriver is already installed.
+2025-03-11 22:00:59,804 - INFO - === Share Price Data Scraper ===
+2025-03-11 22:00:59,804 - INFO - Started at: 2025-03-11 22:00:59
+2025-03-11 22:00:59,804 - INFO - Looking for latest data file...
+2025-03-11 22:00:59,806 - INFO - Found latest file: shares_data_till_2025_03_08.xlsx (date: 2025-03-08)
+2025-03-11 22:00:59,807 - INFO - Analyzing Excel file to find latest common date...
+2025-03-11 22:01:13,696 - INFO - Latest common date found: 2025-03-06
+2025-03-11 22:01:13,696 - INFO - Will scrape data from 2025-03-07 to 2025-03-11
+2025-03-11 22:01:13,698 - INFO - Initializing web driver...
+2025-03-11 22:01:16,113 - INFO - 
+[1/5] Processing date: 2025-03-07
+2025-03-11 22:01:16,114 - INFO - Starting data scraping for date: 2025-03-07
+2025-03-11 22:01:16,115 - INFO - Searching website for date: 2025-03-07...
+2025-03-11 22:01:29,994 - INFO - No record found for date: 2025-03-07
+2025-03-11 22:01:29,996 - INFO - No data found for 2025-03-07 - skipping
+2025-03-11 22:01:29,996 - INFO - 
+[2/5] Processing date: 2025-03-08
+2025-03-11 22:01:29,996 - INFO - Starting data scraping for date: 2025-03-08
+2025-03-11 22:01:29,997 - INFO - Searching website for date: 2025-03-08...
+2025-03-11 22:01:46,101 - INFO - No record found for date: 2025-03-08
+2025-03-11 22:01:46,102 - INFO - No data found for 2025-03-08 - skipping
+2025-03-11 22:01:46,104 - INFO - 
+[3/5] Processing date: 2025-03-09
+2025-03-11 22:01:46,105 - INFO - Starting data scraping for date: 2025-03-09
+2025-03-11 22:01:46,107 - INFO - Searching website for date: 2025-03-09...
+2025-03-11 22:01:57,564 - INFO - Data found for date: 2025-03-09
+2025-03-11 22:01:57,566 - INFO - Scraping page 1 for date 2025-03-09
+2025-03-11 22:01:57,566 - INFO - Extracting table data from current page...
+2025-03-11 22:01:58,186 - INFO - Extracted 315 rows of data from current page
+2025-03-11 22:01:58,352 - INFO - No more pages to scrape.
+2025-03-11 22:01:58,352 - INFO - Completed scraping for date 2025-03-09. Total rows: 315
+2025-03-11 22:01:58,353 - INFO - Cleaning data for date: 2025-03-09
+2025-03-11 22:01:58,362 - INFO - Website columns found: Symbol, High, VWAP %, 52 Weeks High, 52 Weeks Low, Range, Close, Open, Conf., Diff, VWAP, Prev. Close, Diff %, Low, Vol, Range %, Trans., S.No, Turnover
+2025-03-11 22:01:58,364 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-11 22:01:58,366 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-11 22:01:58,367 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-11 22:01:58,369 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-11 22:01:58,371 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-11 22:01:58,372 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-11 22:01:58,373 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-11 22:01:58,373 - INFO - Data cleaning completed. Rows: 315
+2025-03-11 22:01:58,892 - INFO - Successfully processed data for 2025-03-09 - 315 symbols
+2025-03-11 22:01:58,893 - INFO - 
+[4/5] Processing date: 2025-03-10
+2025-03-11 22:01:58,894 - INFO - Starting data scraping for date: 2025-03-10
+2025-03-11 22:01:58,894 - INFO - Searching website for date: 2025-03-10...
+2025-03-11 22:02:09,297 - INFO - Data found for date: 2025-03-10
+2025-03-11 22:02:09,299 - INFO - Scraping page 1 for date 2025-03-10
+2025-03-11 22:02:09,300 - INFO - Extracting table data from current page...
+2025-03-11 22:02:09,776 - INFO - Extracted 311 rows of data from current page
+2025-03-11 22:02:09,926 - INFO - No more pages to scrape.
+2025-03-11 22:02:09,927 - INFO - Completed scraping for date 2025-03-10. Total rows: 311
+2025-03-11 22:02:09,928 - INFO - Cleaning data for date: 2025-03-10
+2025-03-11 22:02:09,940 - INFO - Website columns found: Symbol, High, VWAP %, 52 Weeks High, 52 Weeks Low, Range, Close, Open, Conf., Diff, VWAP, Prev. Close, Diff %, Low, Vol, Range %, Trans., S.No, Turnover
+2025-03-11 22:02:09,941 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-11 22:02:09,944 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-11 22:02:09,948 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-11 22:02:09,952 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-11 22:02:09,954 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-11 22:02:09,964 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-11 22:02:09,966 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-11 22:02:09,968 - INFO - Data cleaning completed. Rows: 311
+2025-03-11 22:02:10,457 - INFO - Successfully processed data for 2025-03-10 - 311 symbols
+2025-03-11 22:02:10,458 - INFO - 
+[5/5] Processing date: 2025-03-11
+2025-03-11 22:02:10,459 - INFO - Starting data scraping for date: 2025-03-11
+2025-03-11 22:02:10,459 - INFO - Searching website for date: 2025-03-11...
+2025-03-11 22:02:22,333 - INFO - Data found for date: 2025-03-11
+2025-03-11 22:02:22,335 - INFO - Scraping page 1 for date 2025-03-11
+2025-03-11 22:02:22,335 - INFO - Extracting table data from current page...
+2025-03-11 22:02:22,963 - INFO - Extracted 303 rows of data from current page
+2025-03-11 22:02:23,113 - INFO - No more pages to scrape.
+2025-03-11 22:02:23,114 - INFO - Completed scraping for date 2025-03-11. Total rows: 303
+2025-03-11 22:02:23,115 - INFO - Cleaning data for date: 2025-03-11
+2025-03-11 22:02:23,121 - INFO - Website columns found: Symbol, High, VWAP %, 52 Weeks High, 52 Weeks Low, Range, Close, Open, Conf., Diff, 180 Days, VWAP, Prev. Close, Diff %, Low, Vol, Range %, 120 Days, Trans., S.No, Turnover
+2025-03-11 22:02:23,124 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-11 22:02:23,125 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-11 22:02:23,127 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-11 22:02:23,128 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-11 22:02:23,130 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-11 22:02:23,132 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-11 22:02:23,133 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-11 22:02:23,133 - INFO - Data cleaning completed. Rows: 303
+2025-03-11 22:02:23,619 - INFO - Successfully processed data for 2025-03-11 - 303 symbols
+2025-03-11 22:02:25,856 - INFO - Web driver closed
+2025-03-11 22:02:25,857 - INFO - 
+=== Scraping Summary ===
+2025-03-11 22:02:25,859 - INFO - Dates processed: 5/5
+2025-03-11 22:02:25,860 - INFO - Dates with data: 3
+2025-03-11 22:02:25,862 - INFO - Symbols with new data: 334
+2025-03-11 22:02:25,863 - INFO - 
+Updating Excel file with new data up to 2025-03-11
+2025-03-11 22:02:25,865 - INFO - Updating Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-11 22:02:25,866 - INFO - New data available for 334 symbols
+2025-03-11 22:02:28,413 - INFO - Updated sheet: ACLBSL with new data
+2025-03-11 22:02:29,656 - INFO - Updated sheet: ADBL with new data
+2025-03-11 22:02:31,206 - INFO - Updated sheet: ADBLD83 with new data
+2025-03-11 22:02:32,572 - INFO - Updated sheet: AHL with new data
+2025-03-11 22:02:33,846 - INFO - Updated sheet: AHPC with new data
+2025-03-11 22:02:35,116 - INFO - Updated sheet: AKJCL with new data
+2025-03-11 22:02:36,443 - INFO - Updated sheet: AKPL with new data
+2025-03-11 22:02:37,681 - INFO - Updated sheet: ALBSL with new data
+2025-03-11 22:02:38,935 - INFO - Updated sheet: ALICL with new data
+2025-03-11 22:02:40,970 - INFO - Updated sheet: ANLB with new data
+2025-03-11 22:02:42,581 - INFO - Updated sheet: API with new data
+2025-03-11 22:02:43,887 - INFO - Updated sheet: AVYAN with new data
+2025-03-11 22:02:45,175 - INFO - Updated sheet: BARUN with new data
+2025-03-11 22:02:46,531 - INFO - Updated sheet: BBC with new data
+2025-03-11 22:02:47,848 - INFO - Updated sheet: BEDC with new data
+2025-03-11 22:02:49,080 - INFO - Updated sheet: BFC with new data
+2025-03-11 22:02:50,415 - INFO - Updated sheet: BGWT with new data
+2025-03-11 22:02:51,714 - INFO - Updated sheet: BHDC with new data
+2025-03-11 22:02:53,008 - INFO - Updated sheet: BHL with new data
+2025-03-11 22:02:54,247 - INFO - Updated sheet: BHPL with new data
+2025-03-11 22:02:55,480 - INFO - Updated sheet: BNHC with new data
+2025-03-11 22:02:56,783 - INFO - Updated sheet: BNT with new data
+2025-03-11 22:02:58,092 - INFO - Updated sheet: BPCL with new data
+2025-03-11 22:02:59,353 - INFO - Updated sheet: C30MF with new data
+2025-03-11 22:03:00,680 - INFO - Updated sheet: CBBL with new data
+2025-03-11 22:03:01,969 - INFO - Updated sheet: CBLD88 with new data
+2025-03-11 22:03:03,244 - INFO - Updated sheet: CCBD88 with new data
+2025-03-11 22:03:04,623 - INFO - Updated sheet: CFCL with new data
+2025-03-11 22:03:05,970 - INFO - Updated sheet: CGH with new data
+2025-03-11 22:03:07,231 - INFO - Updated sheet: CHCL with new data
+2025-03-11 22:03:08,658 - INFO - Updated sheet: CHDC with new data
+2025-03-11 22:03:10,723 - INFO - Updated sheet: CHL with new data
+2025-03-11 22:03:12,959 - INFO - Updated sheet: CIT with new data
+2025-03-11 22:03:14,632 - INFO - Updated sheet: CITY with new data
+2025-03-11 22:03:16,118 - INFO - Updated sheet: CKHL with new data
+2025-03-11 22:03:17,929 - INFO - Updated sheet: CLI with new data
+2025-03-11 22:03:20,214 - INFO - Updated sheet: CMF2 with new data
+2025-03-11 22:03:22,765 - INFO - Updated sheet: CORBL with new data
+2025-03-11 22:03:24,630 - INFO - Updated sheet: CYCL with new data
+2025-03-11 22:03:26,637 - INFO - Updated sheet: CZBIL with new data
+2025-03-11 22:03:28,619 - INFO - Updated sheet: DDBL with new data
+2025-03-11 22:03:30,268 - INFO - Updated sheet: DHPL with new data
+2025-03-11 22:03:31,879 - INFO - Updated sheet: DLBS with new data
+2025-03-11 22:03:33,455 - INFO - Updated sheet: DOLTI with new data
+2025-03-11 22:03:35,230 - INFO - Updated sheet: DORDI with new data
+2025-03-11 22:03:37,496 - INFO - Updated sheet: EBL with new data
+2025-03-11 22:03:39,411 - INFO - Updated sheet: EBLD85 with new data
+2025-03-11 22:03:41,413 - INFO - Updated sheet: EBLD86 with new data
+2025-03-11 22:03:42,955 - INFO - Updated sheet: EDBL with new data
+2025-03-11 22:03:45,504 - INFO - Updated sheet: EHPL with new data
+2025-03-11 22:03:47,318 - INFO - Updated sheet: ENL with new data
+2025-03-11 22:03:49,376 - INFO - Updated sheet: FMDBL with new data
+2025-03-11 22:03:50,940 - INFO - Updated sheet: FOWAD with new data
+2025-03-11 22:03:52,485 - INFO - Updated sheet: GBBL with new data
+2025-03-11 22:03:56,094 - INFO - Updated sheet: GBIME with new data
+2025-03-11 22:03:58,074 - INFO - Updated sheet: GBLBS with new data
+2025-03-11 22:03:59,786 - INFO - Updated sheet: GCIL with new data
+2025-03-11 22:04:01,272 - INFO - Updated sheet: GFCL with new data
+2025-03-11 22:04:02,754 - INFO - Updated sheet: GHL with new data
+2025-03-11 22:04:04,263 - INFO - Updated sheet: GIBF1 with new data
+2025-03-11 22:04:05,732 - INFO - Updated sheet: GILB with new data
+2025-03-11 22:04:07,201 - INFO - Updated sheet: GLBSL with new data
+2025-03-11 22:04:08,744 - INFO - Updated sheet: GLH with new data
+2025-03-11 22:04:10,214 - INFO - Updated sheet: GMFBS with new data
+2025-03-11 22:04:11,694 - INFO - Updated sheet: GMFIL with new data
+2025-03-11 22:04:14,030 - INFO - Updated sheet: GMLI with new data
+2025-03-11 22:04:15,907 - INFO - Updated sheet: GRDBL with new data
+2025-03-11 22:04:17,687 - INFO - Updated sheet: GSY with new data
+2025-03-11 22:04:19,257 - INFO - Updated sheet: GUFL with new data
+2025-03-11 22:04:21,390 - INFO - Updated sheet: GVL with new data
+2025-03-11 22:04:23,453 - INFO - Updated sheet: H8020 with new data
+2025-03-11 22:04:25,273 - INFO - Updated sheet: HATHY with new data
+2025-03-11 22:04:26,862 - INFO - Updated sheet: HBL with new data
+2025-03-11 22:04:30,639 - INFO - Updated sheet: HDHPC with new data
+2025-03-11 22:04:33,258 - INFO - Updated sheet: HDL with new data
+2025-03-11 22:04:35,057 - INFO - Updated sheet: HEI with new data
+2025-03-11 22:04:37,933 - INFO - Updated sheet: HEIP with new data
+2025-03-11 22:04:40,093 - INFO - Updated sheet: HHL with new data
+2025-03-11 22:04:42,602 - INFO - Updated sheet: HIDCL with new data
+2025-03-11 22:04:44,291 - INFO - Updated sheet: HIDCLP with new data
+2025-03-11 22:04:46,576 - INFO - Updated sheet: HLBSL with new data
+2025-03-11 22:04:48,774 - INFO - Updated sheet: HLI with new data
+2025-03-11 22:04:50,928 - INFO - Updated sheet: HPPL with new data
+2025-03-11 22:04:52,714 - INFO - Updated sheet: HRL with new data
+2025-03-11 22:04:54,459 - INFO - Updated sheet: HURJA with new data
+2025-03-11 22:04:56,645 - INFO - Updated sheet: ICFC with new data
+2025-03-11 22:04:58,673 - INFO - Updated sheet: IGI with new data
+2025-03-11 22:05:00,982 - INFO - Updated sheet: IHL with new data
+2025-03-11 22:05:03,361 - INFO - Updated sheet: ILBS with new data
+2025-03-11 22:05:05,628 - INFO - Updated sheet: ILI with new data
+2025-03-11 22:05:08,025 - INFO - Updated sheet: JBBL with new data
+2025-03-11 22:05:10,342 - INFO - Updated sheet: JBLB with new data
+2025-03-11 22:05:12,057 - INFO - Updated sheet: JFL with new data
+2025-03-11 22:05:14,277 - INFO - Updated sheet: JOSHI with new data
+2025-03-11 22:05:18,678 - INFO - Updated sheet: JSLBB with new data
+2025-03-11 22:05:23,665 - INFO - Updated sheet: KBL with new data
+2025-03-11 22:05:26,314 - INFO - Updated sheet: KBLD86 with new data
+2025-03-11 22:05:28,478 - INFO - Updated sheet: KBLD89 with new data
+2025-03-11 22:05:32,022 - INFO - Updated sheet: KBSH with new data
+2025-03-11 22:05:36,940 - INFO - Updated sheet: KDBY with new data
+2025-03-11 22:05:39,342 - INFO - Updated sheet: KDL with new data
+2025-03-11 22:05:41,109 - INFO - Updated sheet: KEF with new data
+2025-03-11 22:05:42,985 - INFO - Updated sheet: KKHC with new data
+2025-03-11 22:05:44,897 - INFO - Updated sheet: KMCDB with new data
+2025-03-11 22:05:47,538 - INFO - Updated sheet: KPCL with new data
+2025-03-11 22:05:49,545 - INFO - Updated sheet: KSBBL with new data
+2025-03-11 22:05:51,644 - INFO - Updated sheet: KSBBLD87 with new data
+2025-03-11 22:05:53,361 - INFO - Updated sheet: KSY with new data
+2025-03-11 22:05:55,228 - INFO - Updated sheet: LBBL with new data
+2025-03-11 22:05:56,993 - INFO - Updated sheet: LBBLD89 with new data
+2025-03-11 22:05:58,701 - INFO - Updated sheet: LEC with new data
+2025-03-11 22:06:00,445 - INFO - Updated sheet: LICN with new data
+2025-03-11 22:06:01,990 - INFO - Updated sheet: LLBS with new data
+2025-03-11 22:06:03,584 - INFO - Updated sheet: LSL with new data
+2025-03-11 22:06:05,483 - INFO - Updated sheet: LUK with new data
+2025-03-11 22:06:07,467 - INFO - Updated sheet: LVF2 with new data
+2025-03-11 22:06:09,452 - INFO - Updated sheet: MAKAR with new data
+2025-03-11 22:06:11,328 - INFO - Updated sheet: MANDU with new data
+2025-03-11 22:06:13,336 - INFO - Updated sheet: MATRI with new data
+2025-03-11 22:06:16,979 - INFO - Updated sheet: MBJC with new data
+2025-03-11 22:06:19,058 - INFO - Updated sheet: MBL with new data
+2025-03-11 22:06:21,330 - INFO - Updated sheet: MCHL with new data
+2025-03-11 22:06:23,453 - INFO - Updated sheet: MDB with new data
+2025-03-11 22:06:25,752 - INFO - Updated sheet: MEHL with new data
+2025-03-11 22:06:27,833 - INFO - Updated sheet: MEL with new data
+2025-03-11 22:06:30,037 - INFO - Updated sheet: MEN with new data
+2025-03-11 22:06:33,203 - INFO - Updated sheet: MERO with new data
+2025-03-11 22:06:35,994 - INFO - Updated sheet: MFIL with new data
+2025-03-11 22:06:37,946 - INFO - Updated sheet: MHCL with new data
+2025-03-11 22:06:40,044 - INFO - Updated sheet: MHL with new data
+2025-03-11 22:06:42,103 - INFO - Updated sheet: MHNL with new data
+2025-03-11 22:06:44,182 - INFO - Updated sheet: MKCL with new data
+2025-03-11 22:06:46,573 - INFO - Updated sheet: MKHC with new data
+2025-03-11 22:06:48,943 - INFO - Updated sheet: MKHL with new data
+2025-03-11 22:06:51,165 - INFO - Updated sheet: MKJC with new data
+2025-03-11 22:06:53,506 - INFO - Updated sheet: MLBBL with new data
+2025-03-11 22:06:55,613 - INFO - Updated sheet: MLBL with new data
+2025-03-11 22:06:57,947 - INFO - Updated sheet: MLBS with new data
+2025-03-11 22:07:00,401 - INFO - Updated sheet: MLBSL with new data
+2025-03-11 22:07:02,810 - INFO - Updated sheet: MMF1 with new data
+2025-03-11 22:07:05,274 - INFO - Updated sheet: MMKJL with new data
+2025-03-11 22:07:07,820 - INFO - Updated sheet: MNBBL with new data
+2025-03-11 22:07:10,254 - INFO - Updated sheet: MNMF1 with new data
+2025-03-11 22:07:12,724 - INFO - Updated sheet: MPFL with new data
+2025-03-11 22:07:15,084 - INFO - Updated sheet: MSHL with new data
+2025-03-11 22:07:17,434 - INFO - Updated sheet: MSLB with new data
+2025-03-11 22:07:19,127 - INFO - Updated sheet: NABBC with new data
+2025-03-11 22:07:20,710 - INFO - Updated sheet: NABIL with new data
+2025-03-11 22:07:25,724 - INFO - Updated sheet: NADEP with new data
+2025-03-11 22:07:27,457 - INFO - Updated sheet: NBF2 with new data
+2025-03-11 22:07:29,327 - INFO - Updated sheet: NBF3 with new data
+2025-03-11 22:07:31,071 - INFO - Updated sheet: NBL with new data
+2025-03-11 22:07:32,776 - INFO - Updated sheet: NBLD82 with new data
+2025-03-11 22:07:34,828 - INFO - Updated sheet: NBLD87 with new data
+2025-03-11 22:07:36,761 - INFO - Updated sheet: NESDO with new data
+2025-03-11 22:07:38,497 - INFO - Updated sheet: NFS with new data
+2025-03-11 22:07:40,197 - INFO - Updated sheet: NGPL with new data
+2025-03-11 22:07:42,148 - INFO - Updated sheet: NHDL with new data
+2025-03-11 22:07:43,971 - INFO - Updated sheet: NHPC with new data
+2025-03-11 22:07:45,913 - INFO - Updated sheet: NIBLGF with new data
+2025-03-11 22:07:47,708 - INFO - Updated sheet: NIBLSTF with new data
+2025-03-11 22:07:49,308 - INFO - Updated sheet: NIBSF2 with new data
+2025-03-11 22:07:51,094 - INFO - Updated sheet: NICA with new data
+2025-03-11 22:07:53,086 - INFO - Updated sheet: NICAD8283 with new data
+2025-03-11 22:07:56,405 - INFO - Updated sheet: NICBF with new data
+2025-03-11 22:07:57,922 - INFO - Updated sheet: NICD88 with new data
+2025-03-11 22:07:59,379 - INFO - Updated sheet: NICFC with new data
+2025-03-11 22:08:01,308 - INFO - Updated sheet: NICGF with new data
+2025-03-11 22:08:03,189 - INFO - Updated sheet: NICGF2 with new data
+2025-03-11 22:08:05,075 - INFO - Updated sheet: NICL with new data
+2025-03-11 22:08:07,077 - INFO - Updated sheet: NICLBSL with new data
+2025-03-11 22:08:09,047 - INFO - Updated sheet: NICSF with new data
+2025-03-11 22:08:10,853 - INFO - Updated sheet: NIFRA with new data
+2025-03-11 22:08:12,900 - INFO - Updated sheet: NIL with new data
+2025-03-11 22:08:14,972 - INFO - Updated sheet: NIMB with new data
+2025-03-11 22:08:16,925 - INFO - Updated sheet: NIMBPO with new data
+2025-03-11 22:08:19,248 - INFO - Updated sheet: NLG with new data
+2025-03-11 22:08:21,397 - INFO - Updated sheet: NLIC with new data
+2025-03-11 22:08:23,746 - INFO - Updated sheet: NLICL with new data
+2025-03-11 22:08:25,787 - INFO - Updated sheet: NMB with new data
+2025-03-11 22:08:28,167 - INFO - Updated sheet: NMB50 with new data
+2025-03-11 22:08:30,494 - INFO - Updated sheet: NMBD2085 with new data
+2025-03-11 22:08:32,946 - INFO - Updated sheet: NMBMF with new data
+2025-03-11 22:08:35,317 - INFO - Updated sheet: NMFBS with new data
+2025-03-11 22:08:37,915 - INFO - Updated sheet: NMLBBL with new data
+2025-03-11 22:08:40,536 - INFO - Updated sheet: NRIC with new data
+2025-03-11 22:08:42,873 - INFO - Updated sheet: NRM with new data
+2025-03-11 22:08:44,962 - INFO - Updated sheet: NRN with new data
+2025-03-11 22:08:47,775 - INFO - Updated sheet: NSIF2 with new data
+2025-03-11 22:08:50,185 - INFO - Updated sheet: NTC with new data
+2025-03-11 22:08:52,814 - INFO - Updated sheet: NUBL with new data
+2025-03-11 22:08:55,409 - INFO - Updated sheet: NWCL with new data
+2025-03-11 22:08:58,002 - INFO - Updated sheet: NYADI with new data
+2025-03-11 22:09:00,725 - INFO - Updated sheet: OHL with new data
+2025-03-11 22:09:03,432 - INFO - Updated sheet: PBD88 with new data
+2025-03-11 22:09:05,225 - INFO - Updated sheet: PBLD87 with new data
+2025-03-11 22:09:06,791 - INFO - Updated sheet: PCBL with new data
+2025-03-11 22:09:08,358 - INFO - Updated sheet: PFL with new data
+2025-03-11 22:09:09,919 - INFO - Updated sheet: PHCL with new data
+2025-03-11 22:09:12,086 - INFO - Updated sheet: PMHPL with new data
+2025-03-11 22:09:13,821 - INFO - Updated sheet: PMLI with new data
+2025-03-11 22:09:15,933 - INFO - Updated sheet: PPCL with new data
+2025-03-11 22:09:17,837 - INFO - Updated sheet: PPL with new data
+2025-03-11 22:09:19,818 - INFO - Updated sheet: PRIN with new data
+2025-03-11 22:09:21,797 - INFO - Updated sheet: PROFL with new data
+2025-03-11 22:09:23,931 - INFO - Updated sheet: PRSF with new data
+2025-03-11 22:09:25,817 - INFO - Updated sheet: PRVU with new data
+2025-03-11 22:09:29,137 - INFO - Updated sheet: PSF with new data
+2025-03-11 22:09:30,779 - INFO - Updated sheet: RADHI with new data
+2025-03-11 22:09:32,733 - INFO - Updated sheet: RAWA with new data
+2025-03-11 22:09:34,477 - INFO - Updated sheet: RBBD83 with new data
+2025-03-11 22:09:36,227 - INFO - Updated sheet: RBCL with new data
+2025-03-11 22:09:38,007 - INFO - Updated sheet: RBCLPO with new data
+2025-03-11 22:09:39,887 - INFO - Updated sheet: RFPL with new data
+2025-03-11 22:09:41,546 - INFO - Updated sheet: RHGCL with new data
+2025-03-11 22:09:43,446 - INFO - Updated sheet: RHPL with new data
+2025-03-11 22:09:44,914 - INFO - Updated sheet: RIDI with new data
+2025-03-11 22:09:46,570 - INFO - Updated sheet: RLFL with new data
+2025-03-11 22:09:48,029 - INFO - Updated sheet: RMF1 with new data
+2025-03-11 22:09:49,606 - INFO - Updated sheet: RMF2 with new data
+2025-03-11 22:09:51,145 - INFO - Updated sheet: RNLI with new data
+2025-03-11 22:09:52,763 - INFO - Updated sheet: RSDC with new data
+2025-03-11 22:09:54,250 - INFO - Updated sheet: RURU with new data
+2025-03-11 22:09:55,812 - INFO - Updated sheet: SADBL with new data
+2025-03-11 22:09:57,283 - INFO - Updated sheet: SAGF with new data
+2025-03-11 22:09:58,827 - INFO - Updated sheet: SAHAS with new data
+2025-03-11 22:10:00,341 - INFO - Updated sheet: SALICO with new data
+2025-03-11 22:10:01,960 - INFO - Updated sheet: SAMAJ with new data
+2025-03-11 22:10:03,389 - INFO - Updated sheet: SANIMA with new data
+2025-03-11 22:10:05,027 - INFO - Updated sheet: SAPDBL with new data
+2025-03-11 22:10:06,520 - INFO - Updated sheet: SARBTM with new data
+2025-03-11 22:10:08,811 - INFO - Updated sheet: SBCF with new data
+2025-03-11 22:10:10,586 - INFO - Updated sheet: SBI with new data
+2025-03-11 22:10:12,480 - INFO - Updated sheet: SBIBD86 with new data
+2025-03-11 22:10:14,071 - INFO - Updated sheet: SBID83 with new data
+2025-03-11 22:10:16,275 - INFO - Updated sheet: SBL with new data
+2025-03-11 22:10:23,340 - INFO - Updated sheet: SBLD89 with new data
+2025-03-11 22:10:25,102 - INFO - Updated sheet: SCB with new data
+2025-03-11 22:10:26,970 - INFO - Updated sheet: SEF with new data
+2025-03-11 22:10:28,717 - INFO - Updated sheet: SFCL with new data
+2025-03-11 22:10:31,346 - INFO - Updated sheet: SFEF with new data
+2025-03-11 22:10:33,567 - INFO - Updated sheet: SFMF with new data
+2025-03-11 22:10:36,626 - INFO - Updated sheet: SGHC with new data
+2025-03-11 22:10:38,578 - INFO - Updated sheet: SGIC with new data
+2025-03-11 22:10:40,367 - INFO - Updated sheet: SHEL with new data
+2025-03-11 22:10:42,245 - INFO - Updated sheet: SHINE with new data
+2025-03-11 22:10:44,264 - INFO - Updated sheet: SHIVM with new data
+2025-03-11 22:10:46,025 - INFO - Updated sheet: SHL with new data
+2025-03-11 22:10:48,183 - INFO - Updated sheet: SHLB with new data
+2025-03-11 22:10:50,128 - INFO - Updated sheet: SHPC with new data
+2025-03-11 22:10:52,061 - INFO - Updated sheet: SICL with new data
+2025-03-11 22:10:53,667 - INFO - Updated sheet: SIFC with new data
+2025-03-11 22:10:55,158 - INFO - Updated sheet: SIGS2 with new data
+2025-03-11 22:10:56,605 - INFO - Updated sheet: SIGS3 with new data
+2025-03-11 22:10:58,213 - INFO - Updated sheet: SIKLES with new data
+2025-03-11 22:10:59,963 - INFO - Updated sheet: SINDU with new data
+2025-03-11 22:11:01,555 - INFO - Updated sheet: SJCL with new data
+2025-03-11 22:11:03,156 - INFO - Updated sheet: SJLIC with new data
+2025-03-11 22:11:04,813 - INFO - Updated sheet: SKBBL with new data
+2025-03-11 22:11:06,347 - INFO - Updated sheet: SLBBL with new data
+2025-03-11 22:11:08,108 - INFO - Updated sheet: SLBSL with new data
+2025-03-11 22:11:10,094 - INFO - Updated sheet: SLCF with new data
+2025-03-11 22:11:12,239 - INFO - Updated sheet: SMATA with new data
+2025-03-11 22:11:13,980 - INFO - Updated sheet: SMB with new data
+2025-03-11 22:11:15,751 - INFO - Updated sheet: SMFBS with new data
+2025-03-11 22:11:17,679 - INFO - Updated sheet: SMH with new data
+2025-03-11 22:11:19,461 - INFO - Updated sheet: SMHL with new data
+2025-03-11 22:11:21,348 - INFO - Updated sheet: SMJC with new data
+2025-03-11 22:11:23,307 - INFO - Updated sheet: SMPDA with new data
+2025-03-11 22:11:25,425 - INFO - Updated sheet: SNLI with new data
+2025-03-11 22:11:27,400 - INFO - Updated sheet: SONA with new data
+2025-03-11 22:11:29,114 - INFO - Updated sheet: SPC with new data
+2025-03-11 22:11:30,864 - INFO - Updated sheet: SPDL with new data
+2025-03-11 22:11:32,690 - INFO - Updated sheet: SPHL with new data
+2025-03-11 22:11:34,871 - INFO - Updated sheet: SPIL with new data
+2025-03-11 22:11:36,719 - INFO - Updated sheet: SPL with new data
+2025-03-11 22:11:38,609 - INFO - Updated sheet: SRLI with new data
+2025-03-11 22:11:40,256 - INFO - Updated sheet: SSHL with new data
+2025-03-11 22:11:41,851 - INFO - Updated sheet: STC with new data
+2025-03-11 22:11:43,604 - INFO - Updated sheet: SWBBL with new data
+2025-03-11 22:11:45,145 - INFO - Updated sheet: SWMF with new data
+2025-03-11 22:11:46,679 - INFO - Updated sheet: TAMOR with new data
+2025-03-11 22:11:48,192 - INFO - Updated sheet: TPC with new data
+2025-03-11 22:11:49,803 - INFO - Updated sheet: TRH with new data
+2025-03-11 22:11:51,339 - INFO - Updated sheet: TSHL with new data
+2025-03-11 22:11:52,855 - INFO - Updated sheet: TVCL with new data
+2025-03-11 22:11:54,369 - INFO - Updated sheet: UAIL with new data
+2025-03-11 22:11:56,033 - INFO - Updated sheet: UHEWA with new data
+2025-03-11 22:11:57,542 - INFO - Updated sheet: ULBSL with new data
+2025-03-11 22:11:59,044 - INFO - Updated sheet: ULHC with new data
+2025-03-11 22:12:00,717 - INFO - Updated sheet: UMHL with new data
+2025-03-11 22:12:02,334 - INFO - Updated sheet: UMRH with new data
+2025-03-11 22:12:03,972 - INFO - Updated sheet: UNHPL with new data
+2025-03-11 22:12:05,632 - INFO - Updated sheet: UNL with new data
+2025-03-11 22:12:07,139 - INFO - Updated sheet: UNLB with new data
+2025-03-11 22:12:08,713 - INFO - Updated sheet: UPCL with new data
+2025-03-11 22:12:10,421 - INFO - Updated sheet: UPPER with new data
+2025-03-11 22:12:11,910 - INFO - Updated sheet: USHEC with new data
+2025-03-11 22:12:13,481 - INFO - Updated sheet: USHL with new data
+2025-03-11 22:12:15,021 - INFO - Updated sheet: USLB with new data
+2025-03-11 22:12:16,984 - INFO - Updated sheet: VLBS with new data
+2025-03-11 22:12:18,765 - INFO - Updated sheet: VLUCL with new data
+2025-03-11 22:12:20,774 - INFO - Updated sheet: WNLB with new data
+2025-03-11 22:12:20,843 - INFO - Added new sheet for symbol: CIZBD86
+2025-03-11 22:12:20,951 - INFO - Added new sheet for symbol: GBBD85
+2025-03-11 22:12:21,016 - ERROR - Excel update error: Invalid character / found in sheet title
+2025-03-11 22:12:21,017 - ERROR - 
+ERROR: Could not update the Excel file.
+2025-03-11 22:12:21,019 - INFO - Ended at: 2025-03-11 22:12:21
+2025-03-11 22:20:25,800 - INFO - Chromedriver is already installed.
+2025-03-11 22:20:25,844 - INFO - === Share Price Data Scraper ===
+2025-03-11 22:20:25,844 - INFO - Started at: 2025-03-11 22:20:25
+2025-03-11 22:20:25,844 - INFO - Looking for latest data file...
+2025-03-11 22:20:25,846 - INFO - Found latest file: shares_data_till_2025_03_08.xlsx (date: 2025-03-08)
+2025-03-11 22:20:25,846 - INFO - Analyzing Excel file to find latest common date...
+2025-03-11 22:20:40,354 - INFO - Latest common date found: 2025-03-06
+2025-03-11 22:20:40,357 - INFO - Will scrape data from 2025-03-07 to 2025-03-11
+2025-03-11 22:20:40,358 - INFO - Initializing web driver...
+2025-03-11 22:20:45,930 - INFO - 
+[1/5] Processing date: 2025-03-07
+2025-03-11 22:20:45,931 - INFO - Starting data scraping for date: 2025-03-07
+2025-03-11 22:20:45,931 - INFO - Searching website for date: 2025-03-07...
+2025-03-11 22:20:58,755 - INFO - No record found for date: 2025-03-07
+2025-03-11 22:20:58,755 - INFO - No data found for 2025-03-07 - skipping
+2025-03-11 22:20:58,757 - INFO - 
+[2/5] Processing date: 2025-03-08
+2025-03-11 22:20:58,758 - INFO - Starting data scraping for date: 2025-03-08
+2025-03-11 22:20:58,758 - INFO - Searching website for date: 2025-03-08...
+2025-03-11 22:21:10,281 - INFO - No record found for date: 2025-03-08
+2025-03-11 22:21:10,282 - INFO - No data found for 2025-03-08 - skipping
+2025-03-11 22:21:10,283 - INFO - 
+[3/5] Processing date: 2025-03-09
+2025-03-11 22:21:10,283 - INFO - Starting data scraping for date: 2025-03-09
+2025-03-11 22:21:10,284 - INFO - Searching website for date: 2025-03-09...
+2025-03-11 22:21:21,688 - INFO - Data found for date: 2025-03-09
+2025-03-11 22:21:21,690 - INFO - Scraping page 1 for date 2025-03-09
+2025-03-11 22:21:21,690 - INFO - Extracting table data from current page...
+2025-03-11 22:21:22,340 - INFO - Extracted 315 rows of data from current page
+2025-03-11 22:21:22,497 - INFO - No more pages to scrape.
+2025-03-11 22:21:22,498 - INFO - Completed scraping for date 2025-03-09. Total rows: 315
+2025-03-11 22:21:22,498 - INFO - Cleaning data for date: 2025-03-09
+2025-03-11 22:21:22,549 - INFO - Website columns found: Range %, High, Diff %, Diff, Turnover, 52 Weeks High, Vol, 52 Weeks Low, S.No, Trans., Open, Prev. Close, VWAP, VWAP %, Symbol, Conf., Low, Range, Close
+2025-03-11 22:21:22,550 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-11 22:21:22,551 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-11 22:21:22,553 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-11 22:21:22,555 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-11 22:21:22,557 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-11 22:21:22,558 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-11 22:21:22,560 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-11 22:21:22,560 - INFO - Data cleaning completed. Rows: 315
+2025-03-11 22:21:23,063 - INFO - Successfully processed data for 2025-03-09 - 315 symbols
+2025-03-11 22:21:23,064 - INFO - 
+[4/5] Processing date: 2025-03-10
+2025-03-11 22:21:23,064 - INFO - Starting data scraping for date: 2025-03-10
+2025-03-11 22:21:23,065 - INFO - Searching website for date: 2025-03-10...
+2025-03-11 22:21:37,936 - INFO - Data found for date: 2025-03-10
+2025-03-11 22:21:37,938 - INFO - Scraping page 1 for date 2025-03-10
+2025-03-11 22:21:37,939 - INFO - Extracting table data from current page...
+2025-03-11 22:21:38,557 - INFO - Extracted 311 rows of data from current page
+2025-03-11 22:21:38,813 - INFO - No more pages to scrape.
+2025-03-11 22:21:38,814 - INFO - Completed scraping for date 2025-03-10. Total rows: 311
+2025-03-11 22:21:38,815 - INFO - Cleaning data for date: 2025-03-10
+2025-03-11 22:21:38,830 - INFO - Website columns found: Range %, High, Diff %, Diff, Turnover, 52 Weeks High, Vol, 52 Weeks Low, S.No, Trans., Open, Prev. Close, VWAP, VWAP %, Symbol, Conf., Low, Range, Close
+2025-03-11 22:21:38,833 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-11 22:21:38,837 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-11 22:21:38,839 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-11 22:21:38,840 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-11 22:21:38,842 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-11 22:21:38,844 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-11 22:21:38,846 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-11 22:21:38,849 - INFO - Data cleaning completed. Rows: 311
+2025-03-11 22:21:39,494 - INFO - Successfully processed data for 2025-03-10 - 311 symbols
+2025-03-11 22:21:39,495 - INFO - 
+[5/5] Processing date: 2025-03-11
+2025-03-11 22:21:39,495 - INFO - Starting data scraping for date: 2025-03-11
+2025-03-11 22:21:39,496 - INFO - Searching website for date: 2025-03-11...
+2025-03-11 22:21:51,628 - INFO - Data found for date: 2025-03-11
+2025-03-11 22:21:51,629 - INFO - Scraping page 1 for date 2025-03-11
+2025-03-11 22:21:51,630 - INFO - Extracting table data from current page...
+2025-03-11 22:21:52,258 - INFO - Extracted 303 rows of data from current page
+2025-03-11 22:21:52,406 - INFO - No more pages to scrape.
+2025-03-11 22:21:52,407 - INFO - Completed scraping for date 2025-03-11. Total rows: 303
+2025-03-11 22:21:52,408 - INFO - Cleaning data for date: 2025-03-11
+2025-03-11 22:21:52,415 - INFO - Website columns found: Range %, High, Diff %, Diff, 120 Days, Turnover, 52 Weeks High, Vol, 52 Weeks Low, S.No, Trans., Open, Prev. Close, VWAP, VWAP %, Symbol, Conf., Low, Range, 180 Days, Close
+2025-03-11 22:21:52,417 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-11 22:21:52,419 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-11 22:21:52,420 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-11 22:21:52,423 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-11 22:21:52,425 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-11 22:21:52,426 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-11 22:21:52,428 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-11 22:21:52,428 - INFO - Data cleaning completed. Rows: 303
+2025-03-11 22:21:52,864 - INFO - Successfully processed data for 2025-03-11 - 303 symbols
+2025-03-11 22:21:55,102 - INFO - Web driver closed
+2025-03-11 22:21:55,104 - INFO - 
+=== Scraping Summary ===
+2025-03-11 22:21:55,106 - INFO - Dates processed: 5/5
+2025-03-11 22:21:55,107 - INFO - Dates with data: 3
+2025-03-11 22:21:55,109 - INFO - Symbols with new data: 334
+2025-03-11 22:21:55,110 - INFO - 
+Updating Excel file with new data up to 2025-03-11
+2025-03-11 22:21:55,112 - INFO - Updating Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-11 22:21:55,114 - INFO - New data available for 334 symbols
+2025-03-11 22:21:56,523 - INFO - Sanitized sheet name from 'GBILD84/85' to 'GBILD84_85'
+2025-03-11 22:21:56,523 - INFO - Sanitized sheet name from 'MND84/85' to 'MND84_85'
+2025-03-11 22:21:56,524 - INFO - Sanitized sheet name from 'NICAD85/86' to 'NICAD85_86'
+2025-03-11 22:21:56,524 - INFO - Sanitized sheet name from 'GBILD86/87' to 'GBILD86_87'
+2025-03-11 22:21:57,883 - INFO - Updated sheet: ACLBSL with new data
+2025-03-11 22:21:59,128 - INFO - Updated sheet: ADBL with new data
+2025-03-11 22:22:00,438 - INFO - Updated sheet: ADBLD83 with new data
+2025-03-11 22:22:01,699 - INFO - Updated sheet: AHL with new data
+2025-03-11 22:22:03,129 - INFO - Updated sheet: AHPC with new data
+2025-03-11 22:22:04,413 - INFO - Updated sheet: AKJCL with new data
+2025-03-11 22:22:05,750 - INFO - Updated sheet: AKPL with new data
+2025-03-11 22:22:07,053 - INFO - Updated sheet: ALBSL with new data
+2025-03-11 22:22:08,351 - INFO - Updated sheet: ALICL with new data
+2025-03-11 22:22:09,664 - INFO - Updated sheet: ANLB with new data
+2025-03-11 22:22:10,970 - INFO - Updated sheet: API with new data
+2025-03-11 22:22:12,223 - INFO - Updated sheet: AVYAN with new data
+2025-03-11 22:22:13,507 - INFO - Updated sheet: BARUN with new data
+2025-03-11 22:22:14,848 - INFO - Updated sheet: BBC with new data
+2025-03-11 22:22:16,153 - INFO - Updated sheet: BEDC with new data
+2025-03-11 22:22:17,418 - INFO - Updated sheet: BFC with new data
+2025-03-11 22:22:18,748 - INFO - Updated sheet: BGWT with new data
+2025-03-11 22:22:20,004 - INFO - Updated sheet: BHDC with new data
+2025-03-11 22:22:21,350 - INFO - Updated sheet: BHL with new data
+2025-03-11 22:22:22,674 - INFO - Updated sheet: BHPL with new data
+2025-03-11 22:22:23,954 - INFO - Updated sheet: BNHC with new data
+2025-03-11 22:22:25,281 - INFO - Updated sheet: BNT with new data
+2025-03-11 22:22:26,568 - INFO - Updated sheet: BPCL with new data
+2025-03-11 22:22:27,840 - INFO - Updated sheet: C30MF with new data
+2025-03-11 22:22:29,232 - INFO - Updated sheet: CBBL with new data
+2025-03-11 22:22:30,499 - INFO - Updated sheet: CBLD88 with new data
+2025-03-11 22:22:31,813 - INFO - Updated sheet: CCBD88 with new data
+2025-03-11 22:22:33,163 - INFO - Updated sheet: CFCL with new data
+2025-03-11 22:22:34,468 - INFO - Updated sheet: CGH with new data
+2025-03-11 22:22:35,828 - INFO - Updated sheet: CHCL with new data
+2025-03-11 22:22:37,202 - INFO - Updated sheet: CHDC with new data
+2025-03-11 22:22:38,503 - INFO - Updated sheet: CHL with new data
+2025-03-11 22:22:40,128 - INFO - Updated sheet: CIT with new data
+2025-03-11 22:22:41,439 - INFO - Updated sheet: CITY with new data
+2025-03-11 22:22:42,771 - INFO - Updated sheet: CKHL with new data
+2025-03-11 22:22:44,066 - INFO - Updated sheet: CLI with new data
+2025-03-11 22:22:45,451 - INFO - Updated sheet: CMF2 with new data
+2025-03-11 22:22:46,976 - INFO - Updated sheet: CORBL with new data
+2025-03-11 22:22:48,322 - INFO - Updated sheet: CYCL with new data
+2025-03-11 22:22:49,723 - INFO - Updated sheet: CZBIL with new data
+2025-03-11 22:22:50,997 - INFO - Updated sheet: DDBL with new data
+2025-03-11 22:22:52,283 - INFO - Updated sheet: DHPL with new data
+2025-03-11 22:22:53,627 - INFO - Updated sheet: DLBS with new data
+2025-03-11 22:22:54,946 - INFO - Updated sheet: DOLTI with new data
+2025-03-11 22:22:56,257 - INFO - Updated sheet: DORDI with new data
+2025-03-11 22:22:57,539 - INFO - Updated sheet: EBL with new data
+2025-03-11 22:22:58,857 - INFO - Updated sheet: EBLD85 with new data
+2025-03-11 22:23:00,166 - INFO - Updated sheet: EBLD86 with new data
+2025-03-11 22:23:01,561 - INFO - Updated sheet: EDBL with new data
+2025-03-11 22:23:02,950 - INFO - Updated sheet: EHPL with new data
+2025-03-11 22:23:04,270 - INFO - Updated sheet: ENL with new data
+2025-03-11 22:23:05,574 - INFO - Updated sheet: FMDBL with new data
+2025-03-11 22:23:06,929 - INFO - Updated sheet: FOWAD with new data
+2025-03-11 22:23:08,241 - INFO - Updated sheet: GBBL with new data
+2025-03-11 22:23:10,821 - INFO - Updated sheet: GBIME with new data
+2025-03-11 22:23:12,152 - INFO - Updated sheet: GBLBS with new data
+2025-03-11 22:23:13,567 - INFO - Updated sheet: GCIL with new data
+2025-03-11 22:23:14,878 - INFO - Updated sheet: GFCL with new data
+2025-03-11 22:23:16,181 - INFO - Updated sheet: GHL with new data
+2025-03-11 22:23:17,483 - INFO - Updated sheet: GIBF1 with new data
+2025-03-11 22:23:18,822 - INFO - Updated sheet: GILB with new data
+2025-03-11 22:23:20,146 - INFO - Updated sheet: GLBSL with new data
+2025-03-11 22:23:21,473 - INFO - Updated sheet: GLH with new data
+2025-03-11 22:23:22,769 - INFO - Updated sheet: GMFBS with new data
+2025-03-11 22:23:24,136 - INFO - Updated sheet: GMFIL with new data
+2025-03-11 22:23:25,434 - INFO - Updated sheet: GMLI with new data
+2025-03-11 22:23:26,763 - INFO - Updated sheet: GRDBL with new data
+2025-03-11 22:23:28,063 - INFO - Updated sheet: GSY with new data
+2025-03-11 22:23:29,381 - INFO - Updated sheet: GUFL with new data
+2025-03-11 22:23:30,696 - INFO - Updated sheet: GVL with new data
+2025-03-11 22:23:32,104 - INFO - Updated sheet: H8020 with new data
+2025-03-11 22:23:33,448 - INFO - Updated sheet: HATHY with new data
+2025-03-11 22:23:34,817 - INFO - Updated sheet: HBL with new data
+2025-03-11 22:23:36,134 - INFO - Updated sheet: HDHPC with new data
+2025-03-11 22:23:37,443 - INFO - Updated sheet: HDL with new data
+2025-03-11 22:23:38,793 - INFO - Updated sheet: HEI with new data
+2025-03-11 22:23:40,154 - INFO - Updated sheet: HEIP with new data
+2025-03-11 22:23:41,490 - INFO - Updated sheet: HHL with new data
+2025-03-11 22:23:42,825 - INFO - Updated sheet: HIDCL with new data
+2025-03-11 22:23:44,167 - INFO - Updated sheet: HIDCLP with new data
+2025-03-11 22:23:45,519 - INFO - Updated sheet: HLBSL with new data
+2025-03-11 22:23:47,026 - INFO - Updated sheet: HLI with new data
+2025-03-11 22:23:48,345 - INFO - Updated sheet: HPPL with new data
+2025-03-11 22:23:49,683 - INFO - Updated sheet: HRL with new data
+2025-03-11 22:23:51,129 - INFO - Updated sheet: HURJA with new data
+2025-03-11 22:23:52,450 - INFO - Updated sheet: ICFC with new data
+2025-03-11 22:23:53,865 - INFO - Updated sheet: IGI with new data
+2025-03-11 22:23:55,230 - INFO - Updated sheet: IHL with new data
+2025-03-11 22:23:56,563 - INFO - Updated sheet: ILBS with new data
+2025-03-11 22:23:57,879 - INFO - Updated sheet: ILI with new data
+2025-03-11 22:23:59,205 - INFO - Updated sheet: JBBL with new data
+2025-03-11 22:24:00,670 - INFO - Updated sheet: JBLB with new data
+2025-03-11 22:24:02,292 - INFO - Updated sheet: JFL with new data
+2025-03-11 22:24:03,645 - INFO - Updated sheet: JOSHI with new data
+2025-03-11 22:24:05,013 - INFO - Updated sheet: JSLBB with new data
+2025-03-11 22:24:06,345 - INFO - Updated sheet: KBL with new data
+2025-03-11 22:24:07,682 - INFO - Updated sheet: KBLD86 with new data
+2025-03-11 22:24:09,025 - INFO - Updated sheet: KBLD89 with new data
+2025-03-11 22:24:12,080 - INFO - Updated sheet: KBSH with new data
+2025-03-11 22:24:13,864 - INFO - Updated sheet: KDBY with new data
+2025-03-11 22:24:15,322 - INFO - Updated sheet: KDL with new data
+2025-03-11 22:24:16,645 - INFO - Updated sheet: KEF with new data
+2025-03-11 22:24:18,010 - INFO - Updated sheet: KKHC with new data
+2025-03-11 22:24:19,369 - INFO - Updated sheet: KMCDB with new data
+2025-03-11 22:24:20,714 - INFO - Updated sheet: KPCL with new data
+2025-03-11 22:24:22,084 - INFO - Updated sheet: KSBBL with new data
+2025-03-11 22:24:23,471 - INFO - Updated sheet: KSBBLD87 with new data
+2025-03-11 22:24:24,801 - INFO - Updated sheet: KSY with new data
+2025-03-11 22:24:26,144 - INFO - Updated sheet: LBBL with new data
+2025-03-11 22:24:27,527 - INFO - Updated sheet: LBBLD89 with new data
+2025-03-11 22:24:28,915 - INFO - Updated sheet: LEC with new data
+2025-03-11 22:24:30,263 - INFO - Updated sheet: LICN with new data
+2025-03-11 22:24:31,623 - INFO - Updated sheet: LLBS with new data
+2025-03-11 22:24:33,035 - INFO - Updated sheet: LSL with new data
+2025-03-11 22:24:34,408 - INFO - Updated sheet: LUK with new data
+2025-03-11 22:24:35,733 - INFO - Updated sheet: LVF2 with new data
+2025-03-11 22:24:37,117 - INFO - Updated sheet: MAKAR with new data
+2025-03-11 22:24:38,527 - INFO - Updated sheet: MANDU with new data
+2025-03-11 22:24:39,903 - INFO - Updated sheet: MATRI with new data
+2025-03-11 22:24:42,625 - INFO - Updated sheet: MBJC with new data
+2025-03-11 22:24:44,022 - INFO - Updated sheet: MBL with new data
+2025-03-11 22:24:45,444 - INFO - Updated sheet: MCHL with new data
+2025-03-11 22:24:46,727 - INFO - Updated sheet: MDB with new data
+2025-03-11 22:24:48,471 - INFO - Updated sheet: MEHL with new data
+2025-03-11 22:24:50,299 - INFO - Updated sheet: MEL with new data
+2025-03-11 22:24:51,663 - INFO - Updated sheet: MEN with new data
+2025-03-11 22:24:53,058 - INFO - Updated sheet: MERO with new data
+2025-03-11 22:24:54,487 - INFO - Updated sheet: MFIL with new data
+2025-03-11 22:24:55,847 - INFO - Updated sheet: MHCL with new data
+2025-03-11 22:24:57,219 - INFO - Updated sheet: MHL with new data
+2025-03-11 22:24:58,613 - INFO - Updated sheet: MHNL with new data
+2025-03-11 22:25:00,036 - INFO - Updated sheet: MKCL with new data
+2025-03-11 22:25:01,413 - INFO - Updated sheet: MKHC with new data
+2025-03-11 22:25:02,972 - INFO - Updated sheet: MKHL with new data
+2025-03-11 22:25:04,407 - INFO - Updated sheet: MKJC with new data
+2025-03-11 22:25:05,786 - INFO - Updated sheet: MLBBL with new data
+2025-03-11 22:25:07,295 - INFO - Updated sheet: MLBL with new data
+2025-03-11 22:25:08,708 - INFO - Updated sheet: MLBS with new data
+2025-03-11 22:25:10,062 - INFO - Updated sheet: MLBSL with new data
+2025-03-11 22:25:11,442 - INFO - Updated sheet: MMF1 with new data
+2025-03-11 22:25:12,905 - INFO - Updated sheet: MMKJL with new data
+2025-03-11 22:25:14,247 - INFO - Updated sheet: MNBBL with new data
+2025-03-11 22:25:15,625 - INFO - Updated sheet: MNMF1 with new data
+2025-03-11 22:25:17,007 - INFO - Updated sheet: MPFL with new data
+2025-03-11 22:25:18,441 - INFO - Updated sheet: MSHL with new data
+2025-03-11 22:25:19,817 - INFO - Updated sheet: MSLB with new data
+2025-03-11 22:25:21,197 - INFO - Updated sheet: NABBC with new data
+2025-03-11 22:25:22,510 - INFO - Updated sheet: NABIL with new data
+2025-03-11 22:25:25,278 - INFO - Updated sheet: NADEP with new data
+2025-03-11 22:25:26,666 - INFO - Updated sheet: NBF2 with new data
+2025-03-11 22:25:28,114 - INFO - Updated sheet: NBF3 with new data
+2025-03-11 22:25:29,516 - INFO - Updated sheet: NBL with new data
+2025-03-11 22:25:30,835 - INFO - Updated sheet: NBLD82 with new data
+2025-03-11 22:25:32,237 - INFO - Updated sheet: NBLD87 with new data
+2025-03-11 22:25:33,704 - INFO - Updated sheet: NESDO with new data
+2025-03-11 22:25:35,246 - INFO - Updated sheet: NFS with new data
+2025-03-11 22:25:36,628 - INFO - Updated sheet: NGPL with new data
+2025-03-11 22:25:38,053 - INFO - Updated sheet: NHDL with new data
+2025-03-11 22:25:39,457 - INFO - Updated sheet: NHPC with new data
+2025-03-11 22:25:40,816 - INFO - Updated sheet: NIBLGF with new data
+2025-03-11 22:25:42,247 - INFO - Updated sheet: NIBLSTF with new data
+2025-03-11 22:25:43,656 - INFO - Updated sheet: NIBSF2 with new data
+2025-03-11 22:25:44,969 - INFO - Updated sheet: NICA with new data
+2025-03-11 22:25:46,422 - INFO - Updated sheet: NICAD8283 with new data
+2025-03-11 22:25:49,185 - INFO - Updated sheet: NICBF with new data
+2025-03-11 22:25:50,631 - INFO - Updated sheet: NICD88 with new data
+2025-03-11 22:25:52,022 - INFO - Updated sheet: NICFC with new data
+2025-03-11 22:25:53,385 - INFO - Updated sheet: NICGF with new data
+2025-03-11 22:25:54,777 - INFO - Updated sheet: NICGF2 with new data
+2025-03-11 22:25:56,235 - INFO - Updated sheet: NICL with new data
+2025-03-11 22:25:57,584 - INFO - Updated sheet: NICLBSL with new data
+2025-03-11 22:25:58,989 - INFO - Updated sheet: NICSF with new data
+2025-03-11 22:26:00,458 - INFO - Updated sheet: NIFRA with new data
+2025-03-11 22:26:01,785 - INFO - Updated sheet: NIL with new data
+2025-03-11 22:26:03,233 - INFO - Updated sheet: NIMB with new data
+2025-03-11 22:26:04,667 - INFO - Updated sheet: NIMBPO with new data
+2025-03-11 22:26:05,973 - INFO - Updated sheet: NLG with new data
+2025-03-11 22:26:07,425 - INFO - Updated sheet: NLIC with new data
+2025-03-11 22:26:09,142 - INFO - Updated sheet: NLICL with new data
+2025-03-11 22:26:10,462 - INFO - Updated sheet: NMB with new data
+2025-03-11 22:26:12,311 - INFO - Updated sheet: NMB50 with new data
+2025-03-11 22:26:13,842 - INFO - Updated sheet: NMBD2085 with new data
+2025-03-11 22:26:15,162 - INFO - Updated sheet: NMBMF with new data
+2025-03-11 22:26:16,593 - INFO - Updated sheet: NMFBS with new data
+2025-03-11 22:26:18,008 - INFO - Updated sheet: NMLBBL with new data
+2025-03-11 22:26:19,440 - INFO - Updated sheet: NRIC with new data
+2025-03-11 22:26:20,884 - INFO - Updated sheet: NRM with new data
+2025-03-11 22:26:22,340 - INFO - Updated sheet: NRN with new data
+2025-03-11 22:26:23,785 - INFO - Updated sheet: NSIF2 with new data
+2025-03-11 22:26:25,380 - INFO - Updated sheet: NTC with new data
+2025-03-11 22:26:26,827 - INFO - Updated sheet: NUBL with new data
+2025-03-11 22:26:28,178 - INFO - Updated sheet: NWCL with new data
+2025-03-11 22:26:29,898 - INFO - Updated sheet: NYADI with new data
+2025-03-11 22:26:31,769 - INFO - Updated sheet: OHL with new data
+2025-03-11 22:26:35,128 - INFO - Updated sheet: PBD88 with new data
+2025-03-11 22:26:37,217 - INFO - Updated sheet: PBLD87 with new data
+2025-03-11 22:26:38,962 - INFO - Updated sheet: PCBL with new data
+2025-03-11 22:26:40,763 - INFO - Updated sheet: PFL with new data
+2025-03-11 22:26:42,456 - INFO - Updated sheet: PHCL with new data
+2025-03-11 22:26:44,048 - INFO - Updated sheet: PMHPL with new data
+2025-03-11 22:26:46,436 - INFO - Updated sheet: PMLI with new data
+2025-03-11 22:26:48,537 - INFO - Updated sheet: PPCL with new data
+2025-03-11 22:26:50,099 - INFO - Updated sheet: PPL with new data
+2025-03-11 22:26:51,825 - INFO - Updated sheet: PRIN with new data
+2025-03-11 22:26:53,655 - INFO - Updated sheet: PROFL with new data
+2025-03-11 22:26:55,307 - INFO - Updated sheet: PRSF with new data
+2025-03-11 22:26:56,739 - INFO - Updated sheet: PRVU with new data
+2025-03-11 22:27:00,191 - INFO - Updated sheet: PSF with new data
+2025-03-11 22:27:01,783 - INFO - Updated sheet: RADHI with new data
+2025-03-11 22:27:03,729 - INFO - Updated sheet: RAWA with new data
+2025-03-11 22:27:05,746 - INFO - Updated sheet: RBBD83 with new data
+2025-03-11 22:27:08,719 - INFO - Updated sheet: RBCL with new data
+2025-03-11 22:27:15,075 - INFO - Updated sheet: RBCLPO with new data
+2025-03-11 22:27:21,432 - INFO - Updated sheet: RFPL with new data
+2025-03-11 22:27:27,733 - INFO - Updated sheet: RHGCL with new data
+2025-03-11 22:27:31,814 - INFO - Updated sheet: RHPL with new data
+2025-03-11 22:27:35,002 - INFO - Updated sheet: RIDI with new data
+2025-03-11 22:27:39,901 - INFO - Updated sheet: RLFL with new data
+2025-03-11 22:27:42,567 - INFO - Updated sheet: RMF1 with new data
+2025-03-11 22:27:44,785 - INFO - Updated sheet: RMF2 with new data
+2025-03-11 22:27:47,408 - INFO - Updated sheet: RNLI with new data
+2025-03-11 22:27:49,689 - INFO - Updated sheet: RSDC with new data
+2025-03-11 22:27:52,267 - INFO - Updated sheet: RURU with new data
+2025-03-11 22:27:55,352 - INFO - Updated sheet: SADBL with new data
+2025-03-11 22:27:57,882 - INFO - Updated sheet: SAGF with new data
+2025-03-11 22:28:01,439 - INFO - Updated sheet: SAHAS with new data
+2025-03-11 22:28:05,646 - INFO - Updated sheet: SALICO with new data
+2025-03-11 22:28:07,880 - INFO - Updated sheet: SAMAJ with new data
+2025-03-11 22:28:10,597 - INFO - Updated sheet: SANIMA with new data
+2025-03-11 22:28:12,397 - INFO - Updated sheet: SAPDBL with new data
+2025-03-11 22:28:14,783 - INFO - Updated sheet: SARBTM with new data
+2025-03-11 22:28:17,030 - INFO - Updated sheet: SBCF with new data
+2025-03-11 22:28:18,771 - INFO - Updated sheet: SBI with new data
+2025-03-11 22:28:21,343 - INFO - Updated sheet: SBIBD86 with new data
+2025-03-11 22:28:23,420 - INFO - Updated sheet: SBID83 with new data
+2025-03-11 22:28:24,994 - INFO - Updated sheet: SBL with new data
+2025-03-11 22:28:29,131 - INFO - Updated sheet: SBLD89 with new data
+2025-03-11 22:28:31,956 - INFO - Updated sheet: SCB with new data
+2025-03-11 22:28:34,548 - INFO - Updated sheet: SEF with new data
+2025-03-11 22:28:36,221 - INFO - Updated sheet: SFCL with new data
+2025-03-11 22:28:38,524 - INFO - Updated sheet: SFEF with new data
+2025-03-11 22:28:40,963 - INFO - Updated sheet: SFMF with new data
+2025-03-11 22:28:42,698 - INFO - Updated sheet: SGHC with new data
+2025-03-11 22:28:44,848 - INFO - Updated sheet: SGIC with new data
+2025-03-11 22:28:47,101 - INFO - Updated sheet: SHEL with new data
+2025-03-11 22:28:52,221 - INFO - Updated sheet: SHINE with new data
+2025-03-11 22:28:54,819 - INFO - Updated sheet: SHIVM with new data
+2025-03-11 22:28:57,143 - INFO - Updated sheet: SHL with new data
+2025-03-11 22:28:59,396 - INFO - Updated sheet: SHLB with new data
+2025-03-11 22:29:02,718 - INFO - Updated sheet: SHPC with new data
+2025-03-11 22:29:05,102 - INFO - Updated sheet: SICL with new data
+2025-03-11 22:29:07,322 - INFO - Updated sheet: SIFC with new data
+2025-03-11 22:29:09,475 - INFO - Updated sheet: SIGS2 with new data
+2025-03-11 22:29:11,200 - INFO - Updated sheet: SIGS3 with new data
+2025-03-11 22:29:13,110 - INFO - Updated sheet: SIKLES with new data
+2025-03-11 22:29:15,062 - INFO - Updated sheet: SINDU with new data
+2025-03-11 22:29:16,743 - INFO - Updated sheet: SJCL with new data
+2025-03-11 22:29:18,327 - INFO - Updated sheet: SJLIC with new data
+2025-03-11 22:29:19,820 - INFO - Updated sheet: SKBBL with new data
+2025-03-11 22:29:21,429 - INFO - Updated sheet: SLBBL with new data
+2025-03-11 22:29:22,979 - INFO - Updated sheet: SLBSL with new data
+2025-03-11 22:29:24,745 - INFO - Updated sheet: SLCF with new data
+2025-03-11 22:29:26,241 - INFO - Updated sheet: SMATA with new data
+2025-03-11 22:29:27,792 - INFO - Updated sheet: SMB with new data
+2025-03-11 22:29:29,427 - INFO - Updated sheet: SMFBS with new data
+2025-03-11 22:29:30,972 - INFO - Updated sheet: SMH with new data
+2025-03-11 22:29:32,585 - INFO - Updated sheet: SMHL with new data
+2025-03-11 22:29:34,106 - INFO - Updated sheet: SMJC with new data
+2025-03-11 22:29:35,594 - INFO - Updated sheet: SMPDA with new data
+2025-03-11 22:29:37,226 - INFO - Updated sheet: SNLI with new data
+2025-03-11 22:29:38,739 - INFO - Updated sheet: SONA with new data
+2025-03-11 22:29:40,250 - INFO - Updated sheet: SPC with new data
+2025-03-11 22:29:41,879 - INFO - Updated sheet: SPDL with new data
+2025-03-11 22:29:43,350 - INFO - Updated sheet: SPHL with new data
+2025-03-11 22:29:44,894 - INFO - Updated sheet: SPIL with new data
+2025-03-11 22:29:46,527 - INFO - Updated sheet: SPL with new data
+2025-03-11 22:29:48,110 - INFO - Updated sheet: SRLI with new data
+2025-03-11 22:29:49,613 - INFO - Updated sheet: SSHL with new data
+2025-03-11 22:29:51,785 - INFO - Updated sheet: STC with new data
+2025-03-11 22:29:53,887 - INFO - Updated sheet: SWBBL with new data
+2025-03-11 22:29:56,172 - INFO - Updated sheet: SWMF with new data
+2025-03-11 22:29:57,905 - INFO - Updated sheet: TAMOR with new data
+2025-03-11 22:30:00,084 - INFO - Updated sheet: TPC with new data
+2025-03-11 22:30:01,703 - INFO - Updated sheet: TRH with new data
+2025-03-11 22:30:03,467 - INFO - Updated sheet: TSHL with new data
+2025-03-11 22:30:05,459 - INFO - Updated sheet: TVCL with new data
+2025-03-11 22:30:07,124 - INFO - Updated sheet: UAIL with new data
+2025-03-11 22:30:09,208 - INFO - Updated sheet: UHEWA with new data
+2025-03-11 22:30:10,691 - INFO - Updated sheet: ULBSL with new data
+2025-03-11 22:30:12,160 - INFO - Updated sheet: ULHC with new data
+2025-03-11 22:30:13,886 - INFO - Updated sheet: UMHL with new data
+2025-03-11 22:30:16,010 - INFO - Updated sheet: UMRH with new data
+2025-03-11 22:30:18,099 - INFO - Updated sheet: UNHPL with new data
+2025-03-11 22:30:21,341 - INFO - Updated sheet: UNL with new data
+2025-03-11 22:30:23,640 - INFO - Updated sheet: UNLB with new data
+2025-03-11 22:30:25,427 - INFO - Updated sheet: UPCL with new data
+2025-03-11 22:30:27,132 - INFO - Updated sheet: UPPER with new data
+2025-03-11 22:30:30,430 - INFO - Updated sheet: USHEC with new data
+2025-03-11 22:30:32,458 - INFO - Updated sheet: USHL with new data
+2025-03-11 22:30:34,340 - INFO - Updated sheet: USLB with new data
+2025-03-11 22:30:36,142 - INFO - Updated sheet: VLBS with new data
+2025-03-11 22:30:37,671 - INFO - Updated sheet: VLUCL with new data
+2025-03-11 22:30:39,228 - INFO - Updated sheet: WNLB with new data
+2025-03-11 22:30:39,287 - INFO - Added new sheet for symbol: CIZBD86 (original: CIZBD86)
+2025-03-11 22:30:39,352 - INFO - Added new sheet for symbol: GBBD85 (original: GBBD85)
+2025-03-11 22:30:39,414 - INFO - Added new sheet for symbol: GBILD84_85 (original: GBILD84/85)
+2025-03-11 22:30:39,473 - INFO - Added new sheet for symbol: GBIMEP (original: GBIMEP)
+2025-03-11 22:30:39,538 - INFO - Added new sheet for symbol: HBLD83 (original: HBLD83)
+2025-03-11 22:30:39,601 - INFO - Added new sheet for symbol: HBLD86 (original: HBLD86)
+2025-03-11 22:30:39,683 - INFO - Added new sheet for symbol: ICFCD88 (original: ICFCD88)
+2025-03-11 22:30:39,741 - INFO - Added new sheet for symbol: MBLD87 (original: MBLD87)
+2025-03-11 22:30:39,815 - INFO - Added new sheet for symbol: MFLD85 (original: MFLD85)
+2025-03-11 22:30:39,876 - INFO - Added new sheet for symbol: MND84_85 (original: MND84/85)
+2025-03-11 22:30:39,955 - INFO - Added new sheet for symbol: NIBD84 (original: NIBD84)
+2025-03-11 22:30:40,023 - INFO - Added new sheet for symbol: NIMBD90 (original: NIMBD90)
+2025-03-11 22:30:40,083 - INFO - Added new sheet for symbol: PBD84 (original: PBD84)
+2025-03-11 22:30:40,157 - INFO - Added new sheet for symbol: PBD85 (original: PBD85)
+2025-03-11 22:30:40,225 - INFO - Added new sheet for symbol: PBLD84 (original: PBLD84)
+2025-03-11 22:30:40,289 - INFO - Added new sheet for symbol: SAND2085 (original: SAND2085)
+2025-03-11 22:30:40,344 - INFO - Added new sheet for symbol: SDBD87 (original: SDBD87)
+2025-03-11 22:30:40,417 - INFO - Added new sheet for symbol: BOKD86 (original: BOKD86)
+2025-03-11 22:30:40,487 - INFO - Added new sheet for symbol: ICFCD83 (original: ICFCD83)
+2025-03-11 22:30:40,559 - INFO - Added new sheet for symbol: LBLD86 (original: LBLD86)
+2025-03-11 22:30:40,619 - INFO - Added new sheet for symbol: NBLD85 (original: NBLD85)
+2025-03-11 22:30:40,754 - INFO - Added new sheet for symbol: NICAD85_86 (original: NICAD85/86)
+2025-03-11 22:30:40,814 - INFO - Added new sheet for symbol: SRBLD83 (original: SRBLD83)
+2025-03-11 22:30:40,880 - INFO - Added new sheet for symbol: BNL (original: BNL)
+2025-03-11 22:30:41,030 - INFO - Added new sheet for symbol: GBILD86_87 (original: GBILD86/87)
+2025-03-11 22:30:41,097 - INFO - Added new sheet for symbol: HBLPO (original: HBLPO)
+2025-03-11 22:30:41,158 - INFO - Added new sheet for symbol: JBBD87 (original: JBBD87)
+2025-03-11 22:30:41,224 - INFO - Added new sheet for symbol: KBLPO (original: KBLPO)
+2025-03-11 22:30:41,297 - INFO - Added new sheet for symbol: LSLPO (original: LSLPO)
+2025-03-11 22:30:41,357 - INFO - Added new sheet for symbol: MLBSLP (original: MLBSLP)
+2025-03-11 22:30:41,428 - INFO - Added new sheet for symbol: SBID89 (original: SBID89)
+2025-03-11 22:30:50,409 - INFO - Excel update summary:
+2025-03-11 22:30:50,410 - INFO - - Updated sheets: 303
+2025-03-11 22:30:50,413 - INFO - - Unchanged sheets: 7
+2025-03-11 22:30:50,414 - INFO - - New sheets added: 31
+2025-03-11 22:30:50,415 - INFO - - Total sheets: 341
+2025-03-11 22:30:50,416 - INFO - Renaming file to: shares_data_till_2025_03_11.xlsx
+2025-03-11 22:30:50,418 - INFO - Copying file to analysis directory: ..\3. analyse_shares
+2025-03-11 22:30:50,444 - INFO - Removed existing file: ..\3. analyse_shares\shares_data_till_2025_03_08.xlsx
+2025-03-11 22:30:50,460 - INFO - File successfully copied to: ..\3. analyse_shares\shares_data_till_2025_03_11.xlsx
+2025-03-11 22:30:50,462 - INFO - 
+Process completed successfully!
+2025-03-11 22:30:50,463 - INFO - Ended at: 2025-03-11 22:30:50
+2025-03-11 22:42:07,443 - INFO - Chromedriver is already installed.
+2025-03-11 22:42:07,444 - INFO - === Share Price Data Scraper ===
+2025-03-11 22:42:07,444 - INFO - Started at: 2025-03-11 22:42:07
+2025-03-11 22:42:07,445 - INFO - Looking for latest data file...
+2025-03-11 22:42:07,447 - INFO - Found latest file: shares_data_till_2025_03_08.xlsx (date: 2025-03-08)
+2025-03-11 22:42:07,447 - INFO - Analyzing Excel file to find latest common date...
+2025-03-11 22:42:26,226 - INFO - Latest common date found: 2025-03-06
+2025-03-11 22:42:26,226 - INFO - Will scrape data from 2025-03-07 to 2025-03-11
+2025-03-11 22:42:26,230 - INFO - Initializing web driver...
+2025-03-11 22:42:31,220 - INFO - 
+[1/5] Processing date: 2025-03-07
+2025-03-11 22:42:31,221 - INFO - Starting data scraping for date: 2025-03-07
+2025-03-11 22:42:31,221 - INFO - Searching website for date: 2025-03-07...
+2025-03-11 22:42:47,978 - INFO - No record found for date: 2025-03-07
+2025-03-11 22:42:47,978 - INFO - No data found for 2025-03-07 - skipping
+2025-03-11 22:42:47,979 - INFO - 
+[2/5] Processing date: 2025-03-08
+2025-03-11 22:42:47,979 - INFO - Starting data scraping for date: 2025-03-08
+2025-03-11 22:42:47,979 - INFO - Searching website for date: 2025-03-08...
+2025-03-11 22:43:00,954 - INFO - No record found for date: 2025-03-08
+2025-03-11 22:43:00,954 - INFO - No data found for 2025-03-08 - skipping
+2025-03-11 22:43:00,954 - INFO - 
+[3/5] Processing date: 2025-03-09
+2025-03-11 22:43:00,955 - INFO - Starting data scraping for date: 2025-03-09
+2025-03-11 22:43:00,955 - INFO - Searching website for date: 2025-03-09...
+2025-03-11 22:43:14,135 - INFO - Data found for date: 2025-03-09
+2025-03-11 22:43:14,136 - INFO - Scraping page 1 for date 2025-03-09
+2025-03-11 22:43:14,137 - INFO - Extracting table data from current page...
+2025-03-11 22:43:14,749 - INFO - Extracted 315 rows of data from current page
+2025-03-11 22:43:14,896 - INFO - No more pages to scrape.
+2025-03-11 22:43:14,896 - INFO - Completed scraping for date 2025-03-09. Total rows: 315
+2025-03-11 22:43:14,897 - INFO - Cleaning data for date: 2025-03-09
+2025-03-11 22:43:14,945 - INFO - Website columns found: High, 52 Weeks High, Diff %, Range, Diff, Range %, Trans., Low, Prev. Close, VWAP, Turnover, Open, VWAP %, Close, Conf., Symbol, Vol, 52 Weeks Low, S.No
+2025-03-11 22:43:14,946 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-11 22:43:14,948 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-11 22:43:14,950 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-11 22:43:14,953 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-11 22:43:14,956 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-11 22:43:14,958 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-11 22:43:14,961 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-11 22:43:14,962 - INFO - Data cleaning completed. Rows: 315
+2025-03-11 22:43:15,536 - INFO - Successfully processed data for 2025-03-09 - 314 symbols
+2025-03-11 22:43:15,537 - INFO - 
+[4/5] Processing date: 2025-03-10
+2025-03-11 22:43:15,542 - INFO - Starting data scraping for date: 2025-03-10
+2025-03-11 22:43:15,542 - INFO - Searching website for date: 2025-03-10...
+2025-03-11 22:43:27,136 - INFO - Data found for date: 2025-03-10
+2025-03-11 22:43:27,139 - INFO - Scraping page 1 for date 2025-03-10
+2025-03-11 22:43:27,140 - INFO - Extracting table data from current page...
+2025-03-11 22:43:27,744 - INFO - Extracted 311 rows of data from current page
+2025-03-11 22:43:27,938 - INFO - No more pages to scrape.
+2025-03-11 22:43:27,939 - INFO - Completed scraping for date 2025-03-10. Total rows: 311
+2025-03-11 22:43:27,940 - INFO - Cleaning data for date: 2025-03-10
+2025-03-11 22:43:27,951 - INFO - Website columns found: High, 52 Weeks High, Diff %, Range, Diff, Range %, Trans., Low, Prev. Close, VWAP, Turnover, Open, VWAP %, Close, Conf., Symbol, Vol, 52 Weeks Low, S.No
+2025-03-11 22:43:27,954 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-11 22:43:27,957 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-11 22:43:27,967 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-11 22:43:27,970 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-11 22:43:27,972 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-11 22:43:27,978 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-11 22:43:27,980 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-11 22:43:27,981 - INFO - Data cleaning completed. Rows: 311
+2025-03-11 22:43:28,324 - INFO - Successfully processed data for 2025-03-10 - 310 symbols
+2025-03-11 22:43:28,325 - INFO - 
+[5/5] Processing date: 2025-03-11
+2025-03-11 22:43:28,326 - INFO - Starting data scraping for date: 2025-03-11
+2025-03-11 22:43:28,326 - INFO - Searching website for date: 2025-03-11...
+2025-03-11 22:43:42,185 - INFO - Data found for date: 2025-03-11
+2025-03-11 22:43:42,187 - INFO - Scraping page 1 for date 2025-03-11
+2025-03-11 22:43:42,188 - INFO - Extracting table data from current page...
+2025-03-11 22:43:42,931 - INFO - Extracted 303 rows of data from current page
+2025-03-11 22:43:43,113 - INFO - No more pages to scrape.
+2025-03-11 22:43:43,114 - INFO - Completed scraping for date 2025-03-11. Total rows: 303
+2025-03-11 22:43:43,115 - INFO - Cleaning data for date: 2025-03-11
+2025-03-11 22:43:43,123 - INFO - Website columns found: High, 52 Weeks High, Diff %, Range, Diff, 180 Days, Range %, Trans., Low, Prev. Close, 120 Days, VWAP, Turnover, Open, VWAP %, Close, Conf., Symbol, Vol, 52 Weeks Low, S.No
+2025-03-11 22:43:43,127 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-11 22:43:43,131 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-11 22:43:43,133 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-11 22:43:43,136 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-11 22:43:43,138 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-11 22:43:43,141 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-11 22:43:43,147 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-11 22:43:43,147 - INFO - Data cleaning completed. Rows: 303
+2025-03-11 22:43:43,556 - INFO - Successfully processed data for 2025-03-11 - 302 symbols
+2025-03-11 22:43:45,844 - INFO - Web driver closed
+2025-03-11 22:43:45,844 - INFO - 
+=== Scraping Summary ===
+2025-03-11 22:43:45,845 - INFO - Dates processed: 5/5
+2025-03-11 22:43:45,846 - INFO - Dates with data: 3
+2025-03-11 22:43:45,846 - INFO - Symbols with new data: 333
+2025-03-11 22:43:45,847 - INFO - 
+Updating Excel file with new data up to 2025-03-11
+2025-03-11 22:43:45,848 - INFO - Updating Excel file: shares_data_till_2025_03_08.xlsx
+2025-03-11 22:43:45,848 - INFO - New data available for 333 symbols
+2025-03-11 22:43:47,395 - INFO - Sanitized sheet name from 'GBILD84/85' to 'GBILD84_85'
+2025-03-11 22:43:47,396 - INFO - Sanitized sheet name from 'MND84/85' to 'MND84_85'
+2025-03-11 22:43:47,397 - INFO - Sanitized sheet name from 'NICAD85/86' to 'NICAD85_86'
+2025-03-11 22:43:47,398 - INFO - Sanitized sheet name from 'GBILD86/87' to 'GBILD86_87'
+2025-03-11 22:43:49,426 - INFO - Updated sheet: ACLBSL with new data
+2025-03-11 22:43:51,142 - INFO - Updated sheet: ADBL with new data
+2025-03-11 22:43:52,637 - INFO - Updated sheet: ADBLD83 with new data
+2025-03-11 22:43:54,047 - INFO - Updated sheet: AHL with new data
+2025-03-11 22:43:55,359 - INFO - Updated sheet: AHPC with new data
+2025-03-11 22:43:56,588 - INFO - Updated sheet: AKJCL with new data
+2025-03-11 22:43:58,043 - INFO - Updated sheet: AKPL with new data
+2025-03-11 22:43:59,607 - INFO - Updated sheet: ALBSL with new data
+2025-03-11 22:44:01,197 - INFO - Updated sheet: ALICL with new data
+2025-03-11 22:44:02,889 - INFO - Updated sheet: ANLB with new data
+2025-03-11 22:44:04,371 - INFO - Updated sheet: API with new data
+2025-03-11 22:44:06,114 - INFO - Updated sheet: AVYAN with new data
+2025-03-11 22:44:07,730 - INFO - Updated sheet: BARUN with new data
+2025-03-11 22:44:09,276 - INFO - Updated sheet: BBC with new data
+2025-03-11 22:44:10,691 - INFO - Updated sheet: BEDC with new data
+2025-03-11 22:44:12,159 - INFO - Updated sheet: BFC with new data
+2025-03-11 22:44:13,720 - INFO - Updated sheet: BGWT with new data
+2025-03-11 22:44:15,239 - INFO - Updated sheet: BHDC with new data
+2025-03-11 22:44:16,765 - INFO - Updated sheet: BHL with new data
+2025-03-11 22:44:18,252 - INFO - Updated sheet: BHPL with new data
+2025-03-11 22:44:20,157 - INFO - Updated sheet: BNHC with new data
+2025-03-11 22:44:23,888 - INFO - Updated sheet: BNT with new data
+2025-03-11 22:44:26,285 - INFO - Updated sheet: BPCL with new data
+2025-03-11 22:44:28,010 - INFO - Updated sheet: C30MF with new data
+2025-03-11 22:44:31,065 - INFO - Updated sheet: CBBL with new data
+2025-03-11 22:44:32,756 - INFO - Updated sheet: CBLD88 with new data
+2025-03-11 22:44:34,286 - INFO - Updated sheet: CCBD88 with new data
+2025-03-11 22:44:36,068 - INFO - Updated sheet: CFCL with new data
+2025-03-11 22:44:37,789 - INFO - Updated sheet: CGH with new data
+2025-03-11 22:44:39,356 - INFO - Updated sheet: CHCL with new data
+2025-03-11 22:44:41,523 - INFO - Updated sheet: CHDC with new data
+2025-03-11 22:44:43,332 - INFO - Updated sheet: CHL with new data
+2025-03-11 22:44:45,035 - INFO - Updated sheet: CIT with new data
+2025-03-11 22:44:46,542 - INFO - Updated sheet: CITY with new data
+2025-03-11 22:44:48,701 - INFO - Updated sheet: CKHL with new data
+2025-03-11 22:44:51,068 - INFO - Updated sheet: CLI with new data
+2025-03-11 22:44:54,529 - INFO - Updated sheet: CMF2 with new data
+2025-03-11 22:44:57,889 - INFO - Updated sheet: CORBL with new data
+2025-03-11 22:45:00,691 - INFO - Updated sheet: CYCL with new data
+2025-03-11 22:45:03,340 - INFO - Updated sheet: CZBIL with new data
+2025-03-11 22:45:05,884 - INFO - Updated sheet: DDBL with new data
+2025-03-11 22:45:09,026 - INFO - Updated sheet: DHPL with new data
+2025-03-11 22:45:11,553 - INFO - Updated sheet: DLBS with new data
+2025-03-11 22:45:14,155 - INFO - Updated sheet: DOLTI with new data
+2025-03-11 22:45:16,731 - INFO - Updated sheet: DORDI with new data
+2025-03-11 22:45:19,236 - INFO - Updated sheet: EBL with new data
+2025-03-11 22:45:21,949 - INFO - Updated sheet: EBLD85 with new data
+2025-03-11 22:45:24,529 - INFO - Updated sheet: EBLD86 with new data
+2025-03-11 22:45:27,113 - INFO - Updated sheet: EDBL with new data
+2025-03-11 22:45:29,688 - INFO - Updated sheet: EHPL with new data
+2025-03-11 22:45:32,440 - INFO - Updated sheet: ENL with new data
+2025-03-11 22:45:35,161 - INFO - Updated sheet: FMDBL with new data
+2025-03-11 22:45:37,803 - INFO - Updated sheet: FOWAD with new data
+2025-03-11 22:45:40,426 - INFO - Updated sheet: GBBL with new data
+2025-03-11 22:45:45,048 - INFO - Updated sheet: GBIME with new data
+2025-03-11 22:45:47,516 - INFO - Updated sheet: GBLBS with new data
+2025-03-11 22:45:50,222 - INFO - Updated sheet: GCIL with new data
+2025-03-11 22:45:52,738 - INFO - Updated sheet: GFCL with new data
+2025-03-11 22:45:55,233 - INFO - Updated sheet: GHL with new data
+2025-03-11 22:45:57,742 - INFO - Updated sheet: GIBF1 with new data
+2025-03-11 22:46:00,315 - INFO - Updated sheet: GILB with new data
+2025-03-11 22:46:02,987 - INFO - Updated sheet: GLBSL with new data
+2025-03-11 22:46:05,493 - INFO - Updated sheet: GLH with new data
+2025-03-11 22:46:07,980 - INFO - Updated sheet: GMFBS with new data
+2025-03-11 22:46:10,551 - INFO - Updated sheet: GMFIL with new data
+2025-03-11 22:46:12,951 - INFO - Updated sheet: GMLI with new data
+2025-03-11 22:46:15,338 - INFO - Updated sheet: GRDBL with new data
+2025-03-11 22:46:17,914 - INFO - Updated sheet: GSY with new data
+2025-03-11 22:46:20,452 - INFO - Updated sheet: GUFL with new data
+2025-03-11 22:46:23,112 - INFO - Updated sheet: GVL with new data
+2025-03-11 22:46:25,800 - INFO - Updated sheet: H8020 with new data
+2025-03-11 22:46:27,708 - INFO - Updated sheet: HATHY with new data
+2025-03-11 22:46:29,407 - INFO - Updated sheet: HBL with new data
+2025-03-11 22:46:31,609 - INFO - Updated sheet: HDHPC with new data
+2025-03-11 22:46:33,311 - INFO - Updated sheet: HDL with new data
+2025-03-11 22:46:34,953 - INFO - Updated sheet: HEI with new data
+2025-03-11 22:46:36,688 - INFO - Updated sheet: HEIP with new data
+2025-03-11 22:46:38,772 - INFO - Updated sheet: HHL with new data
+2025-03-11 22:46:40,800 - INFO - Updated sheet: HIDCL with new data
+2025-03-11 22:46:42,245 - INFO - Updated sheet: HIDCLP with new data
+2025-03-11 22:46:43,965 - INFO - Updated sheet: HLBSL with new data
+2025-03-11 22:46:45,796 - INFO - Updated sheet: HLI with new data
+2025-03-11 22:46:47,424 - INFO - Updated sheet: HPPL with new data
+2025-03-11 22:46:49,138 - INFO - Updated sheet: HRL with new data
+2025-03-11 22:46:50,749 - INFO - Updated sheet: HURJA with new data
+2025-03-11 22:46:52,405 - INFO - Updated sheet: ICFC with new data
+2025-03-11 22:46:54,142 - INFO - Updated sheet: IGI with new data
+2025-03-11 22:46:55,788 - INFO - Updated sheet: IHL with new data
+2025-03-11 22:46:57,355 - INFO - Updated sheet: ILBS with new data
+2025-03-11 22:46:58,843 - INFO - Updated sheet: ILI with new data
+2025-03-11 22:47:00,541 - INFO - Updated sheet: JBBL with new data
+2025-03-11 22:47:02,438 - INFO - Updated sheet: JBLB with new data
+2025-03-11 22:47:04,075 - INFO - Updated sheet: JFL with new data
+2025-03-11 22:47:05,697 - INFO - Updated sheet: JOSHI with new data
+2025-03-11 22:47:07,300 - INFO - Updated sheet: JSLBB with new data
+2025-03-11 22:47:08,960 - INFO - Updated sheet: KBL with new data
+2025-03-11 22:47:10,673 - INFO - Updated sheet: KBLD86 with new data
+2025-03-11 22:47:12,678 - INFO - Updated sheet: KBLD89 with new data
+2025-03-11 22:47:16,578 - INFO - Updated sheet: KBSH with new data
+2025-03-11 22:47:18,408 - INFO - Updated sheet: KDBY with new data
+2025-03-11 22:47:20,165 - INFO - Updated sheet: KDL with new data
+2025-03-11 22:47:21,864 - INFO - Updated sheet: KEF with new data
+2025-03-11 22:47:23,444 - INFO - Updated sheet: KKHC with new data
+2025-03-11 22:47:25,146 - INFO - Updated sheet: KMCDB with new data
+2025-03-11 22:47:26,805 - INFO - Updated sheet: KPCL with new data
+2025-03-11 22:47:28,494 - INFO - Updated sheet: KSBBL with new data
+2025-03-11 22:47:30,245 - INFO - Updated sheet: KSBBLD87 with new data
+2025-03-11 22:47:31,754 - INFO - Updated sheet: KSY with new data
+2025-03-11 22:47:33,424 - INFO - Updated sheet: LBBL with new data
+2025-03-11 22:47:35,078 - INFO - Updated sheet: LBBLD89 with new data
+2025-03-11 22:47:36,427 - INFO - Updated sheet: LEC with new data
+2025-03-11 22:47:37,801 - INFO - Updated sheet: LICN with new data
+2025-03-11 22:47:39,149 - INFO - Updated sheet: LLBS with new data
+2025-03-11 22:47:40,483 - INFO - Updated sheet: LSL with new data
+2025-03-11 22:47:41,952 - INFO - Updated sheet: LUK with new data
+2025-03-11 22:47:43,495 - INFO - Updated sheet: LVF2 with new data
+2025-03-11 22:47:44,888 - INFO - Updated sheet: MAKAR with new data
+2025-03-11 22:47:46,376 - INFO - Updated sheet: MANDU with new data
+2025-03-11 22:47:47,645 - INFO - Updated sheet: MATRI with new data
+2025-03-11 22:47:50,313 - INFO - Updated sheet: MBJC with new data
+2025-03-11 22:47:51,768 - INFO - Updated sheet: MBL with new data
+2025-03-11 22:47:53,437 - INFO - Updated sheet: MCHL with new data
+2025-03-11 22:47:55,141 - INFO - Updated sheet: MDB with new data
+2025-03-11 22:47:56,509 - INFO - Updated sheet: MEHL with new data
+2025-03-11 22:47:57,873 - INFO - Updated sheet: MEL with new data
+2025-03-11 22:47:59,168 - INFO - Updated sheet: MEN with new data
+2025-03-11 22:48:00,585 - INFO - Updated sheet: MERO with new data
+2025-03-11 22:48:01,971 - INFO - Updated sheet: MFIL with new data
+2025-03-11 22:48:03,341 - INFO - Updated sheet: MHCL with new data
+2025-03-11 22:48:04,748 - INFO - Updated sheet: MHL with new data
+2025-03-11 22:48:06,044 - INFO - Updated sheet: MHNL with new data
+2025-03-11 22:48:07,388 - INFO - Updated sheet: MKCL with new data
+2025-03-11 22:48:08,769 - INFO - Updated sheet: MKHC with new data
+2025-03-11 22:48:10,144 - INFO - Updated sheet: MKHL with new data
+2025-03-11 22:48:11,468 - INFO - Updated sheet: MKJC with new data
+2025-03-11 22:48:12,823 - INFO - Updated sheet: MLBBL with new data
+2025-03-11 22:48:14,222 - INFO - Updated sheet: MLBL with new data
+2025-03-11 22:48:15,889 - INFO - Updated sheet: MLBS with new data
+2025-03-11 22:48:17,728 - INFO - Updated sheet: MLBSL with new data
+2025-03-11 22:48:19,033 - INFO - Updated sheet: MMF1 with new data
+2025-03-11 22:48:20,403 - INFO - Updated sheet: MMKJL with new data
+2025-03-11 22:48:21,789 - INFO - Updated sheet: MNBBL with new data
+2025-03-11 22:48:23,189 - INFO - Updated sheet: MNMF1 with new data
+2025-03-11 22:48:24,575 - INFO - Updated sheet: MPFL with new data
+2025-03-11 22:48:25,970 - INFO - Updated sheet: MSHL with new data
+2025-03-11 22:48:27,325 - INFO - Updated sheet: MSLB with new data
+2025-03-11 22:48:28,714 - INFO - Updated sheet: NABBC with new data
+2025-03-11 22:48:30,107 - INFO - Updated sheet: NABIL with new data
+2025-03-11 22:48:32,885 - INFO - Updated sheet: NADEP with new data
+2025-03-11 22:48:34,199 - INFO - Updated sheet: NBF2 with new data
+2025-03-11 22:48:35,570 - INFO - Updated sheet: NBF3 with new data
+2025-03-11 22:48:36,969 - INFO - Updated sheet: NBL with new data
+2025-03-11 22:48:38,299 - INFO - Updated sheet: NBLD82 with new data
+2025-03-11 22:48:39,692 - INFO - Updated sheet: NBLD87 with new data
+2025-03-11 22:48:41,277 - INFO - Updated sheet: NESDO with new data
+2025-03-11 22:48:42,636 - INFO - Updated sheet: NFS with new data
+2025-03-11 22:48:44,188 - INFO - Updated sheet: NGPL with new data
+2025-03-11 22:48:45,585 - INFO - Updated sheet: NHDL with new data
+2025-03-11 22:48:46,972 - INFO - Updated sheet: NHPC with new data
+2025-03-11 22:48:48,357 - INFO - Updated sheet: NIBLGF with new data
+2025-03-11 22:48:49,783 - INFO - Updated sheet: NIBLSTF with new data
+2025-03-11 22:48:51,187 - INFO - Updated sheet: NIBSF2 with new data
+2025-03-11 22:48:52,475 - INFO - Updated sheet: NICA with new data
+2025-03-11 22:48:53,886 - INFO - Updated sheet: NICAD8283 with new data
+2025-03-11 22:48:56,699 - INFO - Updated sheet: NICBF with new data
+2025-03-11 22:48:58,115 - INFO - Updated sheet: NICD88 with new data
+2025-03-11 22:48:59,544 - INFO - Updated sheet: NICFC with new data
+2025-03-11 22:49:00,869 - INFO - Updated sheet: NICGF with new data
+2025-03-11 22:49:02,299 - INFO - Updated sheet: NICGF2 with new data
+2025-03-11 22:49:03,864 - INFO - Updated sheet: NICL with new data
+2025-03-11 22:49:05,250 - INFO - Updated sheet: NICLBSL with new data
+2025-03-11 22:49:06,683 - INFO - Updated sheet: NICSF with new data
+2025-03-11 22:49:08,120 - INFO - Updated sheet: NIFRA with new data
+2025-03-11 22:49:09,438 - INFO - Updated sheet: NIL with new data
+2025-03-11 22:49:10,854 - INFO - Updated sheet: NIMB with new data
+2025-03-11 22:49:12,298 - INFO - Updated sheet: NIMBPO with new data
+2025-03-11 22:49:13,611 - INFO - Updated sheet: NLG with new data
+2025-03-11 22:49:15,006 - INFO - Updated sheet: NLIC with new data
+2025-03-11 22:49:16,433 - INFO - Updated sheet: NLICL with new data
+2025-03-11 22:49:17,762 - INFO - Updated sheet: NMB with new data
+2025-03-11 22:49:19,166 - INFO - Updated sheet: NMB50 with new data
+2025-03-11 22:49:20,557 - INFO - Updated sheet: NMBD2085 with new data
+2025-03-11 22:49:21,921 - INFO - Updated sheet: NMBMF with new data
+2025-03-11 22:49:23,333 - INFO - Updated sheet: NMFBS with new data
+2025-03-11 22:49:24,745 - INFO - Updated sheet: NMLBBL with new data
+2025-03-11 22:49:26,079 - INFO - Updated sheet: NRIC with new data
+2025-03-11 22:49:27,499 - INFO - Updated sheet: NRM with new data
+2025-03-11 22:49:28,925 - INFO - Updated sheet: NRN with new data
+2025-03-11 22:49:30,246 - INFO - Updated sheet: NSIF2 with new data
+2025-03-11 22:49:31,712 - INFO - Updated sheet: NTC with new data
+2025-03-11 22:49:33,140 - INFO - Updated sheet: NUBL with new data
+2025-03-11 22:49:34,581 - INFO - Updated sheet: NWCL with new data
+2025-03-11 22:49:36,037 - INFO - Updated sheet: NYADI with new data
+2025-03-11 22:49:37,357 - INFO - Updated sheet: OHL with new data
+2025-03-11 22:49:38,800 - INFO - Updated sheet: PBD88 with new data
+2025-03-11 22:49:40,146 - INFO - Updated sheet: PBLD87 with new data
+2025-03-11 22:49:41,596 - INFO - Updated sheet: PCBL with new data
+2025-03-11 22:49:42,943 - INFO - Updated sheet: PFL with new data
+2025-03-11 22:49:44,379 - INFO - Updated sheet: PHCL with new data
+2025-03-11 22:49:45,736 - INFO - Updated sheet: PMHPL with new data
+2025-03-11 22:49:47,197 - INFO - Updated sheet: PMLI with new data
+2025-03-11 22:49:48,675 - INFO - Updated sheet: PPCL with new data
+2025-03-11 22:49:50,017 - INFO - Updated sheet: PPL with new data
+2025-03-11 22:49:51,427 - INFO - Updated sheet: PRIN with new data
+2025-03-11 22:49:52,753 - INFO - Updated sheet: PROFL with new data
+2025-03-11 22:49:54,223 - INFO - Updated sheet: PRSF with new data
+2025-03-11 22:49:55,566 - INFO - Updated sheet: PRVU with new data
+2025-03-11 22:49:58,324 - INFO - Updated sheet: PSF with new data
+2025-03-11 22:49:59,795 - INFO - Updated sheet: RADHI with new data
+2025-03-11 22:50:01,143 - INFO - Updated sheet: RAWA with new data
+2025-03-11 22:50:02,704 - INFO - Updated sheet: RBBD83 with new data
+2025-03-11 22:50:04,083 - INFO - Updated sheet: RBCL with new data
+2025-03-11 22:50:05,541 - INFO - Updated sheet: RBCLPO with new data
+2025-03-11 22:50:06,916 - INFO - Updated sheet: RFPL with new data
+2025-03-11 22:50:08,364 - INFO - Updated sheet: RHGCL with new data
+2025-03-11 22:50:09,702 - INFO - Updated sheet: RHPL with new data
+2025-03-11 22:50:11,160 - INFO - Updated sheet: RIDI with new data
+2025-03-11 22:50:12,514 - INFO - Updated sheet: RLFL with new data
+2025-03-11 22:50:13,961 - INFO - Updated sheet: RMF1 with new data
+2025-03-11 22:50:15,310 - INFO - Updated sheet: RMF2 with new data
+2025-03-11 22:50:16,790 - INFO - Updated sheet: RNLI with new data
+2025-03-11 22:50:18,127 - INFO - Updated sheet: RSDC with new data
+2025-03-11 22:50:20,165 - INFO - Updated sheet: RURU with new data
+2025-03-11 22:50:22,443 - INFO - Updated sheet: SADBL with new data
+2025-03-11 22:50:23,925 - INFO - Updated sheet: SAGF with new data
+2025-03-11 22:50:25,380 - INFO - Updated sheet: SAHAS with new data
+2025-03-11 22:50:27,050 - INFO - Updated sheet: SALICO with new data
+2025-03-11 22:50:28,468 - INFO - Updated sheet: SAMAJ with new data
+2025-03-11 22:50:29,979 - INFO - Updated sheet: SANIMA with new data
+2025-03-11 22:50:31,359 - INFO - Updated sheet: SAPDBL with new data
+2025-03-11 22:50:32,852 - INFO - Updated sheet: SARBTM with new data
+2025-03-11 22:50:34,326 - INFO - Updated sheet: SBCF with new data
+2025-03-11 22:50:35,681 - INFO - Updated sheet: SBI with new data
+2025-03-11 22:50:37,802 - INFO - Updated sheet: SBIBD86 with new data
+2025-03-11 22:50:40,899 - INFO - Updated sheet: SBID83 with new data
+2025-03-11 22:50:42,651 - INFO - Updated sheet: SBL with new data
+2025-03-11 22:50:45,962 - INFO - Updated sheet: SBLD89 with new data
+2025-03-11 22:50:47,566 - INFO - Updated sheet: SCB with new data
+2025-03-11 22:50:49,195 - INFO - Updated sheet: SEF with new data
+2025-03-11 22:50:50,882 - INFO - Updated sheet: SFCL with new data
+2025-03-11 22:50:52,504 - INFO - Updated sheet: SFEF with new data
+2025-03-11 22:50:54,235 - INFO - Updated sheet: SFMF with new data
+2025-03-11 22:50:55,800 - INFO - Updated sheet: SGHC with new data
+2025-03-11 22:50:57,532 - INFO - Updated sheet: SGIC with new data
+2025-03-11 22:50:59,061 - INFO - Updated sheet: SHEL with new data
+2025-03-11 22:51:00,550 - INFO - Updated sheet: SHINE with new data
+2025-03-11 22:51:02,235 - INFO - Updated sheet: SHIVM with new data
+2025-03-11 22:51:03,881 - INFO - Updated sheet: SHL with new data
+2025-03-11 22:51:05,546 - INFO - Updated sheet: SHLB with new data
+2025-03-11 22:51:07,148 - INFO - Updated sheet: SHPC with new data
+2025-03-11 22:51:08,811 - INFO - Updated sheet: SICL with new data
+2025-03-11 22:51:10,434 - INFO - Updated sheet: SIFC with new data
+2025-03-11 22:51:11,807 - INFO - Updated sheet: SIGS2 with new data
+2025-03-11 22:51:13,332 - INFO - Updated sheet: SIGS3 with new data
+2025-03-11 22:51:14,720 - INFO - Updated sheet: SIKLES with new data
+2025-03-11 22:51:16,629 - INFO - Updated sheet: SINDU with new data
+2025-03-11 22:51:18,051 - INFO - Updated sheet: SJCL with new data
+2025-03-11 22:51:19,409 - INFO - Updated sheet: SJLIC with new data
+2025-03-11 22:51:20,913 - INFO - Updated sheet: SKBBL with new data
+2025-03-11 22:51:22,320 - INFO - Updated sheet: SLBBL with new data
+2025-03-11 22:51:23,839 - INFO - Updated sheet: SLBSL with new data
+2025-03-11 22:51:25,261 - INFO - Updated sheet: SLCF with new data
+2025-03-11 22:51:26,753 - INFO - Updated sheet: SMATA with new data
+2025-03-11 22:51:28,415 - INFO - Updated sheet: SMB with new data
+2025-03-11 22:51:29,926 - INFO - Updated sheet: SMFBS with new data
+2025-03-11 22:51:31,301 - INFO - Updated sheet: SMH with new data
+2025-03-11 22:51:32,830 - INFO - Updated sheet: SMHL with new data
+2025-03-11 22:51:34,235 - INFO - Updated sheet: SMJC with new data
+2025-03-11 22:51:35,630 - INFO - Updated sheet: SMPDA with new data
+2025-03-11 22:51:37,166 - INFO - Updated sheet: SNLI with new data
+2025-03-11 22:51:38,605 - INFO - Updated sheet: SONA with new data
+2025-03-11 22:51:40,040 - INFO - Updated sheet: SPC with new data
+2025-03-11 22:51:41,550 - INFO - Updated sheet: SPDL with new data
+2025-03-11 22:51:42,922 - INFO - Updated sheet: SPHL with new data
+2025-03-11 22:51:44,321 - INFO - Updated sheet: SPIL with new data
+2025-03-11 22:51:45,706 - INFO - Updated sheet: SPL with new data
+2025-03-11 22:51:47,250 - INFO - Updated sheet: SRLI with new data
+2025-03-11 22:51:48,607 - INFO - Updated sheet: SSHL with new data
+2025-03-11 22:51:50,031 - INFO - Updated sheet: STC with new data
+2025-03-11 22:51:51,434 - INFO - Updated sheet: SWBBL with new data
+2025-03-11 22:51:52,939 - INFO - Updated sheet: SWMF with new data
+2025-03-11 22:51:54,546 - INFO - Updated sheet: TAMOR with new data
+2025-03-11 22:51:56,375 - INFO - Updated sheet: TPC with new data
+2025-03-11 22:51:57,992 - INFO - Updated sheet: TRH with new data
+2025-03-11 22:51:59,414 - INFO - Updated sheet: TSHL with new data
+2025-03-11 22:52:00,840 - INFO - Updated sheet: TVCL with new data
+2025-03-11 22:52:02,396 - INFO - Updated sheet: UAIL with new data
+2025-03-11 22:52:03,792 - INFO - Updated sheet: UHEWA with new data
+2025-03-11 22:52:05,347 - INFO - Updated sheet: ULBSL with new data
+2025-03-11 22:52:06,878 - INFO - Updated sheet: ULHC with new data
+2025-03-11 22:52:08,300 - INFO - Updated sheet: UMHL with new data
+2025-03-11 22:52:09,777 - INFO - Updated sheet: UMRH with new data
+2025-03-11 22:52:11,196 - INFO - Updated sheet: UNHPL with new data
+2025-03-11 22:52:12,694 - INFO - Updated sheet: UNL with new data
+2025-03-11 22:52:14,107 - INFO - Updated sheet: UNLB with new data
+2025-03-11 22:52:15,587 - INFO - Updated sheet: UPCL with new data
+2025-03-11 22:52:17,007 - INFO - Updated sheet: UPPER with new data
+2025-03-11 22:52:18,677 - INFO - Updated sheet: USHEC with new data
+2025-03-11 22:52:20,095 - INFO - Updated sheet: USHL with new data
+2025-03-11 22:52:21,492 - INFO - Updated sheet: USLB with new data
+2025-03-11 22:52:22,900 - INFO - Updated sheet: VLBS with new data
+2025-03-11 22:52:24,475 - INFO - Updated sheet: VLUCL with new data
+2025-03-11 22:52:25,951 - INFO - Added new sheet for symbol: CIZBD86 (original: CIZBD86)
+2025-03-11 22:52:26,012 - INFO - Added new sheet for symbol: GBBD85 (original: GBBD85)
+2025-03-11 22:52:26,072 - INFO - Added new sheet for symbol: GBILD84_85 (original: GBILD84/85)
+2025-03-11 22:52:26,135 - INFO - Added new sheet for symbol: GBIMEP (original: GBIMEP)
+2025-03-11 22:52:26,189 - INFO - Added new sheet for symbol: HBLD83 (original: HBLD83)
+2025-03-11 22:52:26,250 - INFO - Added new sheet for symbol: HBLD86 (original: HBLD86)
+2025-03-11 22:52:26,307 - INFO - Added new sheet for symbol: ICFCD88 (original: ICFCD88)
+2025-03-11 22:52:26,368 - INFO - Added new sheet for symbol: MBLD87 (original: MBLD87)
+2025-03-11 22:52:26,434 - INFO - Added new sheet for symbol: MFLD85 (original: MFLD85)
+2025-03-11 22:52:26,502 - INFO - Added new sheet for symbol: MND84_85 (original: MND84/85)
+2025-03-11 22:52:26,586 - INFO - Added new sheet for symbol: NIBD84 (original: NIBD84)
+2025-03-11 22:52:26,658 - INFO - Added new sheet for symbol: NIMBD90 (original: NIMBD90)
+2025-03-11 22:52:26,720 - INFO - Added new sheet for symbol: PBD84 (original: PBD84)
+2025-03-11 22:52:26,778 - INFO - Added new sheet for symbol: PBD85 (original: PBD85)
+2025-03-11 22:52:26,852 - INFO - Added new sheet for symbol: PBLD84 (original: PBLD84)
+2025-03-11 22:52:26,942 - INFO - Added new sheet for symbol: SAND2085 (original: SAND2085)
+2025-03-11 22:52:27,008 - INFO - Added new sheet for symbol: SDBD87 (original: SDBD87)
+2025-03-11 22:52:27,069 - INFO - Added new sheet for symbol: BOKD86 (original: BOKD86)
+2025-03-11 22:52:27,134 - INFO - Added new sheet for symbol: ICFCD83 (original: ICFCD83)
+2025-03-11 22:52:27,196 - INFO - Added new sheet for symbol: LBLD86 (original: LBLD86)
+2025-03-11 22:52:27,264 - INFO - Added new sheet for symbol: NBLD85 (original: NBLD85)
+2025-03-11 22:52:27,377 - INFO - Added new sheet for symbol: NICAD85_86 (original: NICAD85/86)
+2025-03-11 22:52:27,437 - INFO - Added new sheet for symbol: SRBLD83 (original: SRBLD83)
+2025-03-11 22:52:27,499 - INFO - Added new sheet for symbol: BNL (original: BNL)
+2025-03-11 22:52:27,602 - INFO - Added new sheet for symbol: GBILD86_87 (original: GBILD86/87)
+2025-03-11 22:52:27,693 - INFO - Added new sheet for symbol: HBLPO (original: HBLPO)
+2025-03-11 22:52:27,768 - INFO - Added new sheet for symbol: JBBD87 (original: JBBD87)
+2025-03-11 22:52:27,826 - INFO - Added new sheet for symbol: KBLPO (original: KBLPO)
+2025-03-11 22:52:27,891 - INFO - Added new sheet for symbol: LSLPO (original: LSLPO)
+2025-03-11 22:52:27,978 - INFO - Added new sheet for symbol: MLBSLP (original: MLBSLP)
+2025-03-11 22:52:28,053 - INFO - Added new sheet for symbol: SBID89 (original: SBID89)
+2025-03-11 22:52:35,149 - INFO - Excel update summary:
+2025-03-11 22:52:35,149 - INFO - - Updated sheets: 302
+2025-03-11 22:52:35,150 - INFO - - Unchanged sheets: 8
+2025-03-11 22:52:35,151 - INFO - - New sheets added: 31
+2025-03-11 22:52:35,151 - INFO - - Total sheets: 341
+2025-03-11 22:52:35,152 - INFO - Renaming file to: shares_data_till_2025_03_11.xlsx
+2025-03-11 22:52:35,152 - INFO - Copying file to analysis directory: ..\3. analyse_shares
+2025-03-11 22:52:35,153 - INFO - Removed existing file: ..\3. analyse_shares\shares_data_till_2025_03_11.xlsx
+2025-03-11 22:52:35,162 - INFO - File successfully copied to: ..\3. analyse_shares\shares_data_till_2025_03_11.xlsx
+2025-03-11 22:52:35,164 - INFO - 
+Process completed successfully!
+2025-03-11 22:52:35,165 - INFO - Ended at: 2025-03-11 22:52:35
+2025-03-14 21:46:12,279 - INFO - Chromedriver is already installed.
+2025-03-14 21:46:12,319 - INFO - === Share Price Data Scraper ===
+2025-03-14 21:46:12,320 - INFO - Started at: 2025-03-14 21:46:12
+2025-03-14 21:46:12,321 - INFO - Looking for latest data file...
+2025-03-14 21:46:12,327 - INFO - Found latest file: shares_data_till_2025_03_11.xlsx (date: 2025-03-11)
+2025-03-14 21:46:12,327 - INFO - Analyzing Excel file to find latest common date...
+2025-03-14 21:46:26,670 - INFO - Latest common date found: 2025-03-11
+2025-03-14 21:46:26,826 - INFO - Will scrape data from 2025-03-12 to 2025-03-14
+2025-03-14 21:46:27,165 - INFO - Initializing web driver...
+2025-03-14 21:46:37,783 - INFO - 
+[1/3] Processing date: 2025-03-12
+2025-03-14 21:46:37,784 - INFO - Starting data scraping for date: 2025-03-12
+2025-03-14 21:46:37,785 - INFO - Searching website for date: 2025-03-12...
+2025-03-14 21:46:56,186 - INFO - Data found for date: 2025-03-12
+2025-03-14 21:46:56,189 - INFO - Scraping page 1 for date 2025-03-12
+2025-03-14 21:46:56,189 - INFO - Extracting table data from current page...
+2025-03-14 21:46:57,321 - INFO - Extracted 323 rows of data from current page
+2025-03-14 21:46:57,646 - INFO - No more pages to scrape.
+2025-03-14 21:46:57,647 - INFO - Completed scraping for date 2025-03-12. Total rows: 323
+2025-03-14 21:46:57,647 - INFO - Cleaning data for date: 2025-03-12
+2025-03-14 21:46:57,798 - INFO - Website columns found: VWAP %, High, Range %, S.No, Diff %, 120 Days, Conf., 52 Weeks Low, Prev. Close, Turnover, VWAP, 52 Weeks High, Range, Close, Symbol, Low, Vol, Trans., Open, 180 Days, Diff
+2025-03-14 21:46:57,800 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-14 21:46:57,803 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-14 21:46:57,806 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-14 21:46:57,809 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-14 21:46:57,810 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-14 21:46:57,812 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-14 21:46:57,819 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-14 21:46:57,882 - INFO - Data cleaning completed. Rows: 323
+2025-03-14 21:46:58,559 - INFO - Successfully processed data for 2025-03-12 - 322 symbols
+2025-03-14 21:46:58,560 - INFO - 
+[2/3] Processing date: 2025-03-13
+2025-03-14 21:46:58,560 - INFO - Starting data scraping for date: 2025-03-13
+2025-03-14 21:46:58,561 - INFO - Searching website for date: 2025-03-13...
+2025-03-14 21:47:13,019 - INFO - No record found for date: 2025-03-13
+2025-03-14 21:47:13,021 - INFO - No data found for 2025-03-13 - skipping
+2025-03-14 21:47:13,022 - INFO - 
+[3/3] Processing date: 2025-03-14
+2025-03-14 21:47:13,023 - INFO - Starting data scraping for date: 2025-03-14
+2025-03-14 21:47:13,024 - INFO - Searching website for date: 2025-03-14...
+2025-03-14 21:47:25,511 - INFO - No record found for date: 2025-03-14
+2025-03-14 21:47:25,512 - INFO - No data found for 2025-03-14 - skipping
+2025-03-14 21:47:27,846 - INFO - Web driver closed
+2025-03-14 21:47:27,847 - INFO - 
+=== Scraping Summary ===
+2025-03-14 21:47:27,849 - INFO - Dates processed: 3/3
+2025-03-14 21:47:27,850 - INFO - Dates with data: 1
+2025-03-14 21:47:27,851 - INFO - Symbols with new data: 322
+2025-03-14 21:47:27,852 - INFO - 
+Updating Excel file with new data up to 2025-03-12
+2025-03-14 21:47:27,854 - INFO - Updating Excel file: shares_data_till_2025_03_11.xlsx
+2025-03-14 21:47:27,856 - INFO - New data available for 322 symbols
+2025-03-14 21:47:28,854 - INFO - Sanitized sheet name from 'NICD83/84' to 'NICD83_84'
+2025-03-14 21:47:28,854 - INFO - Sanitized sheet name from 'NMBD87/88' to 'NMBD87_88'
+2025-03-14 21:47:29,790 - INFO - Updated sheet: ACLBSL with new data
+2025-03-14 21:47:30,756 - INFO - Updated sheet: ADBL with new data
+2025-03-14 21:47:32,443 - INFO - Updated sheet: AHL with new data
+2025-03-14 21:47:33,785 - INFO - Updated sheet: AHPC with new data
+2025-03-14 21:47:34,637 - INFO - Updated sheet: AKJCL with new data
+2025-03-14 21:47:35,543 - INFO - Updated sheet: AKPL with new data
+2025-03-14 21:47:36,432 - INFO - Updated sheet: ALBSL with new data
+2025-03-14 21:47:37,336 - INFO - Updated sheet: ALICL with new data
+2025-03-14 21:47:38,192 - INFO - Updated sheet: ANLB with new data
+2025-03-14 21:47:39,120 - INFO - Updated sheet: API with new data
+2025-03-14 21:47:40,088 - INFO - Updated sheet: AVYAN with new data
+2025-03-14 21:47:40,982 - INFO - Updated sheet: BARUN with new data
+2025-03-14 21:47:41,893 - INFO - Updated sheet: BBC with new data
+2025-03-14 21:47:42,785 - INFO - Updated sheet: BEDC with new data
+2025-03-14 21:47:43,716 - INFO - Updated sheet: BFC with new data
+2025-03-14 21:47:44,629 - INFO - Updated sheet: BGWT with new data
+2025-03-14 21:47:45,509 - INFO - Updated sheet: BHDC with new data
+2025-03-14 21:47:46,633 - INFO - Updated sheet: BHL with new data
+2025-03-14 21:47:47,666 - INFO - Updated sheet: BHPL with new data
+2025-03-14 21:47:48,980 - INFO - Updated sheet: BNHC with new data
+2025-03-14 21:47:49,788 - INFO - Updated sheet: BNT with new data
+2025-03-14 21:47:50,704 - INFO - Updated sheet: BPCL with new data
+2025-03-14 21:47:51,820 - INFO - Updated sheet: C30MF with new data
+2025-03-14 21:47:52,733 - INFO - Updated sheet: CBBL with new data
+2025-03-14 21:47:53,639 - INFO - Updated sheet: CBLD88 with new data
+2025-03-14 21:47:55,365 - INFO - Updated sheet: CFCL with new data
+2025-03-14 21:47:56,498 - INFO - Updated sheet: CGH with new data
+2025-03-14 21:47:57,448 - INFO - Updated sheet: CHCL with new data
+2025-03-14 21:47:58,396 - INFO - Updated sheet: CHDC with new data
+2025-03-14 21:47:59,316 - INFO - Updated sheet: CHL with new data
+2025-03-14 21:48:00,294 - INFO - Updated sheet: CIT with new data
+2025-03-14 21:48:01,238 - INFO - Updated sheet: CITY with new data
+2025-03-14 21:48:02,202 - INFO - Updated sheet: CKHL with new data
+2025-03-14 21:48:03,144 - INFO - Updated sheet: CLI with new data
+2025-03-14 21:48:04,426 - INFO - Updated sheet: CMF2 with new data
+2025-03-14 21:48:05,554 - INFO - Updated sheet: CORBL with new data
+2025-03-14 21:48:06,506 - INFO - Updated sheet: CYCL with new data
+2025-03-14 21:48:07,433 - INFO - Updated sheet: CZBIL with new data
+2025-03-14 21:48:08,373 - INFO - Updated sheet: DDBL with new data
+2025-03-14 21:48:09,424 - INFO - Updated sheet: DHPL with new data
+2025-03-14 21:48:10,328 - INFO - Updated sheet: DLBS with new data
+2025-03-14 21:48:11,258 - INFO - Updated sheet: DOLTI with new data
+2025-03-14 21:48:12,186 - INFO - Updated sheet: DORDI with new data
+2025-03-14 21:48:13,114 - INFO - Updated sheet: EBL with new data
+2025-03-14 21:48:14,161 - INFO - Updated sheet: EBLD85 with new data
+2025-03-14 21:48:15,107 - INFO - Updated sheet: EBLD86 with new data
+2025-03-14 21:48:16,034 - INFO - Updated sheet: EDBL with new data
+2025-03-14 21:48:16,884 - INFO - Updated sheet: EHPL with new data
+2025-03-14 21:48:17,835 - INFO - Updated sheet: ENL with new data
+2025-03-14 21:48:18,725 - INFO - Updated sheet: FMDBL with new data
+2025-03-14 21:48:19,672 - INFO - Updated sheet: FOWAD with new data
+2025-03-14 21:48:20,618 - INFO - Updated sheet: GBBL with new data
+2025-03-14 21:48:22,380 - INFO - Updated sheet: GBIME with new data
+2025-03-14 21:48:23,270 - INFO - Updated sheet: GBLBS with new data
+2025-03-14 21:48:24,210 - INFO - Updated sheet: GCIL with new data
+2025-03-14 21:48:25,161 - INFO - Updated sheet: GFCL with new data
+2025-03-14 21:48:26,031 - INFO - Updated sheet: GHL with new data
+2025-03-14 21:48:27,007 - INFO - Updated sheet: GIBF1 with new data
+2025-03-14 21:48:27,898 - INFO - Updated sheet: GILB with new data
+2025-03-14 21:48:28,838 - INFO - Updated sheet: GLBSL with new data
+2025-03-14 21:48:29,769 - INFO - Updated sheet: GLH with new data
+2025-03-14 21:48:30,712 - INFO - Updated sheet: GMFBS with new data
+2025-03-14 21:48:31,666 - INFO - Updated sheet: GMFIL with new data
+2025-03-14 21:48:32,613 - INFO - Updated sheet: GMLI with new data
+2025-03-14 21:48:33,509 - INFO - Updated sheet: GRDBL with new data
+2025-03-14 21:48:34,439 - INFO - Updated sheet: GSY with new data
+2025-03-14 21:48:35,502 - INFO - Updated sheet: GUFL with new data
+2025-03-14 21:48:36,450 - INFO - Updated sheet: GVL with new data
+2025-03-14 21:48:37,366 - INFO - Updated sheet: H8020 with new data
+2025-03-14 21:48:38,353 - INFO - Updated sheet: HATHY with new data
+2025-03-14 21:48:39,277 - INFO - Updated sheet: HBL with new data
+2025-03-14 21:48:40,304 - INFO - Updated sheet: HDHPC with new data
+2025-03-14 21:48:41,215 - INFO - Updated sheet: HDL with new data
+2025-03-14 21:48:42,202 - INFO - Updated sheet: HEI with new data
+2025-03-14 21:48:43,183 - INFO - Updated sheet: HEIP with new data
+2025-03-14 21:48:44,236 - INFO - Updated sheet: HHL with new data
+2025-03-14 21:48:45,289 - INFO - Updated sheet: HIDCL with new data
+2025-03-14 21:48:46,182 - INFO - Updated sheet: HIDCLP with new data
+2025-03-14 21:48:47,218 - INFO - Updated sheet: HLBSL with new data
+2025-03-14 21:48:48,100 - INFO - Updated sheet: HLI with new data
+2025-03-14 21:48:49,237 - INFO - Updated sheet: HPPL with new data
+2025-03-14 21:48:50,154 - INFO - Updated sheet: HRL with new data
+2025-03-14 21:48:51,230 - INFO - Updated sheet: HURJA with new data
+2025-03-14 21:48:52,154 - INFO - Updated sheet: ICFC with new data
+2025-03-14 21:48:53,054 - INFO - Updated sheet: IGI with new data
+2025-03-14 21:48:54,127 - INFO - Updated sheet: IHL with new data
+2025-03-14 21:48:55,077 - INFO - Updated sheet: ILBS with new data
+2025-03-14 21:48:56,073 - INFO - Updated sheet: ILI with new data
+2025-03-14 21:48:57,008 - INFO - Updated sheet: JBBL with new data
+2025-03-14 21:48:57,896 - INFO - Updated sheet: JBLB with new data
+2025-03-14 21:48:59,044 - INFO - Updated sheet: JFL with new data
+2025-03-14 21:48:59,972 - INFO - Updated sheet: JOSHI with new data
+2025-03-14 21:49:00,896 - INFO - Updated sheet: JSLBB with new data
+2025-03-14 21:49:01,964 - INFO - Updated sheet: KBL with new data
+2025-03-14 21:49:03,208 - INFO - Updated sheet: KBLD86 with new data
+2025-03-14 21:49:06,099 - INFO - Updated sheet: KBSH with new data
+2025-03-14 21:49:07,076 - INFO - Updated sheet: KDBY with new data
+2025-03-14 21:49:07,984 - INFO - Updated sheet: KDL with new data
+2025-03-14 21:49:08,908 - INFO - Updated sheet: KEF with new data
+2025-03-14 21:49:10,098 - INFO - Updated sheet: KKHC with new data
+2025-03-14 21:49:11,056 - INFO - Updated sheet: KMCDB with new data
+2025-03-14 21:49:12,104 - INFO - Updated sheet: KPCL with new data
+2025-03-14 21:49:13,186 - INFO - Updated sheet: KSBBL with new data
+2025-03-14 21:49:14,078 - INFO - Updated sheet: KSBBLD87 with new data
+2025-03-14 21:49:14,991 - INFO - Updated sheet: KSY with new data
+2025-03-14 21:49:15,908 - INFO - Updated sheet: LBBL with new data
+2025-03-14 21:49:17,861 - INFO - Updated sheet: LEC with new data
+2025-03-14 21:49:18,795 - INFO - Updated sheet: LICN with new data
+2025-03-14 21:49:20,188 - INFO - Updated sheet: LLBS with new data
+2025-03-14 21:49:21,187 - INFO - Updated sheet: LSL with new data
+2025-03-14 21:49:22,269 - INFO - Updated sheet: LUK with new data
+2025-03-14 21:49:23,254 - INFO - Updated sheet: LVF2 with new data
+2025-03-14 21:49:25,010 - INFO - Updated sheet: MAKAR with new data
+2025-03-14 21:49:26,603 - INFO - Updated sheet: MANDU with new data
+2025-03-14 21:49:27,608 - INFO - Updated sheet: MATRI with new data
+2025-03-14 21:49:29,797 - INFO - Updated sheet: MBJC with new data
+2025-03-14 21:49:30,853 - INFO - Updated sheet: MBL with new data
+2025-03-14 21:49:31,814 - INFO - Updated sheet: MCHL with new data
+2025-03-14 21:49:32,987 - INFO - Updated sheet: MDB with new data
+2025-03-14 21:49:34,276 - INFO - Updated sheet: MEHL with new data
+2025-03-14 21:49:37,320 - INFO - Updated sheet: MEL with new data
+2025-03-14 21:49:39,473 - INFO - Updated sheet: MEN with new data
+2025-03-14 21:49:41,048 - INFO - Updated sheet: MERO with new data
+2025-03-14 21:49:42,228 - INFO - Updated sheet: MFIL with new data
+2025-03-14 21:49:43,404 - INFO - Updated sheet: MHCL with new data
+2025-03-14 21:49:44,565 - INFO - Updated sheet: MHL with new data
+2025-03-14 21:49:45,888 - INFO - Updated sheet: MHNL with new data
+2025-03-14 21:49:47,503 - INFO - Updated sheet: MKCL with new data
+2025-03-14 21:49:48,664 - INFO - Updated sheet: MKHC with new data
+2025-03-14 21:49:49,776 - INFO - Updated sheet: MKHL with new data
+2025-03-14 21:49:50,961 - INFO - Updated sheet: MKJC with new data
+2025-03-14 21:49:52,259 - INFO - Updated sheet: MLBBL with new data
+2025-03-14 21:49:53,400 - INFO - Updated sheet: MLBL with new data
+2025-03-14 21:49:54,526 - INFO - Updated sheet: MLBS with new data
+2025-03-14 21:49:55,732 - INFO - Updated sheet: MLBSL with new data
+2025-03-14 21:49:56,981 - INFO - Updated sheet: MMF1 with new data
+2025-03-14 21:49:58,217 - INFO - Updated sheet: MMKJL with new data
+2025-03-14 21:49:59,457 - INFO - Updated sheet: MNBBL with new data
+2025-03-14 21:50:00,490 - INFO - Updated sheet: MNMF1 with new data
+2025-03-14 21:50:01,496 - INFO - Updated sheet: MPFL with new data
+2025-03-14 21:50:02,573 - INFO - Updated sheet: MSHL with new data
+2025-03-14 21:50:03,805 - INFO - Updated sheet: MSLB with new data
+2025-03-14 21:50:05,118 - INFO - Updated sheet: NABBC with new data
+2025-03-14 21:50:06,151 - INFO - Updated sheet: NABIL with new data
+2025-03-14 21:50:07,282 - INFO - Updated sheet: NABILD87 with new data
+2025-03-14 21:50:08,479 - INFO - Updated sheet: NADEP with new data
+2025-03-14 21:50:09,838 - INFO - Updated sheet: NBF2 with new data
+2025-03-14 21:50:10,989 - INFO - Updated sheet: NBF3 with new data
+2025-03-14 21:50:12,628 - INFO - Updated sheet: NBL with new data
+2025-03-14 21:50:14,961 - INFO - Updated sheet: NBLD87 with new data
+2025-03-14 21:50:16,311 - INFO - Updated sheet: NESDO with new data
+2025-03-14 21:50:17,452 - INFO - Updated sheet: NFS with new data
+2025-03-14 21:50:18,668 - INFO - Updated sheet: NGPL with new data
+2025-03-14 21:50:19,666 - INFO - Updated sheet: NHDL with new data
+2025-03-14 21:50:20,756 - INFO - Updated sheet: NHPC with new data
+2025-03-14 21:50:21,696 - INFO - Updated sheet: NIBLGF with new data
+2025-03-14 21:50:22,794 - INFO - Updated sheet: NIBLSTF with new data
+2025-03-14 21:50:23,758 - INFO - Updated sheet: NIBSF2 with new data
+2025-03-14 21:50:24,950 - INFO - Updated sheet: NICA with new data
+2025-03-14 21:50:25,932 - INFO - Updated sheet: NICAD8283 with new data
+2025-03-14 21:50:27,866 - INFO - Updated sheet: NICBF with new data
+2025-03-14 21:50:28,846 - INFO - Updated sheet: NICD88 with new data
+2025-03-14 21:50:29,851 - INFO - Updated sheet: NICFC with new data
+2025-03-14 21:50:32,120 - INFO - Updated sheet: NICGF2 with new data
+2025-03-14 21:50:33,367 - INFO - Updated sheet: NICL with new data
+2025-03-14 21:50:34,548 - INFO - Updated sheet: NICLBSL with new data
+2025-03-14 21:50:35,725 - INFO - Updated sheet: NICSF with new data
+2025-03-14 21:50:36,796 - INFO - Updated sheet: NIFRA with new data
+2025-03-14 21:50:37,850 - INFO - Updated sheet: NIL with new data
+2025-03-14 21:50:38,831 - INFO - Updated sheet: NIMB with new data
+2025-03-14 21:50:39,888 - INFO - Updated sheet: NIMBPO with new data
+2025-03-14 21:50:41,160 - INFO - Updated sheet: NLG with new data
+2025-03-14 21:50:42,144 - INFO - Updated sheet: NLIC with new data
+2025-03-14 21:50:43,112 - INFO - Updated sheet: NLICL with new data
+2025-03-14 21:50:44,109 - INFO - Updated sheet: NMB with new data
+2025-03-14 21:50:46,226 - INFO - Updated sheet: NMBD2085 with new data
+2025-03-14 21:50:47,399 - INFO - Updated sheet: NMBMF with new data
+2025-03-14 21:50:48,545 - INFO - Updated sheet: NMFBS with new data
+2025-03-14 21:50:49,570 - INFO - Updated sheet: NMLBBL with new data
+2025-03-14 21:50:50,521 - INFO - Updated sheet: NRIC with new data
+2025-03-14 21:50:51,505 - INFO - Updated sheet: NRM with new data
+2025-03-14 21:50:52,490 - INFO - Updated sheet: NRN with new data
+2025-03-14 21:50:53,450 - INFO - Updated sheet: NSIF2 with new data
+2025-03-14 21:50:54,482 - INFO - Updated sheet: NTC with new data
+2025-03-14 21:50:55,668 - INFO - Updated sheet: NUBL with new data
+2025-03-14 21:50:56,662 - INFO - Updated sheet: NWCL with new data
+2025-03-14 21:50:57,636 - INFO - Updated sheet: NYADI with new data
+2025-03-14 21:50:58,724 - INFO - Updated sheet: OHL with new data
+2025-03-14 21:50:59,709 - INFO - Updated sheet: PBD88 with new data
+2025-03-14 21:51:01,846 - INFO - Updated sheet: PCBL with new data
+2025-03-14 21:51:02,889 - INFO - Updated sheet: PFL with new data
+2025-03-14 21:51:03,939 - INFO - Updated sheet: PHCL with new data
+2025-03-14 21:51:04,961 - INFO - Updated sheet: PMHPL with new data
+2025-03-14 21:51:05,929 - INFO - Updated sheet: PMLI with new data
+2025-03-14 21:51:06,943 - INFO - Updated sheet: PPCL with new data
+2025-03-14 21:51:08,083 - INFO - Updated sheet: PPL with new data
+2025-03-14 21:51:09,067 - INFO - Updated sheet: PRIN with new data
+2025-03-14 21:51:10,046 - INFO - Updated sheet: PROFL with new data
+2025-03-14 21:51:11,021 - INFO - Updated sheet: PRSF with new data
+2025-03-14 21:51:11,996 - INFO - Updated sheet: PRVU with new data
+2025-03-14 21:51:14,053 - INFO - Updated sheet: PSF with new data
+2025-03-14 21:51:15,204 - INFO - Updated sheet: RADHI with new data
+2025-03-14 21:51:16,303 - INFO - Updated sheet: RAWA with new data
+2025-03-14 21:51:18,621 - INFO - Updated sheet: RBCL with new data
+2025-03-14 21:51:20,157 - INFO - Updated sheet: RBCLPO with new data
+2025-03-14 21:51:21,358 - INFO - Updated sheet: RFPL with new data
+2025-03-14 21:51:22,392 - INFO - Updated sheet: RHGCL with new data
+2025-03-14 21:51:23,514 - INFO - Updated sheet: RHPL with new data
+2025-03-14 21:51:24,826 - INFO - Updated sheet: RIDI with new data
+2025-03-14 21:51:25,871 - INFO - Updated sheet: RLFL with new data
+2025-03-14 21:51:26,922 - INFO - Updated sheet: RMF1 with new data
+2025-03-14 21:51:28,249 - INFO - Updated sheet: RMF2 with new data
+2025-03-14 21:51:29,586 - INFO - Updated sheet: RNLI with new data
+2025-03-14 21:51:30,760 - INFO - Updated sheet: RSDC with new data
+2025-03-14 21:51:31,761 - INFO - Updated sheet: RURU with new data
+2025-03-14 21:51:32,792 - INFO - Updated sheet: SADBL with new data
+2025-03-14 21:51:33,660 - INFO - Updated sheet: SAGF with new data
+2025-03-14 21:51:34,743 - INFO - Updated sheet: SAHAS with new data
+2025-03-14 21:51:35,892 - INFO - Updated sheet: SALICO with new data
+2025-03-14 21:51:37,265 - INFO - Updated sheet: SAMAJ with new data
+2025-03-14 21:51:39,131 - INFO - Updated sheet: SANIMA with new data
+2025-03-14 21:51:40,420 - INFO - Updated sheet: SAPDBL with new data
+2025-03-14 21:51:41,528 - INFO - Updated sheet: SARBTM with new data
+2025-03-14 21:51:44,262 - INFO - Updated sheet: SBCF with new data
+2025-03-14 21:51:48,246 - INFO - Updated sheet: SBI with new data
+2025-03-14 21:51:51,675 - INFO - Updated sheet: SBIBD86 with new data
+2025-03-14 21:51:55,592 - INFO - Updated sheet: SBID83 with new data
+2025-03-14 21:51:59,644 - INFO - Updated sheet: SBL with new data
+2025-03-14 21:52:04,294 - INFO - Updated sheet: SBLD89 with new data
+2025-03-14 21:52:14,682 - INFO - Updated sheet: SCB with new data
+2025-03-14 21:52:17,500 - INFO - Updated sheet: SEF with new data
+2025-03-14 21:52:28,383 - INFO - Updated sheet: SFCL with new data
+2025-03-14 21:52:39,016 - INFO - Updated sheet: SFEF with new data
+2025-03-14 21:52:43,032 - INFO - Updated sheet: SFMF with new data
+2025-03-14 21:52:45,380 - INFO - Updated sheet: SGHC with new data
+2025-03-14 21:52:47,816 - INFO - Updated sheet: SGIC with new data
+2025-03-14 21:52:49,152 - INFO - Updated sheet: SHEL with new data
+2025-03-14 21:52:50,622 - INFO - Updated sheet: SHINE with new data
+2025-03-14 21:52:52,050 - INFO - Updated sheet: SHIVM with new data
+2025-03-14 21:52:53,362 - INFO - Updated sheet: SHL with new data
+2025-03-14 21:52:55,530 - INFO - Updated sheet: SHLB with new data
+2025-03-14 21:52:56,574 - INFO - Updated sheet: SHPC with new data
+2025-03-14 21:52:57,945 - INFO - Updated sheet: SICL with new data
+2025-03-14 21:52:59,556 - INFO - Updated sheet: SIFC with new data
+2025-03-14 21:53:01,690 - INFO - Updated sheet: SIGS2 with new data
+2025-03-14 21:53:02,895 - INFO - Updated sheet: SIGS3 with new data
+2025-03-14 21:53:04,343 - INFO - Updated sheet: SIKLES with new data
+2025-03-14 21:53:05,489 - INFO - Updated sheet: SINDU with new data
+2025-03-14 21:53:06,616 - INFO - Updated sheet: SJCL with new data
+2025-03-14 21:53:07,818 - INFO - Updated sheet: SJLIC with new data
+2025-03-14 21:53:09,500 - INFO - Updated sheet: SKBBL with new data
+2025-03-14 21:53:11,253 - INFO - Updated sheet: SLBBL with new data
+2025-03-14 21:53:12,462 - INFO - Updated sheet: SLBSL with new data
+2025-03-14 21:53:13,776 - INFO - Updated sheet: SLCF with new data
+2025-03-14 21:53:15,241 - INFO - Updated sheet: SMATA with new data
+2025-03-14 21:53:17,347 - INFO - Updated sheet: SMB with new data
+2025-03-14 21:53:19,726 - INFO - Updated sheet: SMFBS with new data
+2025-03-14 21:53:21,530 - INFO - Updated sheet: SMH with new data
+2025-03-14 21:53:22,957 - INFO - Updated sheet: SMHL with new data
+2025-03-14 21:53:24,254 - INFO - Updated sheet: SMJC with new data
+2025-03-14 21:53:25,678 - INFO - Updated sheet: SMPDA with new data
+2025-03-14 21:53:27,160 - INFO - Updated sheet: SNLI with new data
+2025-03-14 21:53:28,674 - INFO - Updated sheet: SONA with new data
+2025-03-14 21:53:32,515 - INFO - Updated sheet: SPC with new data
+2025-03-14 21:53:34,587 - INFO - Updated sheet: SPDL with new data
+2025-03-14 21:53:36,622 - INFO - Updated sheet: SPHL with new data
+2025-03-14 21:53:38,171 - INFO - Updated sheet: SPIL with new data
+2025-03-14 21:53:39,554 - INFO - Updated sheet: SPL with new data
+2025-03-14 21:53:40,679 - INFO - Updated sheet: SRLI with new data
+2025-03-14 21:53:41,853 - INFO - Updated sheet: SSHL with new data
+2025-03-14 21:53:43,112 - INFO - Updated sheet: STC with new data
+2025-03-14 21:53:45,613 - INFO - Updated sheet: SWBBL with new data
+2025-03-14 21:53:49,368 - INFO - Updated sheet: SWMF with new data
+2025-03-14 21:53:54,963 - INFO - Updated sheet: TAMOR with new data
+2025-03-14 21:54:00,186 - INFO - Updated sheet: TPC with new data
+2025-03-14 21:54:02,820 - INFO - Updated sheet: TRH with new data
+2025-03-14 21:54:07,559 - INFO - Updated sheet: TSHL with new data
+2025-03-14 21:54:09,503 - INFO - Updated sheet: TVCL with new data
+2025-03-14 21:54:10,924 - INFO - Updated sheet: UAIL with new data
+2025-03-14 21:54:12,491 - INFO - Updated sheet: UHEWA with new data
+2025-03-14 21:54:14,082 - INFO - Updated sheet: ULBSL with new data
+2025-03-14 21:54:15,177 - INFO - Updated sheet: ULHC with new data
+2025-03-14 21:54:16,192 - INFO - Updated sheet: UMHL with new data
+2025-03-14 21:54:17,936 - INFO - Updated sheet: UMRH with new data
+2025-03-14 21:54:20,289 - INFO - Updated sheet: UNHPL with new data
+2025-03-14 21:54:23,524 - INFO - Updated sheet: UNL with new data
+2025-03-14 21:54:27,320 - INFO - Updated sheet: UNLB with new data
+2025-03-14 21:54:29,939 - INFO - Updated sheet: UPCL with new data
+2025-03-14 21:54:33,081 - INFO - Updated sheet: UPPER with new data
+2025-03-14 21:54:38,663 - INFO - Updated sheet: USHEC with new data
+2025-03-14 21:54:44,115 - INFO - Updated sheet: USHL with new data
+2025-03-14 21:54:48,795 - INFO - Updated sheet: USLB with new data
+2025-03-14 21:54:52,347 - INFO - Updated sheet: VLBS with new data
+2025-03-14 21:54:54,687 - INFO - Updated sheet: VLUCL with new data
+2025-03-14 21:55:00,581 - INFO - Updated sheet: GBBD85 with new data
+2025-03-14 21:55:04,228 - INFO - Updated sheet: GBIMEP with new data
+2025-03-14 21:55:06,870 - INFO - Updated sheet: HBLD86 with new data
+2025-03-14 21:55:08,065 - INFO - Updated sheet: ICFCD88 with new data
+2025-03-14 21:55:09,165 - INFO - Updated sheet: MBLD87 with new data
+2025-03-14 21:55:13,034 - INFO - Updated sheet: MFLD85 with new data
+2025-03-14 21:55:17,434 - INFO - Updated sheet: NIMBD90 with new data
+2025-03-14 21:55:18,850 - INFO - Updated sheet: PBD84 with new data
+2025-03-14 21:55:25,001 - INFO - Updated sheet: SDBD87 with new data
+2025-03-14 21:55:26,258 - INFO - Updated sheet: BOKD86 with new data
+2025-03-14 21:55:27,587 - INFO - Updated sheet: ICFCD83 with new data
+2025-03-14 21:55:28,867 - INFO - Updated sheet: LBLD86 with new data
+2025-03-14 21:55:31,380 - INFO - Updated sheet: SRBLD83 with new data
+2025-03-14 21:55:32,813 - INFO - Updated sheet: BNL with new data
+2025-03-14 21:55:35,713 - INFO - Updated sheet: JBBD87 with new data
+2025-03-14 21:55:40,020 - INFO - Updated sheet: LSLPO with new data
+2025-03-14 21:55:45,622 - INFO - Updated sheet: SBID89 with new data
+2025-03-14 21:55:46,171 - INFO - Added new sheet for symbol: BFCPO (original: BFCPO)
+2025-03-14 21:55:46,352 - INFO - Added new sheet for symbol: CIZBD90 (original: CIZBD90)
+2025-03-14 21:55:46,455 - INFO - Added new sheet for symbol: MBLPO (original: MBLPO)
+2025-03-14 21:55:46,523 - INFO - Added new sheet for symbol: MSLBP (original: MSLBP)
+2025-03-14 21:55:46,615 - INFO - Added new sheet for symbol: NCCD86 (original: NCCD86)
+2025-03-14 21:55:46,694 - INFO - Added new sheet for symbol: NIBD2082 (original: NIBD2082)
+2025-03-14 21:55:46,787 - INFO - Added new sheet for symbol: NICD83_84 (original: NICD83/84)
+2025-03-14 21:55:46,882 - INFO - Added new sheet for symbol: NMBD87_88 (original: NMBD87/88)
+2025-03-14 21:55:46,975 - INFO - Added new sheet for symbol: SBD89 (original: SBD89)
+2025-03-14 21:55:47,080 - INFO - Added new sheet for symbol: SBLD83 (original: SBLD83)
+2025-03-14 21:55:47,325 - INFO - Added new sheet for symbol: SCBD (original: SCBD)
+2025-03-14 21:55:59,505 - INFO - Excel update summary:
+2025-03-14 21:55:59,507 - INFO - - Updated sheets: 311
+2025-03-14 21:55:59,508 - INFO - - Unchanged sheets: 28
+2025-03-14 21:55:59,510 - INFO - - New sheets added: 11
+2025-03-14 21:55:59,523 - INFO - - Total sheets: 350
+2025-03-14 21:55:59,541 - INFO - Renaming file to: shares_data_till_2025_03_12.xlsx
+2025-03-14 21:55:59,554 - INFO - Copying file to analysis directory: ..\3. analyse_shares
+2025-03-14 21:55:59,602 - INFO - Removed existing file: ..\3. analyse_shares\shares_data_till_2025_03_11.xlsx
+2025-03-14 21:55:59,739 - INFO - File successfully copied to: ..\3. analyse_shares\shares_data_till_2025_03_12.xlsx
+2025-03-14 21:55:59,897 - INFO - 
+Process completed successfully!
+2025-03-14 21:56:00,065 - INFO - Ended at: 2025-03-14 21:56:00
+2025-03-16 11:17:58,241 - INFO - Chromedriver is already installed.
+2025-03-16 11:17:58,284 - INFO - === Share Price Data Scraper ===
+2025-03-16 11:17:58,285 - INFO - Started at: 2025-03-16 11:17:58
+2025-03-16 11:17:58,285 - INFO - Looking for latest data file...
+2025-03-16 11:17:58,288 - INFO - Found latest file: shares_data_till_2025_03_12.xlsx (date: 2025-03-12)
+2025-03-16 11:17:58,288 - INFO - Analyzing Excel file to find latest common date...
+2025-03-16 11:19:00,933 - INFO - Chromedriver is already installed.
+2025-03-16 11:19:00,933 - INFO - === Share Price Data Scraper ===
+2025-03-16 11:19:00,934 - INFO - Started at: 2025-03-16 11:19:00
+2025-03-16 11:19:00,934 - INFO - Looking for latest data file...
+2025-03-16 11:19:00,938 - INFO - Found latest file: shares_data_till_2025_03_12.xlsx (date: 2025-03-12)
+2025-03-16 11:19:00,938 - INFO - Analyzing Excel file to find latest common date...
+2025-03-16 11:19:10,314 - INFO - Latest common date found: 2025-03-12
+2025-03-16 11:19:10,325 - INFO - Will scrape data from 2025-03-13 to 2025-03-16
+2025-03-16 11:19:10,325 - INFO - Initializing web driver...
+2025-03-16 11:19:15,299 - INFO - 
+[1/4] Processing date: 2025-03-13
+2025-03-16 11:19:15,300 - INFO - Starting data scraping for date: 2025-03-13
+2025-03-16 11:19:15,300 - INFO - Searching website for date: 2025-03-13...
+2025-03-16 11:19:28,790 - INFO - No record found for date: 2025-03-13
+2025-03-16 11:19:28,791 - INFO - No data found for 2025-03-13 - skipping
+2025-03-16 11:19:28,792 - INFO - 
+[2/4] Processing date: 2025-03-14
+2025-03-16 11:19:28,793 - INFO - Starting data scraping for date: 2025-03-14
+2025-03-16 11:19:28,793 - INFO - Searching website for date: 2025-03-14...
+2025-03-16 11:19:41,667 - INFO - No record found for date: 2025-03-14
+2025-03-16 11:19:41,668 - INFO - No data found for 2025-03-14 - skipping
+2025-03-16 11:19:41,668 - INFO - 
+[3/4] Processing date: 2025-03-15
+2025-03-16 11:19:41,669 - INFO - Starting data scraping for date: 2025-03-15
+2025-03-16 11:19:41,669 - INFO - Searching website for date: 2025-03-15...
+2025-03-16 11:19:55,732 - INFO - No record found for date: 2025-03-15
+2025-03-16 11:19:55,732 - INFO - No data found for 2025-03-15 - skipping
+2025-03-16 11:19:55,733 - INFO - 
+[4/4] Processing date: 2025-03-16
+2025-03-16 11:19:55,734 - INFO - Starting data scraping for date: 2025-03-16
+2025-03-16 11:19:55,734 - INFO - Searching website for date: 2025-03-16...
+2025-03-16 11:20:08,083 - INFO - No record found for date: 2025-03-16
+2025-03-16 11:20:08,083 - INFO - No data found for 2025-03-16 - skipping
+2025-03-16 11:20:10,391 - INFO - Web driver closed
+2025-03-16 11:20:10,391 - INFO - 
+=== Scraping Summary ===
+2025-03-16 11:20:10,392 - INFO - Dates processed: 4/4
+2025-03-16 11:20:10,393 - INFO - Dates with data: 0
+2025-03-16 11:20:10,394 - INFO - Symbols with new data: 0
+2025-03-16 11:20:10,394 - INFO - 
+No new data was found to update the file.
+2025-03-16 11:20:10,395 - INFO - Ended at: 2025-03-16 11:20:10
+2025-03-16 11:23:57,682 - INFO - Chromedriver is already installed.
+2025-03-16 11:23:57,683 - INFO - === Share Price Data Scraper ===
+2025-03-16 11:23:57,684 - INFO - Started at: 2025-03-16 11:23:57
+2025-03-16 11:23:57,684 - INFO - Looking for latest data file...
+2025-03-16 11:23:57,686 - INFO - Found latest file: shares_data_till_2025_03_12.xlsx (date: 2025-03-12)
+2025-03-16 11:23:57,686 - INFO - Analyzing Excel file to find latest common date...
+2025-03-16 11:24:07,227 - INFO - Latest common date found: 2025-03-12
+2025-03-16 11:24:07,227 - INFO - Will scrape data from 2025-03-13 to 2025-03-16
+2025-03-16 11:24:07,228 - INFO - Initializing web driver...
+2025-03-16 11:24:10,974 - INFO - 
+[1/4] Processing date: 2025-03-13
+2025-03-16 11:24:10,974 - INFO - Starting data scraping for date: 2025-03-13
+2025-03-16 11:24:10,975 - INFO - Searching website for date: 2025-03-13...
+2025-03-16 11:24:28,432 - INFO - No record found for date: 2025-03-13
+2025-03-16 11:24:28,502 - INFO - No data found for 2025-03-13 - skipping
+2025-03-16 11:24:28,503 - INFO - 
+[2/4] Processing date: 2025-03-14
+2025-03-16 11:24:28,503 - INFO - Starting data scraping for date: 2025-03-14
+2025-03-16 11:24:28,503 - INFO - Searching website for date: 2025-03-14...
+2025-03-16 11:24:41,512 - INFO - No record found for date: 2025-03-14
+2025-03-16 11:24:41,512 - INFO - No data found for 2025-03-14 - skipping
+2025-03-16 11:24:41,513 - INFO - 
+[3/4] Processing date: 2025-03-15
+2025-03-16 11:24:41,513 - INFO - Starting data scraping for date: 2025-03-15
+2025-03-16 11:24:41,514 - INFO - Searching website for date: 2025-03-15...
+2025-03-16 11:24:56,093 - INFO - No record found for date: 2025-03-15
+2025-03-16 11:24:56,094 - INFO - No data found for 2025-03-15 - skipping
+2025-03-16 11:24:56,094 - INFO - 
+[4/4] Processing date: 2025-03-16
+2025-03-16 11:24:56,094 - INFO - Starting data scraping for date: 2025-03-16
+2025-03-16 11:24:56,095 - INFO - Searching website for date: 2025-03-16...
+2025-03-16 11:25:10,195 - INFO - No record found for date: 2025-03-16
+2025-03-16 11:25:10,196 - INFO - No data found for 2025-03-16 - skipping
+2025-03-16 11:25:12,447 - INFO - Web driver closed
+2025-03-16 11:25:12,448 - INFO - 
+=== Scraping Summary ===
+2025-03-16 11:25:12,448 - INFO - Dates processed: 4/4
+2025-03-16 11:25:12,449 - INFO - Dates with data: 0
+2025-03-16 11:25:12,449 - INFO - Symbols with new data: 0
+2025-03-16 11:25:12,450 - INFO - 
+No new data was found to update the file.
+2025-03-16 11:25:12,450 - INFO - Ended at: 2025-03-16 11:25:12
+2025-03-16 12:03:15,818 - INFO - Chromedriver is already installed.
+2025-03-16 12:03:15,868 - INFO - === Share Price Data Scraper ===
+2025-03-16 12:03:15,869 - INFO - Started at: 2025-03-16 12:03:15
+2025-03-16 12:03:15,869 - INFO - Looking for latest data file...
+2025-03-16 12:03:15,876 - INFO - Found latest file: shares_data_till_2025_03_12.xlsx (date: 2025-03-12)
+2025-03-16 12:03:15,877 - INFO - Analyzing Excel file to find latest common date...
+2025-03-16 12:03:26,425 - INFO - Latest common date found: 2025-03-12
+2025-03-16 12:03:26,432 - INFO - Will scrape data from 2025-03-13 to 2025-03-16
+2025-03-16 12:03:26,432 - INFO - Initializing web driver...
+2025-03-16 12:03:30,834 - INFO - 
+[1/4] Processing date: 2025-03-13
+2025-03-16 12:03:30,835 - INFO - Starting data scraping for date: 2025-03-13
+2025-03-16 12:03:30,835 - INFO - Searching website for date: 2025-03-13...
+2025-03-16 12:03:45,239 - INFO - No record found for date: 2025-03-13
+2025-03-16 12:03:45,240 - INFO - No data found for 2025-03-13 - skipping
+2025-03-16 12:03:45,240 - INFO - 
+[2/4] Processing date: 2025-03-14
+2025-03-16 12:03:45,240 - INFO - Starting data scraping for date: 2025-03-14
+2025-03-16 12:03:45,241 - INFO - Searching website for date: 2025-03-14...
+2025-03-16 12:03:58,219 - INFO - No record found for date: 2025-03-14
+2025-03-16 12:03:58,220 - INFO - No data found for 2025-03-14 - skipping
+2025-03-16 12:03:58,221 - INFO - 
+[3/4] Processing date: 2025-03-15
+2025-03-16 12:03:58,221 - INFO - Starting data scraping for date: 2025-03-15
+2025-03-16 12:03:58,222 - INFO - Searching website for date: 2025-03-15...
+2025-03-16 12:04:09,511 - INFO - No record found for date: 2025-03-15
+2025-03-16 12:04:09,512 - INFO - No data found for 2025-03-15 - skipping
+2025-03-16 12:04:09,512 - INFO - 
+[4/4] Processing date: 2025-03-16
+2025-03-16 12:04:09,513 - INFO - Starting data scraping for date: 2025-03-16
+2025-03-16 12:04:09,513 - INFO - Searching website for date: 2025-03-16...
+2025-03-16 12:04:20,266 - INFO - No record found for date: 2025-03-16
+2025-03-16 12:04:20,267 - INFO - No data found for 2025-03-16 - skipping
+2025-03-16 12:04:22,583 - INFO - Web driver closed
+2025-03-16 12:04:22,583 - INFO - 
+=== Scraping Summary ===
+2025-03-16 12:04:22,584 - INFO - Dates processed: 4/4
+2025-03-16 12:04:22,584 - INFO - Dates with data: 0
+2025-03-16 12:04:22,585 - INFO - Symbols with new data: 0
+2025-03-16 12:04:22,585 - INFO - 
+No new data was found to update the file.
+2025-03-16 12:04:22,586 - INFO - Ended at: 2025-03-16 12:04:22
+2025-03-16 15:38:49,091 - INFO - Chromedriver is already installed.
+2025-03-16 15:38:49,137 - INFO - === Share Price Data Scraper ===
+2025-03-16 15:38:49,137 - INFO - Started at: 2025-03-16 15:38:49
+2025-03-16 15:38:49,138 - INFO - Looking for latest data file...
+2025-03-16 15:38:49,145 - INFO - Found latest file: shares_data_till_2025_03_12.xlsx (date: 2025-03-12)
+2025-03-16 15:38:49,146 - INFO - Analyzing Excel file to find latest common date...
+2025-03-16 15:38:59,309 - INFO - Latest common date found: 2025-03-12
+2025-03-16 15:38:59,311 - INFO - Will scrape data from 2025-03-13 to 2025-03-16
+2025-03-16 15:38:59,312 - INFO - Initializing web driver...
+2025-03-16 15:39:04,253 - INFO - 
+[1/4] Processing date: 2025-03-13
+2025-03-16 15:39:04,253 - INFO - Starting data scraping for date: 2025-03-13
+2025-03-16 15:39:04,253 - INFO - Searching website for date: 2025-03-13...
+2025-03-16 15:39:17,541 - INFO - No record found for date: 2025-03-13
+2025-03-16 15:39:17,541 - INFO - No data found for 2025-03-13 - skipping
+2025-03-16 15:39:17,542 - INFO - 
+[2/4] Processing date: 2025-03-14
+2025-03-16 15:39:17,542 - INFO - Starting data scraping for date: 2025-03-14
+2025-03-16 15:39:17,543 - INFO - Searching website for date: 2025-03-14...
+2025-03-16 15:39:28,429 - INFO - No record found for date: 2025-03-14
+2025-03-16 15:39:28,430 - INFO - No data found for 2025-03-14 - skipping
+2025-03-16 15:39:28,431 - INFO - 
+[3/4] Processing date: 2025-03-15
+2025-03-16 15:39:28,432 - INFO - Starting data scraping for date: 2025-03-15
+2025-03-16 15:39:28,433 - INFO - Searching website for date: 2025-03-15...
+2025-03-16 15:39:38,807 - INFO - No record found for date: 2025-03-15
+2025-03-16 15:39:38,807 - INFO - No data found for 2025-03-15 - skipping
+2025-03-16 15:39:38,808 - INFO - 
+[4/4] Processing date: 2025-03-16
+2025-03-16 15:39:38,809 - INFO - Starting data scraping for date: 2025-03-16
+2025-03-16 15:39:38,809 - INFO - Searching website for date: 2025-03-16...
+2025-03-16 15:39:51,424 - INFO - Data found for date: 2025-03-16
+2025-03-16 15:39:51,426 - INFO - Scraping page 1 for date 2025-03-16
+2025-03-16 15:39:51,427 - INFO - Extracting table data from current page...
+2025-03-16 15:39:52,917 - INFO - Extracted 316 rows of data from current page
+2025-03-16 15:39:53,062 - INFO - No more pages to scrape.
+2025-03-16 15:39:53,062 - INFO - Completed scraping for date 2025-03-16. Total rows: 316
+2025-03-16 15:39:53,063 - INFO - Cleaning data for date: 2025-03-16
+2025-03-16 15:39:53,125 - INFO - Website columns found: Symbol, Prev. Close, Range, Diff %, Range %, Turnover, High, VWAP, Diff, 180 Days, Vol, Open, S.No, Low, Trans., 120 Days, 52 Weeks High, Conf., VWAP %, Close, 52 Weeks Low
+2025-03-16 15:39:53,127 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-16 15:39:53,130 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-16 15:39:53,132 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-16 15:39:53,134 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-16 15:39:53,137 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-16 15:39:53,141 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-16 15:39:53,145 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-16 15:39:53,146 - INFO - Data cleaning completed. Rows: 316
+2025-03-16 15:39:53,675 - INFO - Successfully processed data for 2025-03-16 - 315 symbols
+2025-03-16 15:39:55,904 - INFO - Web driver closed
+2025-03-16 15:39:55,904 - INFO - 
+=== Scraping Summary ===
+2025-03-16 15:39:55,905 - INFO - Dates processed: 4/4
+2025-03-16 15:39:55,905 - INFO - Dates with data: 1
+2025-03-16 15:39:55,906 - INFO - Symbols with new data: 315
+2025-03-16 15:39:55,906 - INFO - 
+Updating Excel file with new data up to 2025-03-16
+2025-03-16 15:39:55,907 - INFO - Updating Excel file: shares_data_till_2025_03_12.xlsx
+2025-03-16 15:39:55,907 - INFO - New data available for 315 symbols
+2025-03-16 15:39:56,711 - INFO - Sanitized sheet name from 'GBILD84/85' to 'GBILD84_85'
+2025-03-16 16:22:31,018 - INFO - Chromedriver is already installed.
+2025-03-16 16:22:31,085 - INFO - === Share Price Data Scraper ===
+2025-03-16 16:22:31,086 - INFO - Started at: 2025-03-16 16:22:31
+2025-03-16 16:22:31,091 - INFO - Looking for latest data file...
+2025-03-16 16:22:31,103 - INFO - Found latest file: shares_data_till_2025_03_12.xlsx (date: 2025-03-12)
+2025-03-16 16:22:31,106 - INFO - Analyzing Excel file to find latest common date...
+2025-03-16 16:22:40,988 - INFO - Latest common date found: 2025-03-12
+2025-03-16 16:22:40,998 - INFO - Will scrape data from 2025-03-13 to 2025-03-16
+2025-03-16 16:22:40,999 - INFO - Initializing web driver...
+2025-03-16 16:22:45,091 - INFO - 
+[1/4] Processing date: 2025-03-13
+2025-03-16 16:22:45,093 - INFO - Starting data scraping for date: 2025-03-13
+2025-03-16 16:22:45,093 - INFO - Searching website for date: 2025-03-13...
+2025-03-16 16:22:58,265 - INFO - No record found for date: 2025-03-13
+2025-03-16 16:22:58,265 - INFO - No data found for 2025-03-13 - skipping
+2025-03-16 16:22:58,266 - INFO - 
+[2/4] Processing date: 2025-03-14
+2025-03-16 16:22:58,267 - INFO - Starting data scraping for date: 2025-03-14
+2025-03-16 16:22:58,268 - INFO - Searching website for date: 2025-03-14...
+2025-03-16 16:23:10,068 - INFO - No record found for date: 2025-03-14
+2025-03-16 16:23:10,069 - INFO - No data found for 2025-03-14 - skipping
+2025-03-16 16:23:10,071 - INFO - 
+[3/4] Processing date: 2025-03-15
+2025-03-16 16:23:10,073 - INFO - Starting data scraping for date: 2025-03-15
+2025-03-16 16:23:10,075 - INFO - Searching website for date: 2025-03-15...
+2025-03-16 16:23:21,129 - INFO - No record found for date: 2025-03-15
+2025-03-16 16:23:21,130 - INFO - No data found for 2025-03-15 - skipping
+2025-03-16 16:23:21,132 - INFO - 
+[4/4] Processing date: 2025-03-16
+2025-03-16 16:23:21,134 - INFO - Starting data scraping for date: 2025-03-16
+2025-03-16 16:23:21,136 - INFO - Searching website for date: 2025-03-16...
+2025-03-16 16:23:32,597 - INFO - Data found for date: 2025-03-16
+2025-03-16 16:23:32,599 - INFO - Scraping page 1 for date 2025-03-16
+2025-03-16 16:23:32,599 - INFO - Extracting table data from current page...
+2025-03-16 16:23:33,238 - INFO - Extracted 316 rows of data from current page
+2025-03-16 16:23:33,400 - INFO - No more pages to scrape.
+2025-03-16 16:23:33,401 - INFO - Completed scraping for date 2025-03-16. Total rows: 316
+2025-03-16 16:23:33,402 - INFO - Cleaning data for date: 2025-03-16
+2025-03-16 16:23:33,461 - INFO - Website columns found: Conf., 180 Days, Vol, Prev. Close, Close, Range %, High, Open, Trans., 120 Days, Turnover, Symbol, 52 Weeks High, Diff, 52 Weeks Low, S.No, VWAP, Low, Diff %, Range, VWAP %
+2025-03-16 16:23:33,464 - INFO - Mapped website column 'Open' to Excel column 'Open'
+2025-03-16 16:23:33,467 - INFO - Mapped website column 'High' to Excel column 'High'
+2025-03-16 16:23:33,470 - INFO - Mapped website column 'Low' to Excel column 'Low'
+2025-03-16 16:23:33,484 - INFO - Mapped website column 'Close' to Excel column 'Ltp'
+2025-03-16 16:23:33,488 - INFO - Mapped website column 'Diff %' to Excel column '% Change'
+2025-03-16 16:23:33,493 - INFO - Mapped website column 'Vol' to Excel column 'Qty'
+2025-03-16 16:23:33,496 - INFO - Mapped website column 'Turnover' to Excel column 'Turnover'
+2025-03-16 16:23:33,497 - INFO - Data cleaning completed. Rows: 316
+2025-03-16 16:23:33,977 - INFO - Successfully processed data for 2025-03-16 - 315 symbols
+2025-03-16 16:23:36,231 - INFO - Web driver closed
+2025-03-16 16:23:36,232 - INFO - 
+=== Scraping Summary ===
+2025-03-16 16:23:36,234 - INFO - Dates processed: 4/4
+2025-03-16 16:23:36,236 - INFO - Dates with data: 1
+2025-03-16 16:23:36,237 - INFO - Symbols with new data: 315
+2025-03-16 16:23:36,240 - INFO - 
+Updating Excel file with new data up to 2025-03-16
+2025-03-16 16:23:36,242 - INFO - Updating Excel file: shares_data_till_2025_03_12.xlsx
+2025-03-16 16:23:36,245 - INFO - New data available for 315 symbols
+2025-03-16 16:23:37,103 - INFO - Sanitized sheet name from 'GBILD84/85' to 'GBILD84_85'
+2025-03-16 16:23:37,104 - INFO - Sanitized sheet name from 'GBILD86/87' to 'GBILD86_87'
+2025-03-16 16:23:37,104 - INFO - Sanitized sheet name from 'NICAD85/86' to 'NICAD85_86'
+2025-03-16 16:23:37,998 - INFO - Updated sheet: ACLBSL with new data
+2025-03-16 16:23:38,811 - INFO - Updated sheet: ADBL with new data
+2025-03-16 16:23:40,506 - INFO - Updated sheet: AHL with new data
+2025-03-16 16:23:41,368 - INFO - Updated sheet: AHPC with new data
+2025-03-16 16:23:42,184 - INFO - Updated sheet: AKJCL with new data
+2025-03-16 16:23:43,051 - INFO - Updated sheet: AKPL with new data
+2025-03-16 16:23:43,923 - INFO - Updated sheet: ALBSL with new data
+2025-03-16 16:23:44,763 - INFO - Updated sheet: ALICL with new data
+2025-03-16 16:23:45,625 - INFO - Updated sheet: ANLB with new data
+2025-03-16 16:23:46,468 - INFO - Updated sheet: API with new data
+2025-03-16 16:23:47,347 - INFO - Updated sheet: AVYAN with new data
+2025-03-16 16:23:48,203 - INFO - Updated sheet: BARUN with new data
+2025-03-16 16:23:49,090 - INFO - Updated sheet: BBC with new data
+2025-03-16 16:23:49,951 - INFO - Updated sheet: BEDC with new data
+2025-03-16 16:23:50,773 - INFO - Updated sheet: BFC with new data
+2025-03-16 16:23:51,608 - INFO - Updated sheet: BGWT with new data
+2025-03-16 16:23:52,498 - INFO - Updated sheet: BHDC with new data
+2025-03-16 16:23:53,379 - INFO - Updated sheet: BHL with new data
+2025-03-16 16:23:54,274 - INFO - Updated sheet: BHPL with new data
+2025-03-16 16:23:55,117 - INFO - Updated sheet: BNHC with new data
+2025-03-16 16:23:56,007 - INFO - Updated sheet: BNT with new data
+2025-03-16 16:23:56,896 - INFO - Updated sheet: BPCL with new data
+2025-03-16 16:23:57,737 - INFO - Updated sheet: C30MF with new data
+2025-03-16 16:23:58,608 - INFO - Updated sheet: CBBL with new data
+2025-03-16 16:23:59,468 - INFO - Updated sheet: CBLD88 with new data
+2025-03-16 16:24:00,373 - INFO - Updated sheet: CCBD88 with new data
+2025-03-16 16:24:01,257 - INFO - Updated sheet: CFCL with new data
+2025-03-16 16:24:02,092 - INFO - Updated sheet: CGH with new data
+2025-03-16 16:24:03,409 - INFO - Updated sheet: CHCL with new data
+2025-03-16 16:24:04,293 - INFO - Updated sheet: CHDC with new data
+2025-03-16 16:24:05,187 - INFO - Updated sheet: CHL with new data
+2025-03-16 16:24:05,985 - INFO - Updated sheet: CIT with new data
+2025-03-16 16:24:06,878 - INFO - Updated sheet: CITY with new data
+2025-03-16 16:24:07,854 - INFO - Updated sheet: CKHL with new data
+2025-03-16 16:24:08,764 - INFO - Updated sheet: CLI with new data
+2025-03-16 16:24:09,663 - INFO - Updated sheet: CMF2 with new data
+2025-03-16 16:24:10,513 - INFO - Updated sheet: CORBL with new data
+2025-03-16 16:24:11,398 - INFO - Updated sheet: CYCL with new data
+2025-03-16 16:24:12,285 - INFO - Updated sheet: CZBIL with new data
+2025-03-16 16:24:13,132 - INFO - Updated sheet: DDBL with new data
+2025-03-16 16:24:14,026 - INFO - Updated sheet: DHPL with new data
+2025-03-16 16:24:14,952 - INFO - Updated sheet: DLBS with new data
+2025-03-16 16:24:15,809 - INFO - Updated sheet: DOLTI with new data
+2025-03-16 16:24:16,693 - INFO - Updated sheet: DORDI with new data
+2025-03-16 16:24:17,605 - INFO - Updated sheet: EBL with new data
+2025-03-16 16:24:18,456 - INFO - Updated sheet: EBLD85 with new data
+2025-03-16 16:24:19,396 - INFO - Updated sheet: EBLD86 with new data
+2025-03-16 16:24:20,312 - INFO - Updated sheet: EDBL with new data
+2025-03-16 16:24:21,148 - INFO - Updated sheet: EHPL with new data
+2025-03-16 16:24:22,033 - INFO - Updated sheet: ENL with new data
+2025-03-16 16:24:22,930 - INFO - Updated sheet: FMDBL with new data
+2025-03-16 16:24:23,823 - INFO - Updated sheet: FOWAD with new data
+2025-03-16 16:24:24,753 - INFO - Updated sheet: GBBL with new data
+2025-03-16 16:24:26,629 - INFO - Updated sheet: GBIME with new data
+2025-03-16 16:24:27,534 - INFO - Updated sheet: GBLBS with new data
+2025-03-16 16:24:28,350 - INFO - Updated sheet: GCIL with new data
+2025-03-16 16:24:29,292 - INFO - Updated sheet: GFCL with new data
+2025-03-16 16:24:30,158 - INFO - Updated sheet: GHL with new data
+2025-03-16 16:24:31,071 - INFO - Updated sheet: GIBF1 with new data
+2025-03-16 16:24:31,953 - INFO - Updated sheet: GILB with new data
+2025-03-16 16:24:32,890 - INFO - Updated sheet: GLBSL with new data
+2025-03-16 16:24:33,753 - INFO - Updated sheet: GLH with new data
+2025-03-16 16:24:34,687 - INFO - Updated sheet: GMFBS with new data
+2025-03-16 16:24:35,559 - INFO - Updated sheet: GMFIL with new data
+2025-03-16 16:24:36,475 - INFO - Updated sheet: GMLI with new data
+2025-03-16 16:24:37,414 - INFO - Updated sheet: GRDBL with new data
+2025-03-16 16:24:38,381 - INFO - Updated sheet: GSY with new data
+2025-03-16 16:24:39,287 - INFO - Updated sheet: GUFL with new data
+2025-03-16 16:24:40,147 - INFO - Updated sheet: GVL with new data
+2025-03-16 16:24:41,086 - INFO - Updated sheet: H8020 with new data
+2025-03-16 16:24:42,044 - INFO - Updated sheet: HATHY with new data
+2025-03-16 16:24:42,974 - INFO - Updated sheet: HBL with new data
+2025-03-16 16:24:43,853 - INFO - Updated sheet: HDHPC with new data
+2025-03-16 16:24:44,711 - INFO - Updated sheet: HDL with new data
+2025-03-16 16:24:45,716 - INFO - Updated sheet: HEI with new data
+2025-03-16 16:24:46,601 - INFO - Updated sheet: HEIP with new data
+2025-03-16 16:24:47,541 - INFO - Updated sheet: HHL with new data
+2025-03-16 16:24:48,445 - INFO - Updated sheet: HIDCL with new data
+2025-03-16 16:24:49,492 - INFO - Updated sheet: HIDCLP with new data
+2025-03-16 16:24:50,401 - INFO - Updated sheet: HLBSL with new data
+2025-03-16 16:24:51,349 - INFO - Updated sheet: HLI with new data
+2025-03-16 16:24:52,203 - INFO - Updated sheet: HPPL with new data
+2025-03-16 16:24:53,221 - INFO - Updated sheet: HRL with new data
+2025-03-16 16:24:54,119 - INFO - Updated sheet: HURJA with new data
+2025-03-16 16:24:55,022 - INFO - Updated sheet: ICFC with new data
+2025-03-16 16:24:55,958 - INFO - Updated sheet: IGI with new data
+2025-03-16 16:24:56,827 - INFO - Updated sheet: IHL with new data
+2025-03-16 16:24:57,735 - INFO - Updated sheet: ILBS with new data
+2025-03-16 16:24:58,619 - INFO - Updated sheet: ILI with new data
+2025-03-16 16:24:59,490 - INFO - Updated sheet: JBBL with new data
+2025-03-16 16:25:00,474 - INFO - Updated sheet: JBLB with new data
+2025-03-16 16:25:01,394 - INFO - Updated sheet: JFL with new data
+2025-03-16 16:25:02,337 - INFO - Updated sheet: JOSHI with new data
+2025-03-16 16:25:03,194 - INFO - Updated sheet: JSLBB with new data
+2025-03-16 16:25:04,070 - INFO - Updated sheet: KBL with new data
+2025-03-16 16:25:05,040 - INFO - Updated sheet: KBLD86 with new data
+2025-03-16 16:25:05,917 - INFO - Updated sheet: KBLD89 with new data
+2025-03-16 16:25:06,899 - INFO - Updated sheet: KBLD90 with new data
+2025-03-16 16:25:07,793 - INFO - Updated sheet: KBSH with new data
+2025-03-16 16:25:08,696 - INFO - Updated sheet: KDBY with new data
+2025-03-16 16:25:09,645 - INFO - Updated sheet: KDL with new data
+2025-03-16 16:25:10,525 - INFO - Updated sheet: KEF with new data
+2025-03-16 16:25:11,450 - INFO - Updated sheet: KKHC with new data
+2025-03-16 16:25:12,463 - INFO - Updated sheet: KMCDB with new data
+2025-03-16 16:25:13,338 - INFO - Updated sheet: KPCL with new data
+2025-03-16 16:25:14,249 - INFO - Updated sheet: KSBBL with new data
+2025-03-16 16:25:16,057 - INFO - Updated sheet: KSY with new data
+2025-03-16 16:25:17,004 - INFO - Updated sheet: LBBL with new data
+2025-03-16 16:25:19,083 - INFO - Updated sheet: LBBLD89 with new data
+2025-03-16 16:25:20,089 - INFO - Updated sheet: LEC with new data
+2025-03-16 16:25:21,008 - INFO - Updated sheet: LICN with new data
+2025-03-16 16:25:21,875 - INFO - Updated sheet: LLBS with new data
+2025-03-16 16:25:22,955 - INFO - Updated sheet: LSL with new data
+2025-03-16 16:25:23,852 - INFO - Updated sheet: LUK with new data
+2025-03-16 16:25:24,773 - INFO - Updated sheet: LVF2 with new data
+2025-03-16 16:25:25,747 - INFO - Updated sheet: MAKAR with new data
+2025-03-16 16:25:26,660 - INFO - Updated sheet: MANDU with new data
+2025-03-16 16:25:27,592 - INFO - Updated sheet: MATRI with new data
+2025-03-16 16:25:29,398 - INFO - Updated sheet: MBJC with new data
+2025-03-16 16:25:30,319 - INFO - Updated sheet: MBL with new data
+2025-03-16 16:25:31,249 - INFO - Updated sheet: MCHL with new data
+2025-03-16 16:25:32,158 - INFO - Updated sheet: MDB with new data
+2025-03-16 16:25:33,149 - INFO - Updated sheet: MEHL with new data
+2025-03-16 16:25:34,064 - INFO - Updated sheet: MEL with new data
+2025-03-16 16:25:34,923 - INFO - Updated sheet: MEN with new data
+2025-03-16 16:25:36,219 - INFO - Updated sheet: MERO with new data
+2025-03-16 16:25:37,283 - INFO - Updated sheet: MFIL with new data
+2025-03-16 16:25:38,201 - INFO - Updated sheet: MHCL with new data
+2025-03-16 16:25:39,118 - INFO - Updated sheet: MHL with new data
+2025-03-16 16:25:40,039 - INFO - Updated sheet: MHNL with new data
+2025-03-16 16:25:41,047 - INFO - Updated sheet: MKCL with new data
+2025-03-16 16:25:41,960 - INFO - Updated sheet: MKHC with new data
+2025-03-16 16:25:42,884 - INFO - Updated sheet: MKHL with new data
+2025-03-16 16:25:43,788 - INFO - Updated sheet: MKJC with new data
+2025-03-16 16:25:44,713 - INFO - Updated sheet: MLBBL with new data
+2025-03-16 16:25:45,697 - INFO - Updated sheet: MLBL with new data
+2025-03-16 16:25:46,615 - INFO - Updated sheet: MLBS with new data
+2025-03-16 16:25:47,541 - INFO - Updated sheet: MLBSL with new data
+2025-03-16 16:25:48,482 - INFO - Updated sheet: MMF1 with new data
+2025-03-16 16:25:49,735 - INFO - Updated sheet: MMKJL with new data
+2025-03-16 16:25:50,757 - INFO - Updated sheet: MNBBL with new data
+2025-03-16 16:25:51,658 - INFO - Updated sheet: MNMF1 with new data
+2025-03-16 16:25:52,559 - INFO - Updated sheet: MPFL with new data
+2025-03-16 16:25:53,477 - INFO - Updated sheet: MSHL with new data
+2025-03-16 16:25:54,494 - INFO - Updated sheet: MSLB with new data
+2025-03-16 16:25:55,404 - INFO - Updated sheet: NABBC with new data
+2025-03-16 16:25:56,378 - INFO - Updated sheet: NABIL with new data
+2025-03-16 16:25:57,307 - INFO - Updated sheet: NABILD87 with new data
+2025-03-16 16:25:58,286 - INFO - Updated sheet: NADEP with new data
+2025-03-16 16:25:59,503 - INFO - Updated sheet: NBF2 with new data
+2025-03-16 16:26:00,477 - INFO - Updated sheet: NBF3 with new data
+2025-03-16 16:26:01,402 - INFO - Updated sheet: NBL with new data
+2025-03-16 16:26:03,289 - INFO - Updated sheet: NBLD87 with new data
+2025-03-16 16:26:04,224 - INFO - Updated sheet: NESDO with new data
+2025-03-16 16:26:05,155 - INFO - Updated sheet: NFS with new data
+2025-03-16 16:26:06,066 - INFO - Updated sheet: NGPL with new data
+2025-03-16 16:26:07,081 - INFO - Updated sheet: NHDL with new data
+2025-03-16 16:26:08,028 - INFO - Updated sheet: NHPC with new data
+2025-03-16 16:26:09,040 - INFO - Updated sheet: NIBLGF with new data
+2025-03-16 16:26:09,960 - INFO - Updated sheet: NIBLSTF with new data
+2025-03-16 16:26:10,884 - INFO - Updated sheet: NIBSF2 with new data
+2025-03-16 16:26:11,825 - INFO - Updated sheet: NICA with new data
+2025-03-16 16:26:15,436 - INFO - Updated sheet: NICD88 with new data
+2025-03-16 16:26:16,469 - INFO - Updated sheet: NICFC with new data
+2025-03-16 16:26:19,251 - INFO - Updated sheet: NICL with new data
+2025-03-16 16:26:20,204 - INFO - Updated sheet: NICLBSL with new data
+2025-03-16 16:26:21,153 - INFO - Updated sheet: NICSF with new data
+2025-03-16 16:26:22,076 - INFO - Updated sheet: NIFRA with new data
+2025-03-16 16:26:23,054 - INFO - Updated sheet: NIL with new data
+2025-03-16 16:26:24,019 - INFO - Updated sheet: NIMB with new data
+2025-03-16 16:26:25,036 - INFO - Updated sheet: NIMBPO with new data
+2025-03-16 16:26:25,976 - INFO - Updated sheet: NLG with new data
+2025-03-16 16:26:27,277 - INFO - Updated sheet: NLIC with new data
+2025-03-16 16:26:28,238 - INFO - Updated sheet: NLICL with new data
+2025-03-16 16:26:29,205 - INFO - Updated sheet: NMB with new data
+2025-03-16 16:26:30,157 - INFO - Updated sheet: NMB50 with new data
+2025-03-16 16:26:32,044 - INFO - Updated sheet: NMBMF with new data
+2025-03-16 16:26:32,995 - INFO - Updated sheet: NMFBS with new data
+2025-03-16 16:26:33,944 - INFO - Updated sheet: NMLBBL with new data
+2025-03-16 16:26:34,866 - INFO - Updated sheet: NRIC with new data
+2025-03-16 16:26:35,934 - INFO - Updated sheet: NRM with new data
+2025-03-16 16:26:36,914 - INFO - Updated sheet: NRN with new data
+2025-03-16 16:26:38,002 - INFO - Updated sheet: NSIF2 with new data
+2025-03-16 16:26:39,010 - INFO - Updated sheet: NTC with new data
+2025-03-16 16:26:39,939 - INFO - Updated sheet: NUBL with new data
+2025-03-16 16:26:40,875 - INFO - Updated sheet: NWCL with new data
+2025-03-16 16:26:41,798 - INFO - Updated sheet: NYADI with new data
+2025-03-16 16:26:42,748 - INFO - Updated sheet: OHL with new data
+2025-03-16 16:26:43,688 - INFO - Updated sheet: PBD88 with new data
+2025-03-16 16:26:44,604 - INFO - Updated sheet: PBLD87 with new data
+2025-03-16 16:26:45,548 - INFO - Updated sheet: PCBL with new data
+2025-03-16 16:26:46,502 - INFO - Updated sheet: PFL with new data
+2025-03-16 16:26:47,496 - INFO - Updated sheet: PHCL with new data
+2025-03-16 16:26:48,435 - INFO - Updated sheet: PMHPL with new data
+2025-03-16 16:26:49,386 - INFO - Updated sheet: PMLI with new data
+2025-03-16 16:26:50,366 - INFO - Updated sheet: PPCL with new data
+2025-03-16 16:26:51,328 - INFO - Updated sheet: PPL with new data
+2025-03-16 16:26:52,289 - INFO - Updated sheet: PRIN with new data
+2025-03-16 16:26:53,199 - INFO - Updated sheet: PROFL with new data
+2025-03-16 16:26:54,155 - INFO - Updated sheet: PRSF with new data
+2025-03-16 16:26:55,093 - INFO - Updated sheet: PRVU with new data
+2025-03-16 16:26:56,968 - INFO - Updated sheet: PSF with new data
+2025-03-16 16:26:57,938 - INFO - Updated sheet: RADHI with new data
+2025-03-16 16:26:58,902 - INFO - Updated sheet: RAWA with new data
+2025-03-16 16:26:59,884 - INFO - Updated sheet: RBBD83 with new data
+2025-03-16 16:27:00,816 - INFO - Updated sheet: RBCL with new data
+2025-03-16 16:27:01,762 - INFO - Updated sheet: RBCLPO with new data
+2025-03-16 16:27:02,719 - INFO - Updated sheet: RFPL with new data
+2025-03-16 16:27:03,681 - INFO - Updated sheet: RHGCL with new data
+2025-03-16 16:27:04,651 - INFO - Updated sheet: RHPL with new data
+2025-03-16 16:27:05,631 - INFO - Updated sheet: RIDI with new data
+2025-03-16 16:27:06,599 - INFO - Updated sheet: RLFL with new data
+2025-03-16 16:27:07,562 - INFO - Updated sheet: RMF1 with new data
+2025-03-16 16:27:08,529 - INFO - Updated sheet: RMF2 with new data
+2025-03-16 16:27:09,511 - INFO - Updated sheet: RNLI with new data
+2025-03-16 16:27:10,353 - INFO - Updated sheet: RSDC with new data
+2025-03-16 16:27:11,307 - INFO - Updated sheet: RURU with new data
+2025-03-16 16:27:12,255 - INFO - Updated sheet: SADBL with new data
+2025-03-16 16:27:13,221 - INFO - Updated sheet: SAGF with new data
+2025-03-16 16:27:14,186 - INFO - Updated sheet: SAHAS with new data
+2025-03-16 16:27:15,153 - INFO - Updated sheet: SALICO with new data
+2025-03-16 16:27:16,098 - INFO - Updated sheet: SAMAJ with new data
+2025-03-16 16:27:17,058 - INFO - Updated sheet: SANIMA with new data
+2025-03-16 16:27:18,128 - INFO - Updated sheet: SAPDBL with new data
+2025-03-16 16:27:19,087 - INFO - Updated sheet: SARBTM with new data
+2025-03-16 16:27:20,027 - INFO - Updated sheet: SBCF with new data
+2025-03-16 16:27:20,992 - INFO - Updated sheet: SBI with new data
+2025-03-16 16:27:22,979 - INFO - Updated sheet: SBID83 with new data
+2025-03-16 16:27:23,977 - INFO - Updated sheet: SBL with new data
+2025-03-16 16:27:26,783 - INFO - Updated sheet: SCB with new data
+2025-03-16 16:27:27,758 - INFO - Updated sheet: SEF with new data
+2025-03-16 16:27:28,756 - INFO - Updated sheet: SFCL with new data
+2025-03-16 16:27:29,720 - INFO - Updated sheet: SFEF with new data
+2025-03-16 16:27:30,696 - INFO - Updated sheet: SFMF with new data
+2025-03-16 16:27:31,681 - INFO - Updated sheet: SGHC with new data
+2025-03-16 16:27:32,660 - INFO - Updated sheet: SGIC with new data
+2025-03-16 16:27:33,737 - INFO - Updated sheet: SHEL with new data
+2025-03-16 16:27:34,724 - INFO - Updated sheet: SHINE with new data
+2025-03-16 16:27:35,695 - INFO - Updated sheet: SHIVM with new data
+2025-03-16 16:27:36,678 - INFO - Updated sheet: SHL with new data
+2025-03-16 16:27:37,538 - INFO - Updated sheet: SHLB with new data
+2025-03-16 16:27:38,556 - INFO - Updated sheet: SHPC with new data
+2025-03-16 16:27:39,559 - INFO - Updated sheet: SICL with new data
+2025-03-16 16:27:40,542 - INFO - Updated sheet: SIFC with new data
+2025-03-16 16:27:41,483 - INFO - Updated sheet: SIGS2 with new data
+2025-03-16 16:27:42,475 - INFO - Updated sheet: SIGS3 with new data
+2025-03-16 16:27:43,452 - INFO - Updated sheet: SIKLES with new data
+2025-03-16 16:27:44,436 - INFO - Updated sheet: SINDU with new data
+2025-03-16 16:27:45,436 - INFO - Updated sheet: SJCL with new data
+2025-03-16 16:27:46,326 - INFO - Updated sheet: SJLIC with new data
+2025-03-16 16:27:47,363 - INFO - Updated sheet: SKBBL with new data
+2025-03-16 16:27:48,358 - INFO - Updated sheet: SLBBL with new data
+2025-03-16 16:27:49,355 - INFO - Updated sheet: SLBSL with new data
+2025-03-16 16:27:50,351 - INFO - Updated sheet: SLCF with new data
+2025-03-16 16:27:51,344 - INFO - Updated sheet: SMATA with new data
+2025-03-16 16:27:52,361 - INFO - Updated sheet: SMB with new data
+2025-03-16 16:27:53,339 - INFO - Updated sheet: SMFBS with new data
+2025-03-16 16:27:54,247 - INFO - Updated sheet: SMH with new data
+2025-03-16 16:27:55,269 - INFO - Updated sheet: SMHL with new data
+2025-03-16 16:27:56,246 - INFO - Updated sheet: SMJC with new data
+2025-03-16 16:27:57,262 - INFO - Updated sheet: SMPDA with new data
+2025-03-16 16:27:58,270 - INFO - Updated sheet: SNLI with new data
+2025-03-16 16:27:59,279 - INFO - Updated sheet: SONA with new data
+2025-03-16 16:28:00,315 - INFO - Updated sheet: SPC with new data
+2025-03-16 16:28:01,206 - INFO - Updated sheet: SPDL with new data
+2025-03-16 16:28:02,205 - INFO - Updated sheet: SPHL with new data
+2025-03-16 16:28:03,198 - INFO - Updated sheet: SPIL with new data
+2025-03-16 16:28:04,215 - INFO - Updated sheet: SPL with new data
+2025-03-16 16:28:05,236 - INFO - Updated sheet: SRLI with new data
+2025-03-16 16:28:06,276 - INFO - Updated sheet: SSHL with new data
+2025-03-16 16:28:07,187 - INFO - Updated sheet: STC with new data
+2025-03-16 16:28:08,184 - INFO - Updated sheet: SWBBL with new data
+2025-03-16 16:28:09,196 - INFO - Updated sheet: SWMF with new data
+2025-03-16 16:28:10,201 - INFO - Updated sheet: TAMOR with new data
+2025-03-16 16:28:11,189 - INFO - Updated sheet: TPC with new data
+2025-03-16 16:28:12,192 - INFO - Updated sheet: TRH with new data
+2025-03-16 16:28:13,069 - INFO - Updated sheet: TSHL with new data
+2025-03-16 16:28:14,103 - INFO - Updated sheet: TVCL with new data
+2025-03-16 16:28:15,154 - INFO - Updated sheet: UAIL with new data
+2025-03-16 16:28:16,203 - INFO - Updated sheet: UHEWA with new data
+2025-03-16 16:28:17,208 - INFO - Updated sheet: ULBSL with new data
+2025-03-16 16:28:18,196 - INFO - Updated sheet: ULHC with new data
+2025-03-16 16:28:19,052 - INFO - Updated sheet: UMHL with new data
+2025-03-16 16:28:20,052 - INFO - Updated sheet: UMRH with new data
+2025-03-16 16:28:21,074 - INFO - Updated sheet: UNHPL with new data
+2025-03-16 16:28:22,080 - INFO - Updated sheet: UNL with new data
+2025-03-16 16:28:23,132 - INFO - Updated sheet: UNLB with new data
+2025-03-16 16:28:24,011 - INFO - Updated sheet: UPCL with new data
+2025-03-16 16:28:25,187 - INFO - Updated sheet: UPPER with new data
+2025-03-16 16:28:26,214 - INFO - Updated sheet: USHEC with new data
+2025-03-16 16:28:27,224 - INFO - Updated sheet: USHL with new data
+2025-03-16 16:28:28,357 - INFO - Updated sheet: USLB with new data
+2025-03-16 16:28:29,407 - INFO - Updated sheet: VLBS with new data
+2025-03-16 16:28:30,299 - INFO - Updated sheet: VLUCL with new data
+2025-03-16 16:28:33,307 - INFO - Updated sheet: GBBD85 with new data
+2025-03-16 16:28:37,492 - INFO - Updated sheet: HBLD86 with new data
+2025-03-16 16:28:39,223 - INFO - Updated sheet: ICFCD88 with new data
+2025-03-16 16:28:41,725 - INFO - Updated sheet: MFLD85 with new data
+2025-03-16 16:28:46,710 - INFO - Updated sheet: PBD84 with new data
+2025-03-16 16:28:47,734 - INFO - Updated sheet: PBD85 with new data
+2025-03-16 16:28:49,290 - INFO - Updated sheet: PBLD84 with new data
+2025-03-16 16:28:51,691 - INFO - Updated sheet: SDBD87 with new data
+2025-03-16 16:28:55,638 - INFO - Updated sheet: NBLD85 with new data
+2025-03-16 16:28:59,475 - INFO - Updated sheet: JBBD87 with new data
+2025-03-16 16:29:03,334 - INFO - Updated sheet: SBID89 with new data
+2025-03-16 16:29:13,950 - INFO - Updated sheet: SCBD with new data
+2025-03-16 16:29:14,035 - INFO - Added new sheet for symbol: FMDBLP (original: FMDBLP)
+2025-03-16 16:29:14,157 - INFO - Added new sheet for symbol: GBILD84_85 (original: GBILD84/85)
+2025-03-16 16:29:14,283 - INFO - Added new sheet for symbol: GBILD86_87 (original: GBILD86/87)
+2025-03-16 16:29:14,357 - INFO - Added new sheet for symbol: LBLD88 (original: LBLD88)
+2025-03-16 16:29:14,427 - INFO - Added new sheet for symbol: MNBBLP (original: MNBBLP)
+2025-03-16 16:29:14,550 - INFO - Added new sheet for symbol: NICAD85_86 (original: NICAD85/86)
+2025-03-16 16:29:14,632 - INFO - Added new sheet for symbol: NLO (original: NLO)
+2025-03-16 16:29:14,708 - INFO - Added new sheet for symbol: SAPDBLP (original: SAPDBLP)
+2025-03-16 16:29:14,778 - INFO - Added new sheet for symbol: SBD87 (original: SBD87)
+2025-03-16 16:29:31,924 - INFO - Excel update summary:
+2025-03-16 16:29:31,926 - INFO - - Updated sheets: 306
+2025-03-16 16:29:31,930 - INFO - - Unchanged sheets: 44
+2025-03-16 16:29:31,932 - INFO - - New sheets added: 9
+2025-03-16 16:29:31,939 - INFO - - Total sheets: 359
+2025-03-16 16:29:31,945 - INFO - Renaming file to: shares_data_till_2025_03_16.xlsx
+2025-03-16 16:29:31,984 - INFO - Copying file to analysis directory: ..\3. analyse_shares
+2025-03-16 16:29:32,000 - INFO - Removed existing file: ..\3. analyse_shares\shares_data_till_2025_03_12.xlsx
+2025-03-16 16:29:32,053 - INFO - File successfully copied to: ..\3. analyse_shares\shares_data_till_2025_03_16.xlsx
+2025-03-16 16:29:32,054 - INFO - 
+Process completed successfully!
+2025-03-16 16:29:32,064 - INFO - Ended at: 2025-03-16 16:29:32
+2025-03-16 18:49:59,538 - INFO - Chromedriver is already installed.
+2025-03-16 18:49:59,585 - INFO - === Share Price Data Scraper ===
+2025-03-16 18:49:59,586 - INFO - Started at: 2025-03-16 18:49:59
+2025-03-16 18:49:59,588 - INFO - Looking for latest data file...
+2025-03-16 18:49:59,592 - INFO - Found latest file: shares_data_till_2025_03_16.xlsx (date: 2025-03-16)
+2025-03-16 18:49:59,593 - INFO - Analyzing Excel file to find latest common date...
+2025-03-16 18:58:25,199 - INFO - Chromedriver is already installed.
+2025-03-16 18:58:25,201 - INFO - === Share Price Data Scraper ===
+2025-03-16 18:58:25,201 - INFO - Started at: 2025-03-16 18:58:25
+2025-03-16 18:58:25,202 - INFO - Looking for latest data file...
+2025-03-16 18:58:25,205 - INFO - Found latest file: shares_data_till_2025_03_16.xlsx (date: 2025-03-16)
+2025-03-16 18:58:25,205 - INFO - Analyzing Excel file to find latest common date...
+2025-03-16 18:58:35,140 - INFO - Latest common date found: 2025-03-16
+2025-03-16 18:58:35,149 - INFO - No new data to fetch - the latest date in the file is already up to date.
